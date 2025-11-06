@@ -53,7 +53,7 @@ export default function TurnkeySolutions() {
               key={i}
               className="rounded-2xl p-px bg-linear-to-br from-fuchsia-500/70 via-indigo-500/70 to-cyan-400/70 shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-[0_10px_30px_rgba(99,102,241,0.45)] transition-transform duration-300 hover:scale-[1.03]"
             >
-              <div className="bg-black/60 backdrop-blur-xl border border-white/10 rounded-2xl p-8">
+              <div className="bg-black/60 backdrop-blur-xl border border-white/10 rounded-2xl p-8 h-full">
                 <div className="text-4xl mb-4">{item.icon}</div>
                 <h3 className="text-2xl font-semibold mb-3">{item.title}</h3>
                 <p className="text-gray-300 mb-4">{item.desc}</p>
@@ -79,7 +79,7 @@ export default function TurnkeySolutions() {
               key={i}
               className="rounded-2xl p-px bg-linear-to-br from-fuchsia-500/70 via-indigo-500/70 to-cyan-400/70 shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-[0_10px_30px_rgba(99,102,241,0.45)] transition-transform duration-300 hover:scale-[1.03]"
             >
-              <div className="bg-black/60 backdrop-blur-xl border border-white/10 rounded-2xl p-8">
+              <div className="bg-black/60 backdrop-blur-xl border border-white/10 rounded-2xl p-8 h-full">
                 <div className="text-4xl mb-4">{item.icon}</div>
                 <h3 className="text-2xl font-semibold mb-3">{item.title}</h3>
                 <p className="text-gray-300 mb-6">{item.desc}</p>

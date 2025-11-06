@@ -619,7 +619,7 @@ const MagicBentoWithTabs = ({
   const shouldDisableAnimations = disableAnimations || isMobile;
 
   return (
-    <div className="bg-black px-4 py-8 min-h-[100vh]">
+    <div className="bg-black px-4 py-8 min-h-screen">
       {/* Heading and Subheading */}
       <div className="text-center mb-5">
         <h2 className="font-bold text-3xl md:text-4xl text-white">{heading}</h2>
@@ -766,7 +766,7 @@ const MagicBentoWithTabs = ({
           {cardTabs[activeTab].map((card, index) => (
             <ParticleCard
               key={index}
-              className={`card flex flex-col justify-between relative aspect-[4/3] min-h-[200px] w-full max-w-full p-5 rounded-[20px] border border-solid font-light overflow-hidden transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:shadow-[0_8px_25px_rgba(0,0,0,0.15)] ${
+              className={`card flex flex-col justify-between relative aspect-4/3 min-h-[200px] w-full max-w-full p-5 rounded-[20px] border border-solid font-light overflow-hidden transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:shadow-[0_8px_25px_rgba(0,0,0,0.15)] ${
                 enableBorderGlow ? "card--border-glow" : ""
               }`}
               style={{

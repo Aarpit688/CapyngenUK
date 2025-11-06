@@ -7,7 +7,7 @@ const TopCurve = () => (
     viewBox="0 0 1920 160"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    className="absolute left-0 -top-20 w-full h-[160px] pointer-events-none"
+    className="absolute left-0 -top-20 w-full h-40 pointer-events-none"
     preserveAspectRatio="none"
   >
     <path d="M0,60 C480,0 1440,140 1920,40 L1920,160 L0,160 Z" fill="#111827" />
@@ -35,7 +35,7 @@ export default function IntegrationShowcase() {
             distribution systems, advanced CRMs, and essential apps — ensuring
             brokers enjoy a fast, smooth, and hassle-free setup.
           </p>
-          <button className="mt-8 bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:opacity-90 transition-all duration-300">
+          <button className="mt-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:opacity-90 transition-all duration-300">
             Learn More
           </button>
         </div>

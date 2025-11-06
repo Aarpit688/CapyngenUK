@@ -19,7 +19,7 @@ export default function StatsSection() {
         {stats.map((stat, index) => (
           <div
             key={index}
-            className="rounded-2xl p-[1px] bg-gradient-to-br from-fuchsia-500/70 via-indigo-500/70 to-cyan-400/70 shadow-[0_8px_20px_rgba(99,102,241,0.35)] hover:shadow-[0_8px_26px_rgba(99,102,241,0.5)] transition-transform duration-300 hover:scale-[1.04]"
+            className="rounded-2xl p-px bg-linear-to-br from-fuchsia-500/70 via-indigo-500/70 to-cyan-400/70 shadow-[0_8px_20px_rgba(99,102,241,0.35)] hover:shadow-[0_8px_26px_rgba(99,102,241,0.5)] transition-transform duration-300 hover:scale-[1.04]"
           >
             <div className="rounded-2xl h-full bg-black/70 backdrop-blur-xl border border-white/10 p-8 flex flex-col items-center justify-center gap-3">
               <h2 className="text-5xl md:text-6xl font-extrabold tracking-tight drop-shadow-lg">

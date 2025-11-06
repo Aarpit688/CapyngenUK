@@ -51,7 +51,7 @@ export default function TurnkeySolutions() {
           {solutions.slice(0, 2).map((item, i) => (
             <div
               key={i}
-              className="rounded-2xl p-[1px] bg-gradient-to-br from-fuchsia-500/70 via-indigo-500/70 to-cyan-400/70 shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-[0_10px_30px_rgba(99,102,241,0.45)] transition-transform duration-300 hover:scale-[1.03]"
+              className="rounded-2xl p-px bg-linear-to-br from-fuchsia-500/70 via-indigo-500/70 to-cyan-400/70 shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-[0_10px_30px_rgba(99,102,241,0.45)] transition-transform duration-300 hover:scale-[1.03]"
             >
               <div className="bg-black/60 backdrop-blur-xl border border-white/10 rounded-2xl p-8">
                 <div className="text-4xl mb-4">{item.icon}</div>
@@ -65,7 +65,7 @@ export default function TurnkeySolutions() {
                     </li>
                   ))}
                 </ul>
-                <button className="mt-auto bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 text-white px-4 py-2 rounded-full font-medium hover:opacity-90 transition shadow-[0_6px_18px_rgba(99,102,241,0.35)]">
+                <button className="mt-auto bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 text-white px-4 py-2 rounded-full font-medium hover:opacity-90 transition shadow-[0_6px_18px_rgba(99,102,241,0.35)]">
                   Learn More
                 </button>
               </div>
@@ -77,13 +77,13 @@ export default function TurnkeySolutions() {
           {solutions.slice(2).map((item, i) => (
             <div
               key={i}
-              className="rounded-2xl p-[1px] bg-gradient-to-br from-fuchsia-500/70 via-indigo-500/70 to-cyan-400/70 shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-[0_10px_30px_rgba(99,102,241,0.45)] transition-transform duration-300 hover:scale-[1.03]"
+              className="rounded-2xl p-px bg-linear-to-br from-fuchsia-500/70 via-indigo-500/70 to-cyan-400/70 shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-[0_10px_30px_rgba(99,102,241,0.45)] transition-transform duration-300 hover:scale-[1.03]"
             >
               <div className="bg-black/60 backdrop-blur-xl border border-white/10 rounded-2xl p-8">
                 <div className="text-4xl mb-4">{item.icon}</div>
                 <h3 className="text-2xl font-semibold mb-3">{item.title}</h3>
                 <p className="text-gray-300 mb-6">{item.desc}</p>
-                <button className="bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 text-white px-4 py-2 rounded-full font-medium hover:opacity-90 transition shadow-[0_6px_18px_rgba(99,102,241,0.35)]">
+                <button className="bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 text-white px-4 py-2 rounded-full font-medium hover:opacity-90 transition shadow-[0_6px_18px_rgba(99,102,241,0.35)]">
                   Learn More
                 </button>
               </div>

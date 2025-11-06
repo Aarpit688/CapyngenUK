@@ -164,7 +164,7 @@ const ContentBackOffice = () => (
   <div className={baseContainer}>
     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-5 leading-snug">
       Build, Scale, and Lead with{" "}
-      <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-cyan-400">
+      <span className="text-transparent bg-clip-text bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400">
         Our Back-office Tools
       </span>
     </h2>
@@ -184,12 +184,12 @@ const ContentBackOffice = () => (
             key={index}
             className="flex items-center text-white text-sm sm:text-base"
           >
-            <span className="w-2 h-2 rounded-full mr-3 bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-cyan-400"></span>
+            <span className="w-2 h-2 rounded-full mr-3 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400"></span>
             {item}
           </li>
         ))}
       </ul>
-      <button className="py-2 sm:py-3 px-6 sm:px-8 bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:opacity-90 transition-all duration-300 text-sm sm:text-base">
+      <button className="py-2 sm:py-3 px-6 sm:px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:opacity-90 transition-all duration-300 text-sm sm:text-base">
         Learn More
       </button>
     </div>
@@ -200,7 +200,7 @@ const ContentLiquidity = () => (
   <div className={baseContainer}>
     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-5 leading-snug">
       Liquidity:{" "}
-      <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-cyan-400">
+      <span className="text-transparent bg-clip-text bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400">
         Precision Pricing with Limitless Market Reach
       </span>
     </h2>
@@ -210,7 +210,7 @@ const ContentLiquidity = () => (
         traders to thousands of instruments with real-time data and flawless
         execution.
       </p>
-      <button className="py-2 sm:py-3 px-6 sm:px-8 bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:opacity-90 transition-all duration-300 text-sm sm:text-base">
+      <button className="py-2 sm:py-3 px-6 sm:px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:opacity-90 transition-all duration-300 text-sm sm:text-base">
         Try Demo
       </button>
     </div>
@@ -221,7 +221,7 @@ const ContentSiRiX = () => (
   <div className={baseContainer}>
     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-5 leading-snug">
       Give Your Traders the Edge with{" "}
-      <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-cyan-400">
+      <span className="text-transparent bg-clip-text bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400">
         SiRiX Trading Platform
       </span>
     </h2>
@@ -232,7 +232,7 @@ const ContentSiRiX = () => (
         customizable layouts, and advanced order types, SiRiX gives your
         brokerage the competitive edge.
       </p>
-      <button className="py-2 sm:py-3 px-6 sm:px-8 bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:opacity-90 transition-all duration-300 text-sm sm:text-base">
+      <button className="py-2 sm:py-3 px-6 sm:px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:opacity-90 transition-all duration-300 text-sm sm:text-base">
         Try Demo
       </button>
     </div>

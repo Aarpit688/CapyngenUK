@@ -72,7 +72,7 @@ export default function ProjectsShowcase() {
               "Competitive Advantage",
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-2 text-gray-200">
-                <span className="w-2.5 h-2.5 rounded-full bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-cyan-400"></span>
+                <span className="w-2.5 h-2.5 rounded-full bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400"></span>
                 <span>{item}</span>
               </div>
             ))}
@@ -84,7 +84,7 @@ export default function ProjectsShowcase() {
           <Slider {...settings}>
             {projects.map((proj, idx) => (
               <div key={idx} className="px-3">
-                <div className="group rounded-2xl p-[1px] bg-gradient-to-br from-fuchsia-500/70 via-indigo-500/70 to-cyan-400/70 shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-[0_10px_30px_rgba(99,102,241,0.45)] transition-transform duration-300">
+                <div className="group rounded-2xl p-px bg-linear-to-br from-fuchsia-500/70 via-indigo-500/70 to-cyan-400/70 shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-[0_10px_30px_rgba(99,102,241,0.45)] transition-transform duration-300">
                   {/* Card Container */}
                   <div className="rounded-2xl h-[460px] flex flex-col overflow-hidden bg-black/60 backdrop-blur-xl border border-white/10">
                     {/* Image Section */}
@@ -95,7 +95,7 @@ export default function ProjectsShowcase() {
                         className="absolute inset-0 w-full h-full object-cover transition-transform duration-500"
                       />
                       {/* Subtle Overlay */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                      <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/20 to-transparent"></div>
                     </div>
 
                     {/* Text Section */}

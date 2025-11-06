@@ -104,7 +104,7 @@ const Navbar = () => {
             : "bg-transparent"
         }`}
       >
-        <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div className="max-w-[90vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="flex justify-between items-center h-16 lg:h-20">
             {/* Logo */}
             <NavLink
@@ -113,11 +113,11 @@ const Navbar = () => {
                 e.preventDefault();
                 handleSameLinkClick("/");
               }}
-              className="flex-shrink-0 z-50 transition-transform hover:scale-105"
+              className="shrink-0 z-50 transition-transform hover:scale-105"
             >
               <img
                 src={assets.capyngenLogo}
-                className="w-[6.5rem] md:w-36"
+                className="w-26 md:w-36"
                 alt="Capyngen Logo"
               />
             </NavLink>

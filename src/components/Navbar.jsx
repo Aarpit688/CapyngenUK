@@ -104,7 +104,7 @@ const Navbar = () => {
             : "bg-transparent"
         }`}
       >
-        <div className="max-w-[90vw] mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div className="max-w-[90vw] mx-auto px-0 sm:px-6 lg:px-8 relative">
           <div className="flex justify-between items-center h-16 lg:h-20">
             {/* Logo */}
             <NavLink

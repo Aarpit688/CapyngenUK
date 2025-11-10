@@ -82,7 +82,7 @@ const Footer = () => {
       {/* Main Footer Content */}
       <div className="relative z-10 max-w-[90vw] mx-auto px-0 xl:px-6 py-16 lg:py-20">
         {/* Top Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr] gap-10 lg:gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr_1fr] gap-10 lg:gap-8 mb-12">
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="mb-6">
@@ -134,58 +134,22 @@ const Footer = () => {
                 Turnkey
                 <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500"></div>
               </h4>
-              {navItems.slice(0, 1).map((item, idx) => {
-                const allServices =
-                  item.dropdown?.flatMap((section) => section.links) || [];
-                const displayedServices = showAllServices
-                  ? allServices
-                  : allServices.slice(0, 10);
-
-                return (
+              {navItems
+                .filter((item) => item.label === "TURNKEY")
+                .map((item, idx) => (
                   <div key={idx}>
-                    <ul className="space-y-2">
-                      {displayedServices.map((link, i) => (
-                        <li key={i}>
-                          <NavLink
-                            to={link.href}
-                            className="text-slate-300 hover:text-blue-400 transition-colors duration-200 text-sm hover:translate-x-1 inline-block"
-                          >
-                            {link.label}
-                          </NavLink>
-                        </li>
-                      ))}
-                    </ul>
-                    {allServices.length > 10 && (
-                      <button
-                        onClick={() => setShowAllServices(!showAllServices)}
-                        className="mt-3 text-blue-400 text-sm font-medium hover:underline cursor-pointer"
-                      >
-                        {showAllServices ? "Show Less" : "Show More"}
-                      </button>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-
-            {/* Products */}
-            <div>
-              <h4 className="text-lg font-bold text-white mb-6 relative">
-                Products
-                <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500"></div>
-              </h4>
-              {navItems.slice(1, 2).map((item, idx) => (
-                <div key={idx}>
-                  {item.dropdown?.map((section, secIdx) => {
-                    const allIndustries = section.links;
-                    const displayedIndustries = showAllIndustries
-                      ? allIndustries
-                      : allIndustries.slice(0, 10);
-
-                    return (
-                      <div key={secIdx}>
+                    {(item.dropdown || []).map((section, secIdx) => (
+                      <div key={secIdx} className="mb-4">
+                        {section.title && (
+                          <div className="text-slate-200 font-semibold mb-2">
+                            {section.title}
+                          </div>
+                        )}
                         <ul className="space-y-2">
-                          {displayedIndustries.map((link, i) => (
+                          {(showAllServices
+                            ? section.links
+                            : (section.links || []).slice(0, 5)
+                          ).map((link, i) => (
                             <li key={i}>
                               <NavLink
                                 to={link.href}
@@ -196,42 +160,174 @@ const Footer = () => {
                             </li>
                           ))}
                         </ul>
-                        {allIndustries.length > 10 && (
-                          <button
-                            onClick={() =>
-                              setShowAllIndustries(!showAllIndustries)
-                            }
-                            className="mt-3 text-blue-400 text-sm font-medium hover:underline cursor-pointer"
-                          >
-                            {showAllIndustries ? "Show Less" : "Show More"}
-                          </button>
-                        )}
                       </div>
-                    );
-                  })}
-                </div>
-              ))}
+                    ))}
+                    {(() => {
+                      const total =
+                        item.dropdown?.reduce(
+                          (sum, s) => sum + (s.links?.length || 0),
+                          0
+                        ) || 0;
+                      return total > 10 ? (
+                        <button
+                          onClick={() => setShowAllServices(!showAllServices)}
+                          className="mt-1 text-blue-400 text-sm font-medium hover:underline cursor-pointer"
+                        >
+                          {showAllServices ? "Show Less" : "Show More"}
+                        </button>
+                      ) : null;
+                    })()}
+                  </div>
+                ))}
+            </div>
+
+            {/* Products */}
+            <div>
+              <h4 className="text-lg font-bold text-white mb-6 relative">
+                Products
+                <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500"></div>
+              </h4>
+              {navItems
+                .filter((item) => item.label === "PRODUCTS")
+                .map((item, idx) => (
+                  <div key={idx}>
+                    {(item.dropdown || []).map((section, secIdx) => (
+                      <div key={secIdx} className="mb-4">
+                        {section.title && (
+                          <div className="text-slate-200 font-semibold mb-2">
+                            {section.title}
+                          </div>
+                        )}
+                        <ul className="space-y-2">
+                          {(showAllIndustries
+                            ? section.links
+                            : (section.links || []).slice(0, 5)
+                          ).map((link, i) => (
+                            <li key={i}>
+                              <NavLink
+                                to={link.href}
+                                className="text-slate-300 hover:text-blue-400 transition-colors duration-200 text-sm hover:translate-x-1 inline-block"
+                              >
+                                {link.label}
+                              </NavLink>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                    {(() => {
+                      const total =
+                        item.dropdown?.reduce(
+                          (sum, s) => sum + (s.links?.length || 0),
+                          0
+                        ) || 0;
+                      return total > 10 ? (
+                        <button
+                          onClick={() =>
+                            setShowAllIndustries(!showAllIndustries)
+                          }
+                          className="mt-1 text-blue-400 text-sm font-medium hover:underline cursor-pointer"
+                        >
+                          {showAllIndustries ? "Show Less" : "Show More"}
+                        </button>
+                      ) : null;
+                    })()}
+                  </div>
+                ))}
             </div>
           </div>
 
-          {/* Company Links */}
-          <div>
+          {/* Platforms & Services (side by side on mobile) */}
+          <div className="grid grid-cols-2 gap-8 md:grid-cols-2 lg:grid-cols-2 lg:col-span-2">
+            {/* Platforms */}
+            <div>
+              <h4 className="text-lg font-bold text-white mb-6 relative">
+                Platforms
+                <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500"></div>
+              </h4>
+              {navItems
+                .filter((item) => item.label === "PLATFORMS")
+                .map((item, idx) => (
+                  <div key={idx}>
+                    {(item.dropdown || []).map((section, secIdx) => (
+                      <div key={secIdx} className="mb-4">
+                        <ul className="space-y-2">
+                          {section.links.map((link, i) => (
+                            <li key={i}>
+                              <NavLink
+                                to={link.href}
+                                className="text-slate-300 hover:text-blue-400 transition-colors duration-200 text-sm hover:translate-x-1 inline-block"
+                              >
+                                {link.label}
+                              </NavLink>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                ))}
+            </div>
+
+            {/* Services */}
+            <div>
+              <h4 className="text-lg font-bold text-white mb-6 relative">
+                Services
+                <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500"></div>
+              </h4>
+              {navItems
+                .filter((item) => item.label === "SERVICES")
+                .map((item, idx) => (
+                  <div key={idx}>
+                    {(item.dropdown || []).map((section, secIdx) => (
+                      <div key={secIdx} className="mb-4">
+                        <ul className="space-y-2">
+                          {section.links.map((link, i) => (
+                            <li key={i}>
+                              <NavLink
+                                to={link.href}
+                                className="text-slate-300 hover:text-blue-400 transition-colors duration-200 text-sm hover:translate-x-1 inline-block"
+                              >
+                                {link.label}
+                              </NavLink>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                ))}
+            </div>
+          </div>
+
+          {/* Company */}
+          <div className=" pl-0 md:pl-8">
             <h4 className="text-lg font-bold text-white mb-6 relative">
               Company
               <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500"></div>
             </h4>
-            <ul className="space-y-2">
-              {navItems.slice(2).map((item, idx) => (
-                <li key={idx}>
-                  <NavLink
-                    to={item.href}
-                    className="text-slate-300 hover:text-blue-400 transition-colors duration-200 text-sm hover:translate-x-1 inline-block"
-                  >
-                    {item.label}
-                  </NavLink>
-                </li>
+            {navItems
+              .filter((item) => item.label === "COMPANY")
+              .map((item, idx) => (
+                <div key={idx}>
+                  {(item.dropdown || []).map((section, secIdx) => (
+                    <div key={secIdx} className="mb-4">
+                      <ul className="space-y-2">
+                        {section.links.map((link, i) => (
+                          <li key={i}>
+                            <NavLink
+                              to={link.href}
+                              className="text-slate-300 hover:text-blue-400 transition-colors duration-200 text-sm hover:translate-x-1 inline-block"
+                            >
+                              {link.label}
+                            </NavLink>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
               ))}
-            </ul>
           </div>
 
           {/* Social */}

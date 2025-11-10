@@ -1,0 +1,68 @@
+import React from "react";
+
+const Banner5 = () => {
+  return (
+    <section className="bg-gradient-to-br min-h-screen overflow-hidden from-gray-900 to-black py-16 lg:py-24 flex items-center">
+      <div className="px-5 xl:pl-24 xl:pr-0">
+        <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-20">
+          {/* Left Section */}
+          <div>
+            <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl xl:text-6xl">
+              Meet the New <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
+                Landingfolio Kit
+              </span>
+            </h1>
+
+            <p className="mt-6 text-lg text-gray-300 sm:mt-8">
+              Clarity gives you the blocks & components you need to create a
+              truly professional website, landing page, or admin panel for your
+              SaaS.
+            </p>
+
+            <div className="flex flex-wrap items-center mt-8 sm:mt-10 gap-4">
+              <a
+                href="#"
+                className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-gradient-to-r from-cyan-600 to-purple-600 rounded-full shadow-lg hover:from-cyan-700 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 backdrop-blur-sm border border-gray-700/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5"
+              >
+                Start using LandingFolio
+              </a>
+
+              <a
+                href="#"
+                className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-cyan-300 bg-gray-800/50 backdrop-blur-lg rounded-full shadow-lg hover:bg-gray-700/50 border border-gray-700/50 transition-all duration-300"
+              >
+                <svg
+                  className="w-5 h-5 mr-2 text-cyan-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M6.5 5.5v9l8-4.5-8-4.5z" />
+                </svg>
+                Watch 1 min intro
+              </a>
+            </div>
+          </div>
+
+          {/* Right Section */}
+          <div className="relative">
+            <div className="lg:min-w-[60vw] relative backdrop-blur-xl bg-gray-800/30 rounded-3xl border border-gray-700/50 shadow-2xl">
+              <img
+                className="w-full mx-auto rounded-3xl shadow-xl lg:h-[80vh]"
+                src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+                alt="Dashboard Preview"
+              />
+              <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-cyan-500/10 to-purple-500/10 -z-10 transform translate-x-6 translate-y-6 blur-2xl"></div>
+            </div>
+
+            {/* Additional glass effect elements */}
+            <div className="absolute -top-6 -right-6 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl"></div>
+            <div className="absolute -bottom-6 -left-6 w-40 h-40 bg-purple-500/10 rounded-full blur-3xl"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Banner5;

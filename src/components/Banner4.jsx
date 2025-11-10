@@ -6,7 +6,7 @@ const Banner4 = () => {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Hero Section */}
-      <section className=" py-12 sm:py-16 lg:py-20 xl:py-24">
+      <section className="py-16 lg:py-20 xl:py-24">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="relative">
             {/* Left Section */}

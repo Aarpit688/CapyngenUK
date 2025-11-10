@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import ForexBroker from "./pages/ForexBroker";
 import CryptoExchange from "./pages/CryptoExchange";
 import CryptoBroker from "./pages/CryptoBroker";
+import LiquidityProvider from "./pages/LiquidityProvider";
 
 const App = () => {
   return (
@@ -17,6 +18,10 @@ const App = () => {
           <Route path="/turnkey/forex-broker" element={<ForexBroker />} />
           <Route path="/turnkey/crypto-exchange" element={<CryptoExchange />} />
           <Route path="/turnkey/crypto-broker" element={<CryptoBroker />} />
+          <Route
+            path="/turnkey/liquidity-provider"
+            element={<LiquidityProvider />}
+          />
         </Routes>
         <Footer />
       </Router>

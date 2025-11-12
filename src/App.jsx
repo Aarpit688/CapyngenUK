@@ -10,6 +10,12 @@ import LiquidityProvider from "./pages/LiquidityProvider";
 import B2Trader from "./pages/B2Trader";
 import B2Core from "./pages/B2Core";
 import B2Copy from "./pages/B2Copy";
+import B2Connect from "./pages/B2Connect";
+import Pamm from "./pages/Pamm";
+import Mam from "./pages/Mam";
+import Capmarket from "./pages/Capmarket";
+import VertexFx from "./pages/VertexFx";
+import MT5 from "./pages/MT5";
 
 const App = () => {
   return (
@@ -28,6 +34,12 @@ const App = () => {
           <Route path="/products/b2trader" element={<B2Trader />} />
           <Route path="/products/b2core" element={<B2Core />} />
           <Route path="/products/b2copy" element={<B2Copy />} />
+          <Route path="/products/b2connect" element={<B2Connect />} />
+          <Route path="/products/pamm" element={<Pamm />} />
+          <Route path="/products/mam" element={<Mam />} />
+          <Route path="/platforms/capmarket" element={<Capmarket />} />
+          <Route path="/platforms/vertexfx" element={<VertexFx />} />
+          <Route path="/platforms/mt5" element={<MT5 />} />
         </Routes>
         <Footer />
       </Router>

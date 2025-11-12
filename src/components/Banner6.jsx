@@ -31,14 +31,13 @@ const Banner6 = () => {
             {/* Heading */}
             <h1 className="text-4xl font-bold sm:text-5xl xl:text-6xl leading-tight tracking-tight text-white">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-emerald-200 to-white">
-                Simplified credit cards for students
+                MT5 Trading Platform
               </span>
             </h1>
 
             {/* Description */}
             <p className="mt-6 text-base sm:text-lg md:text-xl text-gray-300 max-w-lg mx-auto">
-              No more hassle taking loans and making payments. Try Postcrats
-              credit card — secure, simple, and built for the next generation.
+              A Complete Guide for Global Traders Powered by a UK-Based Company
             </p>
 
             {/* CTA */}

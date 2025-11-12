@@ -30,12 +30,11 @@ export default function ProjectsShowcase() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
     autoplay: true,
-    speed: 2000,
     responsive: [
       { breakpoint: 1536, settings: { slidesToShow: 3 } },
       { breakpoint: 1280, settings: { slidesToShow: 2.3 } },

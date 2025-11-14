@@ -7,24 +7,24 @@ const Banner6 = () => {
       <div className="absolute -top-32 -right-32 w-72 h-72 bg-green-500/10 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-emerald-600/10 rounded-full blur-3xl"></div>
 
+      {/* Background Image Layer */}
+      <div className="absolute inset-x-0 bottom-0 z-10">
+        <img
+          className="hidden w-full lg:block object-cover object-center opacity-90"
+          src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/5/credit-cards.png"
+          alt="Credit cards background"
+        />
+        <img
+          className="block w-full lg:hidden object-cover object-center opacity-90"
+          src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/5/credit-cards-mobile.png"
+          alt="Credit cards mobile"
+        />
+        {/* Soft overlay to ensure text contrast */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#08201D] via-[#0b1715]/80 to-transparent"></div>
+      </div>
+
       {/* Hero Section */}
       <section className="relative w-full py-20 sm:py-24 lg:py-28">
-        {/* Background Image Layer */}
-        <div className="absolute inset-x-0 bottom-0 z-10">
-          <img
-            className="hidden w-full lg:block object-cover object-center opacity-90"
-            src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/5/credit-cards.png"
-            alt="Credit cards background"
-          />
-          <img
-            className="block w-full lg:hidden object-cover object-center opacity-90"
-            src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/5/credit-cards-mobile.png"
-            alt="Credit cards mobile"
-          />
-          {/* Soft overlay to ensure text contrast */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#08201D] via-[#0b1715]/80 to-transparent"></div>
-        </div>
-
         {/* Content Layer */}
         <div className="relative z-20 px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">

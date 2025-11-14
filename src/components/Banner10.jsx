@@ -74,7 +74,6 @@ const CenterImageWithText = () => {
       className="sticky top-0 h-screen w-full overflow-hidden flex items-center justify-center"
       style={{
         clipPath,
-        backgroundSize,
         opacity,
         backgroundImage:
           "url(https://images.unsplash.com/photo-1460186136353-977e9d6085a1?q=80&w=2670&auto=format&fit=crop)",

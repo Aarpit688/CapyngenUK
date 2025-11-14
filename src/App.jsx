@@ -16,6 +16,7 @@ import Mam from "./pages/Mam";
 import Capmarket from "./pages/Capmarket";
 import VertexFx from "./pages/VertexFx";
 import MT5 from "./pages/MT5";
+import CTrader from "./pages/CTrader";
 
 const App = () => {
   return (
@@ -40,6 +41,7 @@ const App = () => {
           <Route path="/platforms/capmarket" element={<Capmarket />} />
           <Route path="/platforms/vertexfx" element={<VertexFx />} />
           <Route path="/platforms/mt5" element={<MT5 />} />
+          <Route path="/platforms/ctrader" element={<CTrader />} />
         </Routes>
         <Footer />
       </Router>

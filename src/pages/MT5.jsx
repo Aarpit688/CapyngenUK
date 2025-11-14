@@ -5,6 +5,7 @@ import MT5BestBroker from "../components/MT5BestBroker";
 import MT5Conclusion from "../components/MT5Conclusion";
 import MT5ForBeginners from "../components/MT5ForBeginners";
 import MT5GlobalStandard from "../components/MT5GlobalStandard";
+import MT5IntroSection from "../components/MT5IntroSection";
 import MT5Section from "../components/MT5Section";
 import MT5WhyIdealSection from "../components/MT5WhyIdealSection";
 
@@ -12,6 +13,7 @@ const MT5 = () => {
   return (
     <div>
       <Banner6 />
+      <MT5IntroSection />
       <MT5Section />
       <MT5WhyIdealSection />
       <HowItWorks />

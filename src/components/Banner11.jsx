@@ -9,8 +9,8 @@ import { Link } from "react-router-dom";
 // ----------------------
 const PrevArrow = ({
   onClick,
-  arrowColor = "text-white",
-  bgHover = "hover:backdrop-blur-sm",
+  arrowColor = "text-black",
+  bgHover = "hover:bg-white/20",
 }) => (
   <button
     onClick={onClick}
@@ -35,12 +35,12 @@ const PrevArrow = ({
 
 const NextArrow = ({
   onClick,
-  arrowColor = "text-white",
-  bgHover = "hover:backdrop-blur-sm",
+  arrowColor = "text-black",
+  bgHover = "hover:bg-white/20",
 }) => (
   <button
     onClick={onClick}
-    className={`absolute inset-y-0 end-0 z-10 inline-flex justify-center items-center w-12 h-full ${arrowColor} ${bgHover} rounded-e-2xl`}
+    className={`absolute inset-y-0 end-0 z-10 inline-flex justify-center items-center w-12 h-full ${arrowColor} ${bgHover} rounded-e-2xl focus:outline-hidden`}
   >
     <svg
       className="shrink-0 size-4"
@@ -71,12 +71,12 @@ const Banner11 = ({
   showArrows = true,
   transitionSpeed = 800,
   className = "",
-  containerClass = "px-4 sm:px-6 lg:px-8 pt-20 pb-10 bg-gradient-to-br from-gray-900 to-black",
+  containerClass = "px-4 sm:px-6 lg:px-8 pt-20 pb-10 bg-black",
   slideHeight = "md:h-[calc(100vh-106px)] h-120",
   textColor = "text-white",
-  ctaStyle = "py-2 px-8 inline-flex items-center gap-x-2 text-md font-semibold rounded-xl bg-gradient-to-r from-cyan-600 to-purple-600 border border-gray-700/50 text-white hover:from-cyan-700 hover:to-purple-700 focus:outline-hidden focus:from-cyan-700 focus:to-purple-700 backdrop-blur-sm shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300",
+  ctaStyle = "py-2 px-8 inline-flex items-center gap-x-2 text-md font-semibold rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100",
   arrowColor = "text-white",
-  bgHover = "hover:bg-gray-800/50",
+  bgHover = "",
 }) => {
   const settings = {
     dots: showDots,
@@ -100,12 +100,8 @@ const Banner11 = ({
 
   return (
     <div className={containerClass}>
-      {/* Decorative Glow Elements */}
-      <div className="absolute -top-32 -right-32 w-72 h-72 bg-cyan-500/10 rounded-full blur-3xl"></div>
-      <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl"></div>
-
       <div
-        className={`relative overflow-hidden group w-full ${slideHeight} rounded-2xl ${className}`}
+        className={`relative overflow-hidden group w-full ${slideHeight} bg-gray-100 rounded-2xl ${className}`}
       >
         <Slider {...settings}>
           {slides.map((slide) => (
@@ -114,7 +110,7 @@ const Banner11 = ({
                 className={` w-full ${slideHeight} bg-cover bg-center flex flex-col`}
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
-                <div className="mt-auto pt-5 ps-5 pb-5 md:px-20 md:pb-10 group-hover:backdrop-blur-xl">
+                <div className="mt-auto group-hover:bg-black/50 pt-5 ps-5 pb-5 md:ps-10 md:pb-10">
                   {slide.title && (
                     <span
                       className={`block ${textColor} text-3xl md:text-4xl font-semibold`}
@@ -123,9 +119,7 @@ const Banner11 = ({
                     </span>
                   )}
                   {slide.subtitle && (
-                    <span
-                      className={`block ${textColor} text-sm md:text-lg mt-2`}
-                    >
+                    <span className={`block ${textColor} text-sm md:text-lg`}>
                       {slide.subtitle}
                     </span>
                   )}

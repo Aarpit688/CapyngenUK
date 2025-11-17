@@ -7,11 +7,7 @@ const Banner2 = () => {
       <section className="relative py-20 lg:py-24">
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-3xl mx-auto text-center">
-            <p className="inline-flex px-4 py-2 text-base text-cyan-300 border border-cyan-800/50 rounded-full font-pj bg-cyan-900/20 backdrop-blur-sm">
-              Made by Developers, for Developers
-            </p>
-
-            <h1 className="mt-5 text-4xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 sm:text-5xl sm:leading-tight lg:text-6xl lg:leading-tight font-pj">
+            <h1 className="text-4xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 sm:text-5xl sm:leading-tight lg:text-6xl lg:leading-tight font-pj">
               Quality resources shared by the community
             </h1>
 

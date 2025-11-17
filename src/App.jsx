@@ -17,11 +17,13 @@ import Capmarket from "./pages/Capmarket";
 import VertexFx from "./pages/VertexFx";
 import MT5 from "./pages/MT5";
 import CTrader from "./pages/CTrader";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <div>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />} />

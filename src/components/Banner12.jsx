@@ -5,25 +5,21 @@ const Banner12 = ({
   highlight = "Digital Marketing Services",
   description = `In the current whirlwind digital environment, the importance of visibility cannot be overstated. Through digital marketing, your brand can connect with the appropriate target market, on time, using the most suitable communication, thus increasing your business with tangible results.`,
   cards = [],
-  bgColor = "bg-gradient-to-br from-gray-900 to-black",
+  bgColor = "bg-black",
   textColor = "text-white",
 }) => {
   return (
     <section
-      className={`relative min-h-screen ${bgColor} px-6 py-20 pt-28 flex items-center justify-center overflow-hidden`}
+      className={`relative min-h-screen ${bgColor} px-6 py-20 pt-28 flex items-center justify-center`}
     >
-      {/* Decorative Glow Elements */}
-      <div className="absolute -top-32 -right-32 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl"></div>
-      <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl"></div>
-      
-      <div className="w-full max-w-7xl mx-auto relative z-10">
+      <div className="w-full max-w-7xl mx-auto">
         <div className="flex flex-col items-center text-center gap-12">
           {/* Header Section */}
           <header className="space-y-6">
             <h1
               className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight ${textColor}`}
             >
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">{highlight}</span>{" "}
+              <span className="text-blue-600">{highlight}</span>{" "}
               {heading.replace(highlight, "").trim()}
             </h1>
             <p
@@ -37,9 +33,9 @@ const Banner12 = ({
           <ul className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full">
             {cards.map((card, idx) => (
               <li key={idx} className="group">
-                <div className="w-full h-full p-4 bg-gray-800/30 backdrop-blur-lg border border-gray-700/50 rounded-2xl shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+                <div className="w-full h-full p-4 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300">
                   <figure className="flex flex-col gap-4">
-                    <div className="rounded-xl overflow-hidden h-48 bg-gradient-to-br from-blue-500/20 to-purple-500/20">
+                    <div className="rounded-xl overflow-hidden h-48 bg-gradient-to-br from-indigo-500/20 to-indigo-100/10">
                       <img
                         src={card.img}
                         alt={card.alt || card.text}

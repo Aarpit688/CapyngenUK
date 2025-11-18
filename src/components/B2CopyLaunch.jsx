@@ -33,12 +33,9 @@ const B2CopyLaunch = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-4xl md:text-5xl font-bold leading-tight"
+            className="text-4xl font-bold leading-tight"
           >
-            Launch a Complete
-            <span className="block text-cyan-300">
-              B2Copy Platform with Capyngen
-            </span>
+            Launch a Complete B2Copy Platform with Capyngen
           </motion.h2>
 
           <motion.p
@@ -47,9 +44,9 @@ const B2CopyLaunch = () => {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="text-gray-300 text-lg mt-6 max-w-2xl leading-relaxed"
           >
-            Capyngen Technologies UK Limited provides an end-to-end B2Copy copy
-            trading setup that includes infrastructure, integrations, execution
-            configuration, and continuous support for a complete system rollout.
+            Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is the company that
+            offers the full B2Copy copy trading solution with the following
+            services:
           </motion.p>
 
           {/* ---------------- LIST WITHOUT BOXES ---------------- */}

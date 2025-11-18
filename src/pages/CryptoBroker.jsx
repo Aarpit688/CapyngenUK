@@ -21,32 +21,32 @@ const CryptoBroker = () => {
     {
       image: "https://picsum.photos/id/1082/600/400",
       title: "Scalable Technology",
-      desc: "platforms, which can extend their features and capabilities to accommodate your client base and trade volume growth.",
+      desc: "Platforms, which can extend their features and capabilities to accommodate your client base and trade volume growth.",
     },
     {
       image: "https://picsum.photos/id/1082/600/400",
-      title: "Social Media Integration",
-      desc: "Get more customers and advertising your products directly on Instagram, Facebook, and LinkedIn.",
+      title: "Top-Tier Security",
+      desc: "A system, which incorporates encryption, secure servers, and a compliance-focused infrastructure.",
     },
     {
       image: "https://picsum.photos/id/1082/600/400",
-      title: "Email & SMS Campaigns",
-      desc: "Revive relationships with customers and stimulate repeat purchases.",
+      title: "Global Market Ready",
+      desc: "Products that are created for international brokers and clients.",
     },
     {
       image: "https://picsum.photos/id/1082/600/400",
-      title: "Content Marketing",
-      desc: "Gain the trust of visitors and attract the traffic with helpful content.",
+      title: "Intuitive User Experience",
+      desc: "Broker and trader friendly interfaces, which are simple to use.",
     },
     {
       image: "https://picsum.photos/id/1082/600/400",
-      title: "Paid Advertising (PPC)",
-      desc: "Get targeted traffic to your online shop right away.",
+      title: "Seamless Integration",
+      desc: "Enable your trading platform, CRM, analytics, and marketing tools to connect with each other.",
     },
     {
       image: "https://picsum.photos/id/1082/600/400",
-      title: "Analytics & Conversion Tracking",
-      desc: "Evaluate the results and evolve effectively.",
+      title: "Performance Analytics",
+      desc: "Track platform performance, user behavior, and conversion metrics to optimize growth.",
     },
   ];
   return (
@@ -81,31 +81,31 @@ const CryptoBroker = () => {
             imgSrc: "https://picsum.photos/id/1064/600/400",
             alt: "Trading Platforms",
             title: "Trading Platforms",
-            desc: "Sophisticated platforms that can be automated for trading, include risk management features, and have integrated analytics.",
+            desc: "Secure, fast, and user-friendly with advanced analytics",
           },
           {
             imgSrc: "https://picsum.photos/id/1048/600/400",
-            alt: "CRM Software Solutions",
-            title: "CRM Software Solutions",
-            desc: "Designed systems for the efficient management of leads, clients, and campaigns.",
+            alt: "CRM Software",
+            title: "CRM Software",
+            desc: "Track leads, clients, and campaigns all from a single place",
           },
           {
             imgSrc: "https://picsum.photos/id/1059/600/400",
             alt: "Website & App Development",
             title: "Website & App Development",
-            desc: "Easily accessible websites and mobile applications to offer clients an effortless trading experience.",
+            desc: "Great user experience both for desktop and mobile",
           },
           {
             imgSrc: "https://picsum.photos/id/1075/600/400",
             alt: "Payment Gateway Integration",
             title: "Payment Gateway Integration",
-            desc: "Systems that are secure and free of any problems for the deposit and withdrawal of funds.",
+            desc: "Extremely fast, secure, and reliable deposits and withdrawals",
           },
           {
             imgSrc: "https://picsum.photos/id/1082/600/400",
-            alt: "Back-Office Solutions",
-            title: "Back-Office Solutions",
-            desc: "Tools for efficient reporting, compliance management, and operational control.",
+            alt: "Back-Office Tools",
+            title: "Back-Office Tools",
+            desc: "Easy-to-understand reporting, compliance, and operational management",
           },
         ]}
       />
@@ -114,9 +114,7 @@ const CryptoBroker = () => {
         subheading="By​‍​‌‍​‍‌​‍​‌‍​‍‌ selecting Capyngen, your brokerage will be able to enjoy multiple benefits such as:"
         cardBg="bg-gray-700"
         cardText="text-white"
-        footer="Our innovations serve as a guarantee that your brokerage will be able to
-        function in a stable, secure, and efficient manner, even in a fiercely
-        competitive ​‍​‌‍​‍‌​‍​‌‍​‍‌market."
+        footer="Our innovations serve as a guarantee that your brokerage will be able to function in a stable, secure, and efficient manner, even in a fiercely competitive ​‍​‌‍​‍‌​‍​‌‍​‍‌market."
         cardDescText="text-white"
         services={servicesData}
       />

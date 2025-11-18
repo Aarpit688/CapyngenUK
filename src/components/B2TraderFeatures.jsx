@@ -7,17 +7,17 @@ const B2TraderFeatures = () => {
     {
       icon: <FaServer className="text-cyan-300 text-3xl" />,
       title: "B2Trader White-Label Platform Deployment",
-      desc: "We provide a complete branded B2Trader white-label solution for brokers who require fast deployment, custom UI branding, and a secure multi-asset trading environment.",
+      desc: "We offer a complete brand B2Trader white-label solution for brokers who need a fast setup, personalized branding, and a safe multi-asset trading environment.",
     },
     {
       icon: <FaChartLine className="text-cyan-300 text-3xl" />,
       title: "B2Trader Liquidity & Pricing Integration",
-      desc: "Capyngen implements B2Trader liquidity integrations to ensure accurate pricing, tight spreads, low latency execution, and stable connectivity for forex, crypto, and CFD brokers.",
+      desc: "Capyngen implements B2Trader liquidity solutions that guarantee correct pricing, tight spreads, quick execution, and a stable market connection for forex, crypto, and CFD brokers.",
     },
     {
       icon: <FaPlug className="text-cyan-300 text-3xl" />,
       title: "B2Trader API Trading Integration",
-      desc: "Through B2Trader's API, we integrate CRMs, client portals, risk engines, analytics systems, PSPs, and liquidity providers, enabling full automation and higher operational capacity.",
+      desc: "Through B2Trader API connection, we facilitate the interaction of CRMs, client portals, risk tools, analytics systems, PSPs, and liquidity providers, thus, allowing full automation and increased ​‍​‌‍​‍‌​‍​‌‍​‍‌capacity.",
     },
   ];
 
@@ -56,19 +56,8 @@ const B2TraderFeatures = () => {
               transition={{ duration: 0.6 }}
               className="text-4xl md:text-5xl font-bold leading-tight"
             >
-              Core Features of Our <br />
-              <span className="text-cyan-300">B2Trader Solutions</span>
+              Core Features of Our B2Trader Trading Solutions
             </motion.h2>
-
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-gray-300 text-lg mt-6 max-w-xl leading-relaxed"
-            >
-              Capyngen delivers end-to-end B2Trader deployment — including
-              liquidity, pricing optimization & automation workflows.
-            </motion.p>
 
             {/* FEATURES LIST */}
             <div className="space-y-14 mt-12">

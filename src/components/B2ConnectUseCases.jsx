@@ -1,4 +1,7 @@
 import React, { useEffect } from "react";
+import { FaMoneyBillTrendUp } from "react-icons/fa6";
+import { SiBlockchaindotcom } from "react-icons/si";
+import { MdOutlineCategory } from "react-icons/md";
 
 // -------------------- 3D Tilt Effect Hook --------------------
 const useTilt = () => {
@@ -11,9 +14,9 @@ const useTilt = () => {
         const x = e.clientX - (rect.left + rect.width / 2);
         const y = e.clientY - (rect.top + rect.height / 2);
 
-        card.style.transform = rotateX(
-          `${y / -15}deg) rotateY(${x / 15}deg) scale(1.03`
-        );
+        card.style.transform = `rotateX(${y / -15}deg) rotateY(${
+          x / 15
+        }deg) scale(1.03)`;
       };
 
       const reset = () => {
@@ -44,7 +47,7 @@ const emitParticles = (element) => {
     const angle = Math.random() * 360;
     const distance = Math.random() * 60 + 20;
 
-    p.style.transform = rotate(`${angle}deg) translate(${distance}px`);
+    p.style.transform = `rotate(${angle}deg) translate(${distance}px)`;
 
     element.appendChild(p);
 
@@ -52,80 +55,17 @@ const emitParticles = (element) => {
   }
 };
 
-// -------------------- Icons --------------------
+// -------------------- Icons (React Icons Replacements) --------------------
 const ForexIcon = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className="h-8 w-8 text-fuchsia-300"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01"
-    />
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M12 18V7m0 11a9 9 0 110-18 9 9 0 010 18z"
-    />
-  </svg>
+  <FaMoneyBillTrendUp className="h-8 w-8 text-fuchsia-300" />
 );
 
 const CryptoIcon = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className="h-8 w-8 text-fuchsia-300"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M15 9a2 2 0 100-4 2 2 0 000 4z"
-    />
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M9 15a2 2 0 100-4 2 2 0 000 4z"
-    />
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M19 19l-2-2m-3-3l-2-2m-3-3l-2-2"
-    />
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M5 5l2 2m3 3l2 2m3 3l2 2"
-    />
-  </svg>
+  <SiBlockchaindotcom className="h-8 w-8 text-fuchsia-300" />
 );
 
 const MultiAssetIcon = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className="h-8 w-8 text-fuchsia-300"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
-    />
-  </svg>
+  <MdOutlineCategory className="h-8 w-8 text-fuchsia-300" />
 );
 
 // -------------------- Card Component --------------------
@@ -163,14 +103,11 @@ const B2ConnectUseCases = () => {
     <div className="py-20 bg-black">
       <section
         className="relative w-full max-w-[90vw] mx-auto p-10 bg-[#090d15] 
-                        rounded-3xl border border-fuchsia-500/20 shadow-[0_0_40px_rgba(255,0,255,0.15)] 
+                        rounded-xl border border-fuchsia-500/20 shadow-[0_0_40px_rgba(255,0,255,0.15)] 
                         backdrop-blur-xl overflow-hidden"
       >
         <div className="text-center relative z-10 mb-14">
-          <h2
-            className="text-4xl font-extrabold text-transparent bg-clip-text 
-                       bg-gradient-to-r from-fuchsia-400 to-pink-500"
-          >
+          <h2 className="text-4xl font-extrabold text-white">
             Use Cases of B2Connect for Brokers
           </h2>
         </div>
@@ -209,10 +146,6 @@ const B2ConnectUseCases = () => {
         @keyframes particleFade {
           0% { opacity: 1; transform: scale(1); }
           100% { opacity: 0; transform: scale(0.2); }
-        }
-        @keyframes gridMove {
-          0% { background-position: 0 0; }
-          100% { background-position: 400px 400px; }
         }
       `}</style>
       </section>

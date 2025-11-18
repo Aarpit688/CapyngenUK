@@ -54,8 +54,7 @@ const B2TraderBenefits = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-            Major Benefits of{" "}
-            <span className="text-cyan-300">B2Trader for Brokers</span>
+            Major Benefits of B2Trader for Brokers
           </h2>
 
           <div className="mx-auto mt-6 w-24 h-[3px] bg-gradient-to-r from-cyan-300 to-blue-500 rounded-full"></div>

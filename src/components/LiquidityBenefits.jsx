@@ -41,7 +41,7 @@ const LiquidityBenefits = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-center bg-gradient-to-r from-cyan-300 to-blue-400 text-transparent bg-clip-text leading-normal"
+          className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-center text-white leading-normal"
         >
           Key Benefits of Capyngen’s Liquidity Provider Solutions
         </motion.h2>
@@ -82,7 +82,7 @@ const LiquidityBenefits = () => {
               />
 
               <div className="mb-5">{item.icon}</div>
-              <h3 className="text-lg font-semibold text-cyan-300 mb-3">
+              <h3 className="text-lg font-semibold text-white mb-3">
                 {item.title}
               </h3>
               <p className="text-gray-300 text-sm leading-relaxed">

@@ -39,7 +39,7 @@ export default function CryptoExpertise({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
-          className={`text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight ${titleGradient} bg-clip-text text-transparent`}
+          className={`text-3xl md:text-4xl lg:text-5xl pb-5 font-bold tracking-tight ${titleGradient} bg-clip-text text-transparent`}
         >
           {heading}
         </motion.h2>

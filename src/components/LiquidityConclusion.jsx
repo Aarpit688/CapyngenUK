@@ -40,7 +40,7 @@ const LiquidityConclusion = () => {
           viewport={{ once: true }}
           className="space-y-8"
         >
-          <h2 className="text-4xl md:text-5xl font-extrabold leading-tight bg-gradient-to-r from-cyan-300 to-blue-500 text-transparent bg-clip-text">
+          <h2 className="text-4xl font-extrabold leading-tight text-white">
             Conclusion: Build a Reliable and Scalable Brokerage with Capyngen
           </h2>
 
@@ -71,7 +71,7 @@ const LiquidityConclusion = () => {
                   <div className="transform group-hover:scale-110 transition">
                     {item.icon}
                   </div>
-                  <p className="text-gray-200 text-sm leading-relaxed">
+                  <p className="text-gray-200 text-md leading-relaxed">
                     {item.text}
                   </p>
                 </div>

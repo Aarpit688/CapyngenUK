@@ -45,7 +45,7 @@ const LiquiditySolutions = () => {
           <div className="w-2 h-24 bg-gradient-to-b from-cyan-400 to-blue-600 rounded-full mb-6"></div>
 
           {/* Heading */}
-          <h2 className="text-4xl md:text-5xl font-extrabold leading-tight bg-gradient-to-r from-cyan-300 to-blue-500 text-transparent bg-clip-text">
+          <h2 className="text-4xl md:text-5xl font-extrabold leading-tight text-white">
             Comprehensive Liquidity Provider Technology Solutions
           </h2>
 
@@ -83,7 +83,7 @@ const LiquiditySolutions = () => {
               <div className="mb-4">{item.icon}</div>
 
               {/* Title */}
-              <h3 className="text-xl font-semibold text-blue-300 mb-3">
+              <h3 className="text-xl font-semibold text-white mb-3">
                 {item.title}
               </h3>
 

@@ -5,7 +5,16 @@ import ForexSolutions from "../components/ForexSolutions";
 import ForexBenefits from "../components/ForexBenefits";
 import ForexExpertise from "../components/ForexExpertise";
 import ForexConclusion from "../components/ForexConclusion";
-import { FaBolt, FaCogs, FaShieldAlt } from "react-icons/fa";
+import {
+  FaBolt,
+  FaBullseye,
+  FaChartLine,
+  FaCogs,
+  FaGlobe,
+  FaShieldAlt,
+  FaUsersCog,
+} from "react-icons/fa";
+import ForexTechSolutions from "../components/ForexTechSolutions";
 
 const ForexBroker = () => {
   return (
@@ -35,14 +44,40 @@ const ForexBroker = () => {
           },
         ]}
       />
-      <ForexEmpowerment />
+      <ForexEmpowerment
+        title="What is a Forex Broker and How We Empower Them"
+        description={`A​‍​‌‍​‍‌​‍​‌‍​‍‌ forex broker is a financial services provider that allows traders and investors to purchase and sell currencies in the global forex market. Forex brokers are the middlemen who provide trading platforms, account management tools, and access to liquidity providers. However, in today’s competitive market, merely executing trades is not enough—brokers have to use advanced technology, robust CRM systems, and innovative platforms not only to attract clients but also to ensure compliance and operate efficiently.`}
+        sectionTitle="How Capyngen Empowers Brokers"
+        sectionDescription={`Capyngen Technologies UK Limited is the answer to this problem. We, as a leading Forex technology provider, offer end-to-end solutions for brokers of any size:`}
+        cards={[
+          {
+            icon: <FaChartLine className="text-indigo-400 text-2xl" />,
+            title: "Custom Forex Trading Platforms",
+            desc: "Facilitating seamless execution and offering real-time analytics.",
+          },
+          {
+            icon: <FaUsersCog className="text-pink-400 text-2xl" />,
+            title: "Forex CRM Software Solutions",
+            desc: "Manage clients, automate workflows, and enhance retention.",
+          },
+          {
+            icon: <FaBullseye className="text-green-400 text-2xl" />,
+            title: "Digital Marketing Solutions for Brokers",
+            desc: "Extend your global reach and attract quality clients.",
+          },
+          {
+            icon: <FaGlobe className="text-yellow-400 text-2xl" />,
+            title: "Full-Stack Forex Broker Technology",
+            desc: "Website & app development, back-office management, and payment integration.",
+          },
+        ]}
+        outroText={`Thanks to the combination of profound industry knowledge and state-of-the-art technology, we are able to give forex brokers the power to globally scale their operations, enhance client experience, and keep their competitive advantage in the ​‍​‌‍​‍‌​‍​‌‍​‍‌market.`}
+      />
+      <ForexTechSolutions />
       <ForexSolutions
         heading="Comprehensive Forex Broker Software Solutions"
-        subheading="Our​‍​‌‍​‍‌​‍​‌‍​‍‌ company provides numerous forex broker software
-            solutions that are suitable for any type of business:"
-        outro="By offering these solutions, Capyngen is a forex technology provider
-          that changes your brokerage to a globally competitive enterprise with
-          high ​‍​‌‍​‍‌​‍​‌‍​‍‌performance."
+        subheading="Our​‍​‌‍​‍‌​‍​‌‍​‍‌ company provides numerous forex broker software solutions that are suitable for any type of business:"
+        outro="By offering these solutions, Capyngen is a forex technology provider that changes your brokerage to a globally competitive enterprise with high ​‍​‌‍​‍‌​‍​‌‍​‍‌performance."
         sectionBg="bg-gradient-to-b from-black via-gray-900 to-black"
         solutions={[
           {
@@ -78,7 +113,33 @@ const ForexBroker = () => {
         ]}
       />
       <ForexBenefits />
-      <ForexExpertise />
+      <ForexExpertise
+        title="Our Expertise as a Forex Technology Provider"
+        subtitle="Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is a perfect blend of technical expertise, domain knowledge, and client-focused innovation. Our team saw no better way of understanding your workflow, challenges, and goals than working closely with your brokerage. We deliver solutions that include:"
+        outroText="With us, you get not only a software vendor but also a business enabler who will help you to grow, attract clients, and keep up with the market leaders in a competitive ​‍​‌‍​‍‌​‍​‌‍​‍‌environment."
+        expertise={[
+          {
+            title: "Custom Forex Trading Platform Development",
+            img: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
+            desc: "",
+          },
+          {
+            title: "Forex Broker Technology Solutions",
+            img: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+            desc: "",
+          },
+          {
+            title: "Website & App Development",
+            img: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+            desc: "",
+          },
+          {
+            title: "End-to-End Forex IT Solutions",
+            img: "https://images.unsplash.com/photo-1526401281623-3526c67d8e2f?auto=format&fit=crop&w=1200&q=80",
+            desc: "",
+          },
+        ]}
+      />
       <ForexConclusion
         heading="Conclusion: Elevate Your Brokerage with Capyngen’s IT Solutions"
         paragraphs={[

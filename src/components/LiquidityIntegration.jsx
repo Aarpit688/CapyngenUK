@@ -7,23 +7,23 @@ const LiquidityIntegration = () => {
     {
       icon: <FaLayerGroup className="text-cyan-400 text-3xl" />,
       title: "Multiple liquidity sources connected with low latency",
-      desc: "Connect with several liquidity sources simultaneously without execution delays.",
+      desc: "",
     },
     {
       icon: <FaChartBar className="text-cyan-400 text-3xl" />,
       title: "Management of pricing and market depth in real-time",
-      desc: "Maintain accuracy and market-depth visibility with instant pricing updates.",
+      desc: "",
     },
     {
       icon: <FaShieldAlt className="text-cyan-400 text-3xl" />,
       title: "Broker risk and exposure management through advanced tools",
-      desc: "Advanced risk management controls ensure optimal exposure handling.",
+      desc: "",
     },
     {
       icon: <FaBolt className="text-cyan-400 text-3xl" />,
       title:
         "Systems designed for evolution that are able to process trading volumes of the institutional market type",
-      desc: "Infrastructure capable of handling large-scale, professional-grade trade loads.",
+      desc: "",
     },
   ];
 
@@ -45,7 +45,7 @@ const LiquidityIntegration = () => {
           viewport={{ once: true }}
           className="space-y-6"
         >
-          <h2 className="text-4xl md:text-5xl font-bold leading-tight bg-gradient-to-r from-cyan-300 to-blue-500 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold leading-tight text-white">
             Why Choose Capyngen for Liquidity Provider Integration
           </h2>
 
@@ -75,7 +75,7 @@ const LiquidityIntegration = () => {
             >
               <div className="flex items-center gap-3 mb-4">
                 {item.icon}
-                <h3 className="text-lg font-semibold text-cyan-300 leading-snug">
+                <h3 className="text-lg font-semibold text-white leading-snug">
                   {item.title}
                 </h3>
               </div>

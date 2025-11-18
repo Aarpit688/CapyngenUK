@@ -60,7 +60,7 @@ const B2ConnectIntegration = () => {
   useSpotlightCursor();
 
   return (
-    <section className="relative w-full py-24 bg-[#02060d] overflow-hidden">
+    <section className="relative w-full py-20 bg-[#02060d] overflow-hidden">
       {/* Gradient background blobs */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute w-[600px] h-[600px] bg-cyan-600/20 blur-[160px] -top-10 -left-20"></div>
@@ -81,22 +81,19 @@ const B2ConnectIntegration = () => {
                    transition-transform duration-100 ease-out z-20"
       ></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
+      <div className="relative z-10 max-w-[90vw] mx-auto">
         <div
-          className="relative border border-cyan-500/20 rounded-3xl p-10 md:p-16 
+          className="relative border border-cyan-500/20 rounded-xl p-10 md:p-16 
                      bg-[#0b111b]/80 backdrop-blur-xl shadow-[0_0_40px_rgba(0,255,200,0.1)]"
         >
           {/* Title */}
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-cyan-400 text-center animate-shimmer">
+          <h2 className="text-3xl lg:text-4xl font-extrabold text-white text-center">
             Complete End-to-End B2Connect Integration by Capyngen
           </h2>
 
           {/* Subtitle */}
           <p className="mt-4 text-gray-300 text-lg text-center max-w-3xl mx-auto">
-            <span className="font-bold text-teal-200">
-              Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌
-            </span>{" "}
-            enables the entire rollout that includes:
+            Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ enables the entire rollout that includes:
           </p>
 
           {/* Cards */}
@@ -122,11 +119,8 @@ const B2ConnectIntegration = () => {
           </div>
 
           {/* Footer CTA */}
-          <div
-            className="mt-16 p-6 rounded-xl border border-cyan-400/30 bg-gradient-to-r from-cyan-500/10 to-teal-500/10 
-                       shadow-[0_0_25px_rgba(0,255,255,0.1)] text-center"
-          >
-            <h3 className="text-xl font-bold text-teal-200 animate-shimmer">
+          <div className="mt-16 p-6 rounded-xl text-center">
+            <h3 className="text-xl font-bold text-white">
               Your liquidity and execution environment becomes scalable,
               reliable, and enterprise-ready.
             </h3>

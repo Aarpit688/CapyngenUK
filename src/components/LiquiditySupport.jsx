@@ -53,7 +53,7 @@ const LiquiditySupport = () => {
           className="space-y-8"
         >
           {/* HEADING */}
-          <h2 className="text-4xl md:text-5xl font-bold leading-tight bg-gradient-to-r from-cyan-300 to-blue-500 text-transparent bg-clip-text">
+          <h2 className="text-4xl md:text-5xl font-bold leading-tight text-white">
             How Capyngen Supports Startups and Established Brokers
           </h2>
 
@@ -83,7 +83,7 @@ const LiquiditySupport = () => {
               >
                 <div className="flex items-center gap-4 mb-3">
                   {block.icon}
-                  <h3 className="text-xl font-semibold text-cyan-300">
+                  <h3 className="text-xl font-semibold text-white">
                     {block.title}
                   </h3>
                 </div>

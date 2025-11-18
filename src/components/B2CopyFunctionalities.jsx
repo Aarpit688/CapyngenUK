@@ -13,14 +13,14 @@ import {
 
 const B2CopyFunctionalities = () => {
   const features = [
-    { icon: <FaExchangeAlt />, title: "Instant Trade Copying" },
-    { icon: <FaCogs />, title: "Automatic Lot & Risk Adjustment" },
-    { icon: <FaChartPie />, title: "KPI-Based Performance Reporting" },
-    { icon: <FaLink />, title: "Master–Follower Account Linking" },
-    { icon: <FaLayerGroup />, title: "Multi-Asset Strategy Support" },
-    { icon: <FaDollarSign />, title: "Subscription & Fee Models" },
-    { icon: <FaBolt />, title: "Open Banking Compatible API" },
-    { icon: <FaCloud />, title: "Cloud-Optimized Infrastructure" },
+    { icon: <FaExchangeAlt />, title: "Precise on the Spot Copying of Trades" },
+    { icon: <FaCogs />, title: "Automatic Adjustment of Lot Size and Risk" },
+    { icon: <FaChartPie />, title: "Detailed Reporting Through KPIs" },
+    { icon: <FaLink />, title: "Linking Master Accounts to Follower Ones" },
+    { icon: <FaLayerGroup />, title: "Multi-Asset Trading Platform" },
+    { icon: <FaDollarSign />, title: "Subscription and Follower Fee Models" },
+    { icon: <FaBolt />, title: "Open Banking Fintech Systems Compatible API" },
+    { icon: <FaCloud />, title: "Trusted Cloud Infrastructure and Analytics" },
   ];
 
   return (
@@ -29,33 +29,10 @@ const B2CopyFunctionalities = () => {
         {/* Heading Block */}
         <div className="lg:flex lg:items-end lg:justify-between gap-10">
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-              Key Functionalities of
-              <span className="block text-cyan-300">
-                B2Copy Copy Trading Platform
-              </span>
+            <h2 className="text-4xl md:text-5xl font-bold leading-tight text-center">
+              Key Functionalities of B2Copy Copy Trading Platform
             </h2>
-
-            <p className="text-gray-300 text-lg mt-5 max-w-2xl">
-              A powerful system enabling brokers to deliver a complete, stable
-              and high-performance social trading experience for
-              ‌‍​‍‍​‍‍‌​‍​‍‌​‍​‍‌retail & professional users.
-            </p>
           </div>
-
-          {/* Side Image */}
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="hidden lg:block w-[320px] h-[220px] flex-shrink-0 overflow-hidden rounded-xl border border-white/10 shadow-lg"
-          >
-            <img
-              src="https://picsum.photos/seed/b2copy/800/500"
-              alt="Copy trading dashboard"
-              className="w-full h-full object-cover"
-            />
-          </motion.div>
         </div>
 
         {/* Feature Grid */}
@@ -105,10 +82,9 @@ const B2CopyFunctionalities = () => {
         </motion.div>
 
         {/* OUTRO */}
-        <p className="text-gray-300 text-lg mt-10 text-center mx-auto max-w-4xl leading-relaxed">
-          B2Copy allows brokers to create a stable, efficient, and seamless
-          social trading environment—helping users copy experienced traders and
-          mirror strategies without ‌‍​‍‍​‍‍‌​‍​‍‌​‍​‍‌complex setups or delays.
+        <p className="text-gray-300 text-xl mt-10 text-center mx-auto max-w-7xl leading-relaxed">
+          B2Copy enables brokers to create an environment of social trading that
+          is free from hassle and is stable for the ​‍​‌‍​‍‌​‍​‌‍​‍‌users.
         </p>
       </div>
     </section>

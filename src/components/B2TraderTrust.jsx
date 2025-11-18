@@ -48,8 +48,7 @@ const B2TraderTrust = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-            Why Brokers Trust{" "}
-            <span className="text-cyan-300">B2Trader Technology</span>
+            Why Brokers Trust B2Trader Technology
           </h2>
 
           <div className="h-[2px] w-24 bg-gradient-to-r from-cyan-400 to-blue-500 mt-6 mb-10" />
@@ -76,8 +75,9 @@ const B2TraderTrust = () => {
           </div>
 
           <p className="text-gray-300 mt-10 text-lg leading-relaxed">
-            With its multi-asset trading engine and institutional-grade infra,
-            B2Trader is a perfect fit for both new and established brokers.
+            Moreover, its multi-asset features and sophisticated trading engine
+            position it as a perfect solution for brokers, whether they are new
+            or have been around for a ​‍​‌‍​‍‌​‍​‌‍​‍‌while.
           </p>
         </motion.div>
 

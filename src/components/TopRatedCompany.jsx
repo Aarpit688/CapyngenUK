@@ -16,11 +16,11 @@ export default function TopRatedCompany({
   background = "",
   reverse = false,
   isHidden = "",
-  imageHeight = "md:aspect-[4/5]",
+  imageHeight = "",
 }) {
   return (
     <section
-      className={`${bgColor} py-15 bg-no-repeat bg-center bg-cover transition-colors duration-700`}
+      className={`${bgColor} py-10 bg-no-repeat bg-center bg-cover transition-colors duration-700`}
       style={{ backgroundImage: `url(${background})` }}
       aria-label="Top rated company information section"
     >

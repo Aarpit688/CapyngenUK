@@ -41,7 +41,7 @@ const LiquidityKeyFeatures = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-4xl lg:text-5xl font-bold text-center bg-gradient-to-r from-cyan-300 to-blue-500 bg-clip-text text-transparent"
+          className="text-3xl md:text-4xl lg:text-5xl font-bold text-center  text-white"
         >
           Key Features That Set Our Liquidity Solutions Apart
         </motion.h2>
@@ -63,7 +63,7 @@ const LiquidityKeyFeatures = () => {
             >
               <div className="flex items-center gap-4 mb-3">
                 {feature.icon}
-                <h3 className="text-lg font-semibold text-cyan-300">
+                <h3 className="text-lg font-semibold text-white">
                   {feature.title}
                 </h3>
               </div>

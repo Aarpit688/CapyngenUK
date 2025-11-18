@@ -15,22 +15,16 @@ const B2ConnectIntro = () => {
         <div className="grid md:grid-cols-2 items-center">
           {/* LEFT CONTENT */}
           <div className="p-8 md:p-12 lg:p-16 text-white order-2 md:order-1">
-            <h1
-              className="text-3xl lg:text-4xl font-extrabold leading-tight 
-            text-transparent bg-clip-text 
-            bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-400 drop-shadow-lg"
-            >
+            <h1 className="text-3xl lg:text-4xl font-extrabold leading-normal text-white">
               A Complete Liquidity Connectivity System for Forex, Crypto &
               Multi-Asset Brokers
             </h1>
 
             <p className="mt-6 text-base lg:text-lg text-slate-300 leading-relaxed drop-shadow">
-              <span className="font-bold text-cyan-300">
-                Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited
-              </span>{" "}
-              offers a strong B2Connect Liquidity Bridge Solution to brokers
-              that are in need of quick execution, efficient liquidity routing,
-              and multi-asset trading support.
+              Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited offers a strong
+              B2Connect Liquidity Bridge Solution to brokers that are in need of
+              quick execution, efficient liquidity routing, and multi-asset
+              trading support.
             </p>
 
             <p className="mt-4 text-slate-400 leading-relaxed">

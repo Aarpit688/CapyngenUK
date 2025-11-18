@@ -2,6 +2,7 @@ import React from "react";
 import Banner2 from "../components/Banner2";
 import CardsSection from "../components/CardsSection";
 import {
+  FaChartLine,
   FaCode,
   FaCogs,
   FaCubes,
@@ -10,6 +11,7 @@ import {
   FaLaravel,
   FaReact,
   FaShoppingCart,
+  FaUserCog,
   FaUsersCog,
   FaWordpressSimple,
 } from "react-icons/fa";
@@ -27,19 +29,19 @@ const CryptoExchange = () => {
       title:
         "Open a Custom Cryptocurrency Exchange Platform that is aligned with the business goals",
       description: "",
-      icon: <FaCode className="text-4xl text-white" />,
+      icon: <FaExchangeAlt className="text-4xl text-white" />,
     },
     {
       title:
         "Deploy a Crypto Exchange CRM System for smooth client and campaign management",
       description: "",
-      icon: <FaWordpressSimple className="text-4xl text-white" />,
+      icon: <FaUserCog className="text-4xl text-white" />,
     },
     {
       title:
         "Install Crypto Trading Platforms having the features like real-time analytics and automated trading",
       description: "",
-      icon: <FaShoppingCart className="text-4xl text-white" />,
+      icon: <FaChartLine className="text-4xl text-white" />,
     },
   ];
   const cardsSectionImageData1 = [
@@ -131,8 +133,7 @@ const CryptoExchange = () => {
         hoverBg=" hover:bg-gray-700"
         textColor="text-white"
         textSize="text-md"
-        footerNote=" Use the Digital Marketing Solutions for Crypto Exchanges to access
-            the global market and increase their client ​‍​‌‍​‍‌​‍​‌‍​‍‌base"
+        footerNote="Use the Digital Marketing Solutions for Crypto Exchanges to access the global market and increase their client ​‍​‌‍​‍‌​‍​‌‍​‍‌base"
       />
       <ForexSolutions
         heading="Comprehensive Solutions for Every Crypto Exchange Need"
@@ -141,7 +142,7 @@ const CryptoExchange = () => {
         sectionBg="bg-gradient-to-br from-[#020617] via-[#0b0f29] to-[#111827]"
         cardBg="bg-gradient-to-b from-[#0a1a3c]/90 via-[#0f1f43]/80 to-[#0a1229]/90"
         cardBorder="border-[#1e3a8a]/40"
-        titleColor="text-[#60a5fa]"
+        titleColor="text-white"
         textColor="text-[#cbd5e1]"
         imageBg="bg-[#0f172a]"
         cardHoverShadow="hover:shadow-[0_0_25px_-5px_rgba(56,189,248,0.5)]"
@@ -239,8 +240,8 @@ const CryptoExchange = () => {
       />
       <CryptoExpertise
         heading="Our Expertise: Building Crypto Exchanges That Win"
-        subheading="At Capyngen Technologies UK Limited, we bring together technical brilliance and business understanding to create impactful solutions."
-        outro="Our service goes beyond technology delivery—empowering your exchange to grow globally and dominate the market."
+        subheading="At​‍​‌‍​‍‌​‍​‌‍​‍‌ Capyngen Technologies UK Limited, we bring together technical brilliance and business understanding to create impactful solutions. Our skill set spans:"
+        outro="Our service is beyond just technology delivery; we provide the power to exchanges to grow worldwide, make a stronghold in the market, and be a step ahead of their ​‍​‌‍​‍‌​‍​‌‍​‍‌competitors."
         cards={[
           {
             icon: <FaExchangeAlt />,
@@ -249,17 +250,20 @@ const CryptoExchange = () => {
           },
           {
             icon: <FaCogs />,
-            title: "Complete Crypto Exchange Software Solutions",
+            title:
+              "Complete Crypto Exchange Software Solutions for both startups and enterprises",
             desc: "Perfect for startups and established global exchanges.",
           },
           {
             icon: <FaLaptopCode />,
-            title: "Development of Websites and Apps",
+            title:
+              "Development of Websites and Apps to facilitate user-friendly trading experiences",
             desc: "Beautiful, fast and intuitive UI/UX for traders & brokers.",
           },
           {
             icon: <FaUsersCog />,
-            title: "Implementation of CRM Software",
+            title:
+              "Implementation of CRM software for the Crypto Exchange to ensure excellent client management",
             desc: "Manage leads, clients & automation workflows easily.",
           },
         ]}

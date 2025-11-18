@@ -1,109 +1,39 @@
 import React from "react";
+import {
+  FaPuzzlePiece,
+  FaUsers,
+  FaRocket,
+  FaShieldAlt,
+  FaGlobe,
+  FaLifeRing,
+} from "react-icons/fa";
 
 /* ---------------------------------------------
-   UPGRADED ICON COMPONENTS
+   UPDATED ICON COMPONENTS (REPLACED SVGs)
 --------------------------------------------- */
 
 export const PuzzleIcon = ({ className = "w-7 h-7" }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className={className}
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-    strokeWidth={1.7}
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"
-    />
-  </svg>
+  <FaPuzzlePiece className={className + " text-cyan-300"} />
 );
 
 export const UsersIcon = ({ className = "w-7 h-7" }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className={className}
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-    strokeWidth={1.7}
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M15 21a6 6 0 00-9-5.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-3-5.197M15 21a9 9 0 00-9-9"
-    />
-  </svg>
+  <FaUsers className={className + " text-cyan-300"} />
 );
 
 export const RocketIcon = ({ className = "w-7 h-7" }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className={className}
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-    strokeWidth={1.7}
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M13 10V3L4 14h7v7l9-11h-7z"
-    />
-  </svg>
+  <FaRocket className={className + " text-cyan-300"} />
 );
 
 export const ShieldIcon = ({ className = "w-7 h-7" }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className={className}
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-    strokeWidth={1.7}
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-    />
-  </svg>
+  <FaShieldAlt className={className + " text-cyan-300"} />
 );
 
 export const GlobeIcon = ({ className = "w-7 h-7" }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className={className}
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-    strokeWidth={1.7}
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2h8a2 2 0 002-2v-1a2 2 0 012-2h1.945M7.707 4.293a1 1 0 010 1.414L5.414 8l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm9.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L18.586 8l-2.293-2.293a1 1 0 010-1.414z"
-    />
-  </svg>
+  <FaGlobe className={className + " text-cyan-300"} />
 );
 
 export const SupportIcon = ({ className = "w-7 h-7" }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className={className}
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-    strokeWidth={1.7}
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"
-    />
-  </svg>
+  <FaLifeRing className={className + " text-cyan-300"} />
 );
 
 /* ---------------------------------------------
@@ -114,41 +44,42 @@ const benefitsData = [
   {
     icon: <PuzzleIcon />,
     title: "Complete Crypto Broker Setup Solution",
-    description:
-      "A single package with everything needed for effortless setup.",
+    description: "A single package with everything for ease.",
   },
   {
     icon: <UsersIcon />,
     title: "Client Engagement on a Higher Level",
     description:
-      "CRM + automation tools increase customer satisfaction & loyalty.",
+      "CRM and automation tools result in customer satisfaction and loyalty.",
   },
   {
     icon: <RocketIcon />,
     title: "Shorter Time-to-Market",
-    description: "Launch your brokerage fast with plug-and-play systems.",
+    description:
+      "Your brokerage can be up and running fast with plug-and-play solutions.",
   },
   {
     icon: <ShieldIcon />,
     title: "Secure & Compliant Platforms",
-    description: "Meet global regulatory standards with zero complexity.",
+    description:
+      "Be in line with regulatory requirements of different countries without giving it a second thought.",
   },
   {
     icon: <GlobeIcon />,
-    title: "Built for Global Expansion",
+    title: "Support for Global Expansion",
     description:
-      "Scale effortlessly and serve international markets with ease.",
+      "Platforms that are scalable and thus perfect for international markets.",
   },
   {
     icon: <SupportIcon />,
     title: "Continuous Support & Updates",
     description:
-      "Stay efficient with ongoing improvements and dedicated support.",
+      "You can stay efficient through the provision of ongoing technical support.",
   },
 ];
 
 /* ---------------------------------------------
-   CARD COMPONENT (IMPROVED)
+   CARD COMPONENT (UNCHANGED)
 --------------------------------------------- */
 
 const BenefitCard = ({ icon, title, description }) => (
@@ -177,7 +108,7 @@ const BenefitCard = ({ icon, title, description }) => (
 );
 
 /* ---------------------------------------------
-   MAIN SECTION (IMPROVED)
+   MAIN SECTION (UNCHANGED)
 --------------------------------------------- */
 
 const BenefitsSection = () => {
@@ -190,7 +121,7 @@ const BenefitsSection = () => {
       </div>
 
       <div className="relative max-w-7xl mx-auto">
-        {/* Heading Section */}
+        {/* Heading */}
         <div className="text-center mb-16">
           <h1
             className="
@@ -198,25 +129,20 @@ const BenefitsSection = () => {
             md:text-5xl 
             font-bold 
             tracking-tight 
-            text-transparent 
-            bg-clip-text 
-            bg-gradient-to-r 
-            from-cyan-300 
-            to-blue-400
+            text-white
           "
           >
             Benefits of Capyngen’s Crypto Broker IT Solutions
           </h1>
 
           <p className="text-lg max-w-3xl mx-auto text-gray-400 mt-6">
-            Partnering with Capyngen delivers strategic, operational, and
-            financial advantages that elevate your brokerage.
+            Partnering​‍​‌‍‌ with Capyngen makes sense not only strategically
+            but also financially as it brings tangible benefits to the business.
           </p>
         </div>
 
-        {/* Grid Layout */}
+        {/* Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-          {/* Image */}
           <div className="lg:col-span-5">
             <img
               src="https://picsum.photos/seed/crypto/800/1000"
@@ -225,7 +151,6 @@ const BenefitsSection = () => {
             />
           </div>
 
-          {/* Cards */}
           <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-6">
             {benefitsData.map((benefit) => (
               <BenefitCard key={benefit.title} {...benefit} />
@@ -236,8 +161,9 @@ const BenefitsSection = () => {
         {/* Outro */}
         <div className="text-center mt-16">
           <p className="text-lg max-w-4xl mx-auto text-gray-400 leading-relaxed">
-            With Capyngen, your brokerage becomes smoother, scales faster, and
-            delivers exceptional experiences that keep clients coming back.
+            Thanks to Capyngen, your brokerage is running smoothly, getting
+            bigger at a quicker pace, and is able to deliver better experiences
+            to the ​‍​‌‍​‍‌​‍​‌‍​‍‌clients.
           </p>
         </div>
       </div>

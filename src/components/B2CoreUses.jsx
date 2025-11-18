@@ -52,9 +52,7 @@ const Card = ({ title, children, index }) => (
     viewport={{ once: true }}
     transition={{ duration: 0.6, delay: index * 0.15 }}
   >
-    <h3 className="text-2xl font-bold text-cyan-300 mb-4 drop-shadow-[0_0_10px_#00eaff]">
-      {title}
-    </h3>
+    <h3 className="text-2xl font-bold text-white">{title}</h3>
     <p className="text-slate-300 leading-relaxed">{children}</p>
   </motion.div>
 );
@@ -68,7 +66,7 @@ const B2CoreUses = () => {
   useMagnetic(".mag-img", 30);
 
   return (
-    <section className="relative py-24 px-6 bg-[#05070d] text-white overflow-hidden">
+    <section className="relative py-20 px-6 bg-[#05070d] text-white overflow-hidden">
       <div className="relative max-w-[90vw] mx-auto z-10">
         {/* TITLE */}
         <motion.div
@@ -78,11 +76,7 @@ const B2CoreUses = () => {
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
         >
-          <h2
-            className="text-4xl lg:text-5xl font-extrabold text-transparent 
-                         bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-500 
-                         drop-shadow-[0_0_25px_rgba(0,255,255,0.5)]"
-          >
+          <h2 className="text-4xl lg:text-5xl font-extrabold text-white">
             How Brokers Use B2Core
           </h2>
         </motion.div>
@@ -90,19 +84,19 @@ const B2CoreUses = () => {
         {/* 3 CARDS */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <Card index={0} title="For​‍​‌‍​‍‌​‍​‌‍​‍‌ Forex Brokers">
-            Manage MT4/MT5 accounts such as KYC, deposits, withdrawals, and
-            trading data through a single CRM.
+            Manage everything related to MT4/MT5 accounts such as KYC, deposits,
+            withdrawals, and trading data through a single CRM.
           </Card>
 
           <Card index={1} title="For Crypto Brokers">
             With features such as crypto wallets, blockchain tracking, and
-            automated deposit/withdrawal flows, B2Core suits digital asset
-            firms.
+            automated deposit/withdrawal flows, B2Core is the perfect solution
+            for digital asset firms.
           </Card>
 
           <Card index={2} title="For Multi-Asset Firms">
-            Achieve operational efficiency with centralized control of all
-            trading accounts and ​‍​‌‍​‍‌​‍​‌‍​‍‌instruments.
+            The most significant operational efficiency is achievable through
+            centralized control of all accounts and ​‍​‌‍​‍‌​‍​‌‍​‍‌instruments.
           </Card>
         </div>
 

@@ -49,7 +49,7 @@ export default function BrokerSolutions() {
                     className="h-6 w-6 text-green-400 flex-shrink-0 mt-1"
                     style={glowStyle}
                   />
-                  <p className="text-sm font-medium leading-relaxed text-gray-200">
+                  <p className="text-md font-medium leading-relaxed text-gray-200">
                     {feature}
                   </p>
                 </div>
@@ -58,7 +58,7 @@ export default function BrokerSolutions() {
           </div>
         </div>
       </div>
-      <div className="mt-10 text-center max-w-5xl mx-auto">
+      <div className="mt-10 text-lg text-center max-w-5xl mx-auto">
         By hiring our team, you will have access to crypto broker website & app
         development, CRM systems, and complete broker setup solutions that will
         allow you to easily launch professional, secure brokerages as a

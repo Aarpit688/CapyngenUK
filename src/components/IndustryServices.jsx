@@ -18,12 +18,14 @@ const IndustryServices = ({
 }) => {
   return (
     <section
-      className={`${sectionBg} ${sectionText} py-5 md:py-10 px-6 md:px-12`}
+      className={`${sectionBg} ${sectionText} py-5 md:py-20 px-6 md:px-12`}
     >
       {/* Header */}
       <div className="max-w-[90vw] mx-auto text-center mb-12">
         {heading && (
-          <h2 className={`text-4xl md:text-5xl font-bold ${headingColor}`}>
+          <h2
+            className={`text-4xl md:text-5xl mb-10 font-bold ${headingColor}`}
+          >
             {heading}
           </h2>
         )}

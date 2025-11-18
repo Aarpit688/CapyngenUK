@@ -109,13 +109,16 @@ const B2CoreIntro = () => {
       <div className="relative max-w-[90vw] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 items-center animate-fade-up">
         {/* LEFT TEXT PANEL */}
         <div className="space-y-6 h-full p-10 bg-white/5 border border-cyan-400/20 backdrop-blur-xl shadow-[0_0_40px_rgba(0,200,255,0.15)]">
-          <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-cyan-400">
+          <h2 className="text-4xl font-extrabold text-white">
             A Complete CRM Ecosystem for Forex, Crypto & Multi-Asset Brokers
           </h2>
 
           <p className="text-lg text-slate-300">
             Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is a pioneer in
-            providing B2Core broker CRM solutions...
+            providing B2Core broker CRM solutions, by which the entire broker
+            life-cycle is made efficient through easy onboarding, workflow
+            automation, account management, and the facilitation of broker
+            operations worldwide.
           </p>
 
           <ul className="space-y-4 pt-2">

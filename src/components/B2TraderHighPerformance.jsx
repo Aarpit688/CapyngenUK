@@ -14,38 +14,38 @@ const B2TraderHighPerformance = () => {
   const features = [
     {
       icon: <FaServer className="text-cyan-300 text-3xl" />,
-      title: "White-Label Platform Setup",
-      desc: "Launch a fully branded B2Trader platform with fast deployment and multi-asset support.",
+      title: "Setting up a white-label platform",
+      desc: "",
     },
     {
       icon: <FaChartLine className="text-cyan-300 text-3xl" />,
-      title: "Liquidity Bridge & Pricing",
-      desc: "Integrate deep liquidity, smart routing, and real-time pricing with ultra-low latency.",
+      title: "Liquidity bridge & pricing integration",
+      desc: "",
     },
     {
       icon: <FaCloud className="text-cyan-300 text-3xl" />,
-      title: "Cloud Hosting & Backend Setup",
-      desc: "Enterprise-grade hosting with load balancing, redundancy, and scalability.",
+      title: "Backend hosting and cloud deployment",
+      desc: "",
     },
     {
       icon: <FaShieldAlt className="text-cyan-300 text-3xl" />,
-      title: "Security & Hardening",
-      desc: "Hardened systems with DDoS protection, encrypted data flow, and secure routing.",
+      title: " Secure infrastructure and routing",
+      desc: "",
     },
     {
       icon: <FaPlug className="text-cyan-300 text-3xl" />,
-      title: "API + CRM + Fintech Integration",
-      desc: "Connect CRMs, wallets, PSPs, fintech systems, and analytics using B2Trader APIs.",
+      title: " API integration with CRMs and fintech systems",
+      desc: "",
     },
     {
       icon: <FaNetworkWired className="text-cyan-300 text-3xl" />,
-      title: "Multi-Asset Trading Configuration",
-      desc: "Enable forex, crypto, commodities, indices, and CFD execution from one environment.",
+      title: " Multi-asset trading configuration",
+      desc: "",
     },
     {
       icon: <FaTools className="text-cyan-300 text-3xl" />,
-      title: "24/7 Monitoring & Support",
-      desc: "Real-time maintenance, uptime tracking, and global support capabilities.",
+      title: " 24/7 monitoring and support",
+      desc: "",
     },
   ];
 
@@ -67,13 +67,13 @@ const B2TraderHighPerformance = () => {
           className="text-center max-w-5xl mx-auto mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-            Build a High-Performance Brokerage{" "}
-            <span className="text-cyan-300">with B2Trader</span>
+            Build a High-Performance Brokerage with B2Trader
           </h2>
 
           <p className="text-gray-300 text-lg mt-6 leading-relaxed">
-            Capyngen provides a full-scale B2Trader deployment system — covering
-            liquidity, hosting, automation, and secure infrastructure.
+            Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ is a one-stop provider of B2Trader advanced
+            technology solutions. Their comprehensive technology services
+            include:
           </p>
         </motion.div>
 
@@ -141,9 +141,8 @@ const B2TraderHighPerformance = () => {
           viewport={{ once: true }}
           className="text-center text-gray-300 text-lg leading-relaxed mt-20 max-w-4xl mx-auto"
         >
-          With Capyngen + B2Trader, brokers achieve lightning-fast execution,
-          high stability, secure routing, global scalability — and a trading
-          infrastructure prepared for institutional volume.
+          With Capyngen + B2Trader, brokers achieve fast execution, stable
+          operations, and global-ready trading performance.
         </motion.p>
       </div>
     </section>

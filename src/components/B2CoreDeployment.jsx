@@ -91,7 +91,7 @@ const B2CoreDeployment = () => {
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl lg:text-5xl font-extrabold hologram-text bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 to-blue-500">
+            <h2 className="text-4xl lg:text-5xl font-extrabold text-white">
               Complete White-Label B2Core CRM Deployment
             </h2>
 
@@ -114,15 +114,6 @@ const B2CoreDeployment = () => {
                 </motion.div>
               ))}
             </div>
-
-            <motion.a
-              href="#"
-              whileHover={{ scale: 1.08 }}
-              whileTap={{ scale: 0.9 }}
-              className="inline-block mt-8 px-10 py-4 bg-cyan-500 text-black font-bold rounded-xl shadow-[0_0_30px_#00ffff]"
-            >
-              Talk to Us
-            </motion.a>
           </motion.div>
 
           {/* IMAGE */}

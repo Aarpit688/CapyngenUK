@@ -87,8 +87,8 @@ const CenterImageWithText = () => {
         className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 bg-black/70"
         style={{ opacity: textOpacity, y: textY }}
       >
-        <h1 className="text-4xl md:text-6xl font-bold text-white max-w-3xl leading-tight drop-shadow-[0_4px_10px_rgba(0,0,0,0.8)]">
-          Journey Beyond Earth
+        <h1 className="text-4xl md:text-5xl font-bold text-white max-w-2xl leading-tight drop-shadow-[0_4px_10px_rgba(0,0,0,0.8)]">
+          Advanced MAM Trading Platform Solutions for Modern Brokerages
         </h1>
         <p className="mt-6 text-lg md:text-xl text-zinc-300 max-w-2xl leading-relaxed drop-shadow-[0_2px_6px_rgba(0,0,0,0.6)]">
           Embark on a new era of exploration — where innovation, precision, and

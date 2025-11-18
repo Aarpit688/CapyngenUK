@@ -85,40 +85,28 @@ const B2CopyIntro = () => {
           >
             <h2
               className="text-4xl lg:text-5xl font-extrabold 
-                           text-transparent bg-clip-text 
-                           bg-gradient-to-r from-cyan-300 to-blue-500 
-                           drop-shadow-[0_0_25px_#00eaff]"
+                           text-white leading-normal"
             >
               Build a Powerful Copy Trading Ecosystem with B2Copy
             </h2>
 
             <p className="mt-6 text-lg text-slate-300 leading-relaxed">
-              Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited provides advanced
-              B2Copy broker tech solutions to forex, crypto, and multi-asset
-              brokers.
+              Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is the one to
+              provide the most advanced B2Copy broker technology solutions to
+              forex, crypto, and multi-asset brokers.
             </p>
 
             <p className="mt-4 text-lg text-slate-300 leading-relaxed">
-              We help brokerages integrate B2Copy, link liquidity, configure
-              trader groups, automate routing, and deploy an intuitive platform
-              for beginners & professionals.
+              We make it easy for brokerages to implement B2Copy, integrate
+              liquidity, set up trader groups, link APIs, and go live with a
+              copy trading platform that is user-friendly and attractive to both
+              beginners and ​‍​‌‍​‍‌​‍​‌‍​‍‌professionals.
             </p>
 
             <div className="mt-10">
               <p className="text-xl font-semibold text-cyan-300 drop-shadow-[0_0_12px_#00eaff]">
                 Launch Your B2Copy Platform – Speak with Our Experts Today.
               </p>
-
-              <motion.a
-                href="#"
-                whileHover={{ scale: 1.07 }}
-                whileTap={{ scale: 0.9 }}
-                className="inline-block mt-6 px-10 py-4 bg-cyan-500 text-black 
-                           font-bold rounded-xl shadow-[0_0_35px_#00ffff]
-                           hover:shadow-[0_0_55px_#00ffff] transition-all"
-              >
-                Contact Our Experts
-              </motion.a>
             </div>
           </motion.div>
         </div>

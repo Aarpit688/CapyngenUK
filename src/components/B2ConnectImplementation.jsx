@@ -52,34 +52,29 @@ const B2ConnectImplementation = () => {
     <section className="relative w-full min-h-screen py-20 px-6 overflow-hidden bg-black">
       {/* Neon Animated Border Wrapper */}
       <div
-        className="relative max-w-7xl w-full mx-auto mt-10 rounded-3xl p-[2px] 
+        className="relative max-w-7xl w-full mx-auto mt-10 rounded-xl p-[2px] 
                       bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 
                       animate-[neonBorder_8s_linear_infinite]"
       >
         {/* Inner Container */}
         <div
-          className="rounded-3xl bg-[#070b12]/90 backdrop-blur-xl 
+          className="rounded-xl bg-[#070b12]/90 backdrop-blur-xl 
                         border border-emerald-500/20 shadow-[0_0_50px_rgba(0,255,200,0.15)] 
                         overflow-hidden min-h-screen"
         >
           <div className="grid md:grid-cols-2 h-full items-stretch">
             {/* LEFT CONTENT */}
             <div
-              className="p-10 md:p-14 lg:p-20 text-white tilt-card 
+              className="p-10 md:p-14 text-white tilt-card 
                             transition-transform duration-300 flex flex-col justify-center"
             >
-              <h2
-                className="text-4xl font-extrabold text-transparent bg-clip-text 
-                             bg-gradient-to-r from-emerald-300 to-cyan-400 leading-tight drop-shadow-lg"
-              >
+              <h2 className="text-4xl leading-normal font-extrabold text-transparent text-white">
                 How Capyngen Implements B2Connect for Brokers
               </h2>
 
-              <p className="mt-6 text-slate-300 leading-relaxed text-lg">
-                <span className="font-bold text-emerald-300">
-                  Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌
-                </span>{" "}
-                takes care of every aspect of your bridge deployment:
+              <p className="mt-6 text-white leading-relaxed text-lg">
+                Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ takes care of every aspect of your
+                bridge deployment:
               </p>
 
               <ul className="mt-8 space-y-4">
@@ -99,16 +94,12 @@ const B2ConnectImplementation = () => {
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    <span className="text-slate-300">{feature}</span>
+                    <span className="text-white text-xl">{feature}</span>
                   </li>
                 ))}
               </ul>
 
-              <p
-                className="mt-10 p-5 bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 
-                            rounded-xl border border-emerald-400/30 text-emerald-200 
-                            font-medium text-center shadow-[0_0_20px_rgba(0,255,180,0.25)]"
-              >
+              <p className="mt-10 text-center text-xl">
                 We ensure brokers receive a stable, optimized, enterprise-grade
                 liquidity environment.
               </p>

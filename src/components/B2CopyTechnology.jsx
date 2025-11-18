@@ -65,7 +65,7 @@ const B2CopyTechnology = () => {
         ))}
       </div>
 
-      <div className="relative max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-start">
+      <div className="relative max-w-7xl mx-auto grid lg:grid-cols-1 gap-16 items-start">
         {/* LEFT SIDE — Heading + Text */}
         <motion.div
           initial={{ opacity: 0, x: -25 }}
@@ -74,16 +74,16 @@ const B2CopyTechnology = () => {
           viewport={{ once: true }}
           className="space-y-7"
         >
-          <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent leading-tight">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-white text-center">
             Complete Broker Setup with B2Copy Technology
           </h2>
 
-          <p className="text-gray-300 text-lg max-w-xl leading-relaxed">
+          <p className="text-gray-300 text-xl text-center leading-relaxed">
             Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ delivers turnkey broker solutions powered
             by B2Copy, handling everything from installation to launch.
           </p>
 
-          <p className="text-gray-300 text-lg max-w-xl leading-relaxed">
+          <p className="text-gray-300 text-xl text-center leading-relaxed">
             Our setup includes:
           </p>
         </motion.div>
@@ -108,7 +108,7 @@ const B2CopyTechnology = () => {
                            shadow-lg hover:shadow-cyan-500/20 backdrop-blur-md"
               >
                 <div>{item.icon}</div>
-                <p className="text-sm text-gray-200 leading-relaxed">
+                <p className="text-lg text-gray-200 leading-relaxed">
                   {item.text}
                 </p>
               </motion.div>
@@ -123,10 +123,10 @@ const B2CopyTechnology = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.9 }}
         viewport={{ once: true }}
-        className="text-center text-gray-300 max-w-5xl mx-auto text-lg mt-16 leading-relaxed"
+        className="text-center text-gray-300 max-w-5xl mx-auto text-xl mt-16 leading-relaxed"
       >
-        We create a secure system capable of supporting retail, professional,
-        and institutional ​‍​‌‍​‍‌​‍​‌‍​‍‌clients.
+        We create a secure system that is capable of supporting retail,
+        professional, and institutional ​‍​‌‍​‍‌​‍​‌‍​‍‌clients.
       </motion.p>
 
       {/* Extra Animations */}

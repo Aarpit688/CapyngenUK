@@ -38,7 +38,7 @@ const WhyCapyngenSection = ({
             <h2
               className="
               text-3xl md:text-4xl font-extrabold leading-snug
-              bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent
+              text-white
             "
             >
               {heading}

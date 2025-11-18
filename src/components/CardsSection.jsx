@@ -26,7 +26,7 @@ const CardsSection = ({
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className={`mt-2 text-3xl sm:text-4xl md:text-5xl font-extrabold leading-normal tracking-tight ${headColor} drop-shadow-md`}
+          className={`mt-2 text-3xl sm:text-4xl md:text-5xl font-bold leading-normal tracking-tight ${headColor} drop-shadow-md`}
         >
           {heading}
         </motion.h1>
@@ -36,7 +36,7 @@ const CardsSection = ({
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className={`mt-6 mb-14 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed ${headColor} drop-shadow-sm`}
+            className={`mt-6 mb-14 text-lg md:text-xl max-w-6xl mx-auto leading-relaxed ${headColor} drop-shadow-sm`}
           >
             {subheading}
           </motion.div>

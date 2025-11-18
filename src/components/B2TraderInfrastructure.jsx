@@ -24,16 +24,13 @@ const B2TraderInfrastructure = () => {
           className="mb-10 relative text-center"
         >
           <h2 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight">
-            How Capyngen Builds Your{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400">
-              Complete B2Trader Infrastructure
-            </span>
+            How Capyngen Builds Your Complete B2Trader Infrastructure
           </h2>
 
           <p className="pl-6 text-gray-300 text-lg mt-6 max-w-5xl mx-auto leading-relaxed">
-            Capyngen Technologies UK Limited becomes your single execution
-            partner for B2Trader — managing deployment, connectivity, routing,
-            and global uptime environments for premium execution performance.
+            Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is the single point
+            of contact B2Trader trading platform, responsible for the entire
+            setup from the installation stage to the going live.
           </p>
         </motion.div>
 
@@ -91,9 +88,7 @@ const B2TraderInfrastructure = () => {
                 </div>
 
                 {/* Text */}
-                <p className="text-gray-200 leading-relaxed text-[15px]">
-                  {item}
-                </p>
+                <p className="text-gray-200 leading-relaxed text-lg">{item}</p>
               </motion.div>
             ))}
           </div>
@@ -107,9 +102,9 @@ const B2TraderInfrastructure = () => {
           transition={{ duration: 1 }}
           className="text-center text-gray-300 text-lg leading-relaxed max-w-4xl mx-auto mt-24"
         >
-          With global, managed hosting and security-focused infrastructure,
-          Capyngen delivers a B2Trader environment that remains stable, secure,
-          and optimized even under institutional-grade trading volume.
+          Thanks to our managed hardware, brokers get a stable, secure, and
+          well-optimized B2Trader environment that is trading volume is high is
+          ​‍​‌‍​‍‌​‍​‌‍​‍‌ready.
         </motion.p>
       </div>
     </section>

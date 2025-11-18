@@ -45,21 +45,21 @@ const B2CopyFeatures = () => {
     {
       title: "B2Copy White-Label Copy Trading Platform",
       description:
-        "B2Copy offers a fully branded white-label solution that lets brokers launch a powerful social and copy trading experience with custom branding.",
+        "B2Copy offers a fully branded white-label solution that allows brokers to launch a full social and copy trading experience with custom branding and flexible configurations.",
       iconPath:
         "M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17",
     },
     {
       title: "Multi-Account & Multi-Asset Copy Trading",
       description:
-        "Supports forex, crypto, commodities, indices & CFDs—offering exact trade mirroring and multi-asset copy execution.",
+        "B2Copy is a multi-asset copy trading platform that supports forex, crypto, commodities, indices, and CFDs. This enables brokers to offer multi-asset copy trading with exact trade mirroring across accounts.",
       iconPath:
         "M4 7v10m16-10v10M6 7h2m10 0h2M6 17h2m10 0h2M12 7v10M10 7h4m-4 5h4m-4 5h4",
     },
     {
       title: "Real-Time Copy Execution Engine",
       description:
-        "Capyngen improves B2Copy’s high-speed execution engine for instant trade syncing, accurate lot allocation, and minimal slippage.",
+        "Capyngen is upgrading B2Copy's high-speed execution engine with the integration that allows for instant trade syncing, accurate lot allocation, and minimal ​‍​‌‍​‍‌​‍​‌‍​‍‌slippage.",
       iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
     },
   ];
@@ -79,25 +79,25 @@ const B2CopyFeatures = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-center max-w-4xl mx-auto"
+          className="text-center max-w-7xl mx-auto"
         >
-          <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent drop-shadow-lg">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-white">
             What Makes B2Copy Essential for Brokers?
           </h2>
 
-          <p className="mt-6 text-lg text-gray-300 leading-relaxed">
-            B2Copy​ is a next-gen copy trading system that integrates directly
-            with trading platforms or CRM systems, providing fully synchronized
-            automated trading.
+          <p className="mt-6 text-xl text-gray-300 leading-relaxed">
+            B2Copy​‍​‌‍​‍‌​‍​‌‍​‍‌ platform is a trading system with copying
+            functionality. B2Copy can be integrated with a trading platform or
+            CRM product to provide your clients with automated and synchronized
+            trading.
           </p>
 
-          <p className="mt-4 text-gray-400 leading-relaxed">
-            Built on B2Broker’s low-latency engine, B2Copy delivers precise
-            multi-account control, advanced roles, and seamless connection with
-            CRM and trading platforms.
+          <p className="mt-4 text-gray-400 leading-relaxed text-xl">
+            B2copy is built on the fast, low latencies matching engine of
+            B2Broker to offer multiaccount control with advanced role management
+            and seamless integration with broker CRM and trading platforms.
           </p>
         </motion.div>
-
         {/* Feature List */}
         <div className="mt-16 space-y-12 max-w-5xl mx-auto">
           {features.map((feature, index) => (
@@ -119,7 +119,7 @@ const B2CopyFeatures = () => {
               </motion.div>
 
               <div>
-                <h4 className="text-2xl font-semibold text-cyan-300 group-hover:text-cyan-400 transition-colors">
+                <h4 className="text-2xl font-semibold text-white group-hover:text-cyan-400 transition-colors">
                   {feature.title}
                 </h4>
                 <p className="mt-2 text-gray-300">{feature.description}</p>
@@ -127,20 +127,6 @@ const B2CopyFeatures = () => {
             </motion.div>
           ))}
         </div>
-
-        {/* Final CTA Box */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ once: true }}
-          className="mt-20 p-8 rounded-xl bg-gradient-to-r from-cyan-500/10 to-blue-500/10 border border-cyan-400/20 shadow-[0_0_30px_rgba(0,200,255,0.08)] backdrop-blur-md text-center"
-        >
-          <h3 className="text-xl font-semibold text-cyan-200">
-            Transform Your Brokerage with B2Copy’s Advanced Copy Trading
-            Technology.
-          </h3>
-        </motion.div>
       </div>
 
       {/* Floating Animations */}

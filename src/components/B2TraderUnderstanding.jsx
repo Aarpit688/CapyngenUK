@@ -39,7 +39,7 @@ const B2TraderUnderstanding = () => {
           viewport={{ once: true }}
           className="space-y-8"
         >
-          <h2 className="text-4xl md:text-5xl font-extrabold leading-snug bg-gradient-to-r from-cyan-300 to-blue-500 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-extrabold leading-snug  text-white">
             Understanding B2Trader and Why Brokers Choose It
           </h2>
 
@@ -68,7 +68,7 @@ const B2TraderUnderstanding = () => {
                 "
               >
                 {f.icon}
-                <span className="text-gray-200 text-sm">{f.label}</span>
+                <span className="text-gray-200 text-lg">{f.label}</span>
               </motion.div>
             ))}
           </div>
@@ -89,11 +89,10 @@ const B2TraderUnderstanding = () => {
           viewport={{ once: true }}
           className="relative"
         >
-          <div className="absolute -top-10 -right-10 w-[320px] h-[320px] bg-cyan-400/20 blur-[120px]" />
           <img
             src="https://picsum.photos/seed/b2trader/700/900"
             alt="B2Trader Trading Technology"
-            className="rounded-2xl w-full object-cover shadow-2xl shadow-black/40 border border-white/10"
+            className="rounded-md w-full h-full object-cover shadow-2xl shadow-black/40 border border-white/10"
           />
         </motion.div>
       </div>

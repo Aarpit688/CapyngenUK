@@ -42,37 +42,31 @@ const ConclusionSection = () => {
 
           {/* TEXT ON RIGHT */}
           <div className="lg:col-span-3">
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-              Start Your Crypto Brokerage the Smart Way
+            <h2 className="text-3xl pb-5 md:text-4xl font-bold tracking-tight mb-4 text-white">
+              Conclusion: Start Your Crypto Brokerage the Smart Way
             </h2>
 
             <p className="text-gray-300 mb-6">
-              It is not necessary for a crypto brokerage to be complicated when
-              you are launching it. Capyngen Technologies UK Limited offers
-              user-friendly, safe, and fully-featured IT solutions such as:
+              It​‍​‌‍​‍‌​‍​‌‍​‍‌ is not necessary for a crypto brokerage to be
+              complicated when you are launching it. The company Capyngen
+              Technologies UK Limited is a provider of user-friendly, safe, and
+              fully-featured IT solutions such as:
             </p>
 
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-4 mb-8">
               {solutions.map((solution, index) => (
                 <li key={index} className="flex items-center gap-3">
                   <StarIcon className="w-5 h-5 text-cyan-400 flex-shrink-0" />
-                  <span className="text-gray-100 text-sm">{solution}</span>
+                  <span className="text-gray-100 text-lg">{solution}</span>
                 </li>
               ))}
             </ul>
 
             <p className="text-gray-300 mb-6">
-              Build a crypto brokerage with us that is professional, scalable,
-              globally competitive, and provides exceptional experience to your
-              clients.
+              Create a crypto brokerage with us that is not only professional,
+              scalable, and globally competitive but also a great experience for
+              your ​‍​‌‍​‍‌​‍​‌‍​‍‌clients.
             </p>
-
-            <div className="bg-gray-700/70 border border-gray-700 rounded-lg p-6">
-              <p className="text-lg font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-                Build a Complete Crypto Broker Setup Solution – Start your
-                brokerage with Capyngen’s full support.
-              </p>
-            </div>
           </div>
         </div>
       </div>

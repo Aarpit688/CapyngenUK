@@ -117,19 +117,20 @@ const B2CoreInfo = () => {
 
         {/* ---------------- TEXT AREA ---------------- */}
         <div className="bg-white/5 p-10 lg:p-12 border border-cyan-400/20 backdrop-blur-xl shadow-[0_0_40px_rgba(0,255,255,0.2)] animate-fadeUp w-full">
-          <h2 className="text-4xl font-extrabold leading-tight text-cyan-300">
+          <h2 className="text-4xl font-extrabold leading-tight text-white">
             Why B2Core Is the Preferred CRM for Modern Brokerages
           </h2>
 
           <p className="text-md text-slate-300 mt-6 ">
-            B2Core is a globally trusted, modular, and multi-asset CRM designed
-            for speed, automation, and operational excellence.
+            B2Core​‍​‌‍​‍‌​‍​‌‍​‍‌ is an energetically, modular, and expansible
+            multi-asset broker CRM system which is a first choice of forex,
+            crypto, and CFD brokers globally.
           </p>
 
           <p className="text-md text-slate-300  mt-3">
-            With secure dashboards, client account management, automated
-            compliance, and deep integrations — B2Core gives brokers a full
-            command center.
+            By means of tailored dashboards, safe client accounts, compliance
+            automation tools, and ample integrations, B2Core provides a forex
+            broker a vibrant operational command ​‍​‌‍​‍‌​‍​‌‍​‍‌center.
           </p>
 
           {/* Feature Cards */}
@@ -137,22 +138,22 @@ const B2CoreInfo = () => {
             {[
               {
                 title: "Customizable White-Label CRM Implementation",
-                desc: "Fully branded CRM with custom UI modules and automated workflows.",
+                desc: "We implemented a fully branded white-label B2Core CRM with custom modules, UI design, and workflows.",
               },
               {
-                title: "Multi-Asset CRM Support",
-                desc: "Handle forex, crypto, CFDs, commodities, indices, and more without additional setup.",
+                title: "Multi-Asset CRM for Different Broker Types",
+                desc: "The CRM system unites the trading of forex, crypto, CFDs, commodities, indices, and more.",
               },
               {
-                title: "Intelligent Wallet & Back-Office Management",
-                desc: "Complete control over wallet flows, permissions, transactions, and user activity.",
+                title: "Intelligent Wallet & Back Office Management",
+                desc: "By using a cutting-edge and secure admin system, brokers have the power to oversee transactions, wallets, permissions, and the user ​‍​‌‍​‍‌​‍​‌‍​‍‌activity.",
               },
             ].map((item, index) => (
               <div
                 key={index}
                 className="bg-black/40 p-3 border border-cyan-500/20 hover:border-cyan-400/40 transition-all duration-300 shadow-[0_0_20px_rgba(0,255,255,0.2)]"
               >
-                <strong className="block text-lg text-cyan-300">
+                <strong className="block text-lg text-white">
                   {item.title}
                 </strong>
                 <p className="text-slate-300 mt-1 text-md leading-relaxed">

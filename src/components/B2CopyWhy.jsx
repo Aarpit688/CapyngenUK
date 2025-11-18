@@ -81,7 +81,7 @@ const B2CopyWhy = () => {
           viewport={{ once: true }}
           className="space-y-7"
         >
-          <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-extrabold text-white leading-normal">
             Why B2Copy Is a Preferred Copy Trading System
           </h2>
 
@@ -98,19 +98,19 @@ const B2CopyWhy = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.07 }}
                 viewport={{ once: true }}
-                className="flex gap-4 p-4 rounded-lg bg-white/5 border border-white/10 
+                className="flex items-center gap-4 p-4 rounded-lg bg-white/5 border border-white/10 
                            hover:border-cyan-400/40 hover:bg-white/10 transition-all duration-300 
                            shadow-lg hover:shadow-cyan-500/20"
               >
                 <div>{item.icon}</div>
-                <p className="text-gray-200 text-sm leading-relaxed">
+                <p className="text-gray-200 text-lg leading-relaxed">
                   {item.text}
                 </p>
               </motion.div>
             ))}
           </div>
 
-          <p className="text-gray-300 text-lg max-w-xl leading-relaxed mt-6">
+          <p className="text-gray-300 text-xl max-w-xl leading-relaxed mt-6">
             Clients can track professional traders and onboard their strategies
             ‍‌‍​‍​‌‍​‍‌​‍​‌‍​‍‌automatically.
           </p>

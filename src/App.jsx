@@ -24,6 +24,10 @@ import NTrader from "./pages/NTrader";
 import CTraderService from "./pages/CTraderService";
 import CapmarketService from "./pages/CapmarketService";
 import MT5Service from "./pages/MT5Service";
+import OneZeroService from "./pages/OneZeroService";
+import ContactUs from "./pages/ContactUs";
+import PrimeXMService from "./pages/PrimeXMService";
+import Careers from "./pages/Careers";
 
 const App = () => {
   return (
@@ -66,6 +70,17 @@ const App = () => {
             element={<CapmarketService />}
           />
           <Route path="/services/mt5-service" element={<MT5Service />} />
+          <Route
+            path="/services/onezero-service"
+            element={<OneZeroService />}
+          />
+          <Route
+            path="/services/primexm-xcore-service"
+            element={<PrimeXMService />}
+          />
+
+          <Route path="/company/careers" element={<Careers />} />
+          <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
         <Footer />
       </Router>

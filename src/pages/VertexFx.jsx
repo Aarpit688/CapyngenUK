@@ -1,6 +1,14 @@
 import React from "react";
 import { assets } from "../assets/assets";
 import Banner12 from "../components/Banner12";
+import VertexFXIntro from "../components/VertexFxIntro";
+import VertexFxWhyChoose from "../components/VertexFxWhyChoose";
+import VertexFxFeatures from "../components/VertexFxFeatures";
+import VertexFxInfrastructure from "../components/VertexFxInfrastructure";
+import VertexFxTechnology from "../components/VertexFxTechnology";
+import VertexFxUses from "../components/VertexFxUses";
+import VertexFxFunctionalities from "../components/VertexfxFunctionalities";
+import VertexFxHighPerformance from "../components/VertexfxHighPerformance";
 
 const VertexFx = () => {
   const marketingCards = [
@@ -34,6 +42,14 @@ const VertexFx = () => {
         description="One of the innovative ways to improve patient care is developing software which will automate the process of hospitals, clinics and fitness centres."
         cards={marketingCards}
       />
+      <VertexFXIntro />
+      <VertexFxWhyChoose />
+      <VertexFxFeatures />
+      <VertexFxInfrastructure />
+      <VertexFxTechnology />
+      <VertexFxUses />
+      <VertexFxFunctionalities />
+      <VertexFxHighPerformance />
     </div>
   );
 };

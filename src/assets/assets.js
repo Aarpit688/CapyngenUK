@@ -214,18 +214,6 @@ export const navItems = [
             description: "Join our growing team.",
             imageSrc: ai2,
           },
-          {
-            label: "Partners",
-            href: "/company/partners",
-            description: "Become a partner now.",
-            imageSrc: ai3,
-          },
-          {
-            label: "Partnership",
-            href: "/company/partnership",
-            description: "Join our partnership program.",
-            imageSrc: ai4,
-          },
         ],
       },
     ],

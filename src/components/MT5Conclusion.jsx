@@ -7,14 +7,14 @@ const MT5Conclusion = () => {
       <div className="absolute -top-48 -left-32 w-[500px] h-[500px] bg-green-500/10 blur-3xl rounded-full"></div>
       <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-emerald-400/10 blur-3xl rounded-full"></div>
 
-      <div className="relative z-10 max-w-6xl mx-auto text-center space-y-10">
+      <div className="relative z-10 max-w-[90vw] mx-auto text-center space-y-10">
         {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-extrabold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-emerald-200">
           Conclusion
         </h2>
 
         {/* Glass Container */}
-        <div className="relative bg-white/5 backdrop-blur-xl border border-emerald-500/10 rounded-3xl shadow-xl shadow-emerald-500/10 p-8 md:p-12 text-left">
+        <div className="relative bg-white/5 backdrop-blur-xl border border-emerald-500/10 rounded-xl shadow-xl shadow-emerald-500/10 p-8 md:p-12 text-left">
           <p className="text-gray-300 text-lg leading-relaxed mb-6">
             <span className="font-semibold text-emerald-300">
               MetaTrader 5 (MT5)

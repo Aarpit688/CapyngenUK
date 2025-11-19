@@ -12,59 +12,39 @@ const MT5Section = () => {
         <div className="space-y-6">
           <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-emerald-200">
-              What Is MT5?
-            </span>{" "}
-            <br className="hidden sm:block" />
-            <span className="text-gray-100">
-              (MetaTrader 5 Explained for Global Use)
+              Key Features of Capyngen’s MT5 Services
             </span>
           </h2>
 
+          {/* NEW CONTENT STARTS HERE */}
           <p className="text-gray-300 leading-relaxed text-lg">
-            <span className="font-semibold text-white">MetaTrader 5</span> is a
-            multi-asset trading platform created by MetaQuotes to support
-            trading in forex, indices, commodities, stocks (CFDs), and
-            cryptocurrencies (CFDs). With its cross-regional adaptability, it is
-            perfect for a company registered in the UK and serving clients
-            globally.
+            MetaTrader​‍‌‍​‍‌​‍​‌‍​‍‌ 5 White-Label Solution – Get your
+            brokerage a fully branded platform up and running in no time.
           </p>
 
-          {/* Benefits Box */}
-          <div className="p-6 rounded-2xl bg-gray-800/30 backdrop-blur-lg border border-gray-700/50 shadow-xl transition hover:shadow-emerald-500/20 hover:-translate-y-1 duration-300">
-            <h3 className="text-xl font-semibold mb-4 text-green-400">
-              Major Benefits Include:
-            </h3>
-            <ul className="grid gap-3 text-gray-200">
-              {[
-                "Professional-level charting",
-                "Ability to trade multiple asset classes",
-                "Order execution that is both fast and stable",
-                "A secure and encrypted infrastructure",
-                "Automated trading by Expert Advisors",
-                "Compatibility with servers worldwide",
-              ].map((item, idx) => (
-                <li
-                  key={idx}
-                  className="flex items-start gap-2 hover:text-green-300 transition"
-                >
-                  <span className="mt-1.5 w-2 h-2 bg-green-400 rounded-full flex-shrink-0"></span>
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
+          <p className="text-gray-300 leading-relaxed text-lg">
+            Liquidity Bridge & Pricing Solutions – Get connected with multiple
+            liquidity providers for better spreads and faster execution.
+          </p>
+
+          <p className="text-gray-300 leading-relaxed text-lg">
+            Backend Management & Hosting – Quality servers, data feeds, and a
+            robust infrastructure for trouble-free operations.
+          </p>
 
           <p className="text-gray-400 leading-relaxed">
-            Such a mix has propelled{" "}
-            <span className="text-white font-semibold">MT5</span> to become one
-            of the most chosen platforms by retail traders, institutional
-            players, and prop trading firms globally.
+            By having these features at their disposal, brokers are capable of
+            presenting professional, scalable, and secure trading services to
+            their clients, lowering their operational complexity, and being able
+            to retain their competitive ​‍‌‍​‍‌​‍​‌‍​‍‌advantage.
           </p>
+          {/* NEW CONTENT ENDS HERE */}
         </div>
 
-        {/* Right: Visual / Image */}
+        {/* Right: Image / Visual */}
         <div className="relative group">
           <div className="absolute inset-0 bg-gradient-to-tr from-green-600/30 to-emerald-600/30 blur-3xl rounded-3xl"></div>
+
           <div className="relative overflow-hidden rounded-3xl border border-gray-700/50 backdrop-blur-xl shadow-2xl">
             <img
               src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
@@ -72,6 +52,7 @@ const MT5Section = () => {
               className="object-cover w-full h-full transition-transform duration-700 ease-in-out group-hover:scale-105"
             />
           </div>
+
           <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-green-500/40 rounded-full blur-2xl"></div>
           <div className="absolute -top-6 -right-6 w-40 h-40 bg-emerald-500/30 rounded-full blur-2xl"></div>
         </div>

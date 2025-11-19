@@ -10,7 +10,7 @@ const Banner12 = ({
 }) => {
   return (
     <section
-      className={`relative min-h-screen ${bgColor} px-6 py-20 pt-28 flex items-center justify-center`}
+      className={`relative min-h-screen ${bgColor} px-6 py-20 flex items-center justify-center`}
     >
       <div className="w-full max-w-7xl mx-auto">
         <div className="flex flex-col items-center text-center gap-12">

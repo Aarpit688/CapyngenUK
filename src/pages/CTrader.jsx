@@ -1,16 +1,26 @@
 import React from "react";
-import CTraderIntroSection from "../components/CTraderIntroSection";
-import CTraderFeaturesSection from "../components/CTraderFeaturesSection";
-import CTraderArchitectureSection from "../components/CTraderArchitectureSection";
-import CTraderStrategicFit from "../components/CTraderStrategicFit";
+import CTraderIntro from "../components/CTraderIntro";
+import Banner3 from "../components/Banner3";
+import CTraderFeatures from "../components/CTraderFeatures";
+import CTraderSolutions from "../components/CTraderSolutions";
+import CTraderWhyChoose from "../components/CTraderWhyChoose";
+import CTraderAdvantages from "../components/CTraderAdvantages";
+import CTraderBenefits from "../components/CTraderBenefits";
+import CTraderAdditionalFeatures from "../components/CTraderAdditionalFeatures";
+import CTraderConclusion from "../components/CTraderConclusion";
 
 const CTrader = () => {
   return (
     <div>
-      <CTraderIntroSection />
-      <CTraderFeaturesSection />
-      <CTraderArchitectureSection />
-      <CTraderStrategicFit />
+      <Banner3 />
+      <CTraderIntro />
+      <CTraderFeatures />
+      <CTraderSolutions />
+      <CTraderWhyChoose />
+      <CTraderAdvantages />
+      <CTraderBenefits />
+      <CTraderAdditionalFeatures />
+      <CTraderConclusion />
     </div>
   );
 };

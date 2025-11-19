@@ -18,6 +18,12 @@ import VertexFx from "./pages/VertexFx";
 import MT5 from "./pages/MT5";
 import CTrader from "./pages/CTrader";
 import ScrollToTop from "./components/ScrollToTop";
+import Sirix from "./pages/Sirix";
+import ArkTrading from "./pages/ArkTrading";
+import NTrader from "./pages/NTrader";
+import CTraderService from "./pages/CTraderService";
+import CapmarketService from "./pages/CapmarketService";
+import MT5Service from "./pages/MT5Service";
 
 const App = () => {
   return (
@@ -34,16 +40,32 @@ const App = () => {
             path="/turnkey/liquidity-provider"
             element={<LiquidityProvider />}
           />
+
           <Route path="/products/b2trader" element={<B2Trader />} />
           <Route path="/products/b2core" element={<B2Core />} />
           <Route path="/products/b2copy" element={<B2Copy />} />
           <Route path="/products/b2connect" element={<B2Connect />} />
           <Route path="/products/pamm" element={<Pamm />} />
           <Route path="/products/mam" element={<Mam />} />
+
           <Route path="/platforms/capmarket" element={<Capmarket />} />
           <Route path="/platforms/vertexfx" element={<VertexFx />} />
+          <Route path="/platforms/sirix" element={<Sirix />} />
+          <Route path="/platforms/ark-trading" element={<ArkTrading />} />
           <Route path="/platforms/mt5" element={<MT5 />} />
           <Route path="/platforms/ctrader" element={<CTrader />} />
+          <Route path="/platforms/ntrader" element={<NTrader />} />
+
+          <Route
+            path="/services/ctrader-service"
+            element={<CTraderService />}
+          />
+
+          <Route
+            path="/services/capmarket-service"
+            element={<CapmarketService />}
+          />
+          <Route path="/services/mt5-service" element={<MT5Service />} />
         </Routes>
         <Footer />
       </Router>

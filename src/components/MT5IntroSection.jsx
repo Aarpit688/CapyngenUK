@@ -11,55 +11,22 @@ const MT5IntroSection = () => {
         {/* --- Left: Text Content --- */}
         <div className="space-y-8">
           <h2 className="text-3xl md:text-4xl font-extrabold leading-tight">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-emerald-200">
-              MT5 Trading Platform:
-            </span>{" "}
-            A Complete Guide for Global Traders Powered by a UK-Based Company
+            Understanding MT5 and How It Benefits Brokers
           </h2>
 
           <div className="space-y-5 text-gray-300 text-lg leading-relaxed">
-            <p>
-              In response to the ongoing changes in the global financial
-              markets, traders and institutions are seeking advanced platforms
-              that combine{" "}
-              <span className="text-emerald-300 font-medium">
-                speed, stability, and multi-asset accessibility
-              </span>
-              .{" "}
-              <span className="text-emerald-400 font-semibold">
-                MetaTrader 5 (MT5)
-              </span>{" "}
-              is widely recognized as one of the most powerful and reliable
-              platforms for modern trading.
-            </p>
-
-            <p>
-              A UK-based financial company operating on a global scale can
-              leverage MT5 to achieve the perfect balance of{" "}
-              <span className="text-emerald-400">regulatory trust</span>,{" "}
-              <span className="text-emerald-400">worldwide compatibility</span>,
-              and{" "}
-              <span className="text-emerald-400">cutting-edge technology</span>{" "}
-              that meets the standards of institutional-grade trading.
-            </p>
-
-            <p>
-              Whether a trader chooses to engage in{" "}
-              <span className="text-emerald-300">forex trading</span>, access{" "}
-              <span className="text-emerald-300">
-                global market instruments
-              </span>
-              , or develop{" "}
-              <span className="text-emerald-300">
-                automated trading strategies
-              </span>
-              , the MT5 ecosystem provides a secure, efficient, and versatile
-              environment — perfectly suited for both{" "}
-              <span className="text-emerald-300 font-medium">
-                beginners and professionals
-              </span>{" "}
-              alike.
-            </p>
+            MetaTrader​‍​‌‍​‍‌​‍​‌‍​‍‌ 5 (MT5) is a trading platform with
+            multi-asset capabilities that works with forex, CFDs, commodities,
+            indices, and cryptocurrencies. Brokers using MT5 trading technology
+            have the option to implement white-label solutions, liquidity bridge
+            integration, API connectivity, and backend management to facilitate
+            trade execution and multi-asset trading capabilities without any
+            hiccups. We at Capyngen Technologies are doing the work of setting
+            up the MT5 infrastructure for brokers, platform integration, and
+            plugin development. Our offerings are like a perfect fit for both
+            startups and mature brokerages in helping them to have a trading
+            infrastructure that is not only secure, scalable, and of high
+            performance but is also available ​‍​‌‍​‍‌​‍​‌‍​‍‌globally.
           </div>
         </div>
 

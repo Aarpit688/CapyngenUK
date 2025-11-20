@@ -111,7 +111,13 @@ const CryptoExchange = () => {
 
   return (
     <div>
-      <Banner2 />
+      <Banner2
+        title="Next-Gen Technology Infrastructure for Crypto Exchanges"
+        subtitle="From matching engines to multi-layer security, Capyngen builds high-performance digital asset exchange systems for global market operations."
+        buttonText="Explore Now"
+        buttonLink="/contact-us"
+        image="https://d33wubrfki0l68.cloudfront.net/54780decfb9574945bc873b582cdc6156144a2ba/d9fa1/images/hero/4/illustration.png"
+      />
       <CardsSection
         heading="Understanding Crypto Exchanges: What They Are and Why They Matter"
         subheading={

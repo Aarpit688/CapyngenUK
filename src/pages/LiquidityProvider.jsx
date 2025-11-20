@@ -12,7 +12,15 @@ import LiquidityConclusion from "../components/LiquidityConclusion";
 const LiquidityProvider = () => {
   return (
     <div>
-      <Banner4 />
+      <Banner4
+        badge="Trusted Design Hub"
+        gradientText="Institutional-Grade Liquidity "
+        title="Technology for Financial Brokers"
+        description="Connect to deep liquidity pools with robust bridge systems and aggregation technology engineered for ultra-low-latency execution."
+        buttonText="Get Started"
+        statsText="120 new inspirations added yesterday"
+        image="https://landingfoliocom.imgix.net/store/collection/dusk/images/hero/1/3d-illustration.png"
+      />
       <ForexLanding
         heroTitle="What Is a Liquidity Provider and How We Help Brokers Succeed"
         heroDescription={

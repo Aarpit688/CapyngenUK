@@ -133,7 +133,7 @@ export default function Careers4() {
             <div className="relative h-full min-h-[320px] rounded-md overflow-hidden shadow-2xl group border border-white/10">
               {/* Image */}
               <img
-                src="https://picsum.photos/600/900?random=30"
+                src={assets.careers4}
                 alt="Office Workspace"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />

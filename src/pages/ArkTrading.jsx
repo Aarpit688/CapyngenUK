@@ -11,7 +11,13 @@ import ArkTradingHighPerformance from "../components/ArkTradingHighPerformance";
 const ArkTrading = () => {
   return (
     <div>
-      <Banner2 />
+      <Banner2
+        title="Premium IT Solutions for Ark Trading Platforms"
+        subtitle="Capyngen builds reliable, secure technology to optimize your Ark Trading system for speed, automation, and operational growth."
+        buttonText="Explore Now"
+        buttonLink="/contact-us"
+        image="https://d33wubrfki0l68.cloudfront.net/54780decfb9574945bc873b582cdc6156144a2ba/d9fa1/images/hero/4/illustration.png"
+      />
       <ArkTradingIntro />
       <ArkTradingFeatures />
       <ArkTradingInfrastructure />

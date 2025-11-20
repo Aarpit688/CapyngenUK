@@ -17,7 +17,7 @@ const Banner2 = ({
               {title}
             </h1>
 
-            <p className="max-w-xl mx-auto mt-6 text-base leading-7 text-gray-300 font-inter">
+            <p className="max-w-2xl mx-auto mt-6 text-lg leading-7 text-gray-300 font-inter">
               {subtitle}
             </p>
 

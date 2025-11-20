@@ -15,22 +15,22 @@ const VertexFx = () => {
     {
       img: assets.ai1,
       alt: "Christmas background 3D cartoon",
-      text: "Digital Health Connection to Care",
+      text: "Technology Solutions for VertexFX Brokers",
     },
     {
       img: assets.ai2,
       alt: "A beautiful glowing flower",
-      text: "Making Healthy Decisions Smarter",
+      text: "Professional VertexFX Trading Enhancements",
     },
     {
       img: assets.ai3,
       alt: "A magical leopard",
-      text: "When Fitness Meets Technology",
+      text: "High-Speed VertexFX Platform Optimization",
     },
     {
       img: assets.ai4,
       alt: "A female 3D cartoon holding a wrapped gift box",
-      text: "Digital Transformation of a Healthier Future",
+      text: "Complete IT Solutions for VertexFX Platforms",
     },
   ];
 

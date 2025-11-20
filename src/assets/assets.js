@@ -104,6 +104,7 @@ import pamm19 from "./pamm19.png";
 import pamm20 from "./pamm20.png";
 import careers2 from "./careers2.png";
 import careers3 from "./careers3.png";
+import careers4 from "./careers4.jpg";
 import careers5 from "./careers5.png";
 import careers6 from "./careers6.png";
 import careers7 from "./careers7.png";
@@ -217,6 +218,7 @@ export const assets = {
   pamm20,
   careers2,
   careers3,
+  careers4,
   careers5,
   careers6,
   careers7,

@@ -46,7 +46,10 @@ const Banner4 = ({
                 </Link>
               </div>
 
-              <div className="inline-flex items-center pt-6 mt-8 border-t border-gray-800 sm:pt-10 sm:mt-14">
+              <Link
+                to={"/contact-us"}
+                className="inline-flex items-center pt-6 mt-8 border-t border-gray-800 sm:pt-10 sm:mt-6"
+              >
                 <svg
                   className="w-6 h-6"
                   viewBox="0 0 24 24"
@@ -74,11 +77,7 @@ const Banner4 = ({
                     </linearGradient>
                   </defs>
                 </svg>
-
-                <span className="ml-2 text-base font-normal text-white">
-                  {statsText}
-                </span>
-              </div>
+              </Link>
             </div>
 
             {/* Right Section */}

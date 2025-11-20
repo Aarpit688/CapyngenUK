@@ -10,7 +10,36 @@ import B2CopyLaunch from "../components/B2CopyLaunch";
 const B2Copy = () => {
   return (
     <div>
-      <Banner7 />
+      <Banner7
+        title="High-Performance Copy Trading Technology for B2Copy"
+        description="Enable seamless copy trading with scalable IT infrastructure built for professional traders and global brokerages."
+        ctaText="Join Now"
+        ctaLink="/contact-us"
+        cards={[
+          {
+            thumbnail:
+              "https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-1.png",
+            title: "Copy Trading with a Technological Edge for B2Copy",
+            description:
+              "Use a technological infrastructure of copy trading to make fast, reliable and efficient copies.",
+          },
+          {
+            thumbnail:
+              "https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-1.png",
+            title: "B2Copy High-Speed Copy Trading",
+            description:
+              "Provide automated trading with the help of technology for professional traders.",
+          },
+          {
+            thumbnail:
+              "https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-1.png",
+            title: "The Strength of Copy Trading Is in the Technology",
+            description:
+              "Make smooth signal executions by having real-time signal synchronization.",
+          },
+        ]}
+      />
+
       <B2CopyIntro />
       <B2CopyFeatures />
       <B2CopyTechnology />

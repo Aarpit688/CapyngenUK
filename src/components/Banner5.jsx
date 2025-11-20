@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Banner5 = () => {
   return (
@@ -8,39 +9,26 @@ const Banner5 = () => {
           {/* Left Section */}
           <div>
             <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl xl:text-6xl">
-              Meet the New <br />
+              Engineered Trading Solutions for <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
-                Landingfolio Kit
+                B2Trader Platforms
               </span>
             </h1>
 
             <p className="mt-6 text-lg text-gray-300 sm:mt-8">
-              Clarity gives you the blocks & components you need to create a
-              truly professional website, landing page, or admin panel for your
-              SaaS.
+              Capyngen delivers enterprise-grade technology to optimize,
+              integrate, and enhance your B2Trader ecosystem for peak
+              performance.
             </p>
 
             <div className="flex flex-wrap items-center mt-8 sm:mt-10 gap-4">
-              <a
+              <Link
+                to={"/contact-us"}
                 href="#"
                 className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-gradient-to-r from-cyan-600 to-purple-600 rounded-full shadow-lg hover:from-cyan-700 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 backdrop-blur-sm border border-gray-700/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5"
               >
-                Start using LandingFolio
-              </a>
-
-              <a
-                href="#"
-                className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-cyan-300 bg-gray-800/50 backdrop-blur-lg rounded-full shadow-lg hover:bg-gray-700/50 border border-gray-700/50 transition-all duration-300"
-              >
-                <svg
-                  className="w-5 h-5 mr-2 text-cyan-400"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M6.5 5.5v9l8-4.5-8-4.5z" />
-                </svg>
-                Watch 1 min intro
-              </a>
+                Start Now
+              </Link>
             </div>
           </div>
 

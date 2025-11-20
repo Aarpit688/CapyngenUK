@@ -51,7 +51,16 @@ const CryptoBroker = () => {
   ];
   return (
     <div>
-      <Banner3 />
+      <Banner3
+        title="Complete Technology Stack for Crypto Brokerage Businesses"
+        description="Offer seamless crypto trading experiences with our powerful IT solutions designed to support liquidity, automation, and multi-asset trading."
+        primaryCtaText="Start Now"
+        primaryCtaLink="/contact-us"
+        secondaryCtaText="View Demo"
+        secondaryCtaLink="/contact-us"
+        desktopBgImage="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/1/background.png"
+        mobileBgImage="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/1/bg.png"
+      />
       <GetStarted
         reverse={false}
         backgroundColor="bg-blue-900"

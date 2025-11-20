@@ -39,7 +39,7 @@ const Banner12 = ({
                       <img
                         src={card.img}
                         alt={card.alt || card.text}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        className="w-full h-full object-cover"
                       />
                     </div>
                     <figcaption className="font-semibold text-white text-lg text-center">

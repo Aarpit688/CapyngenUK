@@ -23,18 +23,16 @@ const Capmarket = () => {
     },
     {
       id: 2,
-      title: "Building the Future of EdTech",
-      subtitle:
-        "The school can be more meaningful with our knowledge software and e-learning platforms.",
+      title: "Complete Capmarket System Infrastructure",
+      subtitle: "Enhance your broker setup with optimized technology.",
       image: assets.ai2,
       ctaText: "Contact Us",
       ctaLink: "/contact-us",
     },
     {
       id: 3,
-      title: "Reimagine Classrooms with Digital technology",
-      subtitle:
-        "Implement AI and analytics in education to speed up growth and efficiency.",
+      title: "Professional Services for Capmarket Platforms",
+      subtitle: "Improve operation flow with stable, scalable systems.",
       image: assets.ai3,
       ctaText: "Explore Now",
       ctaLink: "/contact-us",

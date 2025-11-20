@@ -7,6 +7,7 @@ import {
   Puzzle,
   Zap,
 } from "lucide-react";
+import { assets } from "../assets/assets";
 
 // Dark-themed JSX component for CTrader benefits
 // - Tailwind CSS utilities (requires Tailwind in your project)
@@ -32,7 +33,7 @@ export default function CTraderServiceBenefits() {
           {/* Visual Side */}
           <div className="relative h-64 lg:h-auto bg-slate-900 group overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1200&q=80"
+              src={assets.cTraderService9}
               alt="Business Growth"
               className="absolute inset-0 w-full h-full object-cover opacity-70 transition-transform duration-700 "
             />
@@ -107,7 +108,7 @@ export default function CTraderServiceBenefits() {
           {/* Visual Side */}
           <div className="lg:col-span-5 relative min-h-[300px] lg:min-h-full bg-slate-800">
             <img
-              src="https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=900&q=80"
+              src={assets.cTraderService10}
               alt="Advanced Trading Features"
               className="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-overlay"
             />

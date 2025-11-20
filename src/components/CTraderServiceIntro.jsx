@@ -1,4 +1,5 @@
 import React from "react";
+import { assets } from "../assets/assets";
 
 const CTraderServiceIntro = () => {
   const headline = "Elevate Your Brokerage with cTrader Technology";
@@ -56,7 +57,7 @@ const CTraderServiceIntro = () => {
         {/* Right Image Side - Full Visual */}
         <div className="lg:w-1/2 relative min-h-[350px] lg:min-h-full">
           <img
-            src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?q=80&w=2000&auto=format&fit=crop"
+            src={assets.cTraderService6}
             alt="cTrader Technology"
             className="absolute inset-0 w-full h-full object-cover"
           />

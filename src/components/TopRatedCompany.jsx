@@ -11,7 +11,7 @@ export default function TopRatedCompany({
     software, strategic digital transformation, intelligent
     automation, responsive web platforms, and scalable IT strategies.
     These things help businesses grow and succeed in the long term.`,
-  image = assets.whyChooseUs,
+  image = assets.pamm07,
   bgColor = "bg-black",
   background = "",
   reverse = false,

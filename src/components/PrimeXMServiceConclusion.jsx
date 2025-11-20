@@ -1,26 +1,23 @@
 import React from "react";
+import { assets } from "../assets/assets";
 
 const PrimeXMServiceConclusion = () => {
   const services = [
     {
       text: "An infrastructure setup with ultra-low latency",
-      image:
-        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
+      image: assets.p14,
     },
     {
       text: "Aggregation of liquidity and connectivity solutions",
-      image:
-        "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=80",
+      image: assets.p15,
     },
     {
       text: "Integration and optimization of data feed",
-      image:
-        "https://images.unsplash.com/photo-1605902711622-cfb43c44367e?auto=format&fit=crop&w=800&q=80",
+      image: assets.p16,
     },
     {
       text: "High-volume trading with an institutional-grade performance",
-      image:
-        "https://images.unsplash.com/photo-1559523161-0fc0d8b38a7d?auto=format&fit=crop&w=800&q=80",
+      image: assets.p17,
     },
   ];
 

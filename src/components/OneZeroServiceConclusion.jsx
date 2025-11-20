@@ -1,26 +1,27 @@
 import React from "react";
+import { assets } from "../assets/assets";
 
 export default function OneZeroServiceConclusion() {
   const services = [
     {
       text: "Multi-asset trading infrastructure for the global markets",
-      image: "https://picsum.photos/seed/oz1/600/400",
+      image: assets.oz14,
     },
     {
       text: "API & bridge integration for smooth connectivity",
-      image: "https://picsum.photos/seed/oz2/600/400",
+      image: assets.oz15,
     },
     {
       text: "Turnkey setup for brokers and banks",
-      image: "https://picsum.photos/seed/oz3/600/400",
+      image: assets.oz16,
     },
     {
       text: "High-performance trading systems for MT4/MT5 platforms",
-      image: "https://picsum.photos/seed/oz4/600/400",
+      image: assets.oz17,
     },
     {
       text: "Analytics and monitoring tools to enhance decision-making",
-      image: "https://picsum.photos/seed/oz5/600/400",
+      image: assets.oz18,
     },
   ];
 
@@ -56,7 +57,7 @@ export default function OneZeroServiceConclusion() {
                   <img
                     src={service.image}
                     alt={service.text}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    className="w-full h-full object-cover"
                   />
                 </div>
 

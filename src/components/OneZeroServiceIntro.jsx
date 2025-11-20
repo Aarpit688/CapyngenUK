@@ -7,6 +7,7 @@ import {
   Zap,
   ChevronRight,
 } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function OneZeroServiceIntro() {
   const [isVisible, setIsVisible] = useState(false);
@@ -56,7 +57,7 @@ export default function OneZeroServiceIntro() {
         {/* Right Column - image (local) */}
         <div className="flex-1 w-full max-w-lg lg:max-w-none relative flex items-center justify-center">
           <div
-            className={`relative rounded-3xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-900/30 backdrop-blur-xl transition-all duration-700 max-w-[520px] w-full ${
+            className={`relative rounded-xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-900/30 backdrop-blur-xl transition-all duration-700 max-w-[520px] w-full ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-6"
@@ -66,9 +67,9 @@ export default function OneZeroServiceIntro() {
           >
             {/* Image */}
             <img
-              src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+              src={assets.oz7}
               alt="OneZero Technology"
-              className="w-full h-72 sm:h-80 md:h-96 object-cover rounded-3xl"
+              className="w-full h-72 sm:h-80 md:h-96 object-cover rounded-xl"
               loading="eager"
             />
 

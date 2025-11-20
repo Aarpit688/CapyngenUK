@@ -1,5 +1,6 @@
 import React from "react";
 import { Rocket } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export const Careers7 = () => {
   return (
@@ -43,7 +44,7 @@ export const Careers7 = () => {
             <div className="absolute inset-0 bg-gradient-to-tr from-cyan-400 to-purple-600 opacity-20 rounded-md transform rotate-6 blur-sm"></div>
 
             <img
-              src="https://picsum.photos/600/800?random=88"
+              src={assets.careers9}
               alt="Professional growth at Capyngen"
               className="relative rounded-md shadow-2xl w-full object-cover h-[500px] border border-white/10"
             />

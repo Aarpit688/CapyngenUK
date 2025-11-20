@@ -9,11 +9,19 @@ import PrimeXMServiceSolutions from "../components/PrimeXMServiceSolutions";
 import PrimeXMServiceBenefits from "../components/PrimeXMServiceBenefits";
 import PrimeXMServiceAdditionalFeatures from "../components/PrimeXMServiceAdditionalFeatures";
 import PrimeXMServiceConclusion from "../components/PrimeXMServiceConclusion";
+import { assets } from "../assets/assets";
 
 const PrimeXMService = () => {
   return (
     <div>
-      <Banner8 />
+      <Banner8
+        image={assets.ai1}
+        badge=""
+        name="PrimeXM X-Core Technology for High-Speed Liquidity Routing"
+        description="Optimize execution flow with our expert setup and technology solutions for the PrimeXM X-Core environment."
+        buttonText="Get to Know More"
+      />
+
       <PrimeXMServiceIntro />
       <PrimeXMXServiceUnderstanding />
       <PrimeXMServiceFeatures />

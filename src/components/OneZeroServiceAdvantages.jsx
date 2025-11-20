@@ -1,4 +1,5 @@
 import React from "react";
+import { assets } from "../assets/assets";
 
 export default function OneZeroServiceAdvantages() {
   const advantages = [
@@ -6,19 +7,19 @@ export default function OneZeroServiceAdvantages() {
       title: "Seamless​‍​‌‍​‍‌​‍​‌‍​‍‌ Connectivity",
       description:
         "Easily connect with various liquidity providers and integrate your trading platforms.",
-      image: "https://picsum.photos/seed/onezero-adv1/600/400",
+      image: assets.oz11,
     },
     {
       title: "High-Performance Trading",
       description:
         "Make your trading activities at ultra-low latency level with the trusted set-up of the system.",
-      image: "https://picsum.photos/seed/onezero-adv2/600/400",
+      image: assets.oz12,
     },
     {
       title: "Turnkey Infrastructure",
       description:
         "Solutions that are ready for use and designed for brokers as well as financial institutions of any size.",
-      image: "https://picsum.photos/seed/onezero-adv3/600/400",
+      image: assets.oz13,
     },
   ];
 
@@ -45,7 +46,7 @@ export default function OneZeroServiceAdvantages() {
                 <img
                   src={adv.image}
                   alt={adv.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  className="w-full h-full object-cover"
                 />
               </div>
 

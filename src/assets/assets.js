@@ -56,6 +56,59 @@ import mtService10 from "./mtService10.png";
 import mtService11 from "./mtService11.png";
 import mtService12 from "./mtService12.png";
 import mtService13 from "./mtService13.png";
+import mtService14 from "./mtService14.png";
+import cTraderService6 from "./cTraderService6.png";
+import cTraderService8 from "./cTraderService8.png";
+import cTraderService9 from "./cTraderService9.png";
+import cTraderService10 from "./cTraderService10.png";
+import cTraderService11 from "./cTraderService11.png";
+import oz7 from "./oz7.png";
+import oz8 from "./oz8.png";
+import oz9 from "./oz9.png";
+import oz10 from "./oz10.png";
+import oz11 from "./oz11.png";
+import oz12 from "./oz12.png";
+import oz13 from "./oz13.png";
+import oz14 from "./oz14.png";
+import oz15 from "./oz15.png";
+import oz16 from "./oz16.png";
+import oz17 from "./oz17.png";
+import oz18 from "./oz18.png";
+import p2 from "./p2.png";
+import p4 from "./p4.png";
+import p5 from "./p5.png";
+import p6 from "./p6.png";
+import p8 from "./p8.png";
+import p9 from "./p9.png";
+import p10 from "./p10.png";
+import p11 from "./p11.png";
+import p12 from "./p12.png";
+import p13 from "./p13.png";
+import p14 from "./p14.png";
+import p15 from "./p15.png";
+import p16 from "./p16.png";
+import p17 from "./p17.png";
+import pamm07 from "./pamm07.png";
+import pamm08 from "./pamm08.png";
+import pamm09 from "./pamm09.png";
+import pamm10 from "./pamm10.png";
+import pamm11 from "./pamm11.png";
+import pamm12 from "./pamm12.png";
+import pamm13 from "./pamm13.png";
+import pamm14 from "./pamm14.png";
+import pamm15 from "./pamm15.png";
+import pamm16 from "./pamm16.png";
+import pamm17 from "./pamm17.png";
+import pamm18 from "./pamm18.png";
+import pamm19 from "./pamm19.png";
+import pamm20 from "./pamm20.png";
+import careers2 from "./careers2.png";
+import careers3 from "./careers3.png";
+import careers5 from "./careers5.png";
+import careers6 from "./careers6.png";
+import careers7 from "./careers7.png";
+import careers8 from "./careers8.png";
+import careers9 from "./careers9.png";
 
 export const assets = {
   sampleImg,
@@ -116,6 +169,59 @@ export const assets = {
   mtService11,
   mtService12,
   mtService13,
+  mtService14,
+  cTraderService6,
+  cTraderService8,
+  cTraderService9,
+  cTraderService10,
+  cTraderService11,
+  oz7,
+  oz8,
+  oz9,
+  oz10,
+  oz11,
+  oz12,
+  oz13,
+  oz14,
+  oz15,
+  oz16,
+  oz17,
+  oz18,
+  p2,
+  p4,
+  p5,
+  p6,
+  p8,
+  p9,
+  p10,
+  p11,
+  p12,
+  p13,
+  p14,
+  p15,
+  p16,
+  p17,
+  pamm07,
+  pamm08,
+  pamm09,
+  pamm10,
+  pamm11,
+  pamm12,
+  pamm13,
+  pamm14,
+  pamm15,
+  pamm16,
+  pamm17,
+  pamm18,
+  pamm19,
+  pamm20,
+  careers2,
+  careers3,
+  careers5,
+  careers6,
+  careers7,
+  careers8,
+  careers9,
 };
 
 export const navItems = [

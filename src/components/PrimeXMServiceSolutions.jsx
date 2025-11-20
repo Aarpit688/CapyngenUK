@@ -1,5 +1,6 @@
 import React from "react";
 import { Timer, Layers, TrendingUp, CheckCircle2 } from "lucide-react";
+import { assets } from "../assets/assets";
 
 const PrimeXMServiceSolutions = () => {
   const reasons = [
@@ -7,19 +8,19 @@ const PrimeXMServiceSolutions = () => {
       title: "Fast​‍​‌‍​‍‌​‍​‌‍​‍‌ Trade Execution",
       description:
         "Ultra-low latency allows for the trades to be done in milliseconds.",
-      image: "https://picsum.photos/seed/primexm_speed/600/400",
+      image: assets.p9,
     },
     {
       title: "Reliable Liquidity Access",
       description:
         "Aggregated liquidity significantly improves spreads and market depth.",
-      image: "https://picsum.photos/seed/primexm_liquidity/600/400",
+      image: assets.p10,
     },
     {
       title: "Scalable Infrastructure",
       description:
         "Equipment that your brokerage will use to expand can be of the same standard as institutional-grade volume.",
-      image: "https://picsum.photos/seed/primexm_scale/600/400",
+      image: assets.p11,
     },
   ];
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { Check, Gift } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function Careers3() {
   const benefits = [
@@ -28,7 +29,7 @@ export default function Careers3() {
             <div className="absolute top-4 -left-4 w-full h-full bg-blue-500/20 blur-xl rounded-3xl -z-10"></div>
 
             <img
-              src="https://picsum.photos/800/600?random=10"
+              src={assets.careers2}
               alt="Employee wellbeing and growth"
               className="shadow-2xl w-full object-cover h-80 lg:h-full border border-white/10"
             />

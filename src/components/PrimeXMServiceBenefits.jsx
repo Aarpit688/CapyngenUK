@@ -1,5 +1,6 @@
 import React from "react";
 import { Zap, Network, BarChart3, ShieldCheck } from "lucide-react";
+import { assets } from "../assets/assets";
 
 const PrimeXMServiceBenefits = () => {
   return (
@@ -8,8 +9,7 @@ const PrimeXMServiceBenefits = () => {
         {/* Heading */}
         <div className="text-center mb-16 max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
-            How Startups and Established Brokers Benefit from{" "}
-            <span className="text-yellow-500">PrimeXM X-Core</span>
+            How Startups and Established Brokers Benefit from PrimeXM X-Core
           </h2>
           <p className="text-slate-300 text-lg leading-relaxed">
             If​‍​‌‍​‍‌​‍​‌‍​‍‌ you are a newly formed broker or an existing
@@ -23,9 +23,9 @@ const PrimeXMServiceBenefits = () => {
           {/* Startups Card */}
           <div className="group relative bg-slate-900 border border-slate-800 rounded-md overflow-hidden hover:border-yellow-500/40 transition-all duration-500 flex flex-col shadow-xl">
             {/* Header Image */}
-            <div className="h-48 relative">
+            <div className="h-64 relative">
               <img
-                src="https://picsum.photos/seed/primexm_startup/900/600"
+                src={assets.p12}
                 alt="Startups"
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -71,9 +71,9 @@ const PrimeXMServiceBenefits = () => {
           {/* Mature Brokers Card */}
           <div className="group relative bg-slate-900 border border-slate-800 rounded-md overflow-hidden hover:border-yellow-500/40 transition-all duration-500 flex flex-col shadow-xl">
             {/* Header Image */}
-            <div className="h-48 relative">
+            <div className="h-64 relative">
               <img
-                src="https://picsum.photos/seed/primexm_mature/900/600"
+                src={assets.p13}
                 alt="Mature Brokers"
                 className="absolute inset-0 w-full h-full object-cover"
               />

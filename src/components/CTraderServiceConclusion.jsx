@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 import { CheckCircle2, ArrowRight, Award, TrendingUp } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function CTraderServiceConclusion() {
   // Exact content strings provided
@@ -165,7 +166,7 @@ export default function CTraderServiceConclusion() {
           className="lg:w-2/5 relative bg-gradient-to-b from-slate-900 to-slate-800 min-h-[400px] lg:min-h-full overflow-hidden"
         >
           <img
-            src="https://picsum.photos/seed/conclusion/800/1200"
+            src={assets.cTraderService11}
             alt="Scalable Brokerage Infrastructure"
             className="absolute inset-0 w-full h-full object-cover"
           />

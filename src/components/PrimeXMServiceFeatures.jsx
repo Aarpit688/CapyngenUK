@@ -1,22 +1,23 @@
 import React from "react";
 import { Globe2 } from "lucide-react";
+import { assets } from "../assets/assets";
 
 const PrimeXMServiceFeatures = () => {
   const features = [
     {
       title: "Ultra-Low Latency Technology",
       desc: "Trading execution within milliseconds, reducing slippage even during high-volume operations.",
-      image: "https://picsum.photos/seed/pxm1/600/400",
+      image: assets.p4,
     },
     {
       title: "Liquidity Aggregation Network",
       desc: "Connect seamlessly with multiple liquidity providers through a unified institutional-grade engine.",
-      image: "https://picsum.photos/seed/pxm2/600/400",
+      image: assets.p5,
     },
     {
       title: "Reliable Data Connectivity",
       desc: "High-speed and highly stable data feeds ensure accurate pricing and dependable market depth.",
-      image: "https://picsum.photos/seed/pxm3/600/400",
+      image: assets.p6,
     },
   ];
 

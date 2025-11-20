@@ -50,7 +50,7 @@ export default function CTraderServiceFeatures() {
 
         {/* Features grid */}
         <div className="mb-12">
-          <h3 className="text-2xl font-semibold text-center text-slate-100 mb-8">
+          <h3 className="text-3xl lg:text-4xl font-bold text-center text-slate-100 mb-8">
             {titleFeatures}
           </h3>
 

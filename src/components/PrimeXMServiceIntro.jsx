@@ -1,5 +1,6 @@
 import React from "react";
 import { Zap, Layers, Network } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function PrimeXMServiceIntro() {
   return (
@@ -11,7 +12,7 @@ export default function PrimeXMServiceIntro() {
 
           <div className="relative overflow-hidden border border-slate-800 shadow-2xl">
             <img
-              src="https://picsum.photos/seed/primexm-main/900/750"
+              src={assets.p2}
               alt="PrimeXM X-Core Infrastructure"
               className="w-full h-[480px] object-cover"
             />

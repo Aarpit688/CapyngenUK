@@ -1,4 +1,5 @@
 import React from "react";
+import { assets } from "../assets/assets";
 
 export const Careers5 = () => {
   const values = [
@@ -69,9 +70,9 @@ export const Careers5 = () => {
               {/* Image */}
               <div className="rounded-md overflow-hidden backdrop-blur-xl bg-white/10 border border-white/10 shadow-[0_8px_30px_rgba(255,255,255,0.1)]">
                 <img
-                  src="https://picsum.photos/400/500?random=101"
+                  src={assets.careers5}
                   alt="Capyngen team collaboration"
-                  className="object-cover h-64 w-full hover:scale-105 transition-transform duration-300 opacity-90"
+                  className="object-cover h-64 w-full"
                 />
               </div>
 
@@ -97,9 +98,9 @@ export const Careers5 = () => {
               {/* Image */}
               <div className="rounded-md overflow-hidden backdrop-blur-xl bg-white/10 border border-white/10 shadow-[0_8px_30px_rgba(255,255,255,0.1)]">
                 <img
-                  src="https://picsum.photos/400/600?random=102"
+                  src={assets.careers6}
                   alt="Office culture and events"
-                  className="object-cover h-80 w-full hover:scale-105 transition-transform duration-300 opacity-90"
+                  className="object-cover h-80 w-full"
                 />
               </div>
             </div>

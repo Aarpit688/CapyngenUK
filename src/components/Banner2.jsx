@@ -12,12 +12,12 @@ const Banner2 = ({
       {/* Hero Section */}
       <section className="relative py-20 lg:py-24">
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-5xl mx-auto text-center">
             <h1 className="text-4xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 sm:text-5xl sm:leading-tight lg:text-6xl lg:leading-tight font-pj">
               {title}
             </h1>
 
-            <p className="max-w-md mx-auto mt-6 text-base leading-7 text-gray-300 font-inter">
+            <p className="max-w-xl mx-auto mt-6 text-base leading-7 text-gray-300 font-inter">
               {subtitle}
             </p>
 

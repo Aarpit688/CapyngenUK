@@ -1,5 +1,6 @@
 import React from "react";
 import { Code2, TrendingUp, Building2, Palette } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function Careers4() {
   const categories = [
@@ -59,7 +60,7 @@ export default function Careers4() {
             <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/30 to-purple-500/30 blur-3xl rounded-md"></div>
 
             <img
-              src="https://picsum.photos/800/500?random=25"
+              src={assets.careers3}
               alt="Team Meeting"
               className="relative rounded-md shadow-2xl w-full object-cover h-64 lg:h-80 border border-white/10"
             />

@@ -7,6 +7,7 @@ import {
   TrendingUp,
   ServerCrash,
 } from "lucide-react";
+import { assets } from "../assets/assets";
 
 const PrimeXMServiceTechnology = () => {
   return (
@@ -70,7 +71,7 @@ const PrimeXMServiceTechnology = () => {
               <div className="relative w-full max-w-md overflow-hidden border border-slate-800 bg-slate-950 shadow-2xl">
                 {/* Full Image */}
                 <img
-                  src="https://picsum.photos/seed/primexm_full/900/900"
+                  src={assets.p8}
                   alt="PrimeXM Institutional Infrastructure"
                   className="w-full h-80 md:h-[420px] object-cover"
                 />

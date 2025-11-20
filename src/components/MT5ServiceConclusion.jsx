@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { assets } from "../assets/assets";
 
 export default function MT5ServiceConclusion({
-  imageUrl = assets.mtService13,
+  imageUrl = assets.mtService14,
   onStart = () => {},
 }) {
   const title = "Achieve Reliable Multi-Asset Trading with MT5";
@@ -20,7 +20,7 @@ export default function MT5ServiceConclusion({
   ];
 
   return (
-    <section className="bg-black py-20">
+    <section className="bg-black py-20 overflow-hidden">
       <div className="max-w-[90vw] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           {/* LEFT — TEXT SECTION */}
@@ -86,11 +86,11 @@ export default function MT5ServiceConclusion({
             transition={{ duration: 0.55, ease: "easeOut" }}
             className="lg:col-span-5"
           >
-            <div className="rounded-md overflow-hidden border border-slate-800 bg-slate-900 shadow-xl">
+            <div className="rounded-md ">
               <img
                 src={imageUrl}
                 alt="MT5 Global Trading Visualization"
-                className="w-full h-72 sm:h-80 lg:h-[420px] object-cover"
+                className="w-full h-72 sm:h-80 lg:h-100 object-cover"
               />
             </div>
           </motion.div>

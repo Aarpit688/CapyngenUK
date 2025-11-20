@@ -1,4 +1,5 @@
 import React from "react";
+import { assets } from "../assets/assets";
 
 export default function OneZeroServiceUnderstanding() {
   return (
@@ -33,7 +34,7 @@ export default function OneZeroServiceUnderstanding() {
               <div className="w-full md:w-1/3 hidden md:block">
                 <div className="rounded-md overflow-hidden border border-slate-800 shadow-xl h-40">
                   <img
-                    src="https://picsum.photos/seed/onezero-intro/600/400"
+                    src={assets.oz8}
                     alt="OneZero Connectivity"
                     className="w-full h-full object-cover"
                   />
@@ -47,7 +48,7 @@ export default function OneZeroServiceUnderstanding() {
             {/* IMAGE */}
             <div className="w-full h-48 rounded-md overflow-hidden mb-6">
               <img
-                src="https://picsum.photos/seed/onezero-multiasset/900/600"
+                src={assets.oz9}
                 alt="Multi-Asset Infrastructure"
                 className="w-full h-full object-cover"
               />
@@ -78,7 +79,7 @@ export default function OneZeroServiceUnderstanding() {
             {/* IMAGE */}
             <div className="w-full h-48 rounded-md overflow-hidden mb-6">
               <img
-                src="https://picsum.photos/seed/onezero-turnkey/900/600"
+                src={assets.oz10}
                 alt="Turnkey Implementation"
                 className="w-full h-full object-cover"
               />

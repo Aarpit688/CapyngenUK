@@ -13,7 +13,7 @@ const Banner9 = ({
   ],
 }) => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-gray-900 to-black py-24 sm:py-32">
+    <section className="relative overflow-hidden bg-gradient-to-br from-gray-900 to-black py-20 lg:py-32">
       {/* Decorative Glow Elements */}
       <div className="absolute -top-32 -right-32 w-72 h-72 bg-indigo-500/10 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl"></div>
@@ -26,7 +26,7 @@ const Banner9 = ({
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 lg:mx-0 lg:max-w-none lg:grid-cols-2 items-center">
           {/* Left Content Section */}
           <div className="max-w-xl lg:max-w-xl">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-normal text-white">
               {title}
             </h1>
 

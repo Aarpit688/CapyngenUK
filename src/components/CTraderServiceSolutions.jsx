@@ -1,5 +1,6 @@
 import React from "react";
 import { Check, Globe, ArrowRightLeft, Settings } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function CTraderServiceSolutions() {
   const title1 = "How Capyngen Delivers Complete cTrader Solutions";
@@ -62,11 +63,7 @@ export default function CTraderServiceSolutions() {
 
           {/* Quick Stats Card — Now Luxury Neon */}
           <aside className="rounded-2xl p-6 ">
-            <img
-              src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
-              alt="Left visual"
-              className=""
-            />
+            <img src={assets.cTraderService8} alt="Left visual" className="" />
           </aside>
         </header>
 

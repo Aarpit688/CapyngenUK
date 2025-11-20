@@ -1,5 +1,6 @@
 import React from "react";
 import { MonitorSmartphone, ArrowLeftRight, Code2 } from "lucide-react";
+import { assets } from "../assets/assets";
 
 const VertexFxFeatures = () => {
   return (
@@ -20,7 +21,7 @@ const VertexFxFeatures = () => {
             <div className="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-violet-500/50 hover:shadow-[0_0_40px_rgba(139,92,246,0.15)] transition-all duration-500 group flex-1 h-full">
               {/* Image */}
               <img
-                src="https://images.unsplash.com/photo-1563986768494-4dee2763ff3f"
+                src={assets.vertexFX5}
                 alt="White label platform"
                 className="w-full h-40 object-cover rounded-xl mb-6 opacity-80 group-hover:opacity-100 transition"
               />
@@ -43,7 +44,7 @@ const VertexFxFeatures = () => {
             <div className="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-violet-500/50 hover:shadow-[0_0_40px_rgba(139,92,246,0.15)] transition-all duration-500 group flex-1 h-full">
               {/* Image */}
               <img
-                src="https://images.unsplash.com/photo-1559526324-593bc073d938"
+                src={assets.vertexFX6}
                 alt="Liquidity bridge"
                 className="w-full h-40 object-cover rounded-xl mb-6 opacity-80 group-hover:opacity-100 transition"
               />
@@ -64,7 +65,7 @@ const VertexFxFeatures = () => {
             <div className="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-violet-500/50 hover:shadow-[0_0_40px_rgba(139,92,246,0.15)] transition-all duration-500 group flex-1 h-full">
               {/* Image */}
               <img
-                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+                src={assets.vertexFX7}
                 alt="API integration"
                 className="w-full h-40 object-cover rounded-xl mb-6 opacity-80 group-hover:opacity-100 transition"
               />

@@ -28,15 +28,17 @@ import OneZeroService from "./pages/OneZeroService";
 import ContactUs from "./pages/ContactUs";
 import PrimeXMService from "./pages/PrimeXMService";
 import Careers from "./pages/Careers";
+import AboutUs from "./pages/AboutUs";
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Router>
         <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />} />
+
           <Route path="/turnkey/forex-broker" element={<ForexBroker />} />
           <Route path="/turnkey/crypto-exchange" element={<CryptoExchange />} />
           <Route path="/turnkey/crypto-broker" element={<CryptoBroker />} />
@@ -80,6 +82,7 @@ const App = () => {
           />
 
           <Route path="/company/careers" element={<Careers />} />
+          <Route path="/company/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
         <Footer />

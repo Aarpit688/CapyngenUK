@@ -1,4 +1,5 @@
 import React from "react";
+import { assets } from "../assets/assets";
 
 const CTraderFeatures = () => {
   return (
@@ -20,7 +21,7 @@ const CTraderFeatures = () => {
             {/* IMAGE REPLACING ICON */}
             <div className="w-full rounded-xl overflow-hidden bg-slate-800 mb-6 shadow-lg relative z-10 group-hover:bg-teal-500/20 transition-colors">
               <img
-                src="https://picsum.photos/200/200?random=1"
+                src={assets.cTrader3}
                 alt="White Label Technology"
                 className="w-full h-full object-cover"
               />
@@ -43,7 +44,7 @@ const CTraderFeatures = () => {
             {/* IMAGE REPLACING ICON */}
             <div className="w-full rounded-xl overflow-hidden bg-slate-800 mb-6 shadow-lg relative z-10 group-hover:bg-teal-500/20 transition-colors">
               <img
-                src="https://picsum.photos/200/200?random=2"
+                src={assets.cTrader4}
                 alt="Multi Asset Trading"
                 className="w-full h-full object-cover"
               />
@@ -66,7 +67,7 @@ const CTraderFeatures = () => {
             {/* IMAGE REPLACING ICON */}
             <div className="w-full rounded-xl overflow-hidden bg-slate-800 mb-6 shadow-lg relative z-10 group-hover:bg-teal-500/20 transition-colors">
               <img
-                src="https://picsum.photos/200/200?random=3"
+                src={assets.cTrader5}
                 alt="Hosting & Connectivity"
                 className="w-full h-full object-cover"
               />

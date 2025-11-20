@@ -10,6 +10,7 @@ import {
   Plug,
   Layers,
 } from "lucide-react";
+import { assets } from "../assets/assets";
 
 const MT5ServiceBenefits = () => {
   return (
@@ -30,7 +31,7 @@ const MT5ServiceBenefits = () => {
             {/* Image */}
             <div className="h-48 w-full overflow-hidden">
               <img
-                src="https://picsum.photos/seed/startupmt5/900/600"
+                src={assets.mtService12}
                 alt="Startup MT5 Setup"
                 className="w-full h-full object-cover"
               />
@@ -63,7 +64,7 @@ const MT5ServiceBenefits = () => {
             {/* Image */}
             <div className="h-48 w-full overflow-hidden">
               <img
-                src="https://picsum.photos/seed/brokermt5/900/600"
+                src={assets.mtService13}
                 alt="Established Broker Setup"
                 className="w-full h-full object-cover"
               />

@@ -10,9 +10,9 @@ export const TextParallaxContentExample = () => {
     <div className="bg-black">
       {/* 1️⃣ Back-office Tools */}
       <TextParallaxContent
-        imgUrl="https://images.unsplash.com/photo-1581094794329-c8112bfbf3c7?q=80&w=2600&auto=format&fit=crop"
-        subheading="Manage with a comprehensive suite of features designed to boost efficiency and streamline operations."
-        heading="Build, Scale, and Lead with Our Back-office Tools"
+        imgUrl="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?q=80&w=2600&auto=format&fit=crop"
+        subheading="Manage your brokerage effortlessly with an advanced suite of back-office, automation, and compliance tools designed to boost efficiency and streamline operations at every level."
+        heading="Build, Scale & Lead with Powerful Back-Office Tools"
       >
         <ContentBackOffice />
       </TextParallaxContent>
@@ -127,10 +127,10 @@ const OverlayCopy = ({ subheading, heading }) => {
         style={{ y, opacity }}
         className="hidden md:flex absolute left-0 top-0 h-screen w-full flex-col items-center justify-center px-4 sm:px-8 text-center"
       >
-        <p className="mb-3 text-base sm:text-xl md:text-2xl lg:text-3xl text-gray-200 font-medium drop-shadow max-w-3xl mx-auto">
+        <p className="mb-10 text-base sm:text-xl md:text-2xl text-gray-200 font-medium drop-shadow max-w-3xl mx-auto">
           {subheading}
         </p>
-        <p className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white drop-shadow-lg leading-snug max-w-4xl mx-auto">
+        <p className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white drop-shadow-lg leading-snug max-w-4xl mx-auto">
           {heading}
         </p>
       </motion.div>

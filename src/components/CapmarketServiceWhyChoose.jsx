@@ -1,6 +1,7 @@
 import React from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { Check, TrendingUp } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function CapmarketServiceWhyChoose() {
   const title = "Why Brokers Choose Capyngen for Capmarket Services";
@@ -91,12 +92,12 @@ export default function CapmarketServiceWhyChoose() {
 
         {/* RIGHT: IMAGE + HIGHLIGHT CARD */}
         <motion.div
-          className="relative h-[380px] md:h-[500px] overflow-hidden border border-slate-800"
+          className="relative  h-96 lg:h-[40rem] overflow-hidden border border-slate-800"
           variants={fadeUp}
         >
           {/* Main Image */}
           <img
-            src="https://picsum.photos/seed/capwhychoose/900/1200"
+            src={assets.capmarketService9}
             alt="Capmarket Global Network"
             className="absolute inset-0 w-full h-full object-cover"
           />

@@ -11,8 +11,15 @@ import MT5ServiceConclusion from "../components/MT5ServiceConclusion";
 
 const MT5Service = () => {
   return (
-    <div>
-      <Banner2 />
+    <div className="overflow-x-hidden">
+      <Banner2
+        title="Professional MT5 Platform Setup & Technology Services"
+        subtitle="Build a powerful and compliant MT5 brokerage with our advanced IT setup, automation, and system optimization solutions."
+        buttonText="Explore Now"
+        buttonLink="/contact-us"
+        image="https://d33wubrfki0l68.cloudfront.net/54780decfb9574945bc873b582cdc6156144a2ba/d9fa1/images/hero/4/illustration.png"
+      />
+
       <MT5ServiceIntro />
       <MT5ServiceUnderstanding />
       <MT5ServiceFeatures />

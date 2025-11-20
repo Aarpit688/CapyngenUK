@@ -1,5 +1,6 @@
 import React from "react";
 import { MonitorPlay, Link2, TerminalSquare, ArrowRight } from "lucide-react";
+import { assets } from "../assets/assets";
 
 const NTraderFeatures = () => {
   return (
@@ -24,7 +25,7 @@ const NTraderFeatures = () => {
             {/* IMAGE ADDED */}
             <div className="h-40 w-full rounded-xl overflow-hidden mb-6 relative z-10">
               <img
-                src="https://picsum.photos/600/400?random=31"
+                src={assets.nt03}
                 alt="nTrader White Label"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -58,7 +59,7 @@ const NTraderFeatures = () => {
             {/* IMAGE ADDED */}
             <div className="h-40 w-full rounded-xl overflow-hidden mb-6 relative z-10">
               <img
-                src="https://picsum.photos/600/400?random=32"
+                src={assets.nt04}
                 alt="nTrader Liquidity Bridge"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -93,7 +94,7 @@ const NTraderFeatures = () => {
             {/* IMAGE ADDED */}
             <div className="h-40 w-full rounded-xl overflow-hidden mb-6 relative z-10">
               <img
-                src="https://picsum.photos/600/400?random=33"
+                src={assets.nt05}
                 alt="nTrader API Integration"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />

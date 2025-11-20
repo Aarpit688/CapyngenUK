@@ -1,5 +1,6 @@
 import React from "react";
 import { Layers, Zap, Server } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function MT5ServiceAdvantages() {
   const title = "Key Advantages of MT5 Services for Brokers";
@@ -63,11 +64,11 @@ export default function MT5ServiceAdvantages() {
         <div className="mt-16 flex flex-col lg:flex-row gap-10 items-center">
           {/* Left Image */}
           <div className="lg:w-1/2 w-full">
-            <div className="rounded-2xl overflow-hidden border border-slate-800 shadow-xl">
+            <div className="rounded-sm h-40 overflow-hidden border border-slate-800 shadow-xl">
               <img
-                src="https://picsum.photos/seed/mt5adv1/900/600"
+                src={assets.mtService11}
                 alt="Multi-Asset Dashboard"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-center"
               />
             </div>
           </div>

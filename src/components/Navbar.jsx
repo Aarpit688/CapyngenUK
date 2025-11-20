@@ -263,7 +263,7 @@ const Navbar = () => {
                                 </div>
                                 <a
                                   href="/products/documentation"
-                                  className="mt-2 md:mt-0 bg-white/10 hover:bg-slate-200/80 text-slate-800 font-semibold px-4 py-2 rounded-lg shadow transition"
+                                  className="mt-2 md:mt-0 bg-white hover:bg-slate-200/80 text-slate-800 font-semibold px-4 py-2 rounded-lg shadow transition"
                                 >
                                   Products Documentation
                                 </a>

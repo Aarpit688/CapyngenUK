@@ -28,12 +28,14 @@ export default function IntegrationShowcase() {
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto min-h-[520px] px-8 py-20 gap-12">
         <div className="flex-1 ">
           <h2 className="text-white font-bold text-4xl md:text-5xl leading-tight mb-6">
-            Limitless Integration for Your Brokerage
+            Seamless, Limitless Integration for Your Brokerage
           </h2>
           <p className="text-slate-100 text-lg md:text-xl max-w-[520px]">
-            Leverate's SiRiX platform is seamlessly integrated with leading
-            distribution systems, advanced CRMs, and essential apps — ensuring
-            brokers enjoy a fast, smooth, and hassle-free setup.
+            Capyngen’s ultra-advanced SiriX-based trading infrastructure
+            delivers limitless integration with leading forex distribution
+            systems, next-gen CRM solutions, payment gateways, liquidity
+            providers, and essential fintech apps — ensuring brokers experience
+            a fast, smooth, secure, and fully hassle-free setup from day one.
           </p>
           <button className="mt-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:opacity-90 transition-all duration-300">
             Learn More

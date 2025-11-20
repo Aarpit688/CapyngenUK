@@ -8,6 +8,7 @@ import {
   FaChartLine,
   FaHeadset,
 } from "react-icons/fa";
+import { assets } from "../assets/assets";
 
 export default function MAMInfrastructure() {
   const features = [
@@ -59,7 +60,7 @@ export default function MAMInfrastructure() {
             className="relative"
           >
             <img
-              src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1100&q=80"
+              src={assets.mam15}
               className="rounded-2xl border border-white/10 shadow-2xl shadow-black/40"
             />
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-cyan-500/10 to-transparent blur-xl pointer-events-none"></div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Layers, Activity, ShieldCheck, Globe2 } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function CapmarketServiceUnderstanding() {
   const title = "Understanding Capmarket Services and How Brokers Benefit";
@@ -48,7 +49,7 @@ export default function CapmarketServiceUnderstanding() {
           variants={fadeUp}
         >
           <motion.img
-            src="https://picsum.photos/seed/capservices/800/800"
+            src={assets.capmarketService6}
             alt="Capmarket Trading Infrastructure"
             className="absolute inset-0 w-full h-full object-cover opacity-70"
             initial={{ scale: 1.03 }}

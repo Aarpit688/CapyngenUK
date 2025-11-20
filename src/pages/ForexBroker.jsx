@@ -19,7 +19,17 @@ import ForexTechSolutions from "../components/ForexTechSolutions";
 const ForexBroker = () => {
   return (
     <div>
-      <Banner1 />
+      <Banner1
+        title="Empowering Modern Forex Brokers with Advanced Trading Technology"
+        subtitle="Capyngen Technologies UK Limited delivers secure, scalable, and customizable IT solutions built to launch and grow your forex brokerage with confidence."
+        ctaText="Contact Now"
+        noiseImg="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+        illustrationImg="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+        trustedByText="Trusted by 120k+ companies"
+        rating={4.8}
+        totalReviews="27k Reviews"
+      />
+
       <ForexLanding
         heroTitle="Transforming Forex Brokerage with Advanced IT Solutions"
         heroDescription="In​‍​‌‍​‍‌​‍​‌‍​‍‌ the quickly changing world of forex trading, the proper technology is not merely an advantage—it is a must. Capyngen Technologies UK Limited, a company in the UK with clients all over the world, is focused on delivering Forex Broker IT Solutions that are meant to provide brokers with the power, improve trading experiences, and make operations more efficient. If you are a broker going for a new business or a mature company, our inventive forex broker technology solutions guarantee that your business will be leading in the market that is getting more and more ​‍​‌‍​‍‌​‍​‌‍​‍‌competitive."

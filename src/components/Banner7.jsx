@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const Banner7 = () => {
@@ -94,23 +95,14 @@ const Banner7 = () => {
             </p>
 
             {/* Email Form */}
-            <form className="relative mt-4 w-full">
-              <div className="absolute transition-all duration-1000 opacity-30 inset-0 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg"></div>
-              <div className="relative flex flex-col sm:flex-row items-stretch gap-3 sm:gap-0">
-                <input
-                  type="email"
-                  id="email"
-                  placeholder="Enter email address"
-                  className="flex-1 w-full px-4 py-3 sm:py-3.5 text-base font-medium text-white placeholder-gray-500 bg-gray-800/50 backdrop-blur-lg border border-gray-700/50 rounded-lg sm:rounded-l-lg sm:rounded-r-none focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400 outline-none transition-all"
-                />
-                <button
-                  type="button"
-                  className="inline-flex items-center justify-center px-6 py-3 sm:px-8 sm:py-3.5 text-base font-semibold text-white bg-gradient-to-r from-indigo-600 to-purple-600 border border-gray-700/50 rounded-lg sm:rounded-r-lg sm:rounded-l-none hover:from-indigo-700 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 backdrop-blur-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
-                >
-                  Join Now
-                </button>
-              </div>
-            </form>
+
+            <Link
+              to="/contact-us"
+              type="button"
+              className="inline-flex mt-5 items-center justify-center px-6 py-3 sm:px-8 sm:py-3.5 text-base font-semibold text-white bg-gradient-to-r from-indigo-600 to-purple-600 border border-gray-700/50 rounded-lg sm:rounded-r-lg sm:rounded-l-none hover:from-indigo-700 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 backdrop-blur-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
+            >
+              Join Now
+            </Link>
           </div>
         </div>
 

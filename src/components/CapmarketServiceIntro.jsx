@@ -1,5 +1,6 @@
 import React from "react";
 import { Globe, Cpu, Server, ArrowRight, Zap, Activity } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function CapmarketServiceIntro() {
   const headline = "Empower Your Brokerage with Capmarket Technology";
@@ -55,7 +56,7 @@ export default function CapmarketServiceIntro() {
         <div className="lg:w-1/2 w-full">
           <div className="rounded-xl overflow-hidden border border-slate-200 bg-white h-full">
             <img
-              src="https://picsum.photos/seed/capmarket/900/900"
+              src={assets.capmarketService5}
               alt="Capmarket Technology"
               className="w-full h-full object-cover"
             />

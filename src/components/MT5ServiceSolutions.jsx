@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight, CheckCircle } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function MT5ServiceSolutions() {
   const title = "How Capyngen Provides Complete MT5 Solutions";
@@ -41,7 +42,7 @@ export default function MT5ServiceSolutions() {
             {/* Back image */}
             <div className="absolute top-0 right-0 w-[75%] h-[75%] rounded-2xl overflow-hidden shadow-xl border border-slate-700">
               <img
-                src="https://picsum.photos/seed/mt5sol_main/600/800"
+                src={assets.mtService8}
                 alt="MT5 Infrastructure"
                 className="w-full h-full object-cover"
               />
@@ -54,11 +55,11 @@ export default function MT5ServiceSolutions() {
             </div>
 
             {/* Front image */}
-            <div className="absolute bottom-0 left-0 w-[55%] h-[55%] rounded-2xl overflow-hidden shadow-xl border border-slate-700 group">
+            <div className="absolute bottom-0 left-0 w-[40%] h-[40%] rounded-2xl overflow-hidden shadow-xl border border-slate-700 group">
               <img
-                src="https://picsum.photos/seed/mt5sol_secondary/500/500"
+                src={assets.mtService9}
                 alt="Trading Integration"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>

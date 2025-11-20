@@ -60,7 +60,7 @@ const IndustryServices = ({
                 {service.title}
               </h3>
               <div
-                className={`${cardDescText} text-md text-left leading-relaxed`}
+                className={`${cardDescText} text-md text-center leading-relaxed`}
               >
                 {service.desc}
               </div>

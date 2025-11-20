@@ -1,30 +1,31 @@
 import React from "react";
+import { assets } from "../assets/assets";
 
 const NTraderConclusion = () => {
   const components = [
     {
       text: "nTrader white-label platform",
-      img: "https://picsum.photos/300/200?random=91",
+      img: assets.nt10,
     },
     {
       text: "Liquidity bridge & routing setup",
-      img: "https://picsum.photos/300/200?random=92",
+      img: assets.nt11,
     },
     {
       text: "Backend management & server hosting",
-      img: "https://picsum.photos/300/200?random=93",
+      img: assets.nt12,
     },
     {
       text: "API integration with CRMs and PSPs",
-      img: "https://picsum.photos/300/200?random=94",
+      img: assets.nt13,
     },
     {
       text: "Multi-asset execution setup",
-      img: "https://picsum.photos/300/200?random=95",
+      img: assets.nt14,
     },
     {
       text: "24/7 monitoring & support",
-      img: "https://picsum.photos/300/200?random=96",
+      img: assets.nt15,
     },
   ];
 
@@ -58,7 +59,7 @@ const NTraderConclusion = () => {
                   className="p-4 bg-slate-800/50 border border-slate-700/50 hover:bg-slate-800 transition-colors group flex flex-col gap-3"
                 >
                   {/* IMAGE BLOCK */}
-                  <div className="w-full h-28 overflow-hidden">
+                  <div className="w-full h-40 overflow-hidden">
                     <img
                       src={comp.img}
                       alt={comp.text}

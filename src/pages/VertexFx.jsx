@@ -37,9 +37,9 @@ const VertexFx = () => {
   return (
     <div>
       <Banner12
-        heading=" with IT Solutions Beyond Imagination"
-        highlight="Transforming Healthcare & Fitness"
-        description="One of the innovative ways to improve patient care is developing software which will automate the process of hospitals, clinics and fitness centres."
+        heading="for VertexFX Brokers"
+        highlight="Advanced Technology Solutions "
+        description="Enhance your VertexFX trading platform with our complete IT, automation, and integration solutions designed for global brokers."
         cards={marketingCards}
       />
       <VertexFXIntro />

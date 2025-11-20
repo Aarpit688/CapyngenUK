@@ -9,6 +9,53 @@ import ai7 from "./ai7.png";
 import ai8 from "./ai8.png";
 import video from "./video.mp4";
 import sirixTradingPlatform from "./sirixTradingPlatform.webp";
+import mam06 from "./mam06.png";
+import mam07 from "./mam07.png";
+import mam08 from "./mam08.png";
+import mam09 from "./mam09.png";
+import mam10 from "./mam10.png";
+import mam11 from "./mam11.png";
+import mam13 from "./mam13.png";
+import mam14 from "./mam14.png";
+import mam15 from "./mam15.png";
+import capmarket4 from "./capmarket4.png";
+import capmarket5 from "./capmarket5.png";
+import capmarket6 from "./capmarket6.png";
+import vertexFX5 from "./vertexFX5.png";
+import vertexFX6 from "./vertexFX6.png";
+import vertexFX7 from "./vertexFX7.png";
+import cTrader2 from "./cTrader2.png";
+import cTrader3 from "./cTrader3.png";
+import cTrader4 from "./cTrader4.png";
+import cTrader5 from "./cTrader5.png";
+import cTrader6 from "./cTrader6.png";
+import cTrader8 from "./cTrader8.png";
+import cTrader9 from "./cTrader9.png";
+import nt02 from "./nt02.png";
+import nt03 from "./nt03.png";
+import nt04 from "./nt04.png";
+import nt05 from "./nt05.png";
+import nt06 from "./nt06.png";
+import nt07 from "./nt07.png";
+import nt10 from "./nt10.png";
+import nt11 from "./nt11.png";
+import nt12 from "./nt12.png";
+import nt13 from "./nt13.png";
+import nt14 from "./nt14.png";
+import nt15 from "./nt15.png";
+import capmarketService5 from "./capmarketService5.png";
+import capmarketService6 from "./capmarketService6.png";
+import capmarketService7 from "./capmarketService7.png";
+import capmarketService8 from "./capmarketService8.png";
+import capmarketService9 from "./capmarketService9.png";
+import mtService6 from "./mtService6.png";
+import mtService7 from "./mtService7.png";
+import mtService8 from "./mtService8.png";
+import mtService9 from "./mtService9.png";
+import mtService10 from "./mtService10.png";
+import mtService11 from "./mtService11.png";
+import mtService12 from "./mtService12.png";
+import mtService13 from "./mtService13.png";
 
 export const assets = {
   sampleImg,
@@ -22,6 +69,53 @@ export const assets = {
   ai8,
   video,
   sirixTradingPlatform,
+  mam06,
+  mam07,
+  mam08,
+  mam09,
+  mam10,
+  mam11,
+  mam13,
+  mam14,
+  mam15,
+  capmarket4,
+  capmarket5,
+  capmarket6,
+  vertexFX5,
+  vertexFX6,
+  vertexFX7,
+  cTrader2,
+  cTrader3,
+  cTrader4,
+  cTrader5,
+  cTrader6,
+  cTrader8,
+  cTrader9,
+  nt02,
+  nt03,
+  nt04,
+  nt05,
+  nt06,
+  nt07,
+  nt10,
+  nt11,
+  nt12,
+  nt13,
+  nt14,
+  nt15,
+  capmarketService5,
+  capmarketService6,
+  capmarketService7,
+  capmarketService8,
+  capmarketService9,
+  mtService6,
+  mtService7,
+  mtService8,
+  mtService9,
+  mtService10,
+  mtService11,
+  mtService12,
+  mtService13,
 };
 
 export const navItems = [

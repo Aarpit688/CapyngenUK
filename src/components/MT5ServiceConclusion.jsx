@@ -1,9 +1,10 @@
 import React from "react";
 import { CheckCircle2, Globe, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import { assets } from "../assets/assets";
 
 export default function MT5ServiceConclusion({
-  imageUrl = "https://picsum.photos/seed/mt5conclusion/1200/900",
+  imageUrl = assets.mtService13,
   onStart = () => {},
 }) {
   const title = "Achieve Reliable Multi-Asset Trading with MT5";

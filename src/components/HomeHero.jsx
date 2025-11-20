@@ -7,12 +7,12 @@ const HomeHero = () => {
     <div className="overflow-hidden bg-black pt-8">
       <section className="pt-12 bg-black sm:pt-16">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="max-w-2xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <h1 className="px-6 text-lg text-gray-300 font-inter">
-              Smart email campaign builder, made for Developers
+              Smart brokerage technology suite, built for Global Brokers
             </h1>
             <p className="mt-5 text-4xl font-bold leading-tight text-white sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight font-pj">
-              Turn your visitors into profitable
+              Convert your traffic into a profitable brokerage
               <span className="relative inline-flex sm:inline">
                 <span className="bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg filter opacity-30 w-full h-full absolute inset-0"></span>
                 <span className="relative"> business </span>
@@ -49,10 +49,6 @@ const HomeHero = () => {
                 Watch free demo
               </a>
             </div>
-
-            <p className="mt-8 text-base text-gray-500 font-inter">
-              60 Days free trial · No credit card required
-            </p>
           </div>
         </div>
 

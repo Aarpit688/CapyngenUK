@@ -1,5 +1,6 @@
 import React from "react";
 import { Rocket, Layers, ShieldCheck, PlayCircle } from "lucide-react";
+import { assets } from "../assets/assets";
 
 const CapmarketUses = () => {
   return (
@@ -51,11 +52,11 @@ const CapmarketUses = () => {
         <div className="relative order-1 lg:order-2">
           <div className="absolute -inset-4 bg-gradient-to-tr from-emerald-500/20 to-cyan-500/20 rounded-full blur-3xl opacity-30"></div>
 
-          <div className="relative rounded-2xl overflow-hidden border border-slate-800 shadow-2xl">
+          <div className="relative rounded-md overflow-hidden border border-slate-800 shadow-2xl">
             <img
-              src="https://picsum.photos/id/1064/600/400"
+              src={assets.capmarket6}
               alt="Capmarket Visual"
-              className="w-full h-auto object-cover rounded-2xl"
+              className="w-full h-auto object-cover rounded-md"
             />
           </div>
         </div>

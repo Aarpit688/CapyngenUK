@@ -1,5 +1,6 @@
 import React from "react";
 import { Check, TrendingUp, ShieldCheck } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function MT5ServiceWhyChoose() {
   const title = "Why Brokers Choose Capyngen for MT5 Services";
@@ -29,7 +30,7 @@ export default function MT5ServiceWhyChoose() {
             {/* Photo 1 */}
             <div className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl border border-slate-800">
               <img
-                src="https://picsum.photos/seed/mt5why_main/600/800"
+                src={assets.mtService10}
                 alt="Brokerage Operations"
                 className="w-full h-full object-cover opacity-80"
               />

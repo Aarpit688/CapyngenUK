@@ -49,7 +49,30 @@ const Pamm = () => {
 
   return (
     <div>
-      <Banner9 />
+      <Banner9
+        title="Reliable PAMM Technology Solutions for Investment Brokers"
+        subheading="Empower asset managers and investors with a stable, automated PAMM system crafted for accuracy and transparency."
+        ctaText="Hire Talent"
+        ctaLink="/contact-us"
+        images={[
+          [
+            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
+            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
+          ],
+          [
+            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
+            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
+          ],
+          [
+            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
+            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
+          ],
+        ]}
+        topGlowColor="cyan-500/20"
+        bottomGlowColor="pink-600/20"
+        radialGlowColor="blue-500/10"
+      />
+
       <TopRatedCompany
         title="PAMM Technology Engine Built by Capyngen Technologies UK Limited"
         description={[

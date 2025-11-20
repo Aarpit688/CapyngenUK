@@ -8,6 +8,7 @@ import {
   Globe,
   Server,
 } from "lucide-react";
+import { assets } from "../assets/assets";
 
 const NTraderWhyChoose = () => {
   const focusPoints = [
@@ -47,10 +48,10 @@ const NTraderWhyChoose = () => {
 
               <div className="prose prose-invert prose-lg">
                 <p className="text-slate-300 leading-relaxed text-lg">
-                  nTrader​‍​‌‍​‍‌​‍​‌‍​‍‌ is created with speed, stability, and
-                  scalability in mind, catering to any kind of broker. Also, it
-                  facilitates multi-asset execution, has tight connectivity, and
-                  an efficient backend engine.
+                  nTrader is created with speed, stability, and scalability in
+                  mind, catering to any kind of broker. It facilitates
+                  multi-asset execution, tight connectivity, and an efficient
+                  backend engine.
                 </p>
                 <p className="text-slate-300 leading-relaxed text-lg border-l-2 border-red-500/30 pl-4">
                   In contrast to the systems of the past, nTrader concentrates
@@ -75,47 +76,19 @@ const NTraderWhyChoose = () => {
               </div>
             </div>
 
-            {/* Right: Visual Representation */}
+            {/* Right: IMAGE Instead of Illustration */}
             <div className="lg:col-span-5 relative flex justify-center lg:justify-end">
               <div className="relative w-full max-w-sm">
+                {/* Glow */}
                 <div className="absolute inset-0 bg-gradient-to-tr from-red-500/20 to-orange-500/20 rounded-full blur-3xl opacity-30"></div>
 
-                <div className="relative bg-slate-950 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl p-6 flex flex-col gap-6 group hover:border-red-500/30 transition-colors duration-500">
-                  {/* Speed Visual */}
-                  <div className="relative h-32 w-full bg-slate-900 rounded-xl border border-slate-800 overflow-hidden flex items-center justify-center">
-                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-red-900/20 via-transparent to-transparent"></div>
-                    <div className="text-center z-10">
-                      <Gauge className="w-10 h-10 text-red-500 mx-auto mb-2 animate-pulse" />
-                      <div className="text-2xl font-bold text-white tracking-tighter">
-                        ULTRA LOW
-                      </div>
-                      <div className="text-[10px] text-slate-400 uppercase tracking-widest">
-                        Latency Execution
-                      </div>
-                    </div>
-
-                    {/* Speed Lines */}
-                    <div className="absolute inset-0 pointer-events-none">
-                      <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-transparent via-red-500/30 to-transparent"></div>
-                      <div className="absolute top-0 left-1/2 h-full w-px bg-gradient-to-b from-transparent via-red-500/30 to-transparent"></div>
-                    </div>
-                  </div>
-
-                  {/* Features Badges */}
-                  <div className="grid grid-cols-2 gap-3">
-                    <div className="bg-slate-900 p-3 rounded-xl border border-slate-800 flex flex-col items-center text-center gap-2 hover:bg-slate-800 transition-colors">
-                      <Globe className="w-6 h-6 text-red-400" />
-                      <span className="text-xs font-bold text-white">
-                        Global Reach
-                      </span>
-                    </div>
-                    <div className="bg-slate-900 p-3 rounded-xl border border-slate-800 flex flex-col items-center text-center gap-2 hover:bg-slate-800 transition-colors">
-                      <Server className="w-6 h-6 text-orange-400" />
-                      <span className="text-xs font-bold text-white">
-                        Stable Engine
-                      </span>
-                    </div>
-                  </div>
+                {/* Image Card */}
+                <div className="relative bg-slate-950 border border-slate-800 rounded-md overflow-hidden shadow-2xl group hover:border-red-500/30 transition-all duration-500">
+                  <img
+                    src={assets.nt07}
+                    alt="nTrader Infrastructure"
+                    className="w-full h-80 object-cover opacity-90 group-hover:opacity-100 transition-all duration-500"
+                  />
                 </div>
               </div>
             </div>
@@ -125,8 +98,8 @@ const NTraderWhyChoose = () => {
           <div className="mt-12 pt-8 border-t border-slate-800 text-center">
             <p className="text-lg text-slate-300 font-light leading-relaxed max-w-4xl mx-auto">
               "Therefore, brokers can move into the international market with
-              the possibility of keeping latency at a minimum and their
-              performance being stable and ​‍​‌‍​‍‌​‍​‌‍​‍‌trustworthy."
+              minimum latency and high stability, ensuring a trustworthy trading
+              performance."
             </p>
           </div>
         </div>

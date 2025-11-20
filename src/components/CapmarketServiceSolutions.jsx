@@ -1,5 +1,6 @@
 import React from "react";
 import { CheckCircle2, Workflow, Zap } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function CapmarketServiceSolutions() {
   const title = "How Capyngen Delivers Complete Capmarket Solutions";
@@ -12,7 +13,7 @@ export default function CapmarketServiceSolutions() {
         {/* IMAGE SECTION */}
         <div className="md:w-1/2 relative min-h-[360px] md:min-h-[480px]">
           <img
-            src="https://picsum.photos/seed/capsolutions/800/1000"
+            src={assets.capmarketService8}
             alt="Capmarket Solutions Architecture"
             className="absolute inset-0 w-full h-full object-cover"
           />

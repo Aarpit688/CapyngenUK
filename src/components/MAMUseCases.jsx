@@ -8,6 +8,7 @@ import {
   FaShieldAlt,
   FaCogs,
 } from "react-icons/fa";
+import { assets } from "../assets/assets";
 
 export default function MAMUseCases() {
   const enterpriseBenefits = [
@@ -48,7 +49,7 @@ export default function MAMUseCases() {
             viewport={{ once: true }}
           >
             <img
-              src="https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=900&q=80"
+              src={assets.mam13}
               alt="Startup Brokers"
               className="rounded-2xl shadow-lg shadow-black/30 border border-white/10 w-full object-cover"
             />
@@ -129,7 +130,7 @@ export default function MAMUseCases() {
             viewport={{ once: true }}
           >
             <img
-              src="https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=900&q=80"
+              src={assets.mam14}
               alt="Institutional Brokers"
               className="rounded-2xl shadow-lg shadow-black/30 border border-white/10 w-full object-cover"
             />

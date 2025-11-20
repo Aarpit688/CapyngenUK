@@ -17,7 +17,7 @@ const Banner12 = ({
           {/* Header Section */}
           <header className="space-y-6">
             <h1
-              className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight ${textColor}`}
+              className={`text-3xl max-w-6xl mx-auto sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight ${textColor}`}
             >
               <span className="text-blue-600">{highlight}</span>{" "}
               {heading.replace(highlight, "").trim()}

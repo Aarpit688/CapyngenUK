@@ -12,7 +12,17 @@ import CTraderConclusion from "../components/CTraderConclusion";
 const CTrader = () => {
   return (
     <div>
-      <Banner3 />
+      <Banner3
+        title="High-Performance cTrader Technology Solutions for Brokers"
+        description="Deliver institutional trading experiences with robust cTrader server setups, API integrations, and IT support."
+        primaryCtaText="Start Now"
+        primaryCtaLink="/contact-us"
+        secondaryCtaText="View Demo"
+        secondaryCtaLink="/contact-us"
+        desktopBgImage="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/1/background.png"
+        mobileBgImage="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/1/bg.png"
+      />
+
       <CTraderIntro />
       <CTraderFeatures />
       <CTraderSolutions />

@@ -1,5 +1,6 @@
 import React from "react";
 import { Server, Zap, Monitor } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function CapmarketServiceFeatures() {
   return (
@@ -77,43 +78,18 @@ export default function CapmarketServiceFeatures() {
             </div>
           </div>
 
-          {/* RIGHT IMAGE SIDE */}
-          <div className="w-full lg:w-5/12 space-y-6 order-1 lg:order-2">
-            {/* MAIN IMAGE */}
-            <div className="relative h-64 lg:h-84 overflow-hidden border border-slate-800">
+          {/* RIGHT SIDE — SINGLE LARGE IMAGE */}
+          <div className="w-full lg:w-5/12 order-1 lg:order-2">
+            <div className="relative h-96 lg:h-[32rem] overflow-hidden border border-slate-800 rounded-md">
               <img
-                src="https://picsum.photos/seed/capfeatures_main/600/800"
-                alt="Financial Data"
+                src={assets.capmarketService7}
+                alt="Capmarket Services"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent">
-                <span className="text-white text-lg font-semibold">
-                  Seamless Integration
+              <div className="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-black/60 to-transparent">
+                <span className="text-white text-xl font-semibold">
+                  Enterprise-Grade Infrastructure
                 </span>
-              </div>
-            </div>
-
-            {/* SUB GRID */}
-            <div className="grid grid-cols-2 gap-4">
-              {/* Sub Image */}
-              <div className="relative h-32 overflow-hidden border border-slate-800">
-                <img
-                  src="https://picsum.photos/seed/capfeatures_sub1/400/400"
-                  alt="Server Room"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              {/* Metric Card */}
-              <div className="h-32 border border-slate-800 bg-slate-900 flex items-center justify-center">
-                <div className="text-center">
-                  <span className="text-2xl font-bold text-amber-400">
-                    99.9%
-                  </span>
-                  <span className="block text-xs text-slate-400 uppercase tracking-wide mt-1">
-                    Uptime
-                  </span>
-                </div>
               </div>
             </div>
           </div>

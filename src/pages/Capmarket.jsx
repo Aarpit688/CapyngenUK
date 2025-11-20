@@ -14,9 +14,9 @@ const Capmarket = () => {
   const slidesData = [
     {
       id: 1,
-      title: "Transform Learning with Smart Education Solutions",
+      title: "Tailored IT Solutions for Capmarket Trading Infrastructure",
       subtitle:
-        "Motivate students and teachers with e-learning resources that open the doors to development and engagement.",
+        "Capyngen provides secure, high-speed technology to power Capmarket-based trading environments and brokerage operations.",
       image: assets.ai1,
       ctaText: "Get Started",
       ctaLink: "/contact-us",
@@ -77,7 +77,7 @@ const Capmarket = () => {
         description={[
           "Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited offers full Capmarket trading platform solutions to forex, CFD, and multi-asset brokers who want quick execution, up-to-date infrastructure, and safe trading technology. We provide the technology that allows brokers to integrate their API with Capmarket, set up a liquidity bridge, install the backend, and connect to the worldwide network—all of which are ways by which our solutions empower brokers to grow their business with efficient ​‍​‌‍​‍‌​‍​‌‍​‍‌infrastructure.",
         ]}
-        image="https://picsum.photos/id/1064/600/400"
+        image={assets.capmarket4}
         isHidden={true}
       />
       <TopRatedCompany
@@ -86,7 +86,7 @@ const Capmarket = () => {
           "The​‍​‌‍​‍‌​‍​‌‍​‍‌ Capmarket trading platform represents the ideal option for brokers requiring a stable, scalable, and globally integrated trading ecosystem. Capmarket, which is designed for multi-asset trading, offers users fast execution, sophisticated risk systems, a high level of liquidity connectivity, as well as a set of flexible integration tools. Capyngen, being a technology partner of Capmarket, is committed to providing brokers with a fully managed configuration for every technical layer, starting from platform deployment, through global hosting to maintenance.",
         ]}
         reverse
-        image="https://picsum.photos/id/1064/600/400"
+        image={assets.capmarket5}
         isHidden={true}
       />
       <CardsSection

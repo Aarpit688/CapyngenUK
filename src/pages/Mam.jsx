@@ -15,6 +15,7 @@ import IndustryServices from "../components/IndustryServices";
 import MAMUseCases from "../components/MAMUseCases";
 import MAMCapabilities from "../components/MAMCapabilities";
 import MAMInfrastructure from "../components/MAMInfrastructure";
+import { assets } from "../assets/assets";
 
 const Mam = () => {
   const cardsSectionData1 = [
@@ -39,17 +40,17 @@ const Mam = () => {
   ];
   const servicesData = [
     {
-      image: "https://picsum.photos/id/1082/600/400",
+      image: assets.mam09,
       title: "A​‍​‌‍​‍‌​‍​‌‍​‍‌ network with minimal delay on a global scale",
       desc: "Perfectly designed for instant allocation",
     },
     {
-      image: "https://picsum.photos/id/1082/600/400",
+      image: assets.mam10,
       title: "Various allocation methods",
       desc: "Proportional, percentage, equity, lot-based & custom",
     },
     {
-      image: "https://picsum.photos/id/1082/600/400",
+      image: assets.mam11,
       title: "Effortless API integration",
       desc: "Connect CRMs, PSPs, compliance systems and analytics",
     },
@@ -64,7 +65,7 @@ const Mam = () => {
           "Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is a one-stop MAM platform provider of infrastructure to forex, CFD, and multi-asset brokers that are in need of quick allocation, a reliable architecture, and worldwide performance.",
           "We provide an MAM allocation technology solution that can be API-driven, by allocation engines, liquidity bridges, or backend systems thus giving a trading infrastructure that is safe, efficient, and exactly optimized to the broker's needs.",
         ]}
-        image="https://picsum.photos/id/1064/600/400"
+        image={assets.mam06}
         isHidden={true}
       />
       <TopRatedCompany
@@ -72,7 +73,7 @@ const Mam = () => {
         description={[
           "A​‍​‌‍​‍‌​‍​‌‍​‍‌ MAM (Multi-Account Manager) platform basically means managing multiple client accounts which are under a single master account with instant trade replication. Capyngen is keeping a very stable, compliant, and scalable environment for multi-asset execution, which is supported by high-speed allocation and global infrastructure. The MAM engine is delivering very fast trade distribution, different methods of allocation, and effortless connection with liquidity providers, MT4/MT5, Capmarket, and other trading solutions. By utilizing its robust APIs, brokers have the freedom to link up CRMs, reporting systems, risk units, PSPs, and other fintech solutions without a ​‍​‌‍​‍‌​‍​‌‍​‍‌hitch.",
         ]}
-        image="https://picsum.photos/id/1072/600/400"
+        image={assets.mam07}
         reverse
         isHidden={true}
       />
@@ -94,7 +95,7 @@ const Mam = () => {
           "The​‍​‌‍​‍‌​‍​‌‍​‍‌ MAM framework is designed to perform quickly, maintain stability during operations, and be scalable worldwide. Through additional powerful allocation options, a secure infrastructure, and reliable routing technology brokers benefit.",
           "As a result, MAM offers accurate execution, multi-layer control, and flexible allocation that is perfect for portfolio managers and large-volume brokerages, which is far beyond basic copy-trading tools.",
         ]}
-        image="https://picsum.photos/id/1064/600/400"
+        image={assets.mam08}
         isHidden={true}
       />
       <IndustryServices

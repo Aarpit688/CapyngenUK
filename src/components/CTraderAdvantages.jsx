@@ -1,5 +1,6 @@
 import React from "react";
 import { Rocket, Layers, Wifi, CheckCircle } from "lucide-react";
+import { assets } from "../assets/assets";
 
 const CTraderAdvantages = () => {
   const advantages = [
@@ -15,16 +16,14 @@ const CTraderAdvantages = () => {
       title: "Multi-Asset Support",
       description:
         "Allow forex, CFD, and cryptocurrency trading to be done from a single platform.",
-      image:
-        "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?q=80&w=800&auto=format&fit=crop",
+      image: assets.cTrader8,
       icon: <Layers className="w-6 h-6 text-white" />,
     },
     {
       title: "Reliable Execution & Connectivity",
       description:
         "Trade execution is kept smooth through low-latency hosting and bridging.",
-      image:
-        "https://images.unsplash.com/photo-1558494949-efc52728101c?q=80&w=800&auto=format&fit=crop",
+      image: assets.cTrader9,
       icon: <Wifi className="w-6 h-6 text-white" />,
     },
   ];
@@ -44,16 +43,15 @@ const CTraderAdvantages = () => {
           {advantages.map((adv, index) => (
             <div
               key={index}
-              className="group relative bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-teal-500/40 transition-all duration-500 hover:-translate-y-2 shadow-lg"
+              className="group relative bg-slate-900 border border-slate-800 rounded-md overflow-hidden hover:border-teal-500/40 transition-all duration-500 hover:-translate-y-2 shadow-lg"
             >
               {/* Image Area */}
               <div className="h-48 relative overflow-hidden">
-                <div className="absolute inset-0 bg-teal-900/30 mix-blend-multiply z-10 group-hover:bg-teal-900/10 transition-colors duration-500"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent z-20"></div>
                 <img
                   src={adv.image}
                   alt={adv.title}
-                  className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-cover transform"
                 />
 
                 <div className="absolute top-4 right-4 z-30 w-12 h-12 bg-teal-500 rounded-xl flex items-center justify-center shadow-lg shadow-teal-500/20 group-hover:scale-110 transition-transform duration-300">

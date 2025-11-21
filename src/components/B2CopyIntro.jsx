@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
+import { assets } from "../assets/assets";
 
 /* --------------------------------------------------------
    CURSOR PARTICLE TRAIL
@@ -70,7 +71,7 @@ const B2CopyIntro = () => {
                        transform transition-all duration-700"
           >
             <img
-              src="https://picsum.photos/seed/copytrade/800/600"
+              src={assets.b2copy03}
               className="w-full h-full object-cover transition-transform duration-700"
               alt="Copy trading platform interface"
             />

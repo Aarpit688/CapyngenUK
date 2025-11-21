@@ -8,6 +8,7 @@ import {
   FaExchangeAlt,
   FaPlug,
 } from "react-icons/fa";
+import { assets } from "../assets/assets";
 
 const B2TraderTrust = () => {
   const points = [
@@ -94,9 +95,9 @@ const B2TraderTrust = () => {
           <div className="absolute bottom-0 -right-10 w-64 h-64 bg-blue-500/10 blur-3xl"></div>
 
           <img
-            src="https://picsum.photos/seed/b2ttrust/900/600"
+            src={assets.b2Trader5}
             alt="B2Trader Technology"
-            className="rounded-2xl w-full object-cover border border-white/10 shadow-[0_0_40px_rgba(0,255,255,0.12)]"
+            className="rounded-md w-full object-cover border border-white/10 shadow-[0_0_40px_rgba(0,255,255,0.12)]"
           />
         </motion.div>
       </div>

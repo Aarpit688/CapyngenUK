@@ -22,6 +22,7 @@ import { Link } from "react-router-dom";
 import CardsSectionImage from "../components/CardsSectionImage";
 import IndustryServices from "../components/IndustryServices";
 import GetStarted from "../components/GetStarted";
+import { assets } from "../assets/assets";
 
 const CryptoExchange = () => {
   const cardsSectionData1 = [
@@ -48,31 +49,31 @@ const CryptoExchange = () => {
     {
       title: "Complete Crypto Exchange Broker Setup",
       description: "Your trading platform to CRM all in one solution",
-      image: "https://picsum.photos/id/1064/600/400",
+      image: assets.cryptoExchange7,
       cardBg: "bg-gray-200",
     },
     {
       title: "Digital Marketing Integration",
       description: "Effectively promote your exchange to a global audience",
-      image: "https://picsum.photos/id/1064/600/400",
+      image: assets.cryptoExchange8,
       cardBg: "bg-gray-200",
     },
     {
       title: "Custom Platform Development",
       description: "Precisely to fit your business model",
-      image: "https://picsum.photos/id/1064/600/400",
+      image: assets.cryptoExchange9,
       cardBg: "bg-gray-200",
     },
     {
       title: "Security & Compliance",
       description: "Following international regulatory standards",
-      image: "https://picsum.photos/id/1064/600/400",
+      image: assets.cryptoExchange10,
       cardBg: "bg-gray-200",
     },
     {
       title: "Client Engagement Improvement",
       description: "Simplified CRM for customer retention and loyalty",
-      image: "https://picsum.photos/id/1064/600/400",
+      image: assets.cryptoExchange11,
       cardBg: "bg-gray-200",
     },
   ];
@@ -155,31 +156,31 @@ const CryptoExchange = () => {
         hoverTranslate="hover:-translate-y-3"
         solutions={[
           {
-            imgSrc: "https://picsum.photos/id/1064/600/400",
+            imgSrc: assets.cryptoExchange2,
             alt: "Trading Platforms",
             title: "Next-Gen Trading Platforms",
             desc: "Extremely fast, secure, and feature-packed platforms alongside advanced analytics.",
           },
           {
-            imgSrc: "https://picsum.photos/id/1048/600/400",
+            imgSrc: assets.cryptoExchange3,
             alt: "CRM Software Solutions",
             title: "Client Relationship Management (CRM) Software",
             desc: "Workflow automation, lead tracking, and customer retention enhancement.",
           },
           {
-            imgSrc: "https://picsum.photos/id/1059/600/400",
+            imgSrc: assets.cryptoExchange4,
             alt: "Website & App Development",
             title: "Website & App Development",
             desc: "Perfectly responsive, user-friendly interface designs for delivering excellent user experience.",
           },
           {
-            imgSrc: "https://picsum.photos/id/1075/600/400",
+            imgSrc: assets.cryptoExchange5,
             alt: "Payment Gateway Integration",
             title: "Payment Gateway Integration",
             desc: "Deposit/withdrawal operations designed to be safe and smooth.",
           },
           {
-            imgSrc: "https://picsum.photos/id/1082/600/400",
+            imgSrc: assets.cryptoExchange6,
             alt: "Back-Office Solutions",
             title: "Operational & Back-Office Tools",
             desc: "Simplified reporting, compliance, and management.",
@@ -295,7 +296,7 @@ const CryptoExchange = () => {
           "Be our partner in achieving your crypto exchange dream to go live with a safe, expandable, and internationally competitive ​‍​‌‍​‍‌​‍​‌‍​‍‌platform.",
         ]}
         buttonText="Contact Us"
-        image="https://picsum.photos/id/1064/600/400"
+        image={assets.cryptoExchange12}
       />
     </div>
   );

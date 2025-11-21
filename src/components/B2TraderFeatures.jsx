@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaServer, FaChartLine, FaPlug } from "react-icons/fa";
+import { assets } from "../assets/assets";
 
 const B2TraderFeatures = () => {
   const features = [
@@ -36,9 +37,9 @@ const B2TraderFeatures = () => {
           <div className="absolute -top-10 -left-10 w-80 h-80 bg-cyan-500/20 blur-3xl rounded-full"></div>
           <div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-500/10 blur-2xl rounded-full"></div>
 
-          <div className="relative rounded-2xl overflow-hidden shadow-[0_0_40px_rgba(0,255,255,0.15)] border border-white/10">
+          <div className="relative rounded-md overflow-hidden shadow-[0_0_40px_rgba(0,255,255,0.15)] border border-white/10">
             <img
-              src="https://picsum.photos/seed/b2trader/900/800"
+              src={assets.b2Trader3}
               alt="B2Trader Trading"
               className="w-full h-full object-cover"
             />

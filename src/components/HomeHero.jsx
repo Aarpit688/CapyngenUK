@@ -9,10 +9,10 @@ const HomeHero = () => {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="px-6 text-lg text-gray-300 font-inter">
-              Smart brokerage technology suite, built for Global Brokers
+              Convert your traffic into a profitable brokerage business
             </h1>
             <p className="mt-5 text-4xl font-bold leading-tight text-white sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight font-pj">
-              Convert your traffic into a profitable brokerage
+              Smart brokerage technology suite, built for Global Brokers
               <span className="relative inline-flex sm:inline">
                 <span className="bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg filter opacity-30 w-full h-full absolute inset-0"></span>
                 <span className="relative"> business </span>

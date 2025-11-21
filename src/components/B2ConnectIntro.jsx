@@ -1,4 +1,5 @@
 import React from "react";
+import { assets } from "../assets/assets";
 
 const B2ConnectIntro = () => {
   return (
@@ -54,7 +55,7 @@ const B2ConnectIntro = () => {
           {/* RIGHT IMAGE */}
           <div className="relative h-64 md:h-full order-1 md:order-2 overflow-hidden">
             <img
-              src="https://picsum.photos/800/1000?random=1"
+              src={assets.b2Connect02}
               alt="Global Financial Network"
               className="w-full h-full object-cover md:absolute md:inset-0 scale-105 
             opacity-80 transition-all duration-500 hover:scale-110 hover:opacity-100"

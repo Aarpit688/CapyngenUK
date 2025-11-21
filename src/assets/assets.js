@@ -110,6 +110,55 @@ import careers6 from "./careers6.png";
 import careers7 from "./careers7.png";
 import careers8 from "./careers8.png";
 import careers9 from "./careers9.png";
+import b2Trader2 from "./b2Trader2.png";
+import b2Trader3 from "./b2Trader3.png";
+import b2Trader4 from "./b2Trader4.jpg";
+import b2Trader5 from "./b2Trader5.png";
+import b2Trader6 from "./b2Trader6.jpg";
+import b2Trader7 from "./b2Trader7.png";
+import b2Trader8 from "./b2Trader8.png";
+import b2c02 from "./b2c02.jpg";
+import b2c03 from "./b2c03.png";
+import b2c04 from "./b2c04.png";
+import b2c05 from "./b2c05.jpg";
+import b2c06 from "./b2c06.png";
+import b2c07 from "./b2c07.png";
+import b2c08 from "./b2c08.png";
+import b2c09 from "./b2c09.png";
+import b2copy03 from "./b2copy03.png";
+import b2copy04 from "./b2copy04.png";
+import b2copy05 from "./b2copy05.png";
+import b2copy06 from "./b2copy06.jpg";
+import b2copy07 from "./b2copy07.png";
+import b2Connect02 from "./b2Connect02.png";
+import b2Connect03 from "./b2Connect03.png";
+import b2Connect04 from "./b2Connect04.png";
+import forexBroker2 from "./forexBroker2.png";
+import forexBroker7 from "./forexBroker7.png";
+import forexBroker8 from "./forexBroker8.png";
+import forexBroker9 from "./forexBroker9.png";
+import forexBroker10 from "./forexBroker10.png";
+import forexBroker11 from "./forexBroker11.png";
+import forexBroker12 from "./forexBroker12.png";
+import forexBroker13 from "./forexBroker13.png";
+import forexBroker14 from "./forexBroker14.png";
+import forexBroker15 from "./forexBroker15.png";
+import forexBroker16 from "./forexBroker16.png";
+import forexBroker17 from "./forexBroker17.png";
+import forexBroker18 from "./forexBroker18.png";
+import forexBroker19 from "./forexBroker19.png";
+import forexBroker20 from "./forexBroker20.png";
+import cryptoExchange2 from "./cryptoExchange2.png";
+import cryptoExchange3 from "./cryptoExchange3.png";
+import cryptoExchange4 from "./cryptoExchange4.png";
+import cryptoExchange5 from "./cryptoExchange5.png";
+import cryptoExchange6 from "./cryptoExchange6.png";
+import cryptoExchange7 from "./cryptoExchange7.png";
+import cryptoExchange8 from "./cryptoExchange8.png";
+import cryptoExchange9 from "./cryptoExchange9.png";
+import cryptoExchange10 from "./cryptoExchange10.png";
+import cryptoExchange11 from "./cryptoExchange11.png";
+import cryptoExchange12 from "./cryptoExchange12.png";
 
 export const assets = {
   sampleImg,
@@ -224,6 +273,55 @@ export const assets = {
   careers7,
   careers8,
   careers9,
+  b2Trader2,
+  b2Trader3,
+  b2Trader4,
+  b2Trader5,
+  b2Trader6,
+  b2Trader7,
+  b2Trader8,
+  b2c02,
+  b2c03,
+  b2c04,
+  b2c05,
+  b2c06,
+  b2c07,
+  b2c08,
+  b2c09,
+  b2copy03,
+  b2copy04,
+  b2copy05,
+  b2copy06,
+  b2copy07,
+  b2Connect02,
+  b2Connect03,
+  b2Connect04,
+  forexBroker2,
+  forexBroker7,
+  forexBroker8,
+  forexBroker9,
+  forexBroker10,
+  forexBroker11,
+  forexBroker12,
+  forexBroker13,
+  forexBroker14,
+  forexBroker15,
+  forexBroker16,
+  forexBroker17,
+  forexBroker18,
+  forexBroker19,
+  forexBroker20,
+  cryptoExchange2,
+  cryptoExchange3,
+  cryptoExchange4,
+  cryptoExchange5,
+  cryptoExchange6,
+  cryptoExchange7,
+  cryptoExchange8,
+  cryptoExchange9,
+  cryptoExchange10,
+  cryptoExchange11,
+  cryptoExchange12,
 };
 
 export const navItems = [

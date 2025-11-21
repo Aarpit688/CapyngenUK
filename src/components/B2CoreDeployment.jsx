@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
+import { assets } from "../assets/assets";
 
 /* ----------------------------
    Mouse Glow Effect Hook
@@ -121,10 +122,10 @@ const B2CoreDeployment = () => {
             ref={tiltImg.ref}
             onMouseMove={tiltImg.move}
             onMouseLeave={tiltImg.reset}
-            className="overflow-hidden rounded-2xl border border-cyan-400/30 shadow-[0_0_50px_#00ffff50] cursor-pointer"
+            className="overflow-hidden max-h-90 rounded-md border border-cyan-400/30 shadow-[0_0_50px_#00ffff50] cursor-pointer"
           >
             <img
-              src="https://picsum.photos/seed/ecosystem/900/650"
+              src={assets.b2c09}
               className="w-full h-full object-cover transition-transform duration-700"
             />
           </motion.div>

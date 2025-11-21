@@ -9,6 +9,7 @@ import {
   FaNetworkWired,
   FaTools,
 } from "react-icons/fa";
+import { assets } from "../assets/assets";
 
 const B2TraderHighPerformance = () => {
   const features = [
@@ -87,14 +88,14 @@ const B2TraderHighPerformance = () => {
         >
           {/* Main big image */}
           <img
-            src="https://picsum.photos/seed/b2t-main/1400/700"
+            src={assets.b2Trader6}
             alt="B2Trader Engine"
             className="rounded-2xl w-full object-cover border border-white/10 shadow-[0_0_45px_rgba(0,200,255,0.12)]"
           />
 
           {/* Floating image left */}
           <motion.img
-            src="https://picsum.photos/seed/b2t-left/600/450"
+            src={assets.b2Trader7}
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
@@ -103,7 +104,7 @@ const B2TraderHighPerformance = () => {
 
           {/* Floating image right */}
           <motion.img
-            src="https://picsum.photos/seed/b2t-right/600/450"
+            src={assets.b2Trader8}
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}

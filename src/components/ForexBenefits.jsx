@@ -1,32 +1,33 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { assets } from "../assets/assets";
 
 export default function ForexBenefits() {
   const benefits = [
     {
       title: "Scalable Technology",
       desc: "The services that we offer will still be suitable for your business even after it has grown with more clients and trading volumes.",
-      img: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1200&q=80",
+      img: assets.forexBroker12,
     },
     {
       title: "Security and Compliance",
       desc: "One of the main characters in the story is security which is ensured by advanced encryption, secure servers, and a compliance-focused architect.",
-      img: "https://images.unsplash.com/photo-1605902711622-cfb43c44367f?auto=format&fit=crop&w=1200&q=80",
+      img: assets.forexBroker13,
     },
     {
       title: "Enhanced User Experience",
       desc: "Great user-friendly interfaces are the result of the work of developers and designers and are the final users which are brokers and traders.",
-      img: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+      img: assets.forexBroker14,
     },
     {
       title: "Integration Capabilities",
       desc: "There are no hindrances in the way of linking to trading platforms or CRMs, analytics, and marketing tools.",
-      img: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+      img: assets.forexBroker15,
     },
     {
       title: "Global Reach",
       desc: "Products designed for a worldwide forex market.",
-      img: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      img: assets.forexBroker16,
     },
   ];
 
@@ -71,12 +72,12 @@ export default function ForexBenefits() {
               <motion.div
                 whileHover={{ scale: 1.03 }}
                 transition={{ type: "spring", stiffness: 150 }}
-                className="relative w-full lg:w-1/3 rounded-2xl overflow-hidden shadow-2xl group"
+                className="relative w-full lg:w-1/3 rounded-md overflow-hidden shadow-2xl group"
               >
                 <img
                   src={item.img}
                   alt={item.title}
-                  className="w-full h-[380px] object-cover transform transition-transform duration-700"
+                  className="w-full h-[280px] object-cover transform transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-70 group-hover:opacity-60 transition-all duration-500"></div>
               </motion.div>

@@ -10,6 +10,7 @@ import {
   FaCogs,
   FaEye,
 } from "react-icons/fa";
+import { assets } from "../assets/assets";
 
 const B2CopyWhy = () => {
   const features = [
@@ -64,9 +65,9 @@ const B2CopyWhy = () => {
           viewport={{ once: true }}
           className="w-full"
         >
-          <div className="rounded-xl overflow-hidden shadow-[0_0_40px_rgba(0,255,255,0.2)] border border-cyan-400/30">
+          <div className="rounded-md overflow-hidden shadow-[0_0_40px_rgba(0,255,255,0.2)] border border-cyan-400/30">
             <img
-              src="https://picsum.photos/seed/copytrade/900/800"
+              src={assets.b2copy04}
               alt="Copy Trading Technology"
               className="w-full h-full object-cover"
             />

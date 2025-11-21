@@ -15,6 +15,7 @@ import {
   FaUsersCog,
 } from "react-icons/fa";
 import ForexTechSolutions from "../components/ForexTechSolutions";
+import { assets } from "../assets/assets";
 
 const ForexBroker = () => {
   return (
@@ -35,7 +36,7 @@ const ForexBroker = () => {
         heroDescription="In​‍​‌‍​‍‌​‍​‌‍​‍‌ the quickly changing world of forex trading, the proper technology is not merely an advantage—it is a must. Capyngen Technologies UK Limited, a company in the UK with clients all over the world, is focused on delivering Forex Broker IT Solutions that are meant to provide brokers with the power, improve trading experiences, and make operations more efficient. If you are a broker going for a new business or a mature company, our inventive forex broker technology solutions guarantee that your business will be leading in the market that is getting more and more ​‍​‌‍​‍‌​‍​‌‍​‍‌competitive."
         primaryBtn={{ label: "Get Started", link: "#" }}
         secondaryBtn={{ label: "", link: "" }}
-        heroImage="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+        heroImage={assets.forexBroker2}
         features={[
           {
             title: "End-to-end trading stack",
@@ -91,31 +92,31 @@ const ForexBroker = () => {
         sectionBg="bg-gradient-to-b from-black via-gray-900 to-black"
         solutions={[
           {
-            imgSrc: "https://picsum.photos/id/1064/600/400",
+            imgSrc: assets.forexBroker7,
             alt: "Trading Platforms",
             title: "Trading Platforms",
             desc: "Sophisticated platforms that can be automated for trading, include risk management features, and have integrated analytics.",
           },
           {
-            imgSrc: "https://picsum.photos/id/1048/600/400",
+            imgSrc: assets.forexBroker8,
             alt: "CRM Software Solutions",
             title: "CRM Software Solutions",
             desc: "Designed systems for the efficient management of leads, clients, and campaigns.",
           },
           {
-            imgSrc: "https://picsum.photos/id/1059/600/400",
+            imgSrc: assets.forexBroker9,
             alt: "Website & App Development",
             title: "Website & App Development",
             desc: "Easily accessible websites and mobile applications to offer clients an effortless trading experience.",
           },
           {
-            imgSrc: "https://picsum.photos/id/1075/600/400",
+            imgSrc: assets.forexBroker10,
             alt: "Payment Gateway Integration",
             title: "Payment Gateway Integration",
             desc: "Systems that are secure and free of any problems for the deposit and withdrawal of funds.",
           },
           {
-            imgSrc: "https://picsum.photos/id/1082/600/400",
+            imgSrc: assets.forexBroker11,
             alt: "Back-Office Solutions",
             title: "Back-Office Solutions",
             desc: "Tools for efficient reporting, compliance management, and operational control.",
@@ -130,22 +131,22 @@ const ForexBroker = () => {
         expertise={[
           {
             title: "Custom Forex Trading Platform Development",
-            img: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
+            img: assets.forexBroker17,
             desc: "",
           },
           {
             title: "Forex Broker Technology Solutions",
-            img: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+            img: assets.forexBroker18,
             desc: "",
           },
           {
             title: "Website & App Development",
-            img: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+            img: assets.forexBroker19,
             desc: "",
           },
           {
             title: "End-to-End Forex IT Solutions",
-            img: "https://images.unsplash.com/photo-1526401281623-3526c67d8e2f?auto=format&fit=crop&w=1200&q=80",
+            img: assets.forexBroker20,
             desc: "",
           },
         ]}

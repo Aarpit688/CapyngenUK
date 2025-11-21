@@ -10,6 +10,7 @@ import {
   FaCloud,
   FaCogs,
 } from "react-icons/fa";
+import { assets } from "../assets/assets";
 
 const B2CopyFunctionalities = () => {
   const features = [
@@ -72,12 +73,12 @@ const B2CopyFunctionalities = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mt-20 rounded-2xl overflow-hidden border border-white/10 shadow-xl"
+          className="mt-20 lg:h-150 rounded-2xl overflow-hidden"
         >
           <img
-            src="https://picsum.photos/seed/trading/1200/600"
+            src={assets.b2copy05}
             alt="Trading analytics"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain object-center"
           />
         </motion.div>
 

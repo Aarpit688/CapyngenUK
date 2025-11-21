@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaBolt, FaLayerGroup, FaRoute, FaLock } from "react-icons/fa";
+import { assets } from "../assets/assets";
 
 const B2TraderUnderstanding = () => {
   const features = [
@@ -90,7 +91,7 @@ const B2TraderUnderstanding = () => {
           className="relative"
         >
           <img
-            src="https://picsum.photos/seed/b2trader/700/900"
+            src={assets.b2Trader2}
             alt="B2Trader Trading Technology"
             className="rounded-md w-full h-full object-cover shadow-2xl shadow-black/40 border border-white/10"
           />

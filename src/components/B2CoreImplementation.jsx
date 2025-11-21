@@ -1,6 +1,7 @@
 // components/B2CoreImplementation.jsx
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import { assets } from "../assets/assets";
 
 /**
  * B2CoreImplementation.jsx
@@ -196,7 +197,7 @@ const B2CoreImplementation = () => {
           <div className="h-full overflow-hidden border border-blue-400/10 shadow-[0_30px_80px_rgba(0,120,255,0.06)] holo-wrapper">
             <img
               ref={imgRef}
-              src="https://picsum.photos/seed/deploy/1200/900"
+              src={assets.b2c08}
               alt="Infrastructure deployment"
               className="holo-img w-full h-full object-cover transition-all duration-600 ease-out"
             />

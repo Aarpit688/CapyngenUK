@@ -32,7 +32,7 @@ import AboutUs from "./pages/AboutUs";
 
 const App = () => {
   return (
-    <div className="overflow-x-hidden">
+    <div>
       <Router>
         <ScrollToTop />
         <Navbar />

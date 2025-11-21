@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { assets } from "../assets/assets";
 
 const itemVariants = {
   hidden: { opacity: 0, y: 40 },
@@ -48,7 +49,7 @@ const B2ConnectBenefits = () => {
               style={{ transform: "translateZ(-1px)" }}
             >
               <img
-                src="https://picsum.photos/800/1000?random=3"
+                src={assets.b2Connect04}
                 alt="Brokerage Benefits"
                 className="w-full h-full object-cover"
               />

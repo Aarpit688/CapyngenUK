@@ -9,6 +9,7 @@ import {
   FaShieldAlt,
   FaPlug,
 } from "react-icons/fa";
+import { assets } from "../assets/assets";
 
 const B2CopyLaunch = () => {
   const items = [
@@ -87,7 +88,7 @@ const B2CopyLaunch = () => {
         >
           <div className="w-full h-[420px] rounded-2xl overflow-hidden">
             <img
-              src="https://picsum.photos/seed/b2global/1200/800"
+              src={assets.b2copy06}
               alt="Global trading technology"
               className="w-full h-full object-cover opacity-90 rounded-2xl"
             />

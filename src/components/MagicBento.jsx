@@ -48,118 +48,80 @@ const cardTabs = {
       label: "Protection",
     },
   ],
-  WhiteLabel: [
+  Platforms: [
     {
       color: "#060010",
-      title: "WL Trader",
-      description: "Branded trading platform",
-      label: "Branding",
+      title: "Capmarket",
+      description: "Multi-asset setup",
+      label: "Liquidity integration",
     },
     {
       color: "#060010",
-      title: "WL Core",
-      description: "Fully customizable CRM",
-      label: "Custom CRM",
+      title: "VertexFX",
+      description: "Hybrid trading system",
+      label: "Dealing desk control",
     },
     {
       color: "#060010",
-      title: "WL Copy",
-      description: "White-label copy trading",
-      label: "Trading",
+      title: "Sirix",
+      description: "Social trading tools",
+      label: "Web & mobile terminals",
     },
     {
       color: "#060010",
-      title: "WL Connect",
-      description: "High-speed connectivity",
-      label: "Bridge",
+      title: "Ark Trading",
+      description: "Cloud trading suite",
+      label: "Fast deployment stack",
     },
     {
       color: "#060010",
-      title: "WL PAMM",
-      description: "Advanced fund sharing",
-      label: "Funds",
+      title: "MT5",
+      description: "Broker-ready setup",
+      label: "Full IT integration",
     },
     {
       color: "#060010",
-      title: "WL MAM",
-      description: "Multi-account management",
-      label: "Accounts",
+      title: "cTrader",
+      description: "Advanced trading UI",
+      label: "Copy trading support",
+    },
+    {
+      color: "#060010",
+      title: "nTrader",
+      description: "Smart trading module",
+      label: "Custom broker features",
     },
   ],
   Services: [
     {
       color: "#060010",
-      title: "Consulting",
-      description: "Expert strategic advice",
-      label: "Support",
+      title: "Capmarket Service",
+      description: "Multi-asset setup",
+      label: "Brokerage automation",
     },
     {
       color: "#060010",
-      title: "Integration",
-      description: "Integrate systems smoothly",
-      label: "Tech Service",
+      title: "MT5 Service",
+      description: "MT5 server setup",
+      label: "MT5 plugin tools",
     },
     {
       color: "#060010",
-      title: "Setup",
-      description: "Fast, seamless implementation",
-      label: "Onboarding",
+      title: "cTrader Service",
+      description: "cTrader integration",
+      label: "cTrader white label",
     },
     {
       color: "#060010",
-      title: "Analytics",
-      description: "Actionable data insights",
-      label: "Reports",
+      title: "OneZero Service",
+      description: "OneZero bridge setup",
+      label: "Risk-routing engine",
     },
     {
       color: "#060010",
-      title: "Security",
-      description: "Safeguard digital assets",
-      label: "Safety",
-    },
-    {
-      color: "#060010",
-      title: "Custom Dev",
-      description: "Tailored tech solutions",
-      label: "Development",
-    },
-  ],
-  Partners: [
-    {
-      color: "#060010",
-      title: "Affiliate",
-      description: "Partner with us globally",
-      label: "Collab",
-    },
-    {
-      color: "#060010",
-      title: "Vendor",
-      description: "Trusted, verified vendors",
-      label: "Vendors",
-    },
-    {
-      color: "#060010",
-      title: "Reseller",
-      description: "Expand business effortlessly",
-      label: "Resell",
-    },
-    {
-      color: "#060010",
-      title: "Tech Partner",
-      description: "Seamless technology sharing",
-      label: "Technology",
-    },
-    {
-      color: "#060010",
-      title: "Industry Link",
-      description: "Strong industry connections",
-      label: "Network",
-    },
-    {
-      color: "#060010",
-      title: "Ambassador",
-      description: "Spread the vision worldwide",
-      label: "Ambassadors",
+      title: "PrimeXM X-Core Service",
+      description: "X-Core liquidity hub",
+      label: "Advanced order routing",
     },
   ],
 };
@@ -786,7 +748,9 @@ const MagicBentoWithTabs = ({
               enableMagnetism={enableMagnetism}
             >
               <Link
-                to={`/${card.title.toLowerCase()}`}
+                to={`/${activeTab.toLowerCase()}/${card.title
+                  .toLowerCase()
+                  .replace(/\s+/g, "-")}`}
                 className="flex flex-col justify-center items-center h-full w-full"
               >
                 <div className="card__header flex justify-between gap-3 relative text-white w-full px-5">

@@ -5,24 +5,24 @@ import "slick-carousel/slick/slick-theme.css";
 
 const projects = [
   {
-    title: "E-commerce Platform Development",
+    title: "MT5 White Label Solutions",
     image: "https://dummyimage.com/600x800/111/fff&text=E-commerce",
-    extra: "The North Face",
+    extra: "Fast deployment",
   },
   {
-    title: "Software as a Service Integration",
+    title: "Liquidity Provider Solutions",
     image: "https://dummyimage.com/600x800/eee/222&text=SaaS",
-    extra: "CRM Integration",
+    extra: "Deep liquidity access",
   },
   {
-    title: "Mobile Platform Development",
+    title: "Crypto Exchange Development",
     image: "https://dummyimage.com/600x800/f9f9f9/000&text=Mobile",
-    extra: "Fintech Solutions",
+    extra: "Secure architecture",
   },
   {
-    title: "Cloud Infrastructure Setup",
+    title: "Forex CRM Software",
     image: "https://dummyimage.com/600x800/222/fff&text=Cloud",
-    extra: "AWS / Azure",
+    extra: "Lead management",
   },
 ];
 

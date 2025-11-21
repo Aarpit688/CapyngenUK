@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { assets } from "../assets/assets";
 
 const B2TraderInfrastructure = () => {
   const steps = [
@@ -46,9 +47,9 @@ const B2TraderInfrastructure = () => {
           <div className="absolute -top-14 -left-14 w-96 h-96 bg-cyan-500/10 blur-[140px]"></div>
           <div className="absolute bottom-0 -right-10 w-80 h-80 bg-blue-500/10 blur-[160px]"></div>
 
-          <div className="rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_60px_rgba(0,255,255,0.14)]">
+          <div className="rounded-md overflow-hidden border border-white/10 shadow-[0_0_60px_rgba(0,255,255,0.14)]">
             <img
-              src="https://picsum.photos/seed/b2tinfra/1200/600"
+              src={assets.b2Trader4}
               alt="Trading Infrastructure"
               className="w-full object-cover"
             />

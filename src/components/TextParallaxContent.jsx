@@ -11,7 +11,7 @@ export const TextParallaxContentExample = () => {
       {/* 1️⃣ Back-office Tools */}
       <TextParallaxContent
         imgUrl="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?q=80&w=2600&auto=format&fit=crop"
-        subheading="Manage your brokerage effortlessly with an advanced suite of back-office, automation, and compliance tools designed to boost efficiency and streamline operations at every level."
+        subheading="Use​‍​‌‍​‍‌​‍​‌‍​‍‌ automation and admin controls effectively to help your brokerage run a little better."
         heading="Build, Scale & Lead with Powerful Back-Office Tools"
       >
         <ContentBackOffice />
@@ -20,8 +20,8 @@ export const TextParallaxContentExample = () => {
       {/* 2️⃣ Liquidity Section */}
       <TextParallaxContent
         imgUrl="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?q=80&w=2600&auto=format&fit=crop"
-        subheading="Deliver speed, accuracy, and scale through flawless market execution."
-        heading="Liquidity: Precision Pricing with Limitless Market Reach"
+        subheading="Deliver superior trade execution through deep liquidity, real-time pricing, and institutional-grade market access."
+        heading="Liquidity: Fast, Accurate Connection to the Market"
       >
         <ContentLiquidity />
       </TextParallaxContent>
@@ -29,8 +29,8 @@ export const TextParallaxContentExample = () => {
       {/* 3️⃣ SiRiX Trading Platform */}
       <TextParallaxContent
         imgUrl="https://images.unsplash.com/photo-1504805572947-34fad45aed93?q=80&w=2600&auto=format&fit=crop"
-        subheading="Access global markets and empower traders with a unified multi-platform experience."
-        heading="Give Your Traders the Edge with SiRiX Trading Platform"
+        subheading="Seamlessly connect to global markets and elevate your traders with an integrated multi-platform ecosystem."
+        heading="Give Your Traders a Competitive Edge with Our Next-Gen Trading Platform"
       >
         <ContentSiRiX />
       </TextParallaxContent>
@@ -162,27 +162,22 @@ const baseContainer =
 
 const ContentBackOffice = () => (
   <div className={baseContainer}>
-    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-5 leading-snug">
-      Build, Scale, and Lead with{" "}
-      <span className="text-transparent bg-clip-text bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400">
-        Our Back-office Tools
-      </span>
+    <h2 className="text-2xl sm:text-3xl font-bold mb-5 leading-snug">
+      Reveal a next-level toolkit of workflow automation, compliance management,
+      and performance insights—designed to make running the business easy from
+      the very first day.
     </h2>
     <div>
-      <p className="text-gray-200 mb-5 text-sm sm:text-base md:text-lg max-w-md">
-        Manage with a comprehensive suite of features designed to boost
-        efficiency and streamline operations.
-      </p>
       <ul className="space-y-3 mb-6 sm:mb-8">
         {[
-          "Broker Portal",
-          "Cutting-Edge Broker CRM",
-          "SiRiX Broker",
-          "Affiliate & IBs Multi Level System",
+          "Broker Control Panel",
+          "Advanced CRM System",
+          "Sirix Admin Tools",
+          "IB & Affiliate Management",
         ].map((item, index) => (
           <li
             key={index}
-            className="flex items-center text-white text-sm sm:text-base"
+            className="flex items-center text-white text-sm sm:text-xl"
           >
             <span className="w-2 h-2 rounded-full mr-3 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400"></span>
             {item}
@@ -198,20 +193,31 @@ const ContentBackOffice = () => (
 
 const ContentLiquidity = () => (
   <div className={baseContainer}>
-    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-5 leading-snug">
-      Liquidity:{" "}
-      <span className="text-transparent bg-clip-text bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400">
-        Precision Pricing with Limitless Market Reach
-      </span>
+    <h2 className="text-2xl sm:text-3xl font-bold mb-5 leading-snug">
+      Be powered by the best execution contributed by the deepest liquidity
+      pools and by the most up-to-date market intelligence. Faster fills,
+      tighter pricing, and effortless access to global trading venues are what
+      Liquidity Prime is all ‌ ​‍​‌‍​‍‌​‍​‌‍​‍‌about.
     </h2>
     <div>
-      <p className="text-gray-200 text-sm sm:text-base md:text-lg mb-6 sm:mb-8">
-        Deliver speed, accuracy, and scale. Liquidity Prime connects your
-        traders to thousands of instruments with real-time data and flawless
-        execution.
-      </p>
+      <ul className="space-y-3 mb-6 sm:mb-8">
+        {[
+          "Deep Multi-Asset Liquidity",
+          "Ultra-Fast Execution",
+          "Tight & Stable Pricing",
+          "Global Market Access",
+        ].map((item, index) => (
+          <li
+            key={index}
+            className="flex items-center text-white text-sm sm:text-xl"
+          >
+            <span className="w-2 h-2 rounded-full mr-3 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400"></span>
+            {item}
+          </li>
+        ))}
+      </ul>
       <button className="py-2 sm:py-3 px-6 sm:px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:opacity-90 transition-all duration-300 text-sm sm:text-base">
-        Try Demo
+        Learn More
       </button>
     </div>
   </div>
@@ -219,21 +225,30 @@ const ContentLiquidity = () => (
 
 const ContentSiRiX = () => (
   <div className={baseContainer}>
-    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-5 leading-snug">
-      Give Your Traders the Edge with{" "}
-      <span className="text-transparent bg-clip-text bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400">
-        SiRiX Trading Platform
-      </span>
+    <h2 className="text-2xl sm:text-3xl font-bold mb-5 leading-snug">
+      Access global markets, leverage pro-grade charting, and enjoy seamless
+      trading across every device. With social trading, flexible layouts, and
+      smart order types, SiRiX empowers your brokerage with a decisive edge.
     </h2>
     <div>
-      <p className="text-gray-200 text-sm sm:text-base md:text-lg mb-6 sm:mb-8">
-        Access global markets, deliver advanced TradingView charting, and offer
-        seamless trading across web, desktop, and mobile. With social trading,
-        customizable layouts, and advanced order types, SiRiX gives your
-        brokerage the competitive edge.
-      </p>
+      <ul className="space-y-3 mb-6 sm:mb-8">
+        {[
+          "Multi-Device Trading Experience",
+          "Professional Charting & Tools",
+          "Built-In Social Trading",
+          "Flexible & Customizable UI",
+        ].map((item, index) => (
+          <li
+            key={index}
+            className="flex items-center text-white text-sm sm:text-xl"
+          >
+            <span className="w-2 h-2 rounded-full mr-3 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400"></span>
+            {item}
+          </li>
+        ))}
+      </ul>
       <button className="py-2 sm:py-3 px-6 sm:px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:opacity-90 transition-all duration-300 text-sm sm:text-base">
-        Try Demo
+        Learn More
       </button>
     </div>
   </div>

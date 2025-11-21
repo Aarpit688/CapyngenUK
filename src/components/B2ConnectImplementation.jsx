@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { assets } from "../assets/assets";
 
 // Simple 3D hover tilt handler
 const useTilt = () => {
@@ -108,7 +109,7 @@ const B2ConnectImplementation = () => {
             {/* RIGHT IMAGE */}
             <div className="relative h-full tilt-card transition-transform duration-300">
               <img
-                src="https://picsum.photos/800/1000?random=2"
+                src={assets.b2Connect03}
                 alt="Technical Implementation"
                 className="w-full h-full object-cover"
               />

@@ -1,3 +1,4 @@
+import { assets } from "../assets/assets";
 import Banner4 from "../components/Banner4";
 import NTraderAdvantages from "../components/NTraderAdvantages";
 import NTraderArchitecture from "../components/NTraderArchitecture";
@@ -18,7 +19,7 @@ const NTrader = () => {
         description="We provide flexible, modern IT solutions tailored to enhance the nTrader ecosystem for brokers worldwide."
         buttonText="Get Started"
         statsText="120 new inspirations added yesterday"
-        image="https://landingfoliocom.imgix.net/store/collection/dusk/images/hero/1/3d-illustration.png"
+        image={assets.ntraderbanner}
       />
 
       <NTraderIntro />

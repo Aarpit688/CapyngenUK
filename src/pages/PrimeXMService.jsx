@@ -15,7 +15,7 @@ const PrimeXMService = () => {
   return (
     <div>
       <Banner8
-        image={assets.ai1}
+        image={assets.primeXMService1}
         badge=""
         name="PrimeXM X-Core Technology for High-Speed Liquidity Routing"
         description="Optimize execution flow with our expert setup and technology solutions for the PrimeXM X-Core environment."

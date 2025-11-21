@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { assets } from "../assets/assets";
 
 const Banner5 = () => {
   return (
@@ -37,7 +38,7 @@ const Banner5 = () => {
             <div className="lg:min-w-[60vw] relative backdrop-blur-xl bg-gray-800/30 rounded-3xl border border-gray-700/50 shadow-2xl">
               <img
                 className="w-full mx-auto rounded-3xl shadow-xl lg:h-[80vh]"
-                src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+                src={assets.b2Trader}
                 alt="Dashboard Preview"
               />
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-cyan-500/10 to-purple-500/10 -z-10 transform translate-x-6 translate-y-6 blur-2xl"></div>

@@ -8,6 +8,7 @@ import LiquidityIntegration from "../components/LiquidityIntegration";
 import LiquiditySupport from "../components/LiquiditySupport";
 import LiquidityKeyFeatures from "../components/LiquidityKeyFeatures";
 import LiquidityConclusion from "../components/LiquidityConclusion";
+import { assets } from "../assets/assets";
 
 const LiquidityProvider = () => {
   return (
@@ -19,7 +20,7 @@ const LiquidityProvider = () => {
         description="Connect to deep liquidity pools with robust bridge systems and aggregation technology engineered for ultra-low-latency execution."
         buttonText="Get Started"
         statsText="120 new inspirations added yesterday"
-        image="https://landingfoliocom.imgix.net/store/collection/dusk/images/hero/1/3d-illustration.png"
+        image={assets.liquidityProvider}
       />
       <ForexLanding
         heroTitle="What Is a Liquidity Provider and How We Help Brokers Succeed"

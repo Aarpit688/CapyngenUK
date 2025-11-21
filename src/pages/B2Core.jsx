@@ -5,6 +5,7 @@ import B2CoreInfo from "../components/B2CoreInfo";
 import B2CoreImplementation from "../components/B2CoreImplementation";
 import B2CoreUses from "../components/B2CoreUses";
 import B2CoreDeployment from "../components/B2CoreDeployment";
+import { assets } from "../assets/assets";
 
 const B2Core = () => {
   return (
@@ -12,10 +13,10 @@ const B2Core = () => {
       <Banner6
         titleGradient="Smart Client Cabinet Technology for B2Core Brokers"
         description="Boost operations with secure, automated back-office technology tailored for brokers using the B2Core ecosystem."
-        ctaText="Apply for free"
-        ctaLink="#"
-        bgImageDesktop="https://cdn.rareblocks.xyz/collection/celebration/images/hero/5/credit-cards.png"
-        bgImageMobile="https://cdn.rareblocks.xyz/collection/celebration/images/hero/5/credit-cards-mobile.png"
+        ctaText="Contact Now"
+        ctaLink="/contact-us"
+        bgImageDesktop={assets.b2Core}
+        bgImageMobile={assets.b2Core}
         features={[
           {
             icon: `<svg

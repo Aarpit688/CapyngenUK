@@ -1,5 +1,6 @@
 import React from "react";
 import { Users, MapPin, ShieldCheck } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export const AboutUs7 = () => {
   const expertiseAreas = [
@@ -71,17 +72,17 @@ export const AboutUs7 = () => {
               <div className="space-y-6 mt-10">
                 <div className="relative group overflow-hidden rounded-2xl shadow-xl border border-white/10">
                   <img
-                    src="https://picsum.photos/400/500?random=901"
+                    src={assets.aboutUs13}
                     alt="Leader 1"
-                    className="w-full h-64 object-cover transition-all duration-700 group-hover:scale-105"
+                    className="w-full h-64 object-cover"
                   />
                 </div>
 
                 <div className="relative group overflow-hidden rounded-2xl shadow-xl border border-white/10">
                   <img
-                    src="https://picsum.photos/400/500?random=902"
+                    src={assets.aboutUs14}
                     alt="Leader 2"
-                    className="w-full h-56 object-cover transition-all duration-700 group-hover:scale-105"
+                    className="w-full h-56 object-cover"
                   />
                 </div>
               </div>
@@ -90,17 +91,17 @@ export const AboutUs7 = () => {
               <div className="space-y-6">
                 <div className="relative group overflow-hidden rounded-2xl shadow-xl border border-white/10">
                   <img
-                    src="https://picsum.photos/400/500?random=903"
+                    src={assets.aboutUs15}
                     alt="Leader 3"
-                    className="w-full h-56 object-cover transition-all duration-700 group-hover:scale-105"
+                    className="w-full h-56 object-cover"
                   />
                 </div>
 
                 <div className="relative group overflow-hidden rounded-2xl shadow-xl border border-white/10">
                   <img
-                    src="https://picsum.photos/400/500?random=904"
+                    src={assets.aboutUs16}
                     alt="Leader 4"
-                    className="w-full h-64 object-cover transition-all duration-700 group-hover:scale-105"
+                    className="w-full h-64 object-cover"
                   />
                 </div>
               </div>

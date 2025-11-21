@@ -288,7 +288,7 @@ const CryptoExchange = () => {
       />
       <GetStarted
         reverse={false}
-        backgroundColor="bg-blue-900"
+        backgroundColor="bg-black"
         textColor="text-white"
         title="Conclusion: Build a Global-Ready Crypto Exchange with Capyngen"
         description={[

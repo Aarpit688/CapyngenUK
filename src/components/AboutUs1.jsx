@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export const AboutUs1 = () => {
   return (
@@ -73,7 +74,7 @@ export const AboutUs1 = () => {
 
                 <div className="relative overflow-hidden rounded-md border border-white/10 shadow-2xl h-[360px] sm:h-full group">
                   <img
-                    src="https://picsum.photos/600/800?random=601"
+                    src={assets.aboutUs1}
                     alt="Fintech HQ"
                     className="absolute inset-0 w-full h-full object-cover"
                   />
@@ -87,7 +88,7 @@ export const AboutUs1 = () => {
               <div className="hidden sm:block relative group">
                 <div className="overflow-hidden rounded-md border border-white/10 shadow-xl h-48">
                   <img
-                    src="https://picsum.photos/600/500?random=602"
+                    src={assets.aboutUs2}
                     alt="Trading Technology"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.05]"
                   />
@@ -98,7 +99,7 @@ export const AboutUs1 = () => {
               <div className="hidden sm:block relative group">
                 <div className="backdrop-blur-2xl bg-white/5 border border-white/10 rounded-md overflow-hidden shadow-xl h-48">
                   <img
-                    src="https://picsum.photos/600/500?random=603"
+                    src={assets.aboutUs3}
                     alt="Statistics / Illustration"
                     className="w-full h-full object-cover rounded-md transition-transform duration-700 group-hover:scale-[1.06]"
                   />

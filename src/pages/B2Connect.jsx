@@ -12,7 +12,7 @@ const B2Connect = () => {
   return (
     <div>
       <Banner8
-        image={assets.ai1}
+        image={assets.b2connect}
         badge=""
         name="Advanced Mobile Trading Technology for B2Connect"
         description="Deliver a smooth, secure mobile trading experience with our customized solutions for B2Connect-powered platforms."

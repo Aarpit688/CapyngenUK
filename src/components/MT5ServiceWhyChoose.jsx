@@ -19,10 +19,6 @@ export default function MT5ServiceWhyChoose() {
 
   return (
     <section className="bg-black overflow-hidden py-20">
-      {/* Background glow effects */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-emerald-600/10 rounded-full blur-3xl -ml-20 -mb-20 pointer-events-none"></div>
-
       <div className="flex flex-col lg:flex-row">
         {/* Visual Side */}
         <div className="lg:w-5/12 relative min-h-[500px] lg:min-h-auto p-8 flex items-center justify-center">

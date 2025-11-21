@@ -13,7 +13,7 @@ export default function MT5ServiceSolutions() {
 
   return (
     <section className="bg-black text-white py-20 overflow-hidden">
-      <div className="p-10 lg:p-16">
+      <div className="p-10 lg:p-16 max-w-screen mx-auto">
         <div className="grid lg:grid-cols-2 gap-14 items-center">
           {/* LEFT CONTENT */}
           <div className="space-y-8">

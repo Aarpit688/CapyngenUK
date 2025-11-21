@@ -159,6 +159,75 @@ import cryptoExchange9 from "./cryptoExchange9.png";
 import cryptoExchange10 from "./cryptoExchange10.png";
 import cryptoExchange11 from "./cryptoExchange11.png";
 import cryptoExchange12 from "./cryptoExchange12.png";
+import aboutUs1 from "./aboutUs1.png";
+import aboutUs2 from "./aboutUs2.png";
+import aboutUs3 from "./aboutUs3.png";
+import aboutUs4 from "./aboutUs4.png";
+import aboutUs12 from "./aboutUs12.png";
+import aboutUs13 from "./aboutUs13.png";
+import aboutUs14 from "./aboutUs14.png";
+import aboutUs15 from "./aboutUs15.png";
+import aboutUs16 from "./aboutUs16.png";
+import capMarketService1 from "./capMarketService1.png";
+import capMarketService2 from "./capMarketService2.png";
+import capMarketService3 from "./capMarketService3.png";
+import cTraderService1 from "./cTraderService1.png";
+import cTraderService2 from "./cTraderService2.png";
+import cTraderService3 from "./cTraderService3.png";
+import cTraderService4 from "./cTraderService4.png";
+import cTraderService5 from "./cTraderService5.png";
+import mtService1 from "./mtService1.png";
+import mtService2 from "./mtService2.png";
+import mtService3 from "./mtService3.png";
+import mtService4 from "./mtService4.png";
+import mtService5 from "./mtService5.png";
+import onezeroService1 from "./onezeroService1.png";
+import onezeroService2 from "./onezeroService2.png";
+import onezeroService3 from "./onezeroService3.png";
+import onezeroService4 from "./onezeroService4.png";
+import onezeroService5 from "./onezeroService5.png";
+import onezeroService6 from "./onezeroService6.png";
+import primeXMService1 from "./primeXMService1.png";
+import capmarket1 from "./capmarket1.jpg";
+import capmarket2 from "./capmarket2.jpg";
+import arkTrading1 from "./arkTrading1.png";
+import arkTrading2 from "./arkTrading2.png";
+import arkTrading3 from "./arkTrading3.png";
+import arkTrading4 from "./arkTrading4.png";
+import arkTrading5 from "./arkTrading5.png";
+import vertexFX1 from "./vertexFX1.png";
+import vertexFX2 from "./vertexFX2.png";
+import vertexFX3 from "./vertexFX3.png";
+import vertexFX4 from "./vertexFX4.png";
+import sirix1 from "./sirix1.png";
+import mt5 from "./mt5.png";
+import ctraderbanner from "./ctraderbanner.jpg";
+import ntraderbanner from "./ntraderbanner.jpg";
+import mam1 from "./mam1.png";
+import mam2 from "./mam2.png";
+import mam3 from "./mam3.png";
+import mam4 from "./mam4.png";
+import mam5 from "./mam5.png";
+import pamm1 from "./pamm1.png";
+import pamm2 from "./pamm2.png";
+import pamm3 from "./pamm3.png";
+import pamm4 from "./pamm4.png";
+import pamm5 from "./pamm5.png";
+import pamm6 from "./pamm6.png";
+import b2Trader from "./b2Trader.png";
+import b2Core from "./b2Core.png";
+import b2Copy1 from "./b2Copy1.png";
+import b2Copy2 from "./b2Copy2.png";
+import b2Copy3 from "./b2Copy3.png";
+import b2connect from "./b2connect.png";
+import forexBroker from "./forexBroker.png";
+import cryptoBroker from "./cryptoBroker.png";
+import liquidityProvider from "./liquidityProvider.png";
+import cryptoBroker4 from "./cryptoBroker4.png";
+import cryptoBroker5 from "./cryptoBroker5.png";
+import cryptoBroker7 from "./cryptoBroker7.png";
+import cryptoBroker8 from "./cryptoBroker8.png";
+import cryptoBroker9 from "./cryptoBroker7.png";
 
 export const assets = {
   sampleImg,
@@ -322,6 +391,75 @@ export const assets = {
   cryptoExchange10,
   cryptoExchange11,
   cryptoExchange12,
+  aboutUs1,
+  aboutUs2,
+  aboutUs3,
+  aboutUs4,
+  aboutUs12,
+  aboutUs13,
+  aboutUs14,
+  aboutUs15,
+  aboutUs16,
+  capMarketService1,
+  capMarketService2,
+  capMarketService3,
+  cTraderService1,
+  cTraderService2,
+  cTraderService3,
+  cTraderService4,
+  cTraderService5,
+  mtService1,
+  mtService2,
+  mtService3,
+  mtService4,
+  mtService5,
+  onezeroService1,
+  onezeroService2,
+  onezeroService3,
+  onezeroService4,
+  onezeroService5,
+  onezeroService6,
+  primeXMService1,
+  capmarket1,
+  capmarket2,
+  arkTrading1,
+  arkTrading2,
+  arkTrading3,
+  arkTrading4,
+  arkTrading5,
+  vertexFX1,
+  vertexFX2,
+  vertexFX3,
+  vertexFX4,
+  sirix1,
+  mt5,
+  ctraderbanner,
+  ntraderbanner,
+  mam1,
+  mam2,
+  mam3,
+  mam4,
+  mam5,
+  pamm1,
+  pamm2,
+  pamm3,
+  pamm4,
+  pamm5,
+  pamm6,
+  b2Trader,
+  b2Core,
+  b2Copy1,
+  b2Copy2,
+  b2Copy3,
+  b2connect,
+  forexBroker,
+  cryptoBroker,
+  liquidityProvider,
+  cryptoBroker4,
+  cryptoBroker5,
+  cryptoBroker7,
+  cryptoBroker8,
+  cryptoBroker9,
 };
 
 export const navItems = [

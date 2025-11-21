@@ -8,7 +8,7 @@ const Banner2 = ({
   image = "https://d33wubrfki0l68.cloudfront.net/54780decfb9574945bc873b582cdc6156144a2ba/d9fa1/images/hero/4/illustration.png",
 }) => {
   return (
-    <div className="overflow-x-hidden bg-gradient-to-br from-gray-900 to-black">
+    <div className="overflow-x-hidden max-w-screen bg-gradient-to-br from-gray-900 to-black">
       {/* Hero Section */}
       <section className="relative py-20 lg:py-24">
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">

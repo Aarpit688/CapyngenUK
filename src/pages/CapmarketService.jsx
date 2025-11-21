@@ -9,6 +9,7 @@ import CapmarketServiceAdvantages from "../components/CapmarketServiceAdvantages
 import CapmarketServiceUsage from "../components/CapmarketServiceUsage";
 import CapmarketServiceAdditionalFeatures from "../components/CapmarketServiceAdditionalFeatures";
 import CapmarketServiceConclusion from "../components/CapmarketServiceConclusion";
+import { assets } from "../assets/assets";
 
 const CapmarketService = () => {
   return (
@@ -20,21 +21,18 @@ const CapmarketService = () => {
         ctaLink="/contact-us"
         cards={[
           {
-            thumbnail:
-              "https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-1.png",
+            thumbnail: assets.capMarketService1,
             title: "Innovative Capmarket Technology",
             description: "Broker operations got an end-to-end setup.",
           },
           {
-            thumbnail:
-              "https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-1.png",
+            thumbnail: assets.capMarketService2,
             title: "Capmarket System Implementation",
             description:
               "The trading environment is created to be fast and safe.",
           },
           {
-            thumbnail:
-              "https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-1.png",
+            thumbnail: assets.capMarketService3,
             title: "Capmarket Integration Suite",
             description: "Brokerage workflow-efficient tools.",
           },

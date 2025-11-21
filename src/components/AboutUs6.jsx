@@ -1,5 +1,6 @@
 import React from "react";
 import { Check, Trophy, Star, TrendingUp } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export const AboutUs6 = () => {
   const inclusions = [
@@ -58,7 +59,7 @@ export const AboutUs6 = () => {
               {/* Image */}
               <div className="relative rounded-xl overflow-hidden mt-auto shadow-lg border border-white/10 group">
                 <img
-                  src="https://picsum.photos/600/400?random=501"
+                  src={assets.aboutUs12}
                   className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-all duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>

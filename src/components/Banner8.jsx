@@ -18,8 +18,6 @@ const Banner8 = ({ image, badge, name, description, buttonText }) => {
               alt={name}
               className="lg:min-h-[80vh] object-cover shadow-2xl"
             />
-            {/* Glow effect */}
-            <div className="absolute -inset-4 bg-green-500/20 rounded-2xl blur-3xl"></div>
           </div>
         </div>
 

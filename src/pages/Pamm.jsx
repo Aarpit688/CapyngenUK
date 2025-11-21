@@ -56,18 +56,9 @@ const Pamm = () => {
         ctaText="Contact Us"
         ctaLink="/contact-us"
         images={[
-          [
-            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
-          ],
-          [
-            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
-          ],
-          [
-            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
-          ],
+          [assets.pamm1, assets.pamm2],
+          [assets.pamm3, assets.pamm4],
+          [assets.pamm5, assets.pamm6],
         ]}
         topGlowColor="cyan-500/20"
         bottomGlowColor="pink-600/20"

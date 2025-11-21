@@ -17,7 +17,7 @@ const Capmarket = () => {
       title: "Tailored IT Solutions for Capmarket Trading Infrastructure",
       subtitle:
         "Capyngen provides secure, high-speed technology to power Capmarket-based trading environments and brokerage operations.",
-      image: assets.ai1,
+      image: assets.capmarket1,
       ctaText: "Get Started",
       ctaLink: "/contact-us",
     },
@@ -25,16 +25,8 @@ const Capmarket = () => {
       id: 2,
       title: "Complete Capmarket System Infrastructure",
       subtitle: "Enhance your broker setup with optimized technology.",
-      image: assets.ai2,
+      image: assets.capmarket2,
       ctaText: "Contact Us",
-      ctaLink: "/contact-us",
-    },
-    {
-      id: 3,
-      title: "Professional Services for Capmarket Platforms",
-      subtitle: "Improve operation flow with stable, scalable systems.",
-      image: assets.ai3,
-      ctaText: "Explore Now",
       ctaLink: "/contact-us",
     },
   ];

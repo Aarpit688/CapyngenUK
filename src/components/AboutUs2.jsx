@@ -1,5 +1,6 @@
 import React from "react";
 import { Globe } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export const AboutUs2 = () => {
   return (
@@ -28,7 +29,7 @@ export const AboutUs2 = () => {
             {/* Main Image Card */}
             <div className="relative overflow-hidden rounded-lg border border-white/10 shadow-2xl backdrop-blur-xl bg-white/5">
               <img
-                src="https://picsum.photos/800/600?random=77"
+                src={assets.aboutUs4}
                 alt="Fintech"
                 className="w-full h-full object-cover opacity-90"
               />

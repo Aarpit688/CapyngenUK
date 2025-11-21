@@ -13,22 +13,22 @@ import VertexFxHighPerformance from "../components/VertexfxHighPerformance";
 const VertexFx = () => {
   const marketingCards = [
     {
-      img: assets.ai1,
+      img: assets.vertexFX1,
       alt: "Christmas background 3D cartoon",
       text: "Technology Solutions for VertexFX Brokers",
     },
     {
-      img: assets.ai2,
+      img: assets.vertexFX2,
       alt: "A beautiful glowing flower",
       text: "Professional VertexFX Trading Enhancements",
     },
     {
-      img: assets.ai3,
+      img: assets.vertexFX3,
       alt: "A magical leopard",
       text: "High-Speed VertexFX Platform Optimization",
     },
     {
-      img: assets.ai4,
+      img: assets.vertexFX4,
       alt: "A female 3D cartoon holding a wrapped gift box",
       text: "Complete IT Solutions for VertexFX Platforms",
     },

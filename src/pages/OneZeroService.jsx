@@ -9,6 +9,7 @@ import OneZeroServiceWhyChoose from "../components/OneZeroServiceWhyChoose";
 import OneZeroServiceBenefits from "../components/OneZeroServiceBenefits";
 import OneZeroServiceAdditionalFeatures from "../components/OneZeroServiceAdditionalFeatures";
 import OneZeroServiceConclusion from "../components/OneZeroServiceConclusion";
+import { assets } from "../assets/assets";
 
 const OneZeroService = () => {
   return (
@@ -19,18 +20,9 @@ const OneZeroService = () => {
         ctaText="Contact Now"
         ctaLink="/contact-us"
         images={[
-          [
-            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
-          ],
-          [
-            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
-          ],
-          [
-            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=500&q=80",
-          ],
+          [assets.onezeroService1, assets.onezeroService2],
+          [assets.onezeroService3, assets.onezeroService4],
+          [assets.onezeroService5, assets.onezeroService6],
         ]}
         topGlowColor="cyan-500/20"
         bottomGlowColor="pink-600/20"

@@ -15,16 +15,12 @@ const Banner4 = ({
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Hero Section */}
-      <section className="py-16 lg:py-20 xl:py-24">
+      <section className="py-20">
         <div className="px-4 mx-auto max-w-[90vw]">
           <div className="relative">
             {/* Left Section */}
             <div className="lg:w-2/3">
-              <p className="text-sm font-normal tracking-widest text-gray-300 uppercase">
-                {badge}
-              </p>
-
-              <h1 className="mt-6 text-4xl font-normal sm:mt-10 sm:text-5xl lg:text-6xl leading-normal">
+              <h1 className="text-4xl font-normal sm:mt-10 sm:text-5xl lg:text-6xl leading-normal">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500">
                   {gradientText}
                 </span>{" "}
@@ -81,9 +77,9 @@ const Banner4 = ({
             </div>
 
             {/* Right Section */}
-            <div className="mt-8 md:absolute md:mt-0 md:top-32 lg:top-0 md:right-0">
+            <div className="mt-8 md:absolute md:top-32 lg:top-0 md:right-0">
               <img
-                className="w-full max-w-xs mx-auto lg:max-w-lg xl:max-w-xl"
+                className="w-full max-w-xs mx-auto lg:max-w-lg"
                 src={image}
                 alt="3D Illustration"
               />

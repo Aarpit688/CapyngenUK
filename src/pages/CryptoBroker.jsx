@@ -15,11 +15,12 @@ import {
 import BenefitsSection from "../components/BenefitsSection";
 import WhyCapyngenSection from "../components/WhyCapyngenSection";
 import ConclusionSection from "../components/ConclusionSection";
+import { assets } from "../assets/assets";
 
 const CryptoBroker = () => {
   const servicesData = [
     {
-      image: "https://picsum.photos/id/1082/600/400",
+      image: assets.cryptoBroker9,
       title: "Scalable Technology",
       desc: "Platforms, which can extend their features and capabilities to accommodate your client base and trade volume growth.",
     },
@@ -58,12 +59,12 @@ const CryptoBroker = () => {
         primaryCtaLink="/contact-us"
         secondaryCtaText="View Demo"
         secondaryCtaLink="/contact-us"
-        desktopBgImage="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/1/background.png"
-        mobileBgImage="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/1/bg.png"
+        desktopBgImage={assets.cryptoBroker}
+        mobileBgImage={assets.cryptoBroker}
       />
       <GetStarted
         reverse={false}
-        backgroundColor="bg-blue-900"
+        backgroundColor="bg-black"
         textColor="text-white"
         title="Grow Your Crypto Brokerage with Easy IT Solutions"
         description={[
@@ -87,13 +88,13 @@ const CryptoBroker = () => {
         sectionBg="bg-gradient-to-b from-black via-gray-900 to-black"
         solutions={[
           {
-            imgSrc: "https://picsum.photos/id/1064/600/400",
+            imgSrc: assets.cryptoBroker4,
             alt: "Trading Platforms",
             title: "Trading Platforms",
             desc: "Secure, fast, and user-friendly with advanced analytics",
           },
           {
-            imgSrc: "https://picsum.photos/id/1048/600/400",
+            imgSrc: assets.cryptoBroker5,
             alt: "CRM Software",
             title: "CRM Software",
             desc: "Track leads, clients, and campaigns all from a single place",
@@ -105,13 +106,13 @@ const CryptoBroker = () => {
             desc: "Great user experience both for desktop and mobile",
           },
           {
-            imgSrc: "https://picsum.photos/id/1075/600/400",
+            imgSrc: assets.cryptoBroker7,
             alt: "Payment Gateway Integration",
             title: "Payment Gateway Integration",
             desc: "Extremely fast, secure, and reliable deposits and withdrawals",
           },
           {
-            imgSrc: "https://picsum.photos/id/1082/600/400",
+            imgSrc: assets.cryptoBroker8,
             alt: "Back-Office Tools",
             title: "Back-Office Tools",
             desc: "Easy-to-understand reporting, compliance, and operational management",

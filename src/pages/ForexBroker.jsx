@@ -24,8 +24,8 @@ const ForexBroker = () => {
         title="Empowering Modern Forex Brokers with Advanced Trading Technology"
         subtitle="Capyngen Technologies UK Limited delivers secure, scalable, and customizable IT solutions built to launch and grow your forex brokerage with confidence."
         ctaText="Contact Now"
-        noiseImg="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
-        illustrationImg="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+        noiseImg={assets.forexBroker}
+        illustrationImg={assets.forexBroker}
         trustedByText="Trusted by 120k+ companies"
         rating={4.8}
         totalReviews="27k Reviews"

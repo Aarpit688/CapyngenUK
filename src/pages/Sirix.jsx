@@ -6,6 +6,7 @@ import SirixEcosystem from "../components/SirixEcosystem";
 import SirixWhyChoose from "../components/SirixWhyChoose";
 import SirixBenefits from "../components/SirixBenefits";
 import SirixExtraBenefits from "../components/SirixExtraBenefits";
+import { assets } from "../assets/assets";
 
 const Sirix = () => {
   return (
@@ -14,8 +15,8 @@ const Sirix = () => {
         title="Scalable Sirix Trading Technology for Modern Brokers"
         subtitle="Deliver social trading, web trading, and mobile trading with powerful Sirix-focused IT infrastructure."
         ctaText="Contact Now"
-        noiseImg="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
-        illustrationImg="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+        noiseImg={assets.sirix1}
+        illustrationImg={assets.sirix1}
         trustedByText="Tstedru by 120k+ companies"
         rating={4.8}
         totalReviews="27k Reviews"

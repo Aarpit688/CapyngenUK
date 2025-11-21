@@ -6,6 +6,7 @@ import B2CopyTechnology from "../components/B2CopyTechnology";
 import B2CopyWhy from "../components/B2CopyWhy";
 import B2CopyFunctionalities from "../components/B2CopyFunctionalities";
 import B2CopyLaunch from "../components/B2CopyLaunch";
+import { assets } from "../assets/assets";
 
 const B2Copy = () => {
   return (
@@ -17,22 +18,19 @@ const B2Copy = () => {
         ctaLink="/contact-us"
         cards={[
           {
-            thumbnail:
-              "https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-1.png",
+            thumbnail: assets.b2Copy1,
             title: "Copy Trading with a Technological Edge for B2Copy",
             description:
               "Use a technological infrastructure of copy trading to make fast, reliable and efficient copies.",
           },
           {
-            thumbnail:
-              "https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-1.png",
+            thumbnail: assets.b2Copy2,
             title: "B2Copy High-Speed Copy Trading",
             description:
               "Provide automated trading with the help of technology for professional traders.",
           },
           {
-            thumbnail:
-              "https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-1.png",
+            thumbnail: assets.b2Copy3,
             title: "The Strength of Copy Trading Is in the Technology",
             description:
               "Make smooth signal executions by having real-time signal synchronization.",

@@ -8,6 +8,7 @@ import CTraderAdvantages from "../components/CTraderAdvantages";
 import CTraderBenefits from "../components/CTraderBenefits";
 import CTraderAdditionalFeatures from "../components/CTraderAdditionalFeatures";
 import CTraderConclusion from "../components/CTraderConclusion";
+import { assets } from "../assets/assets";
 
 const CTrader = () => {
   return (
@@ -19,8 +20,8 @@ const CTrader = () => {
         primaryCtaLink="/contact-us"
         secondaryCtaText="View Demo"
         secondaryCtaLink="/contact-us"
-        desktopBgImage="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/1/background.png"
-        mobileBgImage="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/1/bg.png"
+        desktopBgImage={assets.ctraderbanner}
+        mobileBgImage={assets.ctraderbanner}
       />
 
       <CTraderIntro />

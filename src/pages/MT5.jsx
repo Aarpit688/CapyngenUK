@@ -1,3 +1,4 @@
+import { assets } from "../assets/assets";
 import Banner6 from "../components/Banner6";
 import ComparisonTable from "../components/ComparisonTable";
 import HowItWorks from "../components/HowItWorks";
@@ -17,8 +18,8 @@ const MT5 = () => {
         description="Launch and scale your MT5 brokerage with our expert infrastructure setup, integration, and automation solutions."
         ctaText="Apply Now"
         ctaLink="#"
-        bgImageDesktop="https://cdn.rareblocks.xyz/collection/celebration/images/hero/5/credit-cards.png"
-        bgImageMobile="https://cdn.rareblocks.xyz/collection/celebration/images/hero/5/credit-cards-mobile.png"
+        bgImageDesktop={assets.mt5}
+        bgImageMobile={assets.mt5}
         features={[
           {
             icon: `<svg

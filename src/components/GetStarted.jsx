@@ -20,7 +20,7 @@ const GetStarted = ({
 }) => (
   <section className={`relative ${sectionBg} py-12 overflow-hidden`}>
     <div
-      className={`relative z-10 py-12 px-6 md:px-12 lg:px-20 max-w-[90vw] mx-auto rounded-3xl overflow-hidden backdrop-blur-sm ${
+      className={`relative z-10 py-12 px-6 md:px-12 lg:px-20 max-w-[90vw] mx-auto rounded-md overflow-hidden backdrop-blur-sm ${
         backgroundVideo ? "bg-black/50" : backgroundColor
       } transition-colors duration-500`}
     >

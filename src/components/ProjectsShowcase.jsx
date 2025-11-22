@@ -2,26 +2,27 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { assets } from "../assets/assets";
 
 const projects = [
   {
     title: "MT5 White Label Solutions",
-    image: "https://dummyimage.com/600x800/111/fff&text=E-commerce",
+    image: assets.mt5,
     extra: "Fast deployment",
   },
   {
     title: "Liquidity Provider Solutions",
-    image: "https://dummyimage.com/600x800/eee/222&text=SaaS",
+    image: assets.liquidityProvider,
     extra: "Deep liquidity access",
   },
   {
     title: "Crypto Exchange Development",
-    image: "https://dummyimage.com/600x800/f9f9f9/000&text=Mobile",
+    image: assets.cryptoExchange,
     extra: "Secure architecture",
   },
   {
     title: "Forex CRM Software",
-    image: "https://dummyimage.com/600x800/222/fff&text=Cloud",
+    image: assets.forexBroker,
     extra: "Lead management",
   },
 ];
@@ -85,7 +86,7 @@ export default function ProjectsShowcase() {
               <div key={idx} className="px-3">
                 <div className="group rounded-2xl p-px bg-linear-to-br from-fuchsia-500/70 via-indigo-500/70 to-cyan-400/70 shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-[0_10px_30px_rgba(99,102,241,0.45)] transition-transform duration-300">
                   {/* Card Container */}
-                  <div className="rounded-2xl h-[460px] flex flex-col overflow-hidden bg-black/60 backdrop-blur-xl border border-white/10">
+                  <div className="rounded-2xl h-[400px] flex flex-col overflow-hidden bg-black/60 backdrop-blur-xl border border-white/10">
                     {/* Image Section */}
                     <div className="relative w-full flex-1">
                       <img

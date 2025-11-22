@@ -8,9 +8,10 @@ const Banner6 = ({
   bgImageDesktop,
   bgImageMobile,
   features = [],
+  buttonBg = "bg-gradient-to-r from-green-600 to-emerald-600 rounded-lg shadow-lg border border-white/10 hover:from-green-700 hover:to-emerald-700 hover:shadow-emerald-500/20",
 }) => {
   return (
-    <div className="relative w-full overflow-hidden bg-black/80">
+    <div className="relative w-full min-h-screen overflow-hidden bg-black/80">
       {/* Background Image */}
       <div className="absolute inset-0 -z-10">
         <picture>
@@ -39,7 +40,7 @@ const Banner6 = ({
         <div className="mt-10 sm:mt-14">
           <a
             href={ctaLink}
-            className="inline-flex items-center gap-2 px-8 py-4 text-base font-semibold text-white bg-gradient-to-r from-green-600 to-emerald-600 rounded-lg shadow-lg border border-white/10 hover:from-green-700 hover:to-emerald-700 hover:shadow-emerald-500/20 transition-all duration-300 hover:-translate-y-0.5 focus:ring-2 focus:ring-emerald-500/30 focus:outline-none"
+            className={`inline-flex items-center gap-2 px-8 py-4 text-base font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 focus:ring-2 focus:ring-emerald-500/30 focus:outline-none ${buttonBg}`}
           >
             {ctaText}
             <svg

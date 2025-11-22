@@ -7,6 +7,7 @@ import {
   FaGlobe,
   FaLifeRing,
 } from "react-icons/fa";
+import { assets } from "../assets/assets";
 
 /* ---------------------------------------------
    UPDATED ICON COMPONENTS (REPLACED SVGs)
@@ -145,9 +146,9 @@ const BenefitsSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-5">
             <img
-              src="https://picsum.photos/seed/crypto/800/1000"
+              src={assets.vertexFX4}
               alt="Crypto Technology Abstract"
-              className="rounded-2xl shadow-2xl shadow-black/30 w-full object-cover"
+              className="rounded-md shadow-2xl shadow-black/30 w-full object-cover"
             />
           </div>
 
@@ -160,7 +161,7 @@ const BenefitsSection = () => {
 
         {/* Outro */}
         <div className="text-center mt-16">
-          <p className="text-lg max-w-4xl mx-auto text-gray-400 leading-relaxed">
+          <p className="text-xl max-w-4xl mx-auto text-gray-400 leading-relaxed">
             Thanks to Capyngen, your brokerage is running smoothly, getting
             bigger at a quicker pace, and is able to deliver better experiences
             to the ​‍​‌‍​‍‌​‍​‌‍​‍‌clients.

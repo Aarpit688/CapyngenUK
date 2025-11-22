@@ -89,7 +89,7 @@ const LiquidityConclusion = () => {
           className="relative"
         >
           <img
-            src="https://picsum.photos/seed/liquidity/700/900"
+            src="https://eu-west-2.graphassets.com/A7DbPYomyRgGvtF2R1Eadz/output=format:webp/x6fm6Z8oSgqXox5eNhUp"
             alt="Liquidity technology visualization"
             className="rounded-2xl object-cover max-h-150 w-full shadow-2xl shadow-black/40 border border-white/10"
           />

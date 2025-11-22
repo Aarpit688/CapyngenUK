@@ -6,8 +6,52 @@ import B2CoreImplementation from "../components/B2CoreImplementation";
 import B2CoreUses from "../components/B2CoreUses";
 import B2CoreDeployment from "../components/B2CoreDeployment";
 import { assets } from "../assets/assets";
+import FaqSection from "../components/FaqSection";
 
 const B2Core = () => {
+  const faqItems = [
+    {
+      question:
+        "What features are there in B2Core customer relationship management?",
+      answer:
+        "B2Core features client management, wallet operations, KYC functionalities, integrations, and a trader’s cabinet.",
+    },
+    {
+      question: "Are you allowed to deploy a white-label B2Core CRM?",
+      answer:
+        "Yes, we offer a complete branded white-label B2Core CRM installation.",
+    },
+    {
+      question: "Is B2Core linked to MT4/MT5?",
+      answer:
+        "In fact, B2Core is fully compatible with MT4, MT5, cTrader, DXtrade, and also with crypto platforms.",
+    },
+    {
+      question: "Is B2Core beneficial for forex & crypto brokers?",
+      answer:
+        "Certainly, the product is meant for forex, crypto, CFD, and multi-asset brokerages.",
+    },
+    {
+      question: "What are the back-office tools with B2Core?",
+      answer:
+        "Mainly wallet control, transaction management, KYC approvals, and client activity insights.",
+    },
+    {
+      question: "Can a payment gateway be integrated?",
+      answer:
+        "Sure, we connect merchants with PSPs, crypto processors, and bank transfer facilitators.",
+    },
+    {
+      question: "What is the length of time for CRM setup?",
+      answer:
+        "Between 1 and 3 weeks depending on the number of modules and integrations.",
+    },
+    {
+      question: "Do you provide support over a long period?",
+      answer:
+        "We definitely keep continuous technical support, updates, and optimization.",
+    },
+  ];
   return (
     <div>
       <Banner6
@@ -135,6 +179,7 @@ const B2Core = () => {
       <B2CoreImplementation />
       <B2CoreUses />
       <B2CoreDeployment />
+      <FaqSection items={faqItems} />
     </div>
   );
 };

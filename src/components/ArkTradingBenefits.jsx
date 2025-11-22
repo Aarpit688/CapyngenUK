@@ -9,6 +9,7 @@ import {
   Code,
   Layout,
 } from "lucide-react";
+import { assets } from "../assets/assets";
 
 const ArkTradingBenefits = () => {
   const benefits = [
@@ -33,7 +34,7 @@ const ArkTradingBenefits = () => {
               <div className="col-span-2 bg-slate-900 border border-slate-800 rounded-md overflow-hidden shadow-2xl group">
                 <div className="relative h-80 w-full overflow-hidden">
                   <img
-                    src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+                    src={assets.arkTrading2}
                     alt="Trading Analytics Dashboard"
                     className="w-full h-full object-cover transform"
                   />

@@ -10,7 +10,7 @@ export const TextParallaxContentExample = () => {
     <div className="bg-black">
       {/* 1️⃣ Back-office Tools */}
       <TextParallaxContent
-        imgUrl="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?q=80&w=2600&auto=format&fit=crop"
+        imgUrl={assets.forexBroker11}
         subheading="Use​‍​‌‍​‍‌​‍​‌‍​‍‌ automation and admin controls effectively to help your brokerage run a little better."
         heading="Build, Scale & Lead with Powerful Back-Office Tools"
       >
@@ -19,7 +19,7 @@ export const TextParallaxContentExample = () => {
 
       {/* 2️⃣ Liquidity Section */}
       <TextParallaxContent
-        imgUrl="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?q=80&w=2600&auto=format&fit=crop"
+        imgUrl={assets.liquidityProvider}
         subheading="Deliver superior trade execution through deep liquidity, real-time pricing, and institutional-grade market access."
         heading="Liquidity: Fast, Accurate Connection to the Market"
       >
@@ -28,7 +28,7 @@ export const TextParallaxContentExample = () => {
 
       {/* 3️⃣ SiRiX Trading Platform */}
       <TextParallaxContent
-        imgUrl="https://images.unsplash.com/photo-1504805572947-34fad45aed93?q=80&w=2600&auto=format&fit=crop"
+        imgUrl={assets.capmarket4}
         subheading="Seamlessly connect to global markets and elevate your traders with an integrated multi-platform ecosystem."
         heading="Give Your Traders a Competitive Edge with Our Next-Gen Trading Platform"
       >
@@ -127,7 +127,7 @@ const OverlayCopy = ({ subheading, heading }) => {
         style={{ y, opacity }}
         className="hidden md:flex absolute left-0 top-0 h-screen w-full flex-col items-center justify-center px-4 sm:px-8 text-center"
       >
-        <p className="mb-10 text-base sm:text-xl md:text-2xl text-gray-200 font-medium drop-shadow max-w-3xl mx-auto">
+        <p className="mb-10 text-base sm:text-xl md:text-2xl text-white font-medium drop-shadow max-w-3xl mx-auto">
           {subheading}
         </p>
         <p className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white drop-shadow-lg leading-snug max-w-4xl mx-auto">

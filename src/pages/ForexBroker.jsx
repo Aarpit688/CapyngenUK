@@ -16,8 +16,57 @@ import {
 } from "react-icons/fa";
 import ForexTechSolutions from "../components/ForexTechSolutions";
 import { assets } from "../assets/assets";
+import FaqSection from "../components/FaqSection";
 
 const ForexBroker = () => {
+  const faqItems = [
+    {
+      question: "What components does Forex Broker IT Solutions consist of?",
+      answer:
+        "We provide solutions such as trading platforms, CRM software, website & application development, payment integrations, and back-office management tools.",
+    },
+    {
+      question:
+        "Is it possible for Capyngen to create a trading platform that is unique for my brokerage?",
+      answer:
+        "Indeed, we are experts in creating custom trading platforms for the forex market that are specifically designed based on your business needs.",
+    },
+    {
+      question:
+        "Are your Forex CRM Software Solutions designed for small brokers?",
+      answer:
+        "Yes, definitely! Our CRM solutions are scalable and customizable, which makes them a perfect fit for startups as well as for already established brokers.",
+    },
+    {
+      question:
+        "Does Capyngen offer digital marketing services to forex brokers?",
+      answer:
+        "Yes, we do. We use technology and digital marketing strategies to help brokers reach their potential clients anywhere in the world.",
+    },
+    {
+      question:
+        "Are Capyngen's forex technology solutions reliable in terms of security?",
+      answer:
+        "We take care of security by incorporating the latest encryption techniques, using secure servers and designing the system architecture in a way that is easy to comply with security regulations.",
+    },
+    {
+      question:
+        "Is it possible for your solutions to work with the existing brokerage systems?",
+      answer:
+        "We are creating our platforms and software solutions in a way that they can be easily integrated with third-party tools and existing systems.",
+    },
+    {
+      question:
+        "Do you offer support continuously after the implementation phase?",
+      answer:
+        "We provide complete post-implementation support, maintenance, and regular updates to make sure your technology is always up to date and in good working condition.",
+    },
+    {
+      question: "Does Capyngen provide their services internationally?",
+      answer:
+        "Yes, we are a UK-based company, but we offer our services and provide forex technology solutions to clients and brokers anywhere in the world.",
+    },
+  ];
   return (
     <div>
       <Banner1
@@ -158,6 +207,7 @@ const ForexBroker = () => {
           "Make the move to a brokerage that is ready for tomorrow’s challenges. Collaborate with Capyngen and feel how easy and effective tech solutions can be when they are innovative, dependable, and in line with global standards.",
         ]}
       />
+      <FaqSection items={faqItems} />
     </div>
   );
 };

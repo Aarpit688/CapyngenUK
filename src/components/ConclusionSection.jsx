@@ -34,7 +34,7 @@ const ConclusionSection = () => {
           {/* IMAGE ON LEFT NOW */}
           <div className="lg:col-span-2 max-h-100 h-64 lg:h-full rounded-xl overflow-hidden shadow-lg shadow-black/70">
             <img
-              src="https://picsum.photos/seed/conclusion/800/1200"
+              src="https://images.moneycontrol.com/static-mcnews/2022/09/Cryptocurrency-770x433.png?impolicy=website&width=770&height=431"
               alt="Crypto brokerage success"
               className="w-full h-full object-cover"
             />

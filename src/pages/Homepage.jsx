@@ -12,79 +12,82 @@ import FaqSection from "../components/FaqSection";
 const Homepage = () => {
   const faqItems = [
     {
-      question: "What services does Capyngen offer?",
+      question:
+        "What Capyngen Technologies UK Limited do as a global technology provider?",
       answer:
-        "We provide Information Technology (IT) services, Customer Relationship Management (CRM) solutions, cybersecurity, application development, user interface/user experience (UI/UX) design, and digital marketing that can contribute to the growth of the businesses.",
+        "Capyngen is a global provider of forex & Fintech tech including with new trends related to white-label trading platforms, liquidity solutions, CRM systems, and turnkey brokerage setups for brokers worldwide.",
     },
     {
-      question: "Why should I choose Capyngen over others?",
+      question: "Does Capyngen provide a full turnkey forex brokerage setup?",
       answer:
-        "Well! Because we combine strategy, technology, and artistry to produce quantifiable, scalable, and dependable solutions that are unique to your objectives.",
+        "We are producing a full SiRiX+ advanced CRM IB/Affiliate systems setup along with the cloud infrastructure including market data, risk management, and liquidity & of course turnkey brokerage solution.",
     },
     {
-      question: "Do you work with startups as well as enterprises?",
+      question: "What trading platform does Capyngen offer?",
       answer:
-        "Indeed, we create startups, Small and Medium-sized Businesses (SMBs), and large enterprises solutions in a manner that is adaptable to any industry.",
+        "We offer the trading platform of next generation technologies Open Source SiRiX with Social Trading, comprehensive TradingView Charting, Multi-Device Access, Smart Order Types, and Trend Hedge/Netting Support.",
     },
     {
-      question: "Can Capyngen help improve my online presence?",
+      question: "Do you offer liquidity solutions for forex brokers?",
       answer:
-        "Of course! We make your brand visible and increase your digital presence through SEO, social media, and performance marketing.",
+        "By means of our Liquidity Prime, the customer will get real-time pricing, extremely deep liquidity, prompt and the most accurate execution of orders, and multi-asset data feeds for forex, commodities, indices, and the crypto world.",
     },
     {
-      question: "Do you offer custom software development?",
+      question: "Does Capyngen offer a white-label CRM for brokers?",
       answer:
-        "Certainly, we take pride in creating customized web, mobile, and enterprise software applications that address specific business requirements.",
+        "The answer is positive. Our WL Core CRM provides KYC/AML tools, IB management innovations, payment gateway integration, custom workflows, and a centralized data view targeting brokerage operations.",
     },
     {
-      question: "How experienced is your team?",
+      question:
+        "What is included in your back-office and broker management tools?",
       answer:
-        "Our team is made up of certified experts who have several years of experience in Information Technology (IT), marketing, and business transformation.",
+        "The scope of our services includes Broker Portal, Advanced CRM, SIRIX Broker, IBs System, risk management tools, and workflow automation for complete back-office efficiency.",
     },
     {
-      question: "What industries do you serve?",
+      question: "Do you support affiliate and IB management systems?",
       answer:
-        "We partner with the healthcare, finance, education, e-commerce, travel, IT, etc. industries.",
+        "Definitely. Our Affiliate & IB Management System supports multi-tier structures, is entirely automated, and is created to extend your partner network worldwide.",
     },
     {
-      question: "Is your approach data-driven?",
+      question: "Can Capyngen integrate external trading platforms or CRMs?",
       answer:
-        "Absolutely, all our measures rely on data analytics, performance tracking, and continuous optimization.",
+        "Indeed. Our integration services are open for various-level APIs of trading platforms, CRM systems, liquidity providers, payment gateways, and all forex distribution systems to unify the work of the company.",
     },
     {
-      question: "Can you handle large-scale IT projects?",
+      question: "Does Capyngen provide cloud and infrastructure setup?",
       answer:
-        "Sure, our team is capable to oversee the management of complicated projects at the enterprise-level with the use of end-to-end solutions.",
+        "Exactly. Our Cloud Infrastructure Implementation is centered on AWS/Azure going live, a secure infra build, and a scalable cloud environment for worldwide brokerages.",
     },
     {
-      question: "Do you offer CRM solutions for small businesses?",
+      question: "Do you provide SaaS-based solutions for brokers?",
       answer:
-        "Yes, we offer CRM tools that are manageable and can adapt to any business regardless of its size.",
+        "Yes. We are capable of SaaS integration, CRM workflow automation, software delivery automation, and tech stack optimization for fintech and forex companies.",
     },
     {
-      question: "How do you ensure cybersecurity for clients?",
+      question: "Can Capyngen build mobile trading or fintech apps?",
       answer:
-        "We incorporate multiple layers of security, real-time surveillance, and regulatory frameworks to guarantee the security of data and networks.",
+        "Definitely, the scope of our Mobile Platform Development covers fintech app architecture, building custom app ecosystems, and providing secure solutions for mobile trading.",
     },
     {
-      question: "Can I track the progress of my projects?",
+      question: "Do you offer e-commerce development solutions?",
       answer:
-        "Yes, we allow the provision of progress updates and other forms of transparent reporting at any point of the project lifecycle.",
+        "Besides that, we are also in charge of E-commerce Platform Development services, featuring omnichannel retail systems and the construction of customized e-commerce architectures.",
     },
     {
-      question: "Are your digital marketing strategies customized?",
+      question: "What security solutions does Capyngen offer?",
       answer:
-        "Definitely — the objectives, the target market, and the industry of your business are the main factors in every campaign that we execute.",
+        "Among the measures we use are complete security for digital assets, the protection of platforms, data encryption, and risk control of the highest level for enterprises operating in forex and the fintech field.",
     },
     {
-      question: "Do you provide ongoing support after deployment?",
+      question:
+        "Can Capyngen customize technology according to the broker’s needs?",
       answer:
-        "The answer is yes, we provide support 24 hours a day, 7 days a week, to make sure that everything runs smoothly and in case of a problem, the resolution will be quick.",
+        "Certainly. Our Custom Development Services lead to the delivery of tailor-made trading tools, CRM customizations, API integrations, and broker-specific fintech solutions.",
     },
     {
-      question: "How can I get started with Capyngen?",
+      question: "Why should a broker choose Capyngen Technologies UK Limited?",
       answer:
-        "A free consultation can be arranged at your leisure, you tell us what you need, and then our professionals get down to work creating the exact solution your business requires.",
+        "In short, this is the reason why a broker would want to work with Capyngen Technologies UK Limited: smart brokerage technology, high-speed connectivity, reliable liquidity, white-label solutions, end-to-end brokerage setup, and global fintech expertise — all in one place.",
     },
   ];
 

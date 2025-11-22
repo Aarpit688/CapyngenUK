@@ -16,6 +16,7 @@ import BenefitsSection from "../components/BenefitsSection";
 import WhyCapyngenSection from "../components/WhyCapyngenSection";
 import ConclusionSection from "../components/ConclusionSection";
 import { assets } from "../assets/assets";
+import FaqSection from "../components/FaqSection";
 
 const CryptoBroker = () => {
   const servicesData = [
@@ -25,31 +26,79 @@ const CryptoBroker = () => {
       desc: "Platforms, which can extend their features and capabilities to accommodate your client base and trade volume growth.",
     },
     {
-      image: "https://picsum.photos/id/1082/600/400",
+      image: assets.forexBroker13,
       title: "Top-Tier Security",
       desc: "A system, which incorporates encryption, secure servers, and a compliance-focused infrastructure.",
     },
     {
-      image: "https://picsum.photos/id/1082/600/400",
+      image: assets.forexBroker16,
       title: "Global Market Ready",
       desc: "Products that are created for international brokers and clients.",
     },
     {
-      image: "https://picsum.photos/id/1082/600/400",
+      image: assets.forexBroker14,
       title: "Intuitive User Experience",
       desc: "Broker and trader friendly interfaces, which are simple to use.",
     },
     {
-      image: "https://picsum.photos/id/1082/600/400",
+      image: assets.forexBroker15,
       title: "Seamless Integration",
       desc: "Enable your trading platform, CRM, analytics, and marketing tools to connect with each other.",
     },
     {
-      image: "https://picsum.photos/id/1082/600/400",
+      image: assets.pamm07,
       title: "Performance Analytics",
       desc: "Track platform performance, user behavior, and conversion metrics to optimize growth.",
     },
   ];
+  const faqItems = [
+    {
+      question: "What are the components of the Crypto Broker IT Solutions?",
+      answer:
+        "We offer solutions such as trading platforms, CRM software, website and app development, back-office tools, payment integrations, and digital marketing support.",
+    },
+    {
+      question:
+        "Is Capyngen capable of creating a crypto broker platform that is tailored to my needs?",
+      answer:
+        "By all means, we are experts in the creation of custom cryptocurrency broker platforms both for startups and existing brokers.",
+    },
+    {
+      question:
+        "Are your platforms and tools appropriate for the brokerage industry and new brokers?",
+      answer:
+        "Indeed! Our platforms are easy to operate, reliable, and made especially for startups.",
+    },
+    {
+      question: "Do you offer digital marketing services to crypto brokers?",
+      answer:
+        "Indeed, we embed marketing strategies to assist brokers in attracting, engaging, and retaining clients across the globe.",
+    },
+    {
+      question:
+        "What level of security do Capyngen’s crypto broker IT solutions provide?",
+      answer:
+        "We implement state-of-the-art encoding, good server facilities, and follow worldwide legal provisions to ensure secure systems.",
+    },
+    {
+      question:
+        "Is it possible for your software to be compatible with the current systems?",
+      answer:
+        "Indeed, our platforms are built with provisos for easy connections with other tools and work processes.",
+    },
+    {
+      question: "Are you available for help when the project is finished?",
+      answer:
+        "Indeed, we pledge the entire technical support, updates, and upkeep that will ensure the smooth running of your business.",
+    },
+    {
+      question:
+        "Is Capyngen a worldwide leader in providing technology solutions for crypto brokers?",
+      answer:
+        "We are located in London but operate worldwide offering full crypto broker IT solutions to our clients.",
+    },
+  ];
+
   return (
     <div>
       <Banner3
@@ -71,7 +120,7 @@ const CryptoBroker = () => {
           "Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is a provider of easy-to-use, secure, and fully featured crypto broker IT solutions. As a one-stop-shop for custom trading platforms, CRM, and apps, we enable brokers to carry out operations efficiently, attract clients, and expand globally. If you are going to start a new brokerage or simply give a facelift to the old one, our solutions are designed to be with you ​‍​‌‍​‍‌​‍​‌‍​‍‌continually.",
         ]}
         buttonText="Contact Us"
-        image="https://picsum.photos/id/1064/600/400"
+        image="https://media.smallbiztrends.com/2022/04/cryptocurrency-broker.png"
       />
       <ForexConclusion
         heading="Understanding Crypto Brokers and How We Help"
@@ -100,7 +149,7 @@ const CryptoBroker = () => {
             desc: "Track leads, clients, and campaigns all from a single place",
           },
           {
-            imgSrc: "https://picsum.photos/id/1059/600/400",
+            imgSrc: assets.forexBroker19,
             alt: "Website & App Development",
             title: "Website & App Development",
             desc: "Great user experience both for desktop and mobile",
@@ -132,6 +181,7 @@ const CryptoBroker = () => {
       <BenefitsSection />
       <WhyCapyngenSection />
       <ConclusionSection />
+      <FaqSection items={faqItems} />
     </div>
   );
 };

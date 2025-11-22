@@ -9,8 +9,51 @@ import CapmarketTechnology from "../components/CapmarketTechnology";
 import CapmarketUses from "../components/CapmarketUses";
 import CapmarketFunctionalities from "../components/CapmarketFunctionalities";
 import CapmarketHighPerformance from "../components/CapmarketHighPerformance";
+import FaqSection from "../components/FaqSection";
 
 const Capmarket = () => {
+  const faqItems = [
+    {
+      question: "What is the Capmarket trading platform?",
+      answer:
+        "Capmarket is a multi-asset trading platform that works with forex, CFD, and crypto brokers who require fast execution and good liquidity connectivity.",
+    },
+    {
+      question: "Do you provide Capmarket white-label setup?",
+      answer:
+        "Yeah, Capyngen produces brand-name Capmarket white-label solutions for brokers everywhere.",
+    },
+    {
+      question: "Can Capmarket connect to liquidity providers?",
+      answer:
+        "Very well. We are outfitting the Capmarket liquidity middle-office instruments for that takes plunge and quick execution.",
+    },
+    {
+      question: "Does Capmarket support multi-asset trading?",
+      answer:
+        "Indeed, Capmarket supports forex, CFDs, indices, crypto, commodities, and more.",
+    },
+    {
+      question: "Do you offer backend hosting and management?",
+      answer:
+        "Yes, we are in charge of the servers, databases, routing engines, and security layers for absolute stability.",
+    },
+    {
+      question: "Can Capmarket integrate with CRMs and payment systems?",
+      answer:
+        "Yes, via Capmarket API integration, we connect CRMs, PSPs, and KYC systems without any difficulty.",
+    },
+    {
+      question: "Is Capmarket suitable for startups?",
+      answer:
+        "Yes, our ready-to-use Capmarket setup is the way new brokers can be up and running in no time with the lowest expenditure.",
+    },
+    {
+      question: "Do you offer continuous support for Capmarket?",
+      answer:
+        "Yes, we are always on-the-clock monitoring, maintenance, updates, and performance optimization.",
+    },
+  ];
   const slidesData = [
     {
       id: 1,
@@ -95,6 +138,7 @@ const Capmarket = () => {
       <CapmarketUses />
       <CapmarketFunctionalities />
       <CapmarketHighPerformance />
+      <FaqSection items={faqItems} />
     </div>
   );
 };

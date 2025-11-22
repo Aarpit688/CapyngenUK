@@ -1,6 +1,7 @@
 import { assets } from "../assets/assets";
 import Banner6 from "../components/Banner6";
 import ComparisonTable from "../components/ComparisonTable";
+import FaqSection from "../components/FaqSection";
 import HowItWorks from "../components/HowItWorks";
 import MT5BestBroker from "../components/MT5BestBroker";
 import MT5Conclusion from "../components/MT5Conclusion";
@@ -11,6 +12,52 @@ import MT5Section from "../components/MT5Section";
 import MT5WhyIdealSection from "../components/MT5WhyIdealSection";
 
 const MT5 = () => {
+  const faqItems = [
+    {
+      question: "What are the exact contents of your MT5 services package?",
+      answer:
+        "Our MT5 services package covers a broker-facing platform setup, white-label deployment, liquidity bridge integration, API connectivity, hosting, backend management, plugin development, and full technical support.",
+    },
+    {
+      question:
+        "How much time does it take to set up an MT5 white-label platform?",
+      answer:
+        "A typical white-label MT5 deployment will be completed in a couple of working days at most, the main factors influencing this being branding, integrations, and liquidity setup.",
+    },
+    {
+      question: "Do you offer liquidity bridge integration with MT5?",
+      answer:
+        "We are fully set up for MT5 liquidity bridge integration with the top liquidity providers to facilitate stable pricing, quicker execution, and unmetered liquidity access.",
+    },
+    {
+      question: "Can Capyngen assist me in migrating my brokerage to MT5?",
+      answer:
+        "Definitely. We help in a hitch-free transition from MT4 to MT5 along with platform handover, data migration, and backend reconfiguration.",
+    },
+    {
+      question:
+        "Is MT5 a good choice for startups that want to enter the forex or CFD market?",
+      answer:
+        "Certainly, MT5 is perfect for startup brokers due to its support for multiple asset classes, low-latency execution, and easy scalability. We provide ready-to-use MT5 solutions for new brokers.",
+    },
+    {
+      question: "Are you able to develop a custom MT5 plugin for me?",
+      answer:
+        "Indeed, we create custom MT5 plugins for various purposes such as risk management, reporting, automation, liquidity enhancement, and extended functionality based on the brokerage requirements.",
+    },
+    {
+      question:
+        "What hosting alternatives do you have available for MT5 brokers?",
+      answer:
+        "Our hosting choices include high-end dedicated servers, VPS, and global data-center link-ups to guarantee 24/7 uptime and ultra-low latency execution.",
+    },
+    {
+      question:
+        "Is it possible for MT5 to communicate with CRM systems and third-party tools?",
+      answer:
+        "Certainly, we establish API connections between MT5 and CRM systems, PSPs, KYC tools, liquidity providers, and other fintech applications to achieve complete workflow automation.",
+    },
+  ];
   return (
     <div>
       <Banner6
@@ -142,6 +189,7 @@ const MT5 = () => {
       <MT5BestBroker />
       <MT5GlobalStandard />
       <MT5Conclusion />
+      <FaqSection items={faqItems} />
     </div>
   );
 };

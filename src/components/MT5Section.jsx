@@ -1,4 +1,5 @@
 import React from "react";
+import { assets } from "../assets/assets";
 
 const MT5Section = () => {
   return (
@@ -44,17 +45,13 @@ const MT5Section = () => {
         {/* Right: Image / Visual */}
         <div className="relative group">
           <div className="absolute inset-0 bg-gradient-to-tr from-green-600/30 to-emerald-600/30 blur-3xl rounded-3xl"></div>
-
-          <div className="relative overflow-hidden rounded-3xl border border-gray-700/50 backdrop-blur-xl shadow-2xl">
+          <div className="relative overflow-hidden rounded-md border border-gray-700/50 backdrop-blur-xl shadow-2xl">
             <img
-              src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+              src={assets.arkTrading5}
               alt="MetaTrader 5 Trading Dashboard"
-              className="object-cover w-full h-full transition-transform duration-700 ease-in-out group-hover:scale-105"
+              className="object-cover w-full h-full\"
             />
           </div>
-
-          <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-green-500/40 rounded-full blur-2xl"></div>
-          <div className="absolute -top-6 -right-6 w-40 h-40 bg-emerald-500/30 rounded-full blur-2xl"></div>
         </div>
       </div>
     </section>

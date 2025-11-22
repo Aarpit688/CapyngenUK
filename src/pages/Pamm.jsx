@@ -8,6 +8,7 @@ import ForexSolutions from "../components/ForexSolutions";
 import CardsSectionImage from "../components/CardsSectionImage";
 import PammConclusion from "../components/PammConclusion";
 import { assets } from "../assets/assets";
+import FaqSection from "../components/FaqSection";
 
 const Pamm = () => {
   const cardsSectionImageData1 = [
@@ -43,8 +44,45 @@ const Pamm = () => {
       title: "Totally White Label",
       description:
         "Capyngen Technologies UK Limited is fully customizable in terms of branding for websites, platforms, and‍ ‍ ‌‍​‍‌​‍​‌‍​‍‌dashboards.",
-      image: "https://picsum.photos/id/1064/600/400",
+      image: assets.cTrader8,
       cardBg: "bg-gray-200",
+    },
+  ];
+  const faqItems = [
+    {
+      question: "Does Capyngen provide a fully white-label PAMM system?",
+      answer:
+        "Indeed, brokers are allowed to brand the platform with their identity - logo, colors, UI, and custom dashboards.",
+    },
+    {
+      question: "Does the PAMM platform support MT4 and MT5?",
+      answer:
+        "Certainly. Capyngen Technologies UK Limited provides depth, and low-latency integration with MT4/MT5 and other trading engines.",
+    },
+    {
+      question: "How long does deployment take?",
+      answer:
+        "Normally, the deployment is done within 24-48 hours, which is largely dependent on the integrations.",
+    },
+    {
+      question: "Can large brokers scale with this PAMM system?",
+      answer:
+        "Definitely, our setup is capable of handling tens of thousands of investors without any performance issues.",
+    },
+    {
+      question: "Does Capyngen offer PAMM customization?",
+      answer:
+        "Yes, aspects like allocation logic, UI design, and fee modules - can all be customized.",
+    },
+    {
+      question: "Is the data secure?",
+      answer:
+        "This is a PAMM platform with bank-grade security, redundancy architecture, encrypted APIs, and continuous monitoring.",
+    },
+    {
+      question: "Can it integrate with my CRM?",
+      answer:
+        "Certainly, our PAMM API is compatible with CRM, mobile apps, back-office systems, and other platforms.",
     },
   ];
 
@@ -152,6 +190,7 @@ const Pamm = () => {
         hoverBg="hover:bg-gray-200"
       />
       <PammConclusion />
+      <FaqSection items={faqItems} />
     </div>
   );
 };

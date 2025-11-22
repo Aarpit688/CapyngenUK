@@ -16,8 +16,51 @@ import MAMUseCases from "../components/MAMUseCases";
 import MAMCapabilities from "../components/MAMCapabilities";
 import MAMInfrastructure from "../components/MAMInfrastructure";
 import { assets } from "../assets/assets";
+import FaqSection from "../components/FaqSection";
 
 const Mam = () => {
+  const faqItems = [
+    {
+      question: "What is the role of a MAM platform?",
+      answer:
+        "A MAM platform is a system that can copy the master account operations to different client accounts in real-time.",
+    },
+    {
+      question: "Is there any facility for your MAM white-label deployment?",
+      answer:
+        "Certainly, Capyngen is able to offer full white-label MAM solutions to brokers worldwide.",
+    },
+    {
+      question: "Is MAM working with liquidity providers?",
+      answer:
+        "Indeed, MAM is coupled with a liquidity bridge to achieve a seamless execution and to have a deep liquidity pool.",
+    },
+    {
+      question: "Can MAM be used for multi-asset trading?",
+      answer:
+        "Yes, the brokers can open trading in forex, CFDs, metals, indices, crypto, and commodities.",
+    },
+    {
+      question: "Are you in charge of backend hosting?",
+      answer:
+        "We are, indeed, managing the servers, the execution systems, the databases, and the routing layers.",
+    },
+    {
+      question: "Is MAM able to link with CRMs and PSPs?",
+      answer: "Yes, it supports full API connectivity.",
+    },
+    {
+      question: "Can MAM be a good choice for new brokers?",
+      answer:
+        "Yes, a startup can be able to launch in no time and there won't be a large amount of setup costs.",
+    },
+    {
+      question:
+        "Is there any provision from your side for 24/7 monitoring and updates?",
+      answer:
+        "Indeed, our crew is always there providing maintenance and performance improvement.",
+    },
+  ];
   const cardsSectionData1 = [
     {
       title: "Branded MAM White-Label Deployment",
@@ -144,6 +187,7 @@ const Mam = () => {
       <MAMUseCases />
       <MAMCapabilities />
       <MAMInfrastructure />
+      <FaqSection items={faqItems} />
     </div>
   );
 };

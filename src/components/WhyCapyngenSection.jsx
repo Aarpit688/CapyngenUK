@@ -1,4 +1,5 @@
 import React from "react";
+import { assets } from "../assets/assets";
 
 // Example: Logos for list bullets
 // Replace these URLs with your actual brand icons or PNG/SVG files
@@ -13,7 +14,7 @@ const WhyCapyngenSection = ({
     "Provide next to no disruption services, support, and upgrades",
   ],
   outroText = "We are committed to simplifying, securing, and scaling the operation of a crypto brokerage through technology so that you can concentrate on business expansion.",
-  image = "https://picsum.photos/seed/partner/800/600",
+  image = assets.nt07,
   bulletIcon = bulletLogo,
 }) => {
   return (

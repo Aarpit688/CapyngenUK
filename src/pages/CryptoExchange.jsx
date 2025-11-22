@@ -23,6 +23,8 @@ import CardsSectionImage from "../components/CardsSectionImage";
 import IndustryServices from "../components/IndustryServices";
 import GetStarted from "../components/GetStarted";
 import { assets } from "../assets/assets";
+import Banner6 from "../components/Banner6";
+import FaqSection from "../components/FaqSection";
 
 const CryptoExchange = () => {
   const cardsSectionData1 = [
@@ -77,47 +79,68 @@ const CryptoExchange = () => {
       cardBg: "bg-gray-200",
     },
   ];
-  const servicesData = [
+  const faqItems = [
     {
-      image: "https://picsum.photos/id/1064/600/400",
-      title: "Search Engine Optimization (SEO)",
-      desc: "Make your website be ranked at the top of Google.",
+      question: "What services are included in a Crypto Exchange Broker Setup?",
+      answer:
+        "A Crypto Exchange Broker Setup is a one-stop-shop solution that includes a trading platform, CRM solution, website & app development, back-office tools, and payment integrations.",
     },
     {
-      image: "https://picsum.photos/id/1064/600/400",
-      title: "Social Media Integration",
-      desc: "Get more customers and advertising your products directly on Instagram, Facebook, and LinkedIn.",
+      question:
+        "Can Capyngen develop a custom cryptocurrency exchange platform?",
+      answer:
+        "We are a leading custom cryptocurrency exchange platform development company, and we can handle both startup and enterprise projects.",
     },
     {
-      image: "https://picsum.photos/id/1064/600/400",
-      title: "Email & SMS Campaigns",
-      desc: "Revive relationships with customers and stimulate repeat purchases.",
+      question:
+        "Are the Crypto CRM Software Solutions suitable for small exchanges?",
+      answer:
+        "Yes, we have implemented CRM solutions that are scalable from startups to large brokers.",
     },
     {
-      image: "https://picsum.photos/id/1064/600/400",
-      title: "Content Marketing",
-      desc: "Gain the trust of visitors and attract the traffic with helpful content.",
+      question:
+        "Does Capyngen provide digital marketing services for crypto exchanges?",
+      answer:
+        "Certainly, we integrate marketing and technology to help exchanges get new clients and keep them globally.",
     },
     {
-      image: "https://picsum.photos/id/1064/600/400",
-      title: "Paid Advertising (PPC)",
-      desc: "Get targeted traffic to your online shop right away.",
+      question: "How secure are Capyngen’s crypto exchange IT solutions?",
+      answer:
+        "We offer state-of-the-art encryption, secure servers, and compliance-centric architectures as part of our security solutions.",
     },
     {
-      image: "https://picsum.photos/id/1064/600/400",
-      title: "Analytics & Conversion Tracking",
-      desc: "Evaluate the results and evolve effectively.",
+      question: "Can these solutions integrate with existing systems?",
+      answer:
+        "We develop platforms and applications that facilitate the smooth integration of third-party tools with them.",
+    },
+    {
+      question: "Do you offer ongoing support after deployment?",
+      answer:
+        "Indeed, we will be on hand after deployment to provide support, maintenance, and updates.",
+    },
+    {
+      question: "Is Capyngen a global crypto exchange technology provider?",
+      answer:
+        "Headquartered in the UK, we are a complete crypto exchange solution provider to clients across the globe.",
     },
   ];
 
   return (
     <div>
-      <Banner2
-        title="Next-Gen Technology Infrastructure for Crypto Exchanges"
-        subtitle="From matching engines to multi-layer security, Capyngen builds high-performance digital asset exchange systems for global market operations."
-        buttonText="Explore Now"
-        buttonLink="/contact-us"
-        image="https://d33wubrfki0l68.cloudfront.net/54780decfb9574945bc873b582cdc6156144a2ba/d9fa1/images/hero/4/illustration.png"
+      <Banner6
+        titleGradient="Next-Gen Technology Infrastructure for Crypto Exchanges"
+        description="From matching engines to multi-layer security, Capyngen builds high-performance digital asset exchange systems for global market operations."
+        ctaText="Explore Now"
+        ctaLink="/contact-us"
+        buttonBg="bg-gradient-to-r from-blue-600 to-blue-600 rounded-lg shadow-lg border border-white/10 hover:from-blue-700 hover:to-blue-700 hover:shadow-emerald-500/20"
+        bgImageDesktop={assets.cryptoExchange}
+        bgImageMobile={assets.mt5}
+        features={[
+          {
+            icon: ``,
+            text: "",
+          },
+        ]}
       />
       <CardsSection
         heading="Understanding Crypto Exchanges: What They Are and Why They Matter"
@@ -298,6 +321,7 @@ const CryptoExchange = () => {
         buttonText="Contact Us"
         image={assets.cryptoExchange12}
       />
+      <FaqSection items={faqItems} />
     </div>
   );
 };

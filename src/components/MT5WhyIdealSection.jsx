@@ -1,11 +1,12 @@
 import React from "react";
+import { assets } from "../assets/assets";
 
 const MT5WhyIdealSection = () => {
   const features = [
     {
       title: "Advanced Analytical Tools",
       desc: `MT5 is equipped with 21 timeframes, more than 80 indicators, and several analytical objects. These instruments enable worldwide clients to perform deep technical analysis of any market sector, be it forex, commodities, or other.`,
-      img: "https://picsum.photos/id/1012/600/400",
+      img: assets.arkTrading4,
     },
     {
       title: "Multi-Asset Trading Environment",
@@ -31,18 +32,11 @@ const MT5WhyIdealSection = () => {
 
   return (
     <section className="relative bg-gradient-to-br from-[#0b0e0e] via-[#0c1715] to-[#08201D] text-white py-24 px-6 overflow-hidden">
-      {/* Background glows */}
-      <div className="absolute -top-32 -right-32 w-72 h-72 bg-green-500/10 rounded-full blur-3xl"></div>
-      <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-emerald-600/10 rounded-full blur-3xl"></div>
-
       <div className="relative z-10 max-w-7xl mx-auto space-y-16">
         {/* Header */}
         <header className="text-center space-y-4">
           <h2 className="text-3xl md:text-5xl font-extrabold leading-tight">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-emerald-200">
-              Why MT5 Is Ideal
-            </span>{" "}
-            for a UK-Based Global Trading Company
+            Why MT5 Is Ideal for a UK-Based Global Trading Company
           </h2>
           <p className="text-gray-400 max-w-3xl mx-auto text-lg">
             Discover why MetaTrader 5 stands as the global benchmark for
@@ -73,7 +67,7 @@ const MT5WhyIdealSection = () => {
 
 // Reusable Feature Card Component
 const FeatureCard = ({ item, idx }) => (
-  <div className="relative group bg-gray-800/40 backdrop-blur-xl border border-gray-700/40 rounded-2xl shadow-lg overflow-hidden transition hover:shadow-emerald-500/20 hover:-translate-y-1 duration-300 max-w-[420px] mx-auto">
+  <div className="relative group bg-gray-800/40 backdrop-blur-xl border border-gray-700/40 rounded-md shadow-lg overflow-hidden transition hover:-translate-y-1 duration-300 max-w-[420px] mx-auto">
     {/* Image */}
     <div className="h-44 overflow-hidden">
       <img
@@ -90,9 +84,6 @@ const FeatureCard = ({ item, idx }) => (
       </h3>
       <p className="text-gray-300 text-sm leading-relaxed">{item.desc}</p>
     </div>
-
-    {/* Accent Glow */}
-    <div className="absolute inset-0 opacity-0 group-hover:opacity-15 transition bg-gradient-to-r from-green-500 to-emerald-600 blur-3xl" />
   </div>
 );
 

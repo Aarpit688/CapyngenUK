@@ -7,7 +7,6 @@ import {
   Twitter,
   Youtube,
   Mail,
-  Phone,
   MapPin,
   ArrowUp,
 } from "lucide-react";
@@ -57,11 +56,8 @@ const Footer = () => {
     },
   ];
 
-  // Scroll to top functionality
   useEffect(() => {
-    const handleScroll = () => {
-      setShowScrollTop(window.scrollY > 300);
-    };
+    const handleScroll = () => setShowScrollTop(window.scrollY > 300);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -72,53 +68,45 @@ const Footer = () => {
 
   return (
     <footer className="relative bg-black text-white overflow-hidden">
-      {/* Background decorative elements */}
+      {/* GREEN Background Glows */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-full blur-2xl animate-pulse"></div>
-        <div className="absolute top-3/4 right-1/4 w-80 h-80 bg-gradient-to-r from-pink-500/10 to-orange-500/10 rounded-full blur-2xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-gradient-to-r from-green-500/10 to-blue-500/10 rounded-full blur-2xl animate-pulse delay-500"></div>
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-r from-emerald-500/10 to-green-600/10 rounded-full blur-2xl animate-pulse"></div>
+        <div className="absolute top-3/4 right-1/4 w-80 h-80 bg-gradient-to-r from-green-400/10 to-teal-500/10 rounded-full blur-2xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-gradient-to-r from-emerald-400/10 to-lime-500/10 rounded-full blur-2xl animate-pulse delay-500"></div>
       </div>
 
-      {/* Main Footer Content */}
-      <div className="relative z-10 max-w-[90vw] mx-auto px-0 xl:px-6 py-16 lg:py-20">
-        {/* Top Section */}
+      <div className="relative z-10 max-w-[90vw] mx-auto py-16 lg:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr_1fr] gap-10 lg:gap-8 mb-12">
-          {/* Company Info */}
+          {/* COMPANY SECTION */}
           <div className="lg:col-span-1">
-            <div className="mb-6">
-              <NavLink to="/">
-                <img
-                  src={assets.capyngenLogo || assets.capyngenFavIcon}
-                  alt="Capyngen Logo"
-                  className="w-full mb-4 max-w-[200px]"
-                />
-              </NavLink>
+            <NavLink to="/" className="mb-6 block">
+              <img
+                src={assets.capyngenLogo || assets.capyngenFavIcon}
+                alt="Capyngen Logo"
+                className="w-full max-w-[200px]"
+              />
+            </NavLink>
 
-              <p className="text-slate-300 text-sm leading-relaxed">
-                Transforming businesses through innovative IT solutions. We
-                deliver cutting-edge technology that drives growth and
-                efficiency for modern enterprises.
-              </p>
-            </div>
+            <p className="text-slate-300 text-sm">
+              Transforming businesses through innovative IT solutions with
+              enterprise-grade performance and scalability.
+            </p>
 
-            {/* Contact Information */}
-            <div className="space-y-3">
-              {contactInfo.map((contact, idx) => (
-                <div key={idx} className="flex items-start space-x-3">
-                  <contact.icon className="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" />
+            <div className="space-y-4 mt-5">
+              {contactInfo.map((c, i) => (
+                <div key={i} className="flex items-start space-x-3">
+                  <c.icon className="w-4 h-4 text-emerald-400 mt-0.5" />
                   <div className="text-sm">
-                    <p className="text-slate-400 font-medium">
-                      {contact.label}
-                    </p>
-                    {contact.href ? (
+                    <p className="text-slate-400 font-medium">{c.label}</p>
+                    {c.href ? (
                       <a
-                        href={contact.href}
-                        className="text-slate-300 hover:text-blue-400 transition-colors duration-200"
+                        href={c.href}
+                        className="text-slate-300 hover:text-emerald-400 transition"
                       >
-                        {contact.value}
+                        {c.value}
                       </a>
                     ) : (
-                      <p className="text-slate-300">{contact.value}</p>
+                      <p className="text-slate-300">{c.value}</p>
                     )}
                   </div>
                 </div>
@@ -126,272 +114,104 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Turnkey & Products (side by side on mobile) */}
-          <div className="grid grid-cols-2 gap-8 md:grid-cols-2 lg:grid-cols-2 lg:col-span-2">
-            {/* Turnkey */}
-            <div>
-              <h4 className="text-lg font-bold text-white mb-6 relative">
-                Turnkey
-                <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500"></div>
-              </h4>
-              {navItems
-                .filter((item) => item.label === "TURNKEY")
-                .map((item, idx) => (
-                  <div key={idx}>
-                    {(item.dropdown || []).map((section, secIdx) => (
-                      <div key={secIdx} className="mb-4">
-                        {section.title && (
-                          <div className="text-slate-200 font-semibold mb-2">
-                            {section.title}
-                          </div>
-                        )}
-                        <ul className="space-y-2">
-                          {(showAllServices
-                            ? section.links
-                            : (section.links || []).slice(0, 5)
-                          ).map((link, i) => (
-                            <li key={i}>
-                              <NavLink
-                                to={link.href}
-                                className="text-slate-300 hover:text-blue-400 transition-colors duration-200 text-sm hover:translate-x-1 inline-block"
-                              >
-                                {link.label}
-                              </NavLink>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
-                    {(() => {
-                      const total =
-                        item.dropdown?.reduce(
-                          (sum, s) => sum + (s.links?.length || 0),
-                          0
-                        ) || 0;
-                      return total > 10 ? (
-                        <button
-                          onClick={() => setShowAllServices(!showAllServices)}
-                          className="mt-1 text-blue-400 text-sm font-medium hover:underline cursor-pointer"
-                        >
-                          {showAllServices ? "Show Less" : "Show More"}
-                        </button>
-                      ) : null;
-                    })()}
-                  </div>
-                ))}
-            </div>
+          {/* TURNKEY SECTION */}
+          <FooterColumn
+            title="Turnkey"
+            data={navItems.filter((i) => i.label === "TURNKEY")}
+            showAll={showAllServices}
+            setShowAll={setShowAllServices}
+            green
+          />
 
-            {/* Products */}
-            <div>
-              <h4 className="text-lg font-bold text-white mb-6 relative">
-                Products
-                <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500"></div>
-              </h4>
-              {navItems
-                .filter((item) => item.label === "PRODUCTS")
-                .map((item, idx) => (
-                  <div key={idx}>
-                    {(item.dropdown || []).map((section, secIdx) => (
-                      <div key={secIdx} className="mb-4">
-                        {section.title && (
-                          <div className="text-slate-200 font-semibold mb-2">
-                            {section.title}
-                          </div>
-                        )}
-                        <ul className="space-y-2">
-                          {(showAllIndustries
-                            ? section.links
-                            : (section.links || []).slice(0, 5)
-                          ).map((link, i) => (
-                            <li key={i}>
-                              <NavLink
-                                to={link.href}
-                                className="text-slate-300 hover:text-blue-400 transition-colors duration-200 text-sm hover:translate-x-1 inline-block"
-                              >
-                                {link.label}
-                              </NavLink>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
-                    {(() => {
-                      const total =
-                        item.dropdown?.reduce(
-                          (sum, s) => sum + (s.links?.length || 0),
-                          0
-                        ) || 0;
-                      return total > 10 ? (
-                        <button
-                          onClick={() =>
-                            setShowAllIndustries(!showAllIndustries)
-                          }
-                          className="mt-1 text-blue-400 text-sm font-medium hover:underline cursor-pointer"
-                        >
-                          {showAllIndustries ? "Show Less" : "Show More"}
-                        </button>
-                      ) : null;
-                    })()}
-                  </div>
-                ))}
-            </div>
-          </div>
+          {/* PRODUCTS SECTION */}
+          <FooterColumn
+            title="Products"
+            data={navItems.filter((i) => i.label === "PRODUCTS")}
+            showAll={showAllIndustries}
+            setShowAll={setShowAllIndustries}
+            green
+          />
 
-          {/* Platforms & Services (side by side on mobile) */}
-          <div className="grid grid-cols-2 gap-8 md:grid-cols-2 lg:grid-cols-2 lg:col-span-2">
-            {/* Platforms */}
-            <div>
-              <h4 className="text-lg font-bold text-white mb-6 relative">
-                Platforms
-                <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500"></div>
-              </h4>
-              {navItems
-                .filter((item) => item.label === "PLATFORMS")
-                .map((item, idx) => (
-                  <div key={idx}>
-                    {(item.dropdown || []).map((section, secIdx) => (
-                      <div key={secIdx} className="mb-4">
-                        <ul className="space-y-2">
-                          {section.links.map((link, i) => (
-                            <li key={i}>
-                              <NavLink
-                                to={link.href}
-                                className="text-slate-300 hover:text-blue-400 transition-colors duration-200 text-sm hover:translate-x-1 inline-block"
-                              >
-                                {link.label}
-                              </NavLink>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
-                  </div>
-                ))}
-            </div>
+          {/* PLATFORMS */}
+          <FooterColumnSimple
+            title="Platforms"
+            data={navItems.filter((i) => i.label === "PLATFORMS")}
+            green
+          />
 
-            {/* Services */}
-            <div>
-              <h4 className="text-lg font-bold text-white mb-6 relative">
-                Services
-                <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500"></div>
-              </h4>
-              {navItems
-                .filter((item) => item.label === "SERVICES")
-                .map((item, idx) => (
-                  <div key={idx}>
-                    {(item.dropdown || []).map((section, secIdx) => (
-                      <div key={secIdx} className="mb-4">
-                        <ul className="space-y-2">
-                          {section.links.map((link, i) => (
-                            <li key={i}>
-                              <NavLink
-                                to={link.href}
-                                className="text-slate-300 hover:text-blue-400 transition-colors duration-200 text-sm hover:translate-x-1 inline-block"
-                              >
-                                {link.label}
-                              </NavLink>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
-                  </div>
-                ))}
-            </div>
-          </div>
+          {/* SERVICES */}
+          <FooterColumnSimple
+            title="Services"
+            data={navItems.filter((i) => i.label === "SERVICES")}
+            green
+          />
 
-          {/* Company */}
-          <div className=" pl-0 md:pl-8">
-            <h4 className="text-lg font-bold text-white mb-6 relative">
-              Company
-              <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500"></div>
-            </h4>
-            {navItems
-              .filter((item) => item.label === "COMPANY")
-              .map((item, idx) => (
-                <div key={idx}>
-                  {(item.dropdown || []).map((section, secIdx) => (
-                    <div key={secIdx} className="mb-4">
-                      <ul className="space-y-2">
-                        {section.links.map((link, i) => (
-                          <li key={i}>
-                            <NavLink
-                              to={link.href}
-                              className="text-slate-300 hover:text-blue-400 transition-colors duration-200 text-sm hover:translate-x-1 inline-block"
-                            >
-                              {link.label}
-                            </NavLink>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  ))}
-                </div>
-              ))}
-          </div>
+          {/* COMPANY LINKS */}
+          <FooterColumnSimple
+            title="Company"
+            data={navItems.filter((i) => i.label === "COMPANY")}
+            green
+          />
 
-          {/* Social */}
+          {/* SOCIAL SECTION */}
           <div>
-            <h4 className="text-lg font-bold text-white mb-6 relative">
+            <h4 className="text-lg font-bold mb-6 relative">
               Stay Connected
-              <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500"></div>
+              <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-emerald-500 to-green-600"></span>
             </h4>
             <p className="text-slate-300 text-sm mb-3">
               Follow us on social media
             </p>
             <div className="flex space-x-3">
-              {socialLinks.map((social, idx) => (
+              {socialLinks.map((s, i) => (
                 <a
-                  key={idx}
-                  href={social.href}
-                  className="w-10 h-10 bg-slate-800 hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 rounded-lg flex items-center justify-center transition-all duration-200 hover:scale-110"
-                  aria-label={social.label}
+                  key={i}
+                  href={s.href}
+                  className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center transition hover:scale-110 hover:bg-gradient-to-r hover:from-emerald-500 hover:to-green-600"
+                  aria-label={s.label}
                 >
-                  <social.icon className="w-4 h-4 text-slate-300 hover:text-white transition-colors duration-200" />
+                  <s.icon className="w-4 h-4 text-slate-300 group-hover:text-white" />
                 </a>
               ))}
             </div>
           </div>
         </div>
 
-        {/* Divider + Scroll To Top */}
+        {/* SCROLL TO TOP */}
         <div className="relative border-t border-slate-700/50 my-8">
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <button
               onClick={scrollToTop}
-              className={`w-12 h-12 rounded-full border border-blue-500 bg-slate-800/50 backdrop-blur-sm flex items-center justify-center transition-all duration-300 hover:scale-110 hover:border-white hover:bg-blue-500 cursor-pointer group ${
+              className={`w-12 h-12 rounded-full border border-emerald-500 bg-slate-800/50 backdrop-blur-md flex items-center justify-center transition-all duration-300 hover:bg-emerald-500 hover:scale-110 ${
                 showScrollTop
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-4"
               }`}
-              aria-label="Scroll to top"
             >
-              <ArrowUp className="w-5 h-5 text-blue-500 group-hover:text-white" />
+              <ArrowUp className="w-5 h-5 text-emerald-400 group-hover:text-white" />
             </button>
           </div>
         </div>
 
-        {/* Bottom Section */}
-        <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
-          <div className="text-slate-400 text-sm">
-            © {currentYear} Capyngen. All rights reserved.
-          </div>
-          <div className="flex flex-wrap justify-center sm:justify-end gap-6 text-sm">
+        {/* BOTTOM LINKS */}
+        <div className="flex flex-col sm:flex-row justify-between items-center text-sm text-slate-400 gap-4">
+          <div>© {currentYear} Capyngen. All rights reserved.</div>
+          <div className="flex gap-6">
             <NavLink
               to="/privacy-policy"
-              className="text-slate-400 hover:text-blue-400 transition-colors duration-200"
+              className="hover:text-emerald-400 transition"
             >
               Privacy Policy
             </NavLink>
             <NavLink
               to="/terms-of-service"
-              className="text-slate-400 hover:text-blue-400 transition-colors duration-200"
+              className="hover:text-emerald-400 transition"
             >
               Terms of Service
             </NavLink>
             <NavLink
               to="/sitemap"
-              className="text-slate-400 hover:text-blue-400 transition-colors duration-200"
+              className="hover:text-emerald-400 transition"
             >
               Sitemap
             </NavLink>
@@ -399,10 +219,10 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Watermark */}
+      {/* WATERMARK */}
       <div className="relative h-[50px] md:h-[100px]">
         <div className="absolute top-0 -translate-y-1/2 inset-0 flex items-center justify-center pointer-events-none">
-          <div className="text-slate-800/50 text-7xl md:text-9xl lg:text-[12rem] font-bold md:tracking-wider select-none">
+          <div className="text-slate-800/50 text-7xl md:text-9xl lg:text-[12rem] font-bold">
             capyngen
           </div>
         </div>
@@ -412,3 +232,85 @@ const Footer = () => {
 };
 
 export default Footer;
+
+/* ---------------------
+   HELPING SUB COMPONENTS
+---------------------- */
+
+const FooterColumn = ({ title, data, showAll, setShowAll }) => (
+  <div>
+    <h4 className="text-lg font-bold text-white mb-6 relative">
+      {title}
+      <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-emerald-500 to-green-600"></div>
+    </h4>
+
+    {data.map((item, idx) => (
+      <div key={idx}>
+        {item.dropdown?.map((section, secIdx) => (
+          <div key={secIdx} className="mb-4">
+            {section.title && (
+              <div className="text-slate-200 font-semibold mb-2">
+                {section.title}
+              </div>
+            )}
+            <ul className="space-y-2">
+              {(showAll ? section.links : section.links.slice(0, 5)).map(
+                (link, i) => (
+                  <li key={i}>
+                    <NavLink
+                      to={link.href}
+                      className="text-slate-300 hover:text-emerald-400 transition text-sm"
+                    >
+                      {link.label}
+                    </NavLink>
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
+        ))}
+
+        {(() => {
+          const total =
+            item.dropdown?.reduce((sum, s) => sum + s.links.length, 0) || 0;
+          return total > 10 ? (
+            <button
+              onClick={() => setShowAll(!showAll)}
+              className="mt-1 text-emerald-400 text-sm hover:underline"
+            >
+              {showAll ? "Show Less" : "Show More"}
+            </button>
+          ) : null;
+        })()}
+      </div>
+    ))}
+  </div>
+);
+
+const FooterColumnSimple = ({ title, data }) => (
+  <div>
+    <h4 className="text-lg font-bold text-white mb-6 relative">
+      {title}
+      <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-emerald-500 to-green-600"></div>
+    </h4>
+
+    {data.map((item) => (
+      <div key={item.label}>
+        {item.dropdown?.map((section, i) => (
+          <ul key={i} className="space-y-2 mb-4">
+            {section.links.map((link, j) => (
+              <li key={j}>
+                <NavLink
+                  to={link.href}
+                  className="text-slate-300 hover:text-emerald-400 transition text-sm"
+                >
+                  {link.label}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+        ))}
+      </div>
+    ))}
+  </div>
+);

@@ -10,8 +10,52 @@ import CapmarketServiceUsage from "../components/CapmarketServiceUsage";
 import CapmarketServiceAdditionalFeatures from "../components/CapmarketServiceAdditionalFeatures";
 import CapmarketServiceConclusion from "../components/CapmarketServiceConclusion";
 import { assets } from "../assets/assets";
+import FaqSection from "../components/FaqSection";
 
 const CapmarketService = () => {
+  const faqItems = [
+    {
+      question: "What are Capmarket services?",
+      answer:
+        "Capmarket services consist of a multi-asset trading platform, liquidity bridges, server hosting, white-label solutions, and integration services for brokers.",
+    },
+    {
+      question: "Can Capyngen integrate Capmarket with MT5 platforms?",
+      answer:
+        "Yes, we enable the integration of Capmarket with trading platforms such as MT5 and other multi-asset brokers.",
+    },
+    {
+      question: "What services are included in Capmarket solutions?",
+      answer:
+        "The services cover platform setup, liquidity bridges, server hosting, white-label platform development, API integration, and support indefinitely.",
+    },
+    {
+      question: "Are Capmarket services suitable for startups?",
+      answer:
+        "Yes, the turnkey solutions make it possible for startups to enter the market very fast with fully operational, branded platforms.",
+    },
+    {
+      question: "How reliable is Capmarket technology for high-volume trading?",
+      answer:
+        "Capmarket delivers a low-latency, easily extendable infrastructure along with strong liquidity links for the support of trading at an institutional level.",
+    },
+    {
+      question:
+        "Can Capmarket integrate with existing MT4/MT5 or other platforms?",
+      answer:
+        "Certainly, we provide tailored platform integration solutions to accommodate brokers anywhere in the world.",
+    },
+    {
+      question: "Do you provide ongoing maintenance and support?",
+      answer:
+        "Yes, Capyngen is responsible for hosting, technical assistance, updates, and the optimization of all Capmarket services.",
+    },
+    {
+      question: "Is Capyngen a trusted Capmarket technology provider UK-based?",
+      answer:
+        "Yes, we are located in the UK and deliver Capmarket broker technology solution services to clients globally.",
+    },
+  ];
   return (
     <div>
       <Banner7
@@ -47,6 +91,7 @@ const CapmarketService = () => {
       <CapmarketServiceUsage />
       <CapmarketServiceAdditionalFeatures />
       <CapmarketServiceConclusion />
+      <FaqSection items={faqItems} />
     </div>
   );
 };

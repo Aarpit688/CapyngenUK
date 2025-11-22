@@ -7,8 +7,52 @@ import B2CopyWhy from "../components/B2CopyWhy";
 import B2CopyFunctionalities from "../components/B2CopyFunctionalities";
 import B2CopyLaunch from "../components/B2CopyLaunch";
 import { assets } from "../assets/assets";
+import FaqSection from "../components/FaqSection";
 
 const B2Copy = () => {
+  const faqItems = [
+    {
+      question: "What is B2Copy?",
+      answer:
+        "B2Copy allows traders to connect with their experts and automatically copy the trading actions of those super-traders in a multi-asset copy trading system.",
+    },
+    {
+      question: "Do you provide B2Copy white-label solutions?",
+      answer:
+        "Yes — Capyngen delivers B2Copy white-label copy trading platforms that can be entirely branded by the customer.",
+    },
+    {
+      question: "Can B2Copy support forex and crypto trading?",
+      answer:
+        "Definitely. B2Copy is an open-ended multi-market platform which means the users can trade forex, crypto, commodities, indices and CFDs.",
+    },
+    {
+      question: "How does B2Copy replicate trades?",
+      answer:
+        "The B2Copy platform uses the latest technology to ensure trades from the master account are reflected in real-time on the follower accounts instantly.",
+    },
+    {
+      question:
+        "Can B2Copy integrate with our existing CRM or trading platform?",
+      answer:
+        "Yes — we are fully equipped with the B2Copy API that can seamlessly connect B2Copy with CRMs, PSPs, KYC tools, and trading platforms to create a one-stop environment for your customers' needs.",
+    },
+    {
+      question: "Is B2Copy suitable for startup brokers?",
+      answer:
+        "Yes — B2Copy would be an ideal choice for a startup broker considering the rapid implementation time, minimal technical requirements, and ability to scale up swiftly.",
+    },
+    {
+      question: "Do you handle hosting and infrastructure setup?",
+      answer:
+        "Yes — Capyngen is responsible for cloud hosting, backend deployment, routing, and server optimization.",
+    },
+    {
+      question: "Do you offer ongoing support after the launch?",
+      answer:
+        "Yes — We offer 24/7 technical support, monitoring, and maintenance services to all our B2Copy customers.",
+    },
+  ];
   return (
     <div>
       <Banner7
@@ -44,6 +88,7 @@ const B2Copy = () => {
       <B2CopyWhy />
       <B2CopyFunctionalities />
       <B2CopyLaunch />
+      <FaqSection items={faqItems} />
     </div>
   );
 };

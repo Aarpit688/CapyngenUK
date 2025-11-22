@@ -1,5 +1,6 @@
 import React from "react";
 import { CheckCircle, Cpu, Globe, Server, Shield } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export const AboutUs4 = () => {
   const features = [
@@ -81,7 +82,7 @@ export const AboutUs4 = () => {
             {/* Large Left Image (takes 2 rows) */}
             <div className="col-span-2 row-span-2 relative rounded-lg overflow-hidden border border-slate-700 shadow-2xl group">
               <img
-                src="https://images.unsplash.com/photo-1558494949-efc52728101c?q=80&w=1200&auto=format&fit=crop"
+                src={assets.aboutUs8}
                 alt="Core infrastructure"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-[8s] group-hover:scale-110"
               />

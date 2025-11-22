@@ -9,8 +9,52 @@ import LiquiditySupport from "../components/LiquiditySupport";
 import LiquidityKeyFeatures from "../components/LiquidityKeyFeatures";
 import LiquidityConclusion from "../components/LiquidityConclusion";
 import { assets } from "../assets/assets";
+import FaqSection from "../components/FaqSection";
 
 const LiquidityProvider = () => {
+  const faqItems = [
+    {
+      question: "What is a liquidity provider for brokers?",
+      answer:
+        "A liquidity provider is a market participant who offers the required market depth and the best prices for brokers to be able to perform trading operations quickly and with minimal slippage.",
+    },
+    {
+      question:
+        "Can Capyngen integrate liquidity for both forex and crypto brokers?",
+      answer:
+        "Sure, we can facilitate a liquidity provider setup for both forex and cryptocurrency brokers.",
+    },
+    {
+      question: "What is included in a liquidity provider integration service?",
+      answer:
+        "This package is made up of API connectivity, trading platform integration, liquidity bridge and aggregation solutions, and real-time market data.",
+    },
+    {
+      question: "Are Capyngen’s solutions suitable for startups?",
+      answer:
+        "Certainly, we provide scalable and simple liquidity provider connection solutions that are designed specifically for new brokers.",
+    },
+    {
+      question: "How secure are your liquidity solutions?",
+      answer:
+        "The technology used by our platforms is of institutional-grade and comes with secure, low-latency connectivity and compliance-focused architectures.",
+    },
+    {
+      question: "Can your solutions help reduce trading risks?",
+      answer:
+        "Certainly, we offer risk management measures and exposure monitoring to provide dependable execution.",
+    },
+    {
+      question: "Do you provide support after integration?",
+      answer:
+        "Indeed, we extend complete post-integration support, upkeep, and updates to ensure your systems are always in good working order.",
+    },
+    {
+      question: "Is Capyngen a global liquidity technology provider?",
+      answer:
+        "Indeed, with our main office in the UK, we are serving clients all over the globe with in-depth solutions for liquidity providers.",
+    },
+  ];
   return (
     <div>
       <Banner4
@@ -47,7 +91,7 @@ const LiquidityProvider = () => {
         }
         primaryBtn={{ label: "Get Started", link: "#" }}
         secondaryBtn={{ label: "", link: "" }}
-        heroImage="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+        heroImage="https://bitquant.capital/wp-content/uploads/2022/07/Liquidity_provider_pic_2-1024x538.jpg"
         featuresHeading
         features={[]}
       />
@@ -57,6 +101,7 @@ const LiquidityProvider = () => {
       <LiquiditySupport />
       <LiquidityKeyFeatures />
       <LiquidityConclusion />
+      <FaqSection items={faqItems} />
     </div>
   );
 };

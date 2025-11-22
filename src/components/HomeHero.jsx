@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const HomeHero = () => {
   const [expanded, setExpanded] = useState(false);
@@ -20,15 +21,15 @@ const HomeHero = () => {
             </p>
 
             <div className="px-8 sm:items-center sm:justify-center sm:px-0 sm:space-x-5 sm:flex mt-9">
-              <a
-                href="#"
+              <Link
+                to="/contact-us"
                 className="inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 bg-gray-900 border-2 border-transparent sm:w-auto rounded-xl font-pj hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
               >
                 Get more customers
-              </a>
+              </Link>
 
-              <a
-                href="#"
+              <Link
+                to="/contact-us"
                 className="inline-flex items-center justify-center w-full px-6 py-3 mt-4 text-lg font-bold text-gray-900 transition-all duration-200 border-2 border-gray-400 bg-gray-400 sm:w-auto sm:mt-0 rounded-xl font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-900 focus:bg-gray-900 hover:text-white focus:text-white hover:border-gray-900 focus:border-gray-900"
               >
                 <svg
@@ -47,7 +48,7 @@ const HomeHero = () => {
                   />
                 </svg>
                 Watch free demo
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -59,20 +60,20 @@ const HomeHero = () => {
             <img
               src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
               alt="Left visual"
-              className="hidden sm:block absolute sm:-bottom-12 md:-bottom-15 lg:-bottom-20 xl:-bottom-30 -left-60 blur-xs transform scale-80 opacity-50 z-0"
+              className="hidden sm:block absolute sm:-bottom-12 md:-bottom-15 lg:-bottom-20 xl:-bottom-30 -left-60 blur-xs scale-80 opacity-50 z-0 pointer-events-none"
             />
 
             {/* Right image (blurred, smaller, behind) */}
             <img
               src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
               alt="Right visual"
-              className="hidden sm:block absolute sm:-bottom-12 md:-bottom-15 lg:-bottom-20 xl:-bottom-30 -right-60 blur-xs transform scale-80 opacity-50 z-0"
+              className="hidden sm:block absolute sm:-bottom-12 md:-bottom-15 lg:-bottom-20 xl:-bottom-30 -right-60 blur-xs scale-80 opacity-50 z-0 pointer-events-none"
             />
 
-            {/* Center image (main focus) */}
-            <div className="relative z-10 lg:max-w-6xl">
+            {/* Center image */}
+            <div className="relative z-10 lg:max-w-6xl pointer-events-none">
               <img
-                className="transform scale-110"
+                className="scale-110"
                 src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
                 alt="Main visual"
               />

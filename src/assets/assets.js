@@ -200,7 +200,6 @@ import vertexFX2 from "./vertexFX2.png";
 import vertexFX3 from "./vertexFX3.png";
 import vertexFX4 from "./vertexFX4.png";
 import sirix1 from "./sirix1.png";
-import mt5 from "./mt5.png";
 import ctraderbanner from "./ctraderbanner.jpg";
 import ntraderbanner from "./ntraderbanner.jpg";
 import mam1 from "./mam1.png";
@@ -230,6 +229,22 @@ import cryptoBroker8 from "./cryptoBroker8.png";
 import cryptoBroker9 from "./cryptoBroker9.png";
 import cryptoExchange from "./cryptoExchange.png";
 import aboutUs8 from "./aboutUs8.jpg";
+import homepage5 from "./homepage5.png";
+import mt2 from "./mt2.png";
+import mt3 from "./mt3.png";
+import mt4 from "./mt4.png";
+import mt5 from "./mt5.png";
+import mt6 from "./mt6.png";
+import mt7 from "./mt7.png";
+import mt8 from "./mt8.png";
+import mt9 from "./mt9.png";
+import mt10 from "./mt10.png";
+import mt11 from "./mt11.png";
+import mt12 from "./mt12.png";
+import mt13 from "./mt13.png";
+import mt14 from "./mt14.png";
+import mt15 from "./mt15.png";
+import mt16 from "./mt16.png";
 
 export const assets = {
   sampleImg,
@@ -434,7 +449,21 @@ export const assets = {
   vertexFX3,
   vertexFX4,
   sirix1,
+  mt2,
+  mt3,
+  mt4,
   mt5,
+  mt6,
+  mt7,
+  mt8,
+  mt9,
+  mt10,
+  mt11,
+  mt12,
+  mt13,
+  mt14,
+  mt15,
+  mt16,
   ctraderbanner,
   ntraderbanner,
   mam1,
@@ -464,6 +493,7 @@ export const assets = {
   cryptoBroker9,
   cryptoExchange,
   aboutUs8,
+  homepage5,
 };
 
 export const navItems = [

@@ -1,4 +1,5 @@
 import React from "react";
+import { assets } from "../assets/assets";
 
 const stepsData = [
   {
@@ -9,17 +10,10 @@ const stepsData = [
         It is highly recommended that customers open accounts with brokers that
         are not only regulated but also trustworthy. A UK-based company, for
         instance, generally operates under a strict framework that enhances
-        trust and transparency.{" "}
-        <a
-          href="#"
-          className="text-emerald-400 underline hover:text-emerald-300 transition"
-        >
-          (best broker for MetaTrader 5)
-        </a>
-        .
+        trust and transparency.
       </>
     ),
-    imageUrl: "https://picsum.photos/id/1062/600/400",
+    imageUrl: assets.mt9,
     imageAlt: "Broker selection illustration",
     layout: "image-left",
   },
@@ -28,7 +22,7 @@ const stepsData = [
     title: "Complete Global KYC Verification",
     description:
       "Clients from different parts of the world submit their identity documents according to the requirements of regulators. KYC ensures smooth and secure onboarding for traders from all regions.",
-    imageUrl: "https://picsum.photos/id/1011/600/400",
+    imageUrl: assets.mt10,
     imageAlt: "KYC verification process illustration",
     layout: "image-right",
   },
@@ -48,7 +42,7 @@ const stepsData = [
         their level of expertise.
       </>
     ),
-    imageUrl: "https://picsum.photos/id/1019/600/400",
+    imageUrl: assets.mt11,
     imageAlt: "Different account types illustration",
     layout: "image-left",
   },
@@ -69,7 +63,7 @@ const stepsData = [
         seamlessly.
       </>
     ),
-    imageUrl: "https://picsum.photos/id/1024/600/400",
+    imageUrl: assets.mt12,
     imageAlt: "MT5 download and devices illustration",
     layout: "image-right",
   },
@@ -78,7 +72,7 @@ const stepsData = [
     title: "Log In and Configure Settings",
     description:
       "Login credentials issued by the broker are used to connect with live or demo servers. Once logged in, traders can configure preferences and chart settings according to their needs.",
-    imageUrl: "https://picsum.photos/id/1075/600/400",
+    imageUrl: assets.mt13,
     imageAlt: "Login and configuration process illustration",
     layout: "image-left",
   },
@@ -87,7 +81,7 @@ const stepsData = [
     title: "Begin Trading",
     description:
       "After completing the setup, traders can start trading on global exchanges, perform technical analysis, and personalize charts for their strategies.",
-    imageUrl: "https://picsum.photos/id/1057/600/400",
+    imageUrl: assets.mt14,
     imageAlt: "Trading in action illustration",
     layout: "image-right",
   },
@@ -130,12 +124,12 @@ const HowItWorks = () => {
               >
                 {/* Image Section */}
                 <div
-                  className={`md:w-1/2 ${imageOrderClass} bg-gray-800/30 backdrop-blur-xl border border-gray-700/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-emerald-500/20 transition duration-500`}
+                  className={`md:w-1/2 max-h-100 ${imageOrderClass} bg-gray-800/30 backdrop-blur-xl border border-gray-700/50 rounded-md overflow-hidden shadow-lg hover:shadow-emerald-500/20 transition duration-500`}
                 >
                   <img
                     src={step.imageUrl}
                     alt={step.imageAlt}
-                    className="w-full h-full object-cover transition-transform duration-700 ease-in-out hover:scale-105"
+                    className="w-full h-full object-cover"
                   />
                 </div>
 

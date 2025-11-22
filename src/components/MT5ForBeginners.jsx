@@ -5,6 +5,7 @@ import {
   FaMousePointer,
   FaChartBar,
 } from "react-icons/fa";
+import { assets } from "../assets/assets";
 
 const MT5ForBeginners = () => {
   return (
@@ -18,14 +19,10 @@ const MT5ForBeginners = () => {
         <div className="relative lg:w-1/2 flex justify-center">
           <div className="relative w-[90%]">
             <img
-              src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+              src={assets.mt15}
               alt="MT5 Platform Interface for Beginners"
               className="w-full rounded-3xl shadow-2xl border border-emerald-500/20 backdrop-blur-xl"
             />
-            {/* Floating video play button */}
-            <button className="absolute bottom-6 right-6 flex items-center gap-2 bg-emerald-600/80 hover:bg-emerald-500 transition text-white px-5 py-2 rounded-full backdrop-blur-lg text-sm font-medium">
-              <FaPlayCircle className="text-lg" /> Watch Tutorial
-            </button>
 
             {/* Floating glass highlight */}
             <div className="absolute -top-6 -left-6 w-40 h-40 bg-emerald-400/10 rounded-full blur-3xl"></div>

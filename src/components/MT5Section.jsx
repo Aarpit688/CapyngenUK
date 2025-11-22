@@ -47,7 +47,7 @@ const MT5Section = () => {
           <div className="absolute inset-0 bg-gradient-to-tr from-green-600/30 to-emerald-600/30 blur-3xl rounded-3xl"></div>
           <div className="relative overflow-hidden rounded-md border border-gray-700/50 backdrop-blur-xl shadow-2xl">
             <img
-              src={assets.arkTrading5}
+              src={assets.mt3}
               alt="MetaTrader 5 Trading Dashboard"
               className="object-cover w-full h-full\"
             />

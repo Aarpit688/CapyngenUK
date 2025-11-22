@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGlobe, FaChartLine, FaMobileAlt, FaShieldAlt } from "react-icons/fa";
+import { assets } from "../assets/assets";
 
 const MT5GlobalStandard = () => {
   const points = [
@@ -57,7 +58,7 @@ const MT5GlobalStandard = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-green-400/10 to-emerald-400/5 blur-3xl rounded-full"></div>
           <div className="relative bg-white/5 border border-emerald-500/10 backdrop-blur-xl rounded-3xl p-8 max-w-md w-full shadow-xl shadow-emerald-400/10">
             <img
-              src="https://picsum.photos/id/1082/600/400"
+              src={assets.mt16}
               alt="Global MT5 Trading Illustration"
               className="w-full rounded-2xl object-cover"
             />

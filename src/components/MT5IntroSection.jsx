@@ -31,11 +31,11 @@ const MT5IntroSection = () => {
         <div className="relative flex justify-center lg:justify-end">
           <div className="relative bg-black backdrop-blur-xl  rounded-md shadow-2xl shadow-emerald-500/10 overflow-hidden max-w-md">
             <img
-              src={assets.arkTrading3}
+              src={assets.mt2}
               alt="MT5 Global Trading Platform"
               className="object-cover w-full h-full"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0a1a15]/80 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0a1a15]/50 to-transparent"></div>
           </div>
         </div>
       </div>

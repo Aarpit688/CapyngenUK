@@ -6,27 +6,27 @@ const MT5WhyIdealSection = () => {
     {
       title: "Advanced Analytical Tools",
       desc: `MT5 is equipped with 21 timeframes, more than 80 indicators, and several analytical objects. These instruments enable worldwide clients to perform deep technical analysis of any market sector, be it forex, commodities, or other.`,
-      img: assets.arkTrading4,
+      img: assets.mt4,
     },
     {
       title: "Multi-Asset Trading Environment",
       desc: `Global traders shouldn't rely on one market. MT5 lets them trade in different markets — Forex, Indices, Commodities, Metals, Energy markets, Stocks (CFDs), and Crypto CFDs.`,
-      img: "https://picsum.photos/id/1028/600/400",
+      img: assets.mt5,
     },
     {
       title: "Secure Forex Trading on MT5",
       desc: `Among international clients, security is always a top concern. MT5 implements cutting-edge data encryption, secure communication protocols, and robust server architecture — ensuring a safe trading environment that builds global trader confidence.`,
-      img: "https://picsum.photos/id/1035/600/400",
+      img: assets.mt6,
     },
     {
       title: "Automated and Algorithmic Trading",
       desc: `With Expert Advisors (EAs), MT5 allows users to automate their strategies. Automation ensures continuous, timezone-independent trading — essential for global traders who operate 24/7.`,
-      img: "https://picsum.photos/id/1047/600/400",
+      img: assets.mt7,
     },
     {
       title: "Fast Execution and Global Connectivity",
       desc: `International data centres enable UK-based MT5 operations to achieve low latency, minimal slippage, and seamless execution across all regions — vital for high-frequency traders and scalpers.`,
-      img: "https://picsum.photos/id/1069/600/400",
+      img: assets.mt8,
     },
   ];
 

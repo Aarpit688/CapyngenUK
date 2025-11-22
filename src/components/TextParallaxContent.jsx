@@ -28,7 +28,7 @@ export const TextParallaxContentExample = () => {
 
       {/* 3️⃣ SiRiX Trading Platform */}
       <TextParallaxContent
-        imgUrl={assets.capmarket4}
+        imgUrl={assets.homepage5}
         subheading="Seamlessly connect to global markets and elevate your traders with an integrated multi-platform ecosystem."
         heading="Give Your Traders a Competitive Edge with Our Next-Gen Trading Platform"
       >

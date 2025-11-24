@@ -29,6 +29,7 @@ import ContactUs from "./pages/ContactUs";
 import PrimeXMService from "./pages/PrimeXMService";
 import Careers from "./pages/Careers";
 import AboutUs from "./pages/AboutUs";
+import Blogs from "./pages/Blogs";
 
 const App = () => {
   return (
@@ -83,6 +84,7 @@ const App = () => {
 
           <Route path="/company/careers" element={<Careers />} />
           <Route path="/company/about-us" element={<AboutUs />} />
+          <Route path="/blogs" element={<Blogs />} />
           <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
         <Footer />

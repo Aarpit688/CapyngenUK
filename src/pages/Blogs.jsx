@@ -40,7 +40,6 @@ const BLOG_DATA = [
     author: "Sarah Jenkins",
     tags: ["Business Tips", "Professional", "Crypto"],
   },
-
   {
     id: 2,
     title: "Stablecoin Use Cases: The Complete Guide for Businesses in 2025",
@@ -63,7 +62,6 @@ const BLOG_DATA = [
     author: "Michael Chen",
     tags: ["FinTech", "Blockchain", "Crypto"],
   },
-
   {
     id: 3,
     title: "The Complete Guide to OTC Trading Platforms for Institutions",
@@ -80,7 +78,7 @@ const BLOG_DATA = [
       <p>Capyngen's OTC solution integrates seamlessly...</p>
     `,
     image:
-      "https://images.unsplash.com/photo-1611974765215-84d2cb48cd16?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
     category: "Product Guides",
     group: "Education",
     date: "30.09.25",
@@ -88,7 +86,6 @@ const BLOG_DATA = [
     author: "Alex V.",
     tags: ["Business Tips", "OTC", "Institutional"],
   },
-
   {
     id: 4,
     title:
@@ -113,7 +110,6 @@ const BLOG_DATA = [
     author: "Capyngen Media",
     tags: ["Keynote", "Events", "Brokerage"],
   },
-
   {
     id: 5,
     title:
@@ -137,7 +133,6 @@ const BLOG_DATA = [
     author: "Capyngen Media",
     tags: ["Copy Trading", "Growth", "Forex"],
   },
-
   {
     id: 6,
     title: "Revolutionizing Finance: Digital Assets in Brokerage",
@@ -155,7 +150,6 @@ const BLOG_DATA = [
     author: "CEO Office",
     tags: ["Masterclass", "Crypto", "Future"],
   },
-
   {
     id: 7,
     title: "Capmarket Platform Update v4.2",
@@ -235,7 +229,7 @@ const Blogs = () => {
 
   return (
     <div className="w-full bg-black py-20">
-      <section className="max-w-[90vw] mx-auto w-full" id="media-hub">
+      <section className="max-w-[90vw] mx-auto w-full px-8" id="media-hub">
         {/* ========================
           SINGLE POST VIEW
       ========================== */}
@@ -386,7 +380,7 @@ const Blogs = () => {
 
             {/* FILTER GROUPS */}
             <div className="border-y border-slate-800 py-10 mb-12">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 lg:grid-cols-2 justify-between">
                 <p className="hidden lg:block text-slate-400 text-lg">
                   Explore our library of articles, product insights, event
                   summaries, and platform updates.

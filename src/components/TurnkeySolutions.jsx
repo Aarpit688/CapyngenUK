@@ -43,7 +43,7 @@ export default function TurnkeySolutions() {
         </h2>
 
         {/* Row with scroll for mobile */}
-        <div className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide snap-x snap-mandatory">
+        <div className="flex gap-6 overflow-x-auto pb-8 scrollbar-hide snap-x snap-mandatory">
           {solutions.map((item, i) => (
             <div
               key={i}

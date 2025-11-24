@@ -20,10 +20,6 @@ export default function IntegrationShowcase() {
     <section className="relative bg-[#111827] overflow-visible flex items-center px-0">
       <TopCurve />
 
-      {/* Background glows for depth */}
-      <span className="absolute -top-32 -left-32 w-[600px] h-[600px] rounded-full bg-fuchsia-600 opacity-30 blur-[180px] pointer-events-none"></span>
-      <span className="absolute bottom-0 right-0 w-[500px] h-[500px] rounded-full bg-cyan-400 opacity-20 blur-[160px] pointer-events-none"></span>
-
       {/* Main Content */}
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto min-h-[520px] px-8 py-20 gap-12">
         <div className="flex-1 ">

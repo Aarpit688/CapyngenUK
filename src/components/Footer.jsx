@@ -81,7 +81,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <NavLink to="/" className="mb-6 block">
               <img
-                src={assets.capyngenLogo || assets.capyngenFavIcon}
+                src={assets.capyngenUKLogo || assets.capyngenFavIcon}
                 alt="Capyngen Logo"
                 className="w-full max-w-[200px]"
               />

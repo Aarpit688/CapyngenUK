@@ -116,9 +116,9 @@ const Navbar = () => {
               className="shrink-0 z-50 transition-transform hover:scale-105"
             >
               <img
-                src={assets.capyngenLogo}
+                src={assets.capyngenUKLogo}
                 className="w-26 md:w-36"
-                alt="Capyngen Logo"
+                alt={assets.capyngenUKLogo}
               />
             </NavLink>
 

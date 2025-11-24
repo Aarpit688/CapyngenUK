@@ -245,6 +245,7 @@ import mt13 from "./mt13.png";
 import mt14 from "./mt14.png";
 import mt15 from "./mt15.png";
 import mt16 from "./mt16.png";
+import capyngenUKLogo from "./capyngenUKLogo.png";
 
 export const assets = {
   sampleImg,
@@ -494,6 +495,7 @@ export const assets = {
   cryptoExchange,
   aboutUs8,
   homepage5,
+  capyngenUKLogo,
 };
 
 export const navItems = [

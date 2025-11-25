@@ -36,7 +36,6 @@ const BLOG_DATA = [
     category: "Articles",
     group: "Education",
     date: "20.11.25",
-    readTime: "8 min read",
     author: "Sarah Jenkins",
     tags: ["Business Tips", "Professional", "Crypto"],
   },
@@ -58,7 +57,6 @@ const BLOG_DATA = [
     category: "Articles",
     group: "Education",
     date: "01.10.25",
-    readTime: "6 min read",
     author: "Michael Chen",
     tags: ["FinTech", "Blockchain", "Crypto"],
   },
@@ -82,7 +80,6 @@ const BLOG_DATA = [
     category: "Product Guides",
     group: "Education",
     date: "30.09.25",
-    readTime: "12 min read",
     author: "Alex V.",
     tags: ["Business Tips", "OTC", "Institutional"],
   },
@@ -106,7 +103,6 @@ const BLOG_DATA = [
     category: "Presentation",
     group: "Events",
     date: "17.07.24",
-    readTime: "45 min watch",
     author: "Capyngen Media",
     tags: ["Keynote", "Events", "Brokerage"],
   },
@@ -129,7 +125,6 @@ const BLOG_DATA = [
     category: "Presentation",
     group: "Events",
     date: "14.06.24",
-    readTime: "30 min watch",
     author: "Capyngen Media",
     tags: ["Copy Trading", "Growth", "Forex"],
   },
@@ -146,7 +141,6 @@ const BLOG_DATA = [
     category: "Webinars",
     group: "Events",
     date: "14.06.24",
-    readTime: "1 hour watch",
     author: "CEO Office",
     tags: ["Masterclass", "Crypto", "Future"],
   },
@@ -169,7 +163,6 @@ const BLOG_DATA = [
     category: "Product Updates",
     group: "News",
     date: "10.05.25",
-    readTime: "3 min read",
     author: "Tech Team",
     tags: ["Update", "Tech", "Platform"],
   },
@@ -228,7 +221,7 @@ const Blogs = () => {
   };
 
   return (
-    <div className="w-full bg-black py-20">
+    <div className="w-full bg-black py-24">
       <section className="max-w-[90vw] mx-auto w-full px-8" id="media-hub">
         {/* ========================
           SINGLE POST VIEW
@@ -257,9 +250,6 @@ const Blogs = () => {
                 </span>
                 <span className="flex items-center gap-1">
                   <Calendar className="w-4 h-4" /> {selectedBlog.date}
-                </span>
-                <span className="flex items-center gap-1">
-                  <Clock className="w-4 h-4" /> {selectedBlog.readTime}
                 </span>
               </div>
 

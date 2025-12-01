@@ -1,117 +1,115 @@
 import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 import { assets } from "../assets/assets";
 
 const projects = [
   {
     title: "MT5 White Label Solutions",
     image: assets.mt5,
-    extra: "Fast deployment",
+    extra:
+      "Fast deployment, Secure hosting, Full customization, Broker-ready setup",
   },
   {
     title: "Liquidity Provider Solutions",
     image: assets.liquidityProvider,
-    extra: "Deep liquidity access",
+    extra:
+      "Deep liquidity access, Low latency feeds, Multi-asset pricing, Institutional execution",
   },
   {
     title: "Crypto Exchange Development",
     image: assets.cryptoExchange,
-    extra: "Secure architecture",
+    extra:
+      "Secure architecture, Scalable matching engine, Multi-chain support, KYC/AML ready",
   },
   {
     title: "Forex CRM Software",
     image: assets.forexBroker,
-    extra: "Lead management",
+    extra:
+      "Lead management, Client onboarding, IB/affiliate tools, Payment integrations",
   },
 ];
 
 export default function ProjectsShowcase() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    arrows: true,
-    autoplay: true,
-    responsive: [
-      { breakpoint: 1536, settings: { slidesToShow: 3 } },
-      { breakpoint: 1280, settings: { slidesToShow: 2.3 } },
-      { breakpoint: 1024, settings: { slidesToShow: 2 } },
-      { breakpoint: 768, settings: { slidesToShow: 1.3 } },
-      { breakpoint: 640, settings: { slidesToShow: 1 } },
-    ],
-  };
-
   return (
-    <section className="relative py-20 bg-black text-white min-h-[70vh] flex items-center overflow-hidden">
-      {/* Background glows */}
-      <span className="absolute -top-24 -left-40 w-[520px] h-[520px] rounded-full bg-fuchsia-500/20 opacity-40 blur-[180px] pointer-events-none"></span>
-      <span className="absolute bottom-0 right-0 w-[520px] h-[520px] rounded-full bg-indigo-500/20 opacity-30 blur-[170px] pointer-events-none"></span>
+    <section className="relative py-16 md:py-20 bg-black text-white w-full overflow-hidden">
+      <div className="container mx-auto px-4 md:px-8 lg:px-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          {/* Left Content */}
+          <div className="flex flex-col justify-center text-center md:text-left">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-snug">
+              Showcase of Our Recognized Work
+            </h2>
 
-      <div className="max-w-[90vw] mx-auto flex flex-col md:flex-row gap-10">
-        {/* Left Text Section */}
-        <div className="w-full md:w-1/3 flex flex-col justify-center">
-          <p className="tracking-widest text-xs font-semibold mb-3 text-gray-300">
-            PROJECTS
-          </p>
-          <h2 className="text-4xl font-bold mb-4 leading-tight">
-            Showcase of Our Recognized Work
-          </h2>
-          <p className="mb-8 text-gray-300">
-            Our collaborative approach ensures we deeply understand each
-            client’s unique challenges and create tailored digital solutions
-            that perform.
-          </p>
-          <div className="space-y-4">
-            {[
-              "Managed Services and Products",
-              "Flexibility and Adaptability",
-              "Competitive Advantage",
-            ].map((item, i) => (
-              <div key={i} className="flex items-center gap-2 text-gray-200">
-                <span className="w-2.5 h-2.5 rounded-full bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400"></span>
-                <span>{item}</span>
-              </div>
-            ))}
+            <p className="mb-6 text-gray-300 text-sm md:text-base max-w-md mx-auto md:mx-0">
+              We deliver high-performance digital products built to scale with
+              business success.
+            </p>
+
+            <ul className="space-y-3 text-gray-200 text-sm md:text-base">
+              {[
+                "Managed Services and Products",
+                "Flexibility and Adaptability",
+                "Competitive Advantage",
+              ].map((item, i) => (
+                <li
+                  key={i}
+                  className="flex items-center gap-3 justify-center md:justify-start"
+                >
+                  <span className="w-2.5 h-2.5 rounded-full bg-gradient-to-r from-fuchsia-500 to-cyan-400"></span>
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
-        </div>
 
-        {/* Right Carousel Section */}
-        <div className="w-full md:w-2/3">
-          <Slider {...settings}>
-            {projects.map((proj, idx) => (
-              <div key={idx} className="px-3">
-                <div className="group rounded-2xl p-px bg-linear-to-br from-fuchsia-500/70 via-indigo-500/70 to-cyan-400/70 shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-[0_10px_30px_rgba(99,102,241,0.45)] transition-transform duration-300">
-                  {/* Card Container */}
-                  <div className="rounded-2xl h-[400px] flex flex-col overflow-hidden bg-black/60 backdrop-blur-xl border border-white/10">
-                    {/* Image Section */}
-                    <div className="relative w-full flex-1">
+          {/* Right Swiper */}
+          <div className="md:col-span-2 w-full">
+            <Swiper
+              modules={[Autoplay, Pagination]}
+              spaceBetween={20}
+              loop
+              autoplay={{ delay: 2200, disableOnInteraction: false }}
+              pagination={{ clickable: true }}
+              breakpoints={{
+                0: { slidesPerView: 1 },
+                480: { slidesPerView: 1.1 },
+                640: { slidesPerView: 1.4 },
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 2.5 },
+                1280: { slidesPerView: 3 },
+              }}
+              className="pb-10"
+            >
+              {projects.map((proj, idx) => (
+                <SwiperSlide key={idx}>
+                  <div className="rounded-lg overflow-hidden group bg-black/70 border border-white/10 backdrop-blur-md hover:scale-[1.03] transition duration-500">
+                    {/* Image */}
+                    <div className="relative h-[280px] sm:h-[300px] ">
                       <img
                         src={proj.image}
                         alt={proj.title}
-                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-500"
+                        className="w-full h-full object-cover"
                       />
-                      {/* Subtle Overlay */}
-                      <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/20 to-transparent"></div>
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent"></div>
                     </div>
 
-                    {/* Text Section */}
-                    <div className="p-6 bg-black/70 backdrop-blur-sm border-t border-white/10">
-                      <h3 className="text-xl font-semibold mb-1">
+                    {/* Text */}
+                    <div className="p-5 border-t border-white/10">
+                      <h3 className="text-lg md:text-xl font-bold">
                         {proj.title}
                       </h3>
-                      {proj.extra && (
-                        <p className="text-sm text-gray-400">{proj.extra}</p>
-                      )}
+                      <p className="text-gray-400 text-xs sm:text-sm mt-1">
+                        {proj.extra}
+                      </p>
                     </div>
                   </div>
-                </div>
-              </div>
-            ))}
-          </Slider>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
         </div>
       </div>
     </section>

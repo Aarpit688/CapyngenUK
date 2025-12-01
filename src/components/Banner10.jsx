@@ -1,13 +1,12 @@
-import { ReactLenis } from "lenis/dist/lenis-react";
+import { ReactLenis } from "lenis/react";
 import {
   motion,
   useMotionTemplate,
   useScroll,
   useTransform,
 } from "framer-motion";
-import { useRef } from "react";
+import React, { useRef } from "react";
 
-// Section scroll height
 const SECTION_HEIGHT = 1500;
 
 export const Banner10 = ({
@@ -17,20 +16,42 @@ export const Banner10 = ({
   parallaxImages = [],
 }) => {
   return (
-    <div className="bg-zinc-950">
-      <ReactLenis
-        root
-        options={{
-          lerp: 0.05,
-        }}
-      >
-        <Hero
-          backgroundImage={backgroundImage}
-          heading={heading}
-          subheading={subheading}
-          parallaxImages={parallaxImages}
+    <div className="bg-zinc-950 w-full">
+      {/* MOBILE LAYOUT (No Parallax Effects) */}
+      <div className="block md:hidden relative h-screen w-full overflow-hidden">
+        <div
+          className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${backgroundImage})` }}
         />
-      </ReactLenis>
+
+        <div className="absolute inset-0 bg-black/60" />
+
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 z-10">
+          <h1 className="text-4xl font-bold text-white max-w-2xl leading-tight drop-shadow-[0_4px_10px_rgba(0,0,0,0.8)]">
+            {heading}
+          </h1>
+          <p className="mt-6 text-lg text-zinc-300 max-w-xl leading-relaxed drop-shadow-[0_2px_6px_rgba(0,0,0,0.6)]">
+            {subheading}
+          </p>
+        </div>
+      </div>
+
+      {/* DESKTOP VERSION (Parallax + Scroll Animation) */}
+      <div className="hidden md:block">
+        <ReactLenis
+          root
+          options={{
+            lerp: 0.05,
+          }}
+        >
+          <Hero
+            backgroundImage={backgroundImage}
+            heading={heading}
+            subheading={subheading}
+            parallaxImages={parallaxImages}
+          />
+        </ReactLenis>
+      </div>
     </div>
   );
 };
@@ -54,7 +75,6 @@ const Hero = ({ backgroundImage, heading, subheading, parallaxImages }) => {
   );
 };
 
-// 💠 CENTER IMAGE + TEXT
 const CenterImageWithText = ({ backgroundImage, heading, subheading }) => {
   const { scrollY } = useScroll();
 
@@ -67,7 +87,6 @@ const CenterImageWithText = ({ backgroundImage, heading, subheading }) => {
     [SECTION_HEIGHT, SECTION_HEIGHT + 500],
     [1, 0]
   );
-
   const textOpacity = useTransform(scrollY, [0, 400], [1, 0]);
   const textY = useTransform(scrollY, [0, 400], [0, -80]);
 
@@ -99,7 +118,6 @@ const CenterImageWithText = ({ backgroundImage, heading, subheading }) => {
   );
 };
 
-// 💠 PARALLAX IMAGE CONTAINER
 const ParallaxImages = ({ parallaxImages }) => {
   return (
     <div className="mx-auto max-w-5xl px-4 pt-[200px]">
@@ -117,7 +135,6 @@ const ParallaxImages = ({ parallaxImages }) => {
   );
 };
 
-// 💠 REUSABLE PARALLAX IMG
 const ParallaxImg = ({ className, alt, src, start, end }) => {
   const ref = useRef(null);
 
@@ -135,8 +152,8 @@ const ParallaxImg = ({ className, alt, src, start, end }) => {
     <motion.img
       src={src}
       alt={alt}
-      className={`object-cover rounded-lg shadow-lg ${className}`}
       ref={ref}
+      className={`object-cover rounded-lg shadow-lg ${className || ""}`}
       style={{ transform, opacity }}
     />
   );

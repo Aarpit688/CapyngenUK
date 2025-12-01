@@ -22,11 +22,11 @@ export default function ForexLanding({
             viewport={{ once: true, amount: 0.3 }}
             className="space-y-6 pr-4"
           >
-            <h2 className="text-3xl sm:text-4xl font-bold leading-normal">
-              {heroTitle}
-            </h2>
+            <h2 className="text-4xl font-bold text-left ">{heroTitle}</h2>
 
-            <p className="text-gray-300 max-w-xl text-md">{heroDescription}</p>
+            <p className="text-gray-300 max-w-xl text-md md:text-lg ">
+              {heroDescription}
+            </p>
 
             <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 space-y-3 sm:space-y-0">
               <motion.a
@@ -55,9 +55,13 @@ export default function ForexLanding({
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true, amount: 0.3 }}
-            className="relative"
+            className="relative "
           >
-            <img src={heroImage} alt="Forex Platform" className="w-full" />
+            <img
+              src={heroImage}
+              alt="Forex Platform"
+              className="w-full aspect-[16/11] rounded-md"
+            />
 
             {/* floating gradient */}
             <div className="absolute -right-6 -bottom-6 hidden md:block">

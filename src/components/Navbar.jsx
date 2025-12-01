@@ -16,7 +16,7 @@ import ScrollProgress from "./ScrollProgress";
 const socialLinks = [
   {
     icon: Facebook,
-    href: "https://www.facebook.com/profile.php?id=100086626928653",
+    href: "https://www.facebook.com/profile.php?id=61571934154055",
     label: "Facebook",
   },
   {
@@ -26,7 +26,7 @@ const socialLinks = [
   },
   {
     icon: Instagram,
-    href: "https://www.instagram.com/capyngen/",
+    href: "https://www.instagram.com/capyngen_europe/",
     label: "Instagram",
   },
   { icon: FaXTwitter, href: "https://x.com/CapyngenIndia", label: "Twitter" },

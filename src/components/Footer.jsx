@@ -254,7 +254,7 @@ const FooterColumn = ({ title, data, showAll, setShowAll }) => (
               </div>
             )}
             <ul className="space-y-2">
-              {(showAll ? section.links : section.links.slice(0, 5)).map(
+              {(showAll ? section.links : section.links.slice(0, 7)).map(
                 (link, i) => (
                   <li key={i}>
                     <NavLink

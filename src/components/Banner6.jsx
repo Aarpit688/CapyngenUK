@@ -11,7 +11,7 @@ const Banner6 = ({
   buttonBg = "bg-gradient-to-r from-green-600 to-emerald-600 rounded-lg shadow-lg border border-white/10 hover:from-green-700 hover:to-emerald-700 hover:shadow-emerald-500/20",
 }) => {
   return (
-    <div className="relative w-full min-h-screen overflow-hidden bg-black/80">
+    <div className="relative w-full min-h-screen flex flex-col items-center justify-center sm:min-h-screen overflow-hidden bg-black/85">
       {/* Background Image */}
       <div className="absolute inset-0 -z-10">
         <picture>
@@ -19,32 +19,32 @@ const Banner6 = ({
           <img
             src={bgImageMobile}
             alt="background"
-            className="w-full object-cover opacity-90"
+            className="w-full h-full object-cover opacity-75 sm:opacity-90 object-center"
           />
         </picture>
       </div>
 
       {/* Content */}
-      <section className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32 text-center">
+      <section className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 text-center">
         {/* Title */}
-        <h1 className="text-4xl font-bold sm:text-5xl xl:text-6xl text-white leading-tight">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-snug sm:leading-tight px-2">
           {titleGradient}
         </h1>
 
         {/* Description */}
-        <p className="mt-6 text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
+        <p className="mt-4 sm:mt-6 text-lg text-gray-300 max-w-xl mx-auto px-2">
           {description}
         </p>
 
         {/* CTA Button */}
-        <div className="mt-10 sm:mt-14">
+        <div className="mt-8 sm:mt-12">
           <a
             href={ctaLink}
-            className={`inline-flex items-center gap-2 px-8 py-4 text-base font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 focus:ring-2 focus:ring-emerald-500/30 focus:outline-none ${buttonBg}`}
+            className={`inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-semibold text-white transition-transform duration-300 hover:-translate-y-0.5 focus:ring-2 focus:ring-emerald-400/50 focus:outline-none ${buttonBg}`}
           >
             {ctaText}
             <svg
-              className="w-6 h-6"
+              className="w-5 h-5 sm:w-6 sm:h-6"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -62,17 +62,17 @@ const Banner6 = ({
 
         {/* Features Grid */}
         {features.length > 0 && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mt-16 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 mt-12 sm:mt-16 max-w-3xl mx-auto">
             {features.map((item, idx) => (
               <div
                 key={idx}
-                className="flex items-start justify-start text-left"
+                className="flex items-start text-left gap-3 px-4 sm:px-0"
               >
                 <div
-                  className="min-w-[24px]"
+                  className="min-w-[22px] sm:min-w-[26px]"
                   dangerouslySetInnerHTML={{ __html: item.icon }}
                 />
-                <p className="ml-3 text-sm sm:text-base text-gray-100">
+                <p className="text-sm sm:text-base text-gray-200">
                   {item.text}
                 </p>
               </div>

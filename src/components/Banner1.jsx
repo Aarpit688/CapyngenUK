@@ -59,11 +59,11 @@ const Banner1 = ({
 
             {/* LEFT — Text Content */}
             <div className="order-2 lg:order-1">
-              <h1 className="text-4xl font-semibold text-white sm:text-5xl lg:text-6xl">
+              <h1 className="text-3xl font-semibold text-white sm:text-5xl lg:text-6xl">
                 {title}
               </h1>
 
-              <p className="mt-4 text-lg font-normal text-gray-400 sm:mt-8">
+              <p className="mt-4 text-md md:text-lg font-normal text-gray-400 sm:mt-8">
                 {subtitle}
               </p>
 

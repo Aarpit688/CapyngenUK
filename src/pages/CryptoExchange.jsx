@@ -134,7 +134,7 @@ const CryptoExchange = () => {
         ctaLink="/contact-us"
         buttonBg="bg-gradient-to-r from-blue-600 to-blue-600 rounded-lg shadow-lg border border-white/10 hover:from-blue-700 hover:to-blue-700 hover:shadow-emerald-500/20"
         bgImageDesktop={assets.cryptoExchange}
-        bgImageMobile={assets.mt5}
+        bgImageMobile={assets.cryptoExchange}
         features={[
           {
             icon: ``,

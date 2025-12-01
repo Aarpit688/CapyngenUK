@@ -72,7 +72,7 @@ const Banner7 = ({
             <Slider {...sliderSettings}>
               {cards.map((card, idx) => (
                 <div key={idx} className="px-3 sm:px-4 lg:px-6">
-                  <div className="relative h-110 flex flex-col bg-gray-800/40 backdrop-blur-xl border border-gray-700/50 shadow-xl rounded-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group">
+                  <div className="relative md:h-110 flex flex-col bg-gray-800/40 backdrop-blur-xl border border-gray-700/50 shadow-xl rounded-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group">
                     {/* Image */}
                     <div className="w-full h-[50%] overflow-hidden">
                       <img

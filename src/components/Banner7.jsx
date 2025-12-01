@@ -24,7 +24,7 @@ const Banner7 = ({
     arrows: false,
     responsive: [
       { breakpoint: 1280, settings: { slidesToShow: 2 } },
-      { breakpoint: 1024, settings: { slidesToShow: 1.5 } },
+      { breakpoint: 1024, settings: { slidesToShow: 1 } },
       { breakpoint: 768, settings: { slidesToShow: 1 } },
       { breakpoint: 640, settings: { slidesToShow: 1 } },
     ],
@@ -87,7 +87,7 @@ const Banner7 = ({
                       <h3 className="text-base sm:text-lg font-semibold text-white">
                         {card.title}
                       </h3>
-                      <p className="mt-2 sm:mt-3 text-xs sm:text-sm md:text-base leading-relaxed text-gray-300 line-clamp-3">
+                      <p className="mt-2 sm:mt-3 text-xs sm:text-sm md:text-base leading-relaxed text-gray-300 ">
                         {card.description}
                       </p>
                     </div>

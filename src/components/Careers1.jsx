@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { assets } from "../assets/assets";
 
 export default function Careers1() {
   return (
@@ -17,7 +18,7 @@ export default function Careers1() {
             <div className="lg:col-span-5 relative h-64 sm:h-80 lg:h-full order-first lg:order-last">
               <img
                 className="absolute inset-0 w-full h-full object-cover opacity-90"
-                src="https://picsum.photos/800/1200"
+                src={assets.careers1}
                 alt="Capyngen Team"
               />
 

@@ -79,19 +79,19 @@ const VertexFxTechnology = () => {
               </div>
 
               {/* Floating Glass Cards */}
-              <div className="absolute inset-0 p-8 flex flex-col justify-end">
+              <div className="absolute inset-0 p-3 md:p-8 flex flex-col justify-end">
                 <div className="mb-6 relative z-10">
-                  <h3 className="text-2xl font-bold text-white mb-1">
+                  <h3 className="text-2xl text-center font-bold text-white mb-1">
                     Multi-Asset Capable
                   </h3>
-                  <p className="text-slate-400 text-sm">
+                  <p className="text-slate-400 text-sm text-center">
                     Trading infrastructure for modern markets
                   </p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-3 relative z-10">
                   {/* Forex */}
-                  <div className="p-4 bg-slate-900/60 backdrop-blur-md border border-slate-700/50 rounded-xl hover:bg-slate-800/60 transition-colors flex items-center gap-3">
+                  <div className="p-4 bg-slate-900/60 backdrop-blur-md border border-slate-700/50 rounded-xl hover:bg-slate-800/60 transition-colors flex items-center gap-1.5 md:gap-3">
                     <div className="p-2 bg-blue-500/20 rounded-lg">
                       <TrendingUp className="w-5 h-5 text-blue-400" />
                     </div>
@@ -101,7 +101,7 @@ const VertexFxTechnology = () => {
                   </div>
 
                   {/* CFDs */}
-                  <div className="p-4 bg-slate-900/60 backdrop-blur-md border border-slate-700/50 rounded-xl hover:bg-slate-800/60 transition-colors flex items-center gap-3">
+                  <div className="p-4 bg-slate-900/60 backdrop-blur-md border border-slate-700/50 rounded-xl hover:bg-slate-800/60 transition-colors flex items-center gap-1.5 md:gap-3">
                     <div className="p-2 bg-emerald-500/20 rounded-lg">
                       <BarChart3 className="w-5 h-5 text-emerald-400" />
                     </div>
@@ -111,7 +111,7 @@ const VertexFxTechnology = () => {
                   </div>
 
                   {/* Crypto */}
-                  <div className="p-4 bg-slate-900/60 backdrop-blur-md border border-slate-700/50 rounded-xl hover:bg-slate-800/60 transition-colors flex items-center gap-3">
+                  <div className="p-4 bg-slate-900/60 backdrop-blur-md border border-slate-700/50 rounded-xl hover:bg-slate-800/60 transition-colors flex items-center gap-1.5 md:gap-3">
                     <div className="p-2 bg-amber-500/20 rounded-lg">
                       <Bitcoin className="w-5 h-5 text-amber-400" />
                     </div>
@@ -121,7 +121,7 @@ const VertexFxTechnology = () => {
                   </div>
 
                   {/* Commodities */}
-                  <div className="p-4 bg-slate-900/60 backdrop-blur-md border border-slate-700/50 rounded-xl hover:bg-slate-800/60 transition-colors flex items-center gap-3">
+                  <div className="p-4 bg-slate-900/60 backdrop-blur-md border border-slate-700/50 rounded-xl hover:bg-slate-800/60 transition-colors flex items-center gap-1.5 md:gap-3">
                     <div className="p-2 bg-rose-500/20 rounded-lg">
                       <Layers className="w-5 h-5 text-rose-400" />
                     </div>

@@ -222,7 +222,7 @@ const Blogs = () => {
 
   return (
     <div className="w-full bg-black py-24">
-      <section className="max-w-[90vw] mx-auto w-full px-8" id="media-hub">
+      <section className="max-w-[90vw] mx-auto w-full" id="media-hub">
         {/* ========================
           SINGLE POST VIEW
       ========================== */}
@@ -351,7 +351,7 @@ const Blogs = () => {
           ============================ */}
 
             {/* HEADER */}
-            <div className="flex justify-between items-end mb-12 flex-col md:flex-row gap-6">
+            <div className="flex justify-between items-end mb-12 flex-row gap-6">
               <div>
                 <h2 className="text-white text-5xl font-extrabold">Blogs</h2>
               </div>

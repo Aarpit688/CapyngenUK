@@ -10,7 +10,7 @@ import {
   MapPin,
   ArrowUp,
 } from "lucide-react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -21,7 +21,7 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Facebook,
-      href: "https://www.facebook.com/profile.php?id=100086626928653",
+      href: "https://www.facebook.com/profile.php?id=61571934154055",
       label: "Facebook",
     },
     {
@@ -31,7 +31,7 @@ const Footer = () => {
     },
     {
       icon: Instagram,
-      href: "https://www.instagram.com/capyngen/",
+      href: "https://www.instagram.com/capyngen_europe/",
       label: "Instagram",
     },
     { icon: Twitter, href: "https://x.com/CapyngenIndia", label: "Twitter" },
@@ -68,7 +68,7 @@ const Footer = () => {
 
   return (
     <footer className="relative bg-black text-white overflow-hidden">
-      {/* GREEN Background Glows */}
+      {/* Background Glow */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-r from-emerald-500/10 to-green-600/10 rounded-full blur-2xl animate-pulse"></div>
         <div className="absolute top-3/4 right-1/4 w-80 h-80 bg-gradient-to-r from-green-400/10 to-teal-500/10 rounded-full blur-2xl animate-pulse delay-1000"></div>
@@ -76,9 +76,9 @@ const Footer = () => {
       </div>
 
       <div className="relative z-10 max-w-[90vw] mx-auto py-16 lg:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr_1fr] gap-10 lg:gap-8 mb-12">
-          {/* COMPANY SECTION */}
-          <div className="lg:col-span-1">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr_1fr] gap-10 lg:gap-8 mb-12">
+          {/* Company Section */}
+          <div className="col-span-2 md:col-span-1 lg:col-span-1">
             <NavLink to="/" className="mb-6 block">
               <img
                 src={assets.capyngenUKLogo || assets.capyngenFavIcon}
@@ -114,88 +114,83 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* TURNKEY SECTION */}
+          {/* Turnkey */}
           <FooterColumn
             title="Turnkey"
             data={navItems.filter((i) => i.label === "TURNKEY")}
             showAll={showAllServices}
             setShowAll={setShowAllServices}
-            green
           />
 
-          {/* PRODUCTS SECTION */}
+          {/* Products */}
           <FooterColumn
             title="Products"
             data={navItems.filter((i) => i.label === "PRODUCTS")}
             showAll={showAllIndustries}
             setShowAll={setShowAllIndustries}
-            green
           />
 
-          {/* PLATFORMS */}
+          {/* Simple columns */}
           <FooterColumnSimple
             title="Platforms"
             data={navItems.filter((i) => i.label === "PLATFORMS")}
-            green
           />
 
-          {/* SERVICES */}
           <FooterColumnSimple
             title="Services"
             data={navItems.filter((i) => i.label === "SERVICES")}
-            green
           />
 
-          {/* COMPANY LINKS */}
           <FooterColumnSimple
             title="Company"
             data={navItems.filter((i) => i.label === "COMPANY")}
-            green
           />
+        </div>
+        {/* Social */}
+        <div>
+          <h4 className="text-lg font-bold mb-6 relative">
+            Stay Connected
+            <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-emerald-500 to-green-600"></span>
+          </h4>
 
-          {/* SOCIAL SECTION */}
-          <div>
-            <h4 className="text-lg font-bold mb-6 relative">
-              Stay Connected
-              <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-emerald-500 to-green-600"></span>
-            </h4>
-            <p className="text-slate-300 text-sm mb-3">
-              Follow us on social media
-            </p>
-            <div className="flex space-x-3">
-              {socialLinks.map((s, i) => (
-                <a
-                  key={i}
-                  href={s.href}
-                  className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center transition hover:scale-110 hover:bg-gradient-to-r hover:from-emerald-500 hover:to-green-600"
-                  aria-label={s.label}
-                >
-                  <s.icon className="w-4 h-4 text-slate-300 group-hover:text-white" />
-                </a>
-              ))}
-            </div>
+          <p className="text-slate-300 text-sm mb-3">
+            Follow us on social media
+          </p>
+
+          <div className="flex space-x-3">
+            {socialLinks.map((s, i) => (
+              <a
+                key={i}
+                href={s.href}
+                className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center transition hover:scale-110 hover:bg-gradient-to-r hover:from-emerald-500 hover:to-green-600"
+                aria-label={s.label}
+              >
+                <s.icon className="w-4 h-4 text-slate-300 group-hover:text-white" />
+              </a>
+            ))}
           </div>
         </div>
 
-        {/* SCROLL TO TOP */}
+        {/* Scroll to Top */}
         <div className="relative border-t border-slate-700/50 my-8">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <button
               onClick={scrollToTop}
-              className={`w-12 h-12 rounded-full border border-emerald-500 bg-slate-800/50 backdrop-blur-md flex items-center justify-center transition-all duration-300 hover:bg-emerald-500 hover:scale-110 ${
+              className={`w-12 h-12 rounded-full border border-emerald-500 bg-slate-800/50 backdrop-blur-md flex items-center justify-center transition-all ${
                 showScrollTop
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-4"
               }`}
             >
-              <ArrowUp className="w-5 h-5 text-emerald-400 group-hover:text-white" />
+              <ArrowUp className="w-5 h-5 text-emerald-400" />
             </button>
           </div>
         </div>
 
-        {/* BOTTOM LINKS */}
+        {/* Bottom Links */}
         <div className="flex flex-col sm:flex-row justify-between items-center text-sm text-slate-400 gap-4">
           <div>© {currentYear} Capyngen. All rights reserved.</div>
+
           <div className="flex gap-6">
             <NavLink
               to="/privacy-policy"
@@ -219,7 +214,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* WATERMARK */}
+      {/* Watermark */}
       <div className="relative h-[50px] md:h-[100px]">
         <div className="absolute top-0 -translate-y-1/2 inset-0 flex items-center justify-center pointer-events-none">
           <div className="text-slate-800/50 text-7xl md:text-9xl lg:text-[12rem] font-bold">
@@ -233,13 +228,11 @@ const Footer = () => {
 
 export default Footer;
 
-/* ---------------------
-   HELPING SUB COMPONENTS
----------------------- */
+/* Helper sub-components */
 
 const FooterColumn = ({ title, data, showAll, setShowAll }) => (
   <div>
-    <h4 className="text-lg font-bold text-white mb-6 relative">
+    <h4 className="text-lg font-bold mb-6 relative">
       {title}
       <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-emerald-500 to-green-600"></div>
     </h4>
@@ -259,7 +252,7 @@ const FooterColumn = ({ title, data, showAll, setShowAll }) => (
                   <li key={i}>
                     <NavLink
                       to={link.href}
-                      className="text-slate-300 hover:text-emerald-400 transition text-sm"
+                      className="text-slate-300 hover:text-emerald-400 text-sm"
                     >
                       {link.label}
                     </NavLink>
@@ -271,8 +264,10 @@ const FooterColumn = ({ title, data, showAll, setShowAll }) => (
         ))}
 
         {(() => {
-          const total =
-            item.dropdown?.reduce((sum, s) => sum + s.links.length, 0) || 0;
+          const total = item.dropdown?.reduce(
+            (sum, s) => sum + s.links.length,
+            0
+          );
           return total > 10 ? (
             <button
               onClick={() => setShowAll(!showAll)}
@@ -289,7 +284,7 @@ const FooterColumn = ({ title, data, showAll, setShowAll }) => (
 
 const FooterColumnSimple = ({ title, data }) => (
   <div>
-    <h4 className="text-lg font-bold text-white mb-6 relative">
+    <h4 className="text-lg font-bold mb-6 relative">
       {title}
       <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-emerald-500 to-green-600"></div>
     </h4>
@@ -302,7 +297,7 @@ const FooterColumnSimple = ({ title, data }) => (
               <li key={j}>
                 <NavLink
                   to={link.href}
-                  className="text-slate-300 hover:text-emerald-400 transition text-sm"
+                  className="text-slate-300 hover:text-emerald-400 text-sm"
                 >
                   {link.label}
                 </NavLink>

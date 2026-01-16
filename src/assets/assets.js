@@ -247,6 +247,7 @@ import mt14 from "./mt14.png";
 import mt15 from "./mt15.png";
 import mt16 from "./mt16.png";
 import capyngenUKLogo from "./capyngenUKLogo.png";
+import home1 from "./home1.png";
 
 export const assets = {
   sampleImg,
@@ -498,6 +499,7 @@ export const assets = {
   aboutUs8,
   homepage5,
   capyngenUKLogo,
+  home1,
 };
 
 export const navItems = [

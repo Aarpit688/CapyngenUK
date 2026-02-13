@@ -48,14 +48,14 @@ const NTraderArchitecture = () => {
             {/* LEFT CONTENT */}
             <div className="space-y-8">
               <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-                How Capyngen Builds a Complete{" "}
+                How Aynzenix Builds a Complete{" "}
                 <span className="text-red-500">
                   nTrader Trading Architecture
                 </span>
               </h2>
 
               <p className="text-slate-300 leading-relaxed text-lg">
-                Capyngen Technologies UK Limited offers all the nTrader
+                Aynzenix Technologies UK Limited offers all the nTrader
                 components required for a fully functional ecosystem such as:
               </p>
 

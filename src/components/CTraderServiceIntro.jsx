@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 const CTraderServiceIntro = () => {
   const headline = "Elevate Your Brokerage with cTrader Technology";
   const bodyContent =
-    "Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is the source of cTrader services with which forex and multi-asset brokers worldwide enhance their trading propositions. We accompany brokers with cTrader technology solutions from the initial steps of marketing their brand through white-label solutions and platform integration to liquidity bridge setup and hosting, thus enabling them to scale fast and still deliver great trading experiences.";
+    "Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is the source of cTrader services with which forex and multi-asset brokers worldwide enhance their trading propositions. We accompany brokers with cTrader technology solutions from the initial steps of marketing their brand through white-label solutions and platform integration to liquidity bridge setup and hosting, thus enabling them to scale fast and still deliver great trading experiences.";
   const ctaText =
     "Launch Your cTrader White-Label Platform Today – Talk to our experts for a consultation.";
 

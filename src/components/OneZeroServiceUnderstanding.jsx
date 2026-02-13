@@ -90,7 +90,7 @@ export default function OneZeroServiceUnderstanding() {
             </h3>
 
             <p className="text-slate-400 leading-relaxed">
-              Capyngen is the one that provides the solution to brokers on how
+              Aynzenix is the one that provides the solution to brokers on how
               to go about the turnkey implementation of OneZero technology
               giving them the performance and scalability of an
               institution-grade system ‌ ‍.

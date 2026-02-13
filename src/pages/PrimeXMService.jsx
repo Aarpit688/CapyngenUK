@@ -21,7 +21,7 @@ const PrimeXMService = () => {
     },
     {
       question:
-        "Can Capyngen integrate PrimeXM X-Core for both forex and crypto brokers?",
+        "Can Aynzenix integrate PrimeXM X-Core for both forex and crypto brokers?",
       answer:
         "Definitely, we can provide a complete set up of connectivity and liquidity network for trading platforms dealing in forex and crypto equally.",
     },
@@ -33,7 +33,7 @@ const PrimeXMService = () => {
     {
       question: "Are your solutions suitable for startup brokers?",
       answer:
-        "Certainly, our PrimeXM X-Core solutions at Capyngen are not only scalable but also instantly deployable for startups to facilitate their quick market entry.",
+        "Certainly, our PrimeXM X-Core solutions at Aynzenix are not only scalable but also instantly deployable for startups to facilitate their quick market entry.",
     },
     {
       question: "How secure and reliable is PrimeXM X-Core technology?",
@@ -48,10 +48,10 @@ const PrimeXMService = () => {
     {
       question: "Do you provide ongoing support after deployment?",
       answer:
-        "Yes, we, Capyngen, are always available for you and provide nonstop support, the latest updates, and maintenance after your infrastructure has been deployed.",
+        "Yes, we, Aynzenix, are always available for you and provide nonstop support, the latest updates, and maintenance after your infrastructure has been deployed.",
     },
     {
-      question: "Is Capyngen a global PrimeXM X-Core technology partner?",
+      question: "Is Aynzenix a global PrimeXM X-Core technology partner?",
       answer:
         "With our main office in the United Kingdom, we extend our care for clients all over the world as a trustworthy PrimeXM X-Core technology provider.",
     },

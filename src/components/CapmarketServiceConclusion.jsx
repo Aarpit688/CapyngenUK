@@ -38,7 +38,7 @@ const CapmarketServiceConclusion = () => {
           </h2>
 
           <p className="text-slate-400 text-lg leading-relaxed max-w-4xl mx-auto">
-            By​‍​‌‍​‍‌​‍​‌‍​‍‌ working with Capyngen Technologies UK Limited,
+            By​‍​‌‍​‍‌​‍​‌‍​‍‌ working with Aynzenix Technologies UK Limited,
             brokers are able to enjoy the full range of Capmarket services which
             include:
           </p>
@@ -65,7 +65,7 @@ const CapmarketServiceConclusion = () => {
         {/* Final Statement */}
         <div className="bg-slate-900 border border-slate-800 p-10 flex flex-col items-center text-center max-w-7xl mx-auto">
           <p className="text-slate-300 text-lg leading-relaxed">
-            "The collaboration with Capyngen makes it possible for brokers to be
+            "The collaboration with Aynzenix makes it possible for brokers to be
             equipped with the technology, throughput, and scalability needed to
             provide excellent trading experiences and at the same time, extend
             their global ​‍​‌‍​‍‌​‍​‌‍​‍‌presence."

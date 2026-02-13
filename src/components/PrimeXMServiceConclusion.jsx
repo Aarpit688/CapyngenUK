@@ -36,7 +36,7 @@ const PrimeXMServiceConclusion = () => {
               Conclusion: Achieve Ultra-Low Latency and High-Volume Trading
             </h2>
             <p className="text-slate-300 text-lg leading-relaxed">
-              Brokers, by using Capyngen Technologies UK Limited, get full
+              Brokers, by using Aynzenix Technologies UK Limited, get full
               access to PrimeXM X-Core services including:
             </p>
           </div>
@@ -75,7 +75,7 @@ const PrimeXMServiceConclusion = () => {
             <div className="absolute inset-0 bg-yellow-500/5 rounded-md"></div>
 
             <p className="relative text-slate-300 text-lg leading-relaxed max-w-4xl mx-auto italic">
-              “Working with Capyngen equips your brokerage with the speed,
+              “Working with Aynzenix equips your brokerage with the speed,
               stability, and cutting-edge PrimeXM X-Core technology needed to
               compete in global markets — while delivering exceptional trading
               experiences.”

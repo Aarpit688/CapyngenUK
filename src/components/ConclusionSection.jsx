@@ -48,7 +48,7 @@ const ConclusionSection = () => {
 
             <p className="text-gray-300 mb-6">
               It​‍​‌‍​‍‌​‍​‌‍​‍‌ is not necessary for a crypto brokerage to be
-              complicated when you are launching it. The company Capyngen
+              complicated when you are launching it. The company Aynzenix
               Technologies UK Limited is a provider of user-friendly, safe, and
               fully-featured IT solutions such as:
             </p>

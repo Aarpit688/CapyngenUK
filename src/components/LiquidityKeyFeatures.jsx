@@ -83,7 +83,7 @@ const LiquidityKeyFeatures = () => {
           viewport={{ once: true }}
           className="text-center text-gray-300 text-lg max-w-4xl mx-auto mt-16 leading-relaxed"
         >
-          On their own, these functionalities position Capyngen as the go-to
+          On their own, these functionalities position Aynzenix as the go-to
           technology partner for brokers in search of stable and efficient
           liquidity ​‍​‌‍​‍‌​‍​‌‍​‍‌solutions.
         </motion.p>

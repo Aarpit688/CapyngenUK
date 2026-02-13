@@ -30,7 +30,7 @@ const MT5 = () => {
         "We are fully set up for MT5 liquidity bridge integration with the top liquidity providers to facilitate stable pricing, quicker execution, and unmetered liquidity access.",
     },
     {
-      question: "Can Capyngen assist me in migrating my brokerage to MT5?",
+      question: "Can Aynzenix assist me in migrating my brokerage to MT5?",
       answer:
         "Definitely. We help in a hitch-free transition from MT4 to MT5 along with platform handover, data migration, and backend reconfiguration.",
     },

@@ -67,9 +67,8 @@ export default function CryptoExchangeSolutions() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: i * 0.1 }}
               viewport={{ once: true, amount: 0.3 }}
-              className={`flex flex-col lg:flex-row ${
-                i % 2 === 1 ? "lg:flex-row-reverse" : ""
-              } items-center gap-10`}
+              className={`flex flex-col lg:flex-row ${i % 2 === 1 ? "lg:flex-row-reverse" : ""
+                } items-center gap-10`}
             >
               {/* Image */}
               <motion.div
@@ -111,7 +110,7 @@ export default function CryptoExchangeSolutions() {
           className="text-center mt-24"
         >
           <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed mb-8">
-            By offering all these services, Capyngen stands out as a leading
+            By offering all these services, Aynzenix stands out as a leading
             crypto brokerage technology provider — trusted by both startups and
             established brokers worldwide.
           </p>

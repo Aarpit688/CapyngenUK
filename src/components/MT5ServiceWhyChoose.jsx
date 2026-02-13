@@ -3,9 +3,9 @@ import { Check, TrendingUp, ShieldCheck } from "lucide-react";
 import { assets } from "../assets/assets";
 
 export default function MT5ServiceWhyChoose() {
-  const title = "Why Brokers Choose Capyngen for MT5 Services";
+  const title = "Why Brokers Choose Aynzenix for MT5 Services";
   const intro =
-    "Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ are put in a position where they have to deal with latency, fragmented liquidity, and a complicated infrastructure that is difficult to manage. Capyngen Technologies UK Limited solves these problems by offering MT5 platform solutions customized to the operational needs of the broker. By availing of our services, brokers are entitled to:";
+    "Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ are put in a position where they have to deal with latency, fragmented liquidity, and a complicated infrastructure that is difficult to manage. Aynzenix Technologies UK Limited solves these problems by offering MT5 platform solutions customized to the operational needs of the broker. By availing of our services, brokers are entitled to:";
 
   const benefits = [
     "An entire MT5 white-label solution for a quick brokerage rollout",
@@ -15,7 +15,7 @@ export default function MT5ServiceWhyChoose() {
   ];
 
   const conclusion =
-    "Our offerings enable brokers to concentrate on customer acquisition, trading volume, and entering new markets while the technical deployment and management are handled by Capyngen’s ​‍​‌‍​‍‌​‍​‌‍​‍‌professionals.";
+    "Our offerings enable brokers to concentrate on customer acquisition, trading volume, and entering new markets while the technical deployment and management are handled by Aynzenix’s ​‍​‌‍​‍‌​‍​‌‍​‍‌professionals.";
 
   return (
     <section className="bg-black overflow-hidden py-20">

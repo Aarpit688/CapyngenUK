@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 export default function ForexConclusion({
-  heading = "Conclusion: Elevate Your Brokerage with Capyngen’s IT Solutions",
+  heading = "Conclusion: Elevate Your Brokerage with Aynzenix’s IT Solutions",
   paragraphs = [],
   sectionBg = "bg-gradient-to-b from-gray-950 via-black to-gray-900",
   headingColor = "text-white",

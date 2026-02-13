@@ -13,7 +13,7 @@ const SirixFeatures = () => {
         <div className="text-center mb-20">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
             Key Features of{" "}
-            <span className="text-amber-500">Capyngen’s Sirix Solutions</span>
+            <span className="text-amber-500">Aynzenix’s Sirix Solutions</span>
           </h2>
           <div className="w-full max-w-2xl mx-auto h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent"></div>
         </div>

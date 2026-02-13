@@ -2,7 +2,7 @@ import React from "react";
 import { assets } from "../assets/assets";
 
 export default function TopRatedCompany({
-  title = "Why Choose Capyngen: Innovative, Reliable IT Services that Drive Success",
+  title = "Why Choose Aynzenix: Innovative, Reliable IT Services that Drive Success",
   description = `We provide businesses with innovative, dependable, and tailored
     digital solutions that help them grow, come up with new ideas, and
     get measurable results. We are experts in enterprise-grade cloud
@@ -26,9 +26,8 @@ export default function TopRatedCompany({
     >
       <div className="container px-4 md:px-6 lg:px-12 max-w-[90rem] mx-auto text-white">
         <div
-          className={`flex flex-col lg:flex-row items-center gap-8 lg:gap-12 ${
-            reverse ? "lg:flex-row-reverse" : ""
-          }`}
+          className={`flex flex-col lg:flex-row items-center gap-8 lg:gap-12 ${reverse ? "lg:flex-row-reverse" : ""
+            }`}
         >
           {/* Text Content */}
           <article className="w-full lg:w-2/3 text-left max-w-4xl mx-auto lg:mx-0">
@@ -53,9 +52,8 @@ export default function TopRatedCompany({
             >
               {/* Purple border with smooth shadow */}
               <div
-                className={`${
-                  isHidden && "hidden"
-                } absolute inset-0 rounded-xl border-2 border-purple-500 transform translate-x-4 md:translate-x-6 -translate-y-4 md:-translate-y-6 z-0 shadow-lg`}
+                className={`${isHidden && "hidden"
+                  } absolute inset-0 rounded-xl border-2 border-purple-500 transform translate-x-4 md:translate-x-6 -translate-y-4 md:-translate-y-6 z-0 shadow-lg`}
                 aria-hidden="true"
               />
 

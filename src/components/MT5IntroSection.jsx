@@ -18,7 +18,7 @@ const MT5IntroSection = () => {
             have the option to implement white-label solutions, liquidity bridge
             integration, API connectivity, and backend management to facilitate
             trade execution and multi-asset trading capabilities without any
-            hiccups. We at Capyngen Technologies are doing the work of setting
+            hiccups. We at Aynzenix Technologies are doing the work of setting
             up the MT5 infrastructure for brokers, platform integration, and
             plugin development. Our offerings are like a perfect fit for both
             startups and mature brokerages in helping them to have a trading

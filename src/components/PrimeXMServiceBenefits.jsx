@@ -13,7 +13,7 @@ const PrimeXMServiceBenefits = () => {
           </h2>
           <p className="text-slate-300 text-lg leading-relaxed">
             If​‍​‌‍​‍‌​‍​‌‍​‍‌ you are a newly formed broker or an existing
-            company, Capyngen has tailor-made PrimeXM X-Core offerings that are
+            company, Aynzenix has tailor-made PrimeXM X-Core offerings that are
             specifically designed for your kind of requirements.
           </p>
         </div>

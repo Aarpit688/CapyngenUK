@@ -27,7 +27,7 @@ export default function IntegrationShowcase() {
             Seamless, Limitless Integration for Your Brokerage
           </h2>
           <p className="text-slate-100 text-lg md:text-xl max-w-[520px]">
-            Capyngen’s ultra-advanced SiriX-based trading infrastructure
+            Aynzenix’s ultra-advanced SiriX-based trading infrastructure
             delivers limitless integration with leading forex distribution
             systems, next-gen CRM solutions, payment gateways, liquidity
             providers, and essential fintech apps — ensuring brokers experience

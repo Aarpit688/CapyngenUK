@@ -26,7 +26,7 @@ const ForexTechSolutions = () => {
     {
       icon: <FaGlobe className="text-blue-400 text-3xl" />,
       title: "Technology-Driven Global Marketing Enablement",
-      desc: "Capyngen merges technology with marketing plans in order to help you get new customers and keep the existing ones all over the world.",
+      desc: "Aynzenix merges technology with marketing plans in order to help you get new customers and keep the existing ones all over the world.",
       img: "https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=1200&q=80",
     },
     {
@@ -49,15 +49,15 @@ const ForexTechSolutions = () => {
           className="mb-16 text-center max-w-7xl mx-auto"
         >
           <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-            Why Choose Capyngen for Forex Broker Technology Solutions?
+            Why Choose Aynzenix for Forex Broker Technology Solutions?
           </h2>
           <p className="text-gray-300 mt-6 text-lg leading-relaxed">
-            Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ realizes what kind of difficulties the
+            Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ realizes what kind of difficulties the
             forex brokers have. For example, such kinds of issues as managing a
             large number of operations, following regulations, making sure one's
-            IT structure is strong, secured, and can grow should be Capyngen's
+            IT structure is strong, secured, and can grow should be Aynzenix's
             customers' concern no more. The Forex IT solutions which the
-            Capyngen team provides allow users to focus on business expansion
+            Aynzenix team provides allow users to focus on business expansion
             instead of technical limitations.
           </p>
         </motion.div>

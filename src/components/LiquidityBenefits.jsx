@@ -43,7 +43,7 @@ const LiquidityBenefits = () => {
           viewport={{ once: true }}
           className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-center text-white leading-normal"
         >
-          Key Benefits of Capyngen’s Liquidity Provider Solutions
+          Key Benefits of Aynzenix’s Liquidity Provider Solutions
         </motion.h2>
 
         {/* Underline Line */}

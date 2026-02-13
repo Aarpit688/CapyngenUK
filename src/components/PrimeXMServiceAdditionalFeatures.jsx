@@ -90,10 +90,10 @@ const PrimeXMServiceAdditionalFeatures = () => {
                     <Zap className="w-5 h-5 text-emerald-400" />
                   </div>
                   <p className="text-slate-300 text-sm leading-relaxed italic">
-                    "Additionally, Capyngen makes sure that the entire system is
+                    "Additionally, Aynzenix makes sure that the entire system is
                     not only scalable but also high-performance optimized for
                     the ultra-high-volume trading environment of the
-                    ​‍​‌‍​‍‌​‍​‌‍​‍‌future."
+                    ‍​‌‍​‍‌​‍​‌‍​‍‌future."
                   </p>
                 </div>
               </div>

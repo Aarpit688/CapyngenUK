@@ -78,7 +78,7 @@ export const AboutUs5 = () => {
             Project Timeline & Operational Excellence
           </h2>
           <p className="text-lg text-slate-300 leading-relaxed">
-            Capyngen ensures a seamless, fast, and structured step-by-step
+            Aynzenix ensures a seamless, fast, and structured step-by-step
             deployment:
           </p>
         </div>
@@ -99,9 +99,8 @@ export const AboutUs5 = () => {
             {steps.map((step, index) => (
               <div
                 key={index}
-                className={`relative md:flex items-center ${
-                  index % 2 === 0 ? "md:flex-row-reverse" : ""
-                }`}
+                className={`relative md:flex items-center ${index % 2 === 0 ? "md:flex-row-reverse" : ""
+                  }`}
               >
                 <div className="flex-1 md:w-1/2"></div>
 

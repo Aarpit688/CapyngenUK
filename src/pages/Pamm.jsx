@@ -29,7 +29,7 @@ const Pamm = () => {
     {
       title: "Decreased Operational Workload",
       description:
-        "Capyngen’s solution is equipped to manage everything from allocations to reporting, thereby substantially lessening the manual tasks on your side.",
+        "Aynzenix’s solution is equipped to manage everything from allocations to reporting, thereby substantially lessening the manual tasks on your side.",
       image: assets.pamm19,
       cardBg: "bg-gray-200",
     },
@@ -43,21 +43,21 @@ const Pamm = () => {
     {
       title: "Totally White Label",
       description:
-        "Capyngen Technologies UK Limited is fully customizable in terms of branding for websites, platforms, and‍ ‍ ‌‍​‍‌​‍​‌‍​‍‌dashboards.",
+        "Aynzenix Technologies UK Limited is fully customizable in terms of branding for websites, platforms, and‍ ‍ ‌‍​‍‌​‍​‌‍​‍‌dashboards.",
       image: assets.cTrader8,
       cardBg: "bg-gray-200",
     },
   ];
   const faqItems = [
     {
-      question: "Does Capyngen provide a fully white-label PAMM system?",
+      question: "Does Aynzenix provide a fully white-label PAMM system?",
       answer:
         "Indeed, brokers are allowed to brand the platform with their identity - logo, colors, UI, and custom dashboards.",
     },
     {
       question: "Does the PAMM platform support MT4 and MT5?",
       answer:
-        "Certainly. Capyngen Technologies UK Limited provides depth, and low-latency integration with MT4/MT5 and other trading engines.",
+        "Certainly. Aynzenix Technologies UK Limited provides depth, and low-latency integration with MT4/MT5 and other trading engines.",
     },
     {
       question: "How long does deployment take?",
@@ -70,7 +70,7 @@ const Pamm = () => {
         "Definitely, our setup is capable of handling tens of thousands of investors without any performance issues.",
     },
     {
-      question: "Does Capyngen offer PAMM customization?",
+      question: "Does Aynzenix offer PAMM customization?",
       answer:
         "Yes, aspects like allocation logic, UI design, and fee modules - can all be customized.",
     },
@@ -104,9 +104,9 @@ const Pamm = () => {
       />
 
       <TopRatedCompany
-        title="PAMM Technology Engine Built by Capyngen Technologies UK Limited"
+        title="PAMM Technology Engine Built by Aynzenix Technologies UK Limited"
         description={[
-          "Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited offers PAMM Trading Technology Solutions tailored to technologically advanced brokerages that require automation, reliability, and a structure for institutional investment.",
+          "Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited offers PAMM Trading Technology Solutions tailored to technologically advanced brokerages that require automation, reliability, and a structure for institutional investment.",
           "We cover the entire cycle of a PAMM fund system with the broker's interface as the hub -- investor allocations, master account executions, risk distribution, and real-time reporting, in fact, the whole set of tools that brokers need for a high-performance PAMM investment ​‍​‌‍​‍‌​‍​‌‍​‍‌environment.",
         ]}
         isHidden={true}
@@ -121,7 +121,7 @@ const Pamm = () => {
           {
             title: "Advanced​‍​‌‍​‍‌​‍​‌‍​‍‌ Allocation & Risk Automation",
             img: assets.pamm08,
-            desc: "Capyngen’s highly efficient allocation engine is the main reason for accurate, real-time distribution of trades, risks, profits, and fees — even under extreme market volatility.",
+            desc: "Aynzenix’s highly efficient allocation engine is the main reason for accurate, real-time distribution of trades, risks, profits, and fees — even under extreme market volatility.",
           },
           {
             title: "Total Transparency for Investors",
@@ -131,7 +131,7 @@ const Pamm = () => {
           {
             title: "Plug-and-Play Broker Integration",
             img: assets.pamm10,
-            desc: "Capyngen Technologies UK Limited is the major reason for integration without any issues with trading platforms, CRMs, liquidity bridges, and back-office tools.",
+            desc: "Aynzenix Technologies UK Limited is the major reason for integration without any issues with trading platforms, CRMs, liquidity bridges, and back-office tools.",
           },
           {
             title: "Modular & Customizable Architecture",
@@ -162,7 +162,7 @@ const Pamm = () => {
             imgSrc: assets.pamm14,
             alt: "Investor & Master Dashboards",
             title: "Investor & Master Dashboards",
-            desc: "Capyngen offers sleek and powerful user interfaces that are designed for the ease, openness, and instantaneous tracking.",
+            desc: "Aynzenix offers sleek and powerful user interfaces that are designed for the ease, openness, and instantaneous tracking.",
           },
           {
             imgSrc: assets.pamm15,

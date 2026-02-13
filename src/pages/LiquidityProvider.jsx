@@ -20,7 +20,7 @@ const LiquidityProvider = () => {
     },
     {
       question:
-        "Can Capyngen integrate liquidity for both forex and crypto brokers?",
+        "Can Aynzenix integrate liquidity for both forex and crypto brokers?",
       answer:
         "Sure, we can facilitate a liquidity provider setup for both forex and cryptocurrency brokers.",
     },
@@ -30,7 +30,7 @@ const LiquidityProvider = () => {
         "This package is made up of API connectivity, trading platform integration, liquidity bridge and aggregation solutions, and real-time market data.",
     },
     {
-      question: "Are Capyngen’s solutions suitable for startups?",
+      question: "Are Aynzenix’s solutions suitable for startups?",
       answer:
         "Certainly, we provide scalable and simple liquidity provider connection solutions that are designed specifically for new brokers.",
     },
@@ -50,7 +50,7 @@ const LiquidityProvider = () => {
         "Indeed, we extend complete post-integration support, upkeep, and updates to ensure your systems are always in good working order.",
     },
     {
-      question: "Is Capyngen a global liquidity technology provider?",
+      question: "Is Aynzenix a global liquidity technology provider?",
       answer:
         "Indeed, with our main office in the UK, we are serving clients all over the globe with in-depth solutions for liquidity providers.",
     },
@@ -78,7 +78,7 @@ const LiquidityProvider = () => {
             trading and to keep slippage at a minimum.
             <br />
             <br />
-            At Capyngen Technologies, we are engaged in offering technology
+            At Aynzenix Technologies, we are engaged in offering technology
             solutions to liquidity providers that facilitate brokers to
             integrate institutional-grade liquidity, manage multiple liquidity
             sources, and optimize execution. We are the one-stop-shop for
@@ -86,7 +86,7 @@ const LiquidityProvider = () => {
             provider for forex brokers, crypto brokers, API integration, and
             complete liquidity provider integration solutions thus allowing
             brokers to be reliable, scalable, and fast in any market
-            ​‍​‌‍​‍‌​‍​‌‍​‍‌situation.
+            ‍​‌‍​‍‌​‍​‌‍​‍‌situation.
           </span>
         }
         primaryBtn={{ label: "Get Started", link: "#" }}

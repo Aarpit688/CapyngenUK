@@ -19,11 +19,11 @@ export default function CTraderServiceBenefits() {
   const titleStartups =
     "How Startups and Established Brokers Benefit from cTrader";
   const contentStartups =
-    "To‍‍‌‍​‍‌‍​‌‍​‍‌ quickly access the market with pre-integrated liquidity, branded platforms, and a secure infrastructure, startups are able to utilize turnkey cTrader solutions. By custom platform development, migration support, and multi-asset integration, an established broker can thereby improve execution, risk management, and client services. As a result of cTrader integration with Capyngen as a dependable and trusted partner, brokers acquire trading infrastructure that is scalable, secure, and ‍‍‌‍​‍‌‍​‌‍​‍‌future-ready.";
+    "To‍‍‌‍​‍‌‍​‌‍​‍‌ quickly access the market with pre-integrated liquidity, branded platforms, and a secure infrastructure, startups are able to utilize turnkey cTrader solutions. By custom platform development, migration support, and multi-asset integration, an established broker can thereby improve execution, risk management, and client services. As a result of cTrader integration with Aynzenix as a dependable and trusted partner, brokers acquire trading infrastructure that is scalable, secure, and ‍‍‌‍​‍‌‍​‌‍​‍‌future-ready.";
 
   const titleFeatures = "Additional Features That Make cTrader Stand Out";
   const contentFeatures =
-    "cTrader‍‍‌‍​‍‌‍​‌‍​‍‌ is equipped with multi-asset trading, sophisticated charting, algorithmic trading, liquidity bridge API integration, and platform customization features. Capyngen facilitates trade execution for brokers, server integration with back-office and CRM systems, and trading activity monitoring in real-time. By using fully customizable platforms, brokers are able to adapt the solutions to the needs of the clients while at the same time, retaining institutional-grade performance and scalability ‍‍‌‍​‍‌‍​‌‍​‍‌worldwide.";
+    "cTrader‍‍‌‍​‍‌‍​‌‍​‍‌ is equipped with multi-asset trading, sophisticated charting, algorithmic trading, liquidity bridge API integration, and platform customization features. Aynzenix facilitates trade execution for brokers, server integration with back-office and CRM systems, and trading activity monitoring in real-time. By using fully customizable platforms, brokers are able to adapt the solutions to the needs of the clients while at the same time, retaining institutional-grade performance and scalability ‍‍‌‍​‍‌‍​‌‍​‍‌worldwide.";
 
   return (
     <section className="space-y-16  bg-black py-20">

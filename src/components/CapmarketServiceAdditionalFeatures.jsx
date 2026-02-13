@@ -28,7 +28,7 @@ const CapmarketServiceAdditionalFeatures = () => {
 
               <div className="prose prose-invert prose-lg">
                 <p className="text-slate-300 leading-relaxed text-lg">
-                  Capyngen maintains the system stable for high volumes, ensures
+                  Aynzenix maintains the system stable for high volumes, ensures
                   security of operations, and provides global connectivity,
                   which gives brokers the opportunity to grow their business in
                   a way that is not limited by capacity.

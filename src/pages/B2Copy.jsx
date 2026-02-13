@@ -19,7 +19,7 @@ const B2Copy = () => {
     {
       question: "Do you provide B2Copy white-label solutions?",
       answer:
-        "Yes — Capyngen delivers B2Copy white-label copy trading platforms that can be entirely branded by the customer.",
+        "Yes — Aynzenix delivers B2Copy white-label copy trading platforms that can be entirely branded by the customer.",
     },
     {
       question: "Can B2Copy support forex and crypto trading?",
@@ -45,7 +45,7 @@ const B2Copy = () => {
     {
       question: "Do you handle hosting and infrastructure setup?",
       answer:
-        "Yes — Capyngen is responsible for cloud hosting, backend deployment, routing, and server optimization.",
+        "Yes — Aynzenix is responsible for cloud hosting, backend deployment, routing, and server optimization.",
     },
     {
       question: "Do you offer ongoing support after the launch?",

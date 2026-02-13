@@ -41,12 +41,12 @@ const LiquidityConclusion = () => {
           className="space-y-8"
         >
           <h2 className="text-4xl font-extrabold leading-tight text-white">
-            Conclusion: Build a Reliable and Scalable Brokerage with Capyngen
+            Conclusion: Build a Reliable and Scalable Brokerage with Aynzenix
           </h2>
 
           <p className="text-gray-300 text-lg max-w-lg leading-relaxed">
             It​‍​‌‍​‍‌​‍​‌‍​‍‌ is very important for a broker to manage
-            liquidity in an effective way. Capyngen Technologies UK Limited
+            liquidity in an effective way. Aynzenix Technologies UK Limited
             presents to the market a full range of solutions for a liquidity
             provider, such as:
           </p>
@@ -104,10 +104,10 @@ const LiquidityConclusion = () => {
         viewport={{ once: true }}
         className="text-center text-gray-300 text-lg leading-relaxed max-w-6xl mx-auto mt-20"
       >
-        Through the partnership with Capyngen, brokers become the owners of a
+        Through the partnership with Aynzenix, brokers become the owners of a
         safe, scalable, and fully integrated liquidity system which is able to
         deliver fast execution, low slippage, and a great client trading
-        ​‍​‌‍​‍‌​‍​‌‍​‍‌experience.
+        ‍​‌‍​‍‌​‍​‌‍​‍‌experience.
       </motion.p>
     </section>
   );

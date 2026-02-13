@@ -18,7 +18,7 @@ const OneZeroServiceBenefits = () => {
             How Startups and Established Brokers Benefit from OneZero
           </h2>
           <p className="text-slate-300 text-lg leading-relaxed max-w-5xl mx-auto">
-            Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ is the one-stop solution for any needs of
+            Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ is the one-stop solution for any needs of
             custom technology that OneZero can fulfill whether you are starting
             a brokerage afresh or upgrading an existing platform.
           </p>

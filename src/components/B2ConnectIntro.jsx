@@ -22,7 +22,7 @@ const B2ConnectIntro = () => {
             </h1>
 
             <p className="mt-6 text-base lg:text-lg text-slate-300 leading-relaxed drop-shadow">
-              Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited offers a strong
+              Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited offers a strong
               B2Connect Liquidity Bridge Solution to brokers that are in need of
               quick execution, efficient liquidity routing, and multi-asset
               trading support.
@@ -32,7 +32,7 @@ const B2ConnectIntro = () => {
               Our services include launching the bridge, setting up the
               liquidity sources, integrating the execution venues, and linking
               the whole trading ecosystem of your business without any
-              ​‍​‌‍​‍‌​‍​‌‍​‍‌interruption.
+              ‍​‌‍​‍‌​‍​‌‍​‍‌interruption.
             </p>
 
             <div

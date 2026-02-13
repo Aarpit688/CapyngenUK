@@ -1,6 +1,6 @@
 const COUNTRY_API_URL =
   "https://restcountries.com/v3.1/all?fields=name,cca2,flag";
-const SUBMIT_API_URL = "https://api.capyngen.com/api/careers/apply";
+const SUBMIT_API_URL = "https://api.Aynzenix.com/api/careers/apply";
 
 export const fetchCountries = async () => {
   try {

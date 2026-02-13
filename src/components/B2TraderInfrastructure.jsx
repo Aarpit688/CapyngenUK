@@ -25,11 +25,11 @@ const B2TraderInfrastructure = () => {
           className="mb-10 relative text-center"
         >
           <h2 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight">
-            How Capyngen Builds Your Complete B2Trader Infrastructure
+            How Aynzenix Builds Your Complete B2Trader Infrastructure
           </h2>
 
           <p className="pl-6 text-gray-300 text-lg mt-6 max-w-5xl mx-auto leading-relaxed">
-            Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is the single point
+            Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is the single point
             of contact B2Trader trading platform, responsible for the entire
             setup from the installation stage to the going live.
           </p>
@@ -105,7 +105,7 @@ const B2TraderInfrastructure = () => {
         >
           Thanks to our managed hardware, brokers get a stable, secure, and
           well-optimized B2Trader environment that is trading volume is high is
-          ​‍​‌‍​‍‌​‍​‌‍​‍‌ready.
+          ‍​‌‍​‍‌​‍​‌‍​‍‌ready.
         </motion.p>
       </div>
     </section>

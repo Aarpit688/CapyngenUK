@@ -43,9 +43,8 @@ const Dropdown = ({ label, options, value, onChange }) => {
             {value || "Select a topic"}
           </span>
           <svg
-            className={`w-4 h-4 transition-transform duration-300 ${
-              isOpen ? "rotate-180" : ""
-            }`}
+            className={`w-4 h-4 transition-transform duration-300 ${isOpen ? "rotate-180" : ""
+              }`}
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -164,7 +163,7 @@ const ContactUsSection = () => {
     setShowResponse(false);
 
     try {
-      const response = await fetch("https://api.capyngen.com/api/contact", {
+      const response = await fetch("https://api.Aynzenix.com/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -225,7 +224,7 @@ const ContactUsSection = () => {
         {/* Header */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">
-            Contact Capyngen
+            Contact Aynzenix
           </h2>
           <p className="text-slate-400 text-lg">
             We’re here to answer your questions and support your brokerage.
@@ -271,10 +270,10 @@ const ContactUsSection = () => {
                       Email Us
                     </h4>
                     <a
-                      href="mailto:sales@capyngen.com"
+                      href="mailto:sales@Aynzenix.com"
                       className="text-slate-300 hover:text-cyan-400 transition-colors"
                     >
-                      sales@capyngen.com
+                      sales@Aynzenix.com
                     </a>
                   </div>
                 </div>
@@ -297,7 +296,7 @@ const ContactUsSection = () => {
 
                   {/* LinkedIn */}
                   <a
-                    href="https://www.linkedin.com/in/capyngen-private-limited-5ba173390"
+                    href="https://www.linkedin.com/in/Aynzenix-private-limited-5ba173390"
                     target="_blank"
                     rel="noreferrer"
                     className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-slate-400 transition-all duration-300
@@ -308,7 +307,7 @@ const ContactUsSection = () => {
 
                   {/* Instagram */}
                   <a
-                    href="https://www.instagram.com/capyngen/"
+                    href="https://www.instagram.com/Aynzenix/"
                     target="_blank"
                     rel="noreferrer"
                     className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-slate-400 transition-all duration-300
@@ -320,7 +319,7 @@ const ContactUsSection = () => {
 
                   {/* Twitter (X) */}
                   <a
-                    href="https://x.com/CapyngenIndia"
+                    href="https://x.com/AynzenixIndia"
                     target="_blank"
                     rel="noreferrer"
                     className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-slate-400 transition-all duration-300
@@ -331,7 +330,7 @@ const ContactUsSection = () => {
 
                   {/* YouTube */}
                   <a
-                    href="https://www.youtube.com/@Capyngen-pvt-ltd"
+                    href="https://www.youtube.com/@Aynzenix-pvt-ltd"
                     target="_blank"
                     rel="noreferrer"
                     className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-slate-400 transition-all duration-300
@@ -348,7 +347,7 @@ const ContactUsSection = () => {
               <div className="absolute inset-0 bg-white/5 z-10 mix-blend-overlay pointer-events-none"></div>
               <iframe
                 title="Google Maps"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.2159924974653!2d77.0415838754927!3d28.41273877578547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x489ffc51a97b2a05%3A0xce07c65b285ef184!2scapyngen!5e0!3m2!1sen!2sin!4v1761233238159!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.2159924974653!2d77.0415838754927!3d28.41273877578547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x489ffc51a97b2a05%3A0xce07c65b285ef184!2sAynzenix!5e0!3m2!1sen!2sin!4v1761233238159!5m2!1sen!2sin"
                 width="100%"
                 height="300"
                 style={{
@@ -485,11 +484,10 @@ const ContactUsSection = () => {
                 {/* Response Message */}
                 {showResponse && (
                   <p
-                    className={`mt-6 rounded-xl py-2 px-6 text-center text-sm font-semibold max-w-sm mx-auto ${
-                      responseMsg.includes("✅")
+                    className={`mt-6 rounded-xl py-2 px-6 text-center text-sm font-semibold max-w-sm mx-auto ${responseMsg.includes("✅")
                         ? "bg-green-600/80 text-green-100"
                         : "bg-red-600/80 text-red-100"
-                    } animate-popIn`}
+                      } animate-popIn`}
                   >
                     {responseMsg.replace(/^✅|❌/g, "")}
                   </p>

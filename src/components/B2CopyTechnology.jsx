@@ -79,7 +79,7 @@ const B2CopyTechnology = () => {
           </h2>
 
           <p className="text-gray-300 text-xl text-center leading-relaxed">
-            Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ delivers turnkey broker solutions powered
+            Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ delivers turnkey broker solutions powered
             by B2Copy, handling everything from installation to launch.
           </p>
 

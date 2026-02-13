@@ -133,11 +133,11 @@ const BenefitsSection = () => {
             text-white
           "
           >
-            Benefits of Capyngen’s Crypto Broker IT Solutions
+            Benefits of Aynzenix’s Crypto Broker IT Solutions
           </h1>
 
           <p className="text-lg max-w-3xl mx-auto text-gray-400 mt-6">
-            Partnering​‍​‌‍‌ with Capyngen makes sense not only strategically
+            Partnering​‍​‌‍‌ with Aynzenix makes sense not only strategically
             but also financially as it brings tangible benefits to the business.
           </p>
         </div>
@@ -162,7 +162,7 @@ const BenefitsSection = () => {
         {/* Outro */}
         <div className="text-center mt-16">
           <p className="text-xl max-w-4xl mx-auto text-gray-400 leading-relaxed">
-            Thanks to Capyngen, your brokerage is running smoothly, getting
+            Thanks to Aynzenix, your brokerage is running smoothly, getting
             bigger at a quicker pace, and is able to deliver better experiences
             to the ​‍​‌‍​‍‌​‍​‌‍​‍‌clients.
           </p>

@@ -59,7 +59,7 @@ const B2CopyFeatures = () => {
     {
       title: "Real-Time Copy Execution Engine",
       description:
-        "Capyngen is upgrading B2Copy's high-speed execution engine with the integration that allows for instant trade syncing, accurate lot allocation, and minimal ​‍​‌‍​‍‌​‍​‌‍​‍‌slippage.",
+        "Aynzenix is upgrading B2Copy's high-speed execution engine with the integration that allows for instant trade syncing, accurate lot allocation, and minimal ​‍​‌‍​‍‌​‍​‌‍​‍‌slippage.",
       iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
     },
   ];

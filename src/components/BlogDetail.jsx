@@ -20,8 +20,8 @@ import {
 // import { Helmet } from "react-helmet-async";
 import { createSlug } from "../utils/slug";
 
-const API_URL = "https://api.capyngen.com/api/blogs";
-const CONTACT_API_URL = "https://api.capyngen.com/api/contact";
+const API_URL = "https://api.Aynzenix.com/api/blogs";
+const CONTACT_API_URL = "https://api.Aynzenix.com/api/contact";
 
 const BlogDetail = () => {
   const { slug } = useParams();
@@ -189,20 +189,20 @@ const BlogDetail = () => {
 
   const jsonLdSchema = blog
     ? JSON.stringify(
-        blog.schema && typeof blog.schema === "object"
-          ? blog.schema
-          : {
-              "@context": "https://schema.org",
-              "@type": "BlogPosting",
-              headline: blog.title,
-              image: blog.image,
-              author: {
-                "@type": "Organization",
-                name: blog.author || "Capyngen Team",
-              },
-              datePublished: blog.createdAt,
-            },
-      )
+      blog.schema && typeof blog.schema === "object"
+        ? blog.schema
+        : {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          headline: blog.title,
+          image: blog.image,
+          author: {
+            "@type": "Organization",
+            name: blog.author || "Aynzenix Team",
+          },
+          datePublished: blog.createdAt,
+        },
+    )
     : "";
 
   // MOVED ID TO OUTER DIV AND HANDLED LOADING STATE INTERNALLY
@@ -211,7 +211,7 @@ const BlogDetail = () => {
       {/* SEO META - Safe Access */}
       {/* <Helmet>
         <title>
-          {blog ? blog.metaTitle || blog.title : "Loading..."} | Capyngen
+          {blog ? blog.metaTitle || blog.title : "Loading..."} | Aynzenix
         </title>
         <meta name="description" content={blog?.metaDescription || ""} />
         {blog && (
@@ -272,7 +272,7 @@ const BlogDetail = () => {
                     </div>
                     <div className="flex flex-col leading-tight text-center sm:text-left">
                       <span className="font-semibold text-white">
-                        {blog.author || "Capyngen Team"}
+                        {blog.author || "Aynzenix Team"}
                       </span>
                       <span className="text-xs text-slate-500">Editor</span>
                     </div>
@@ -302,7 +302,7 @@ const BlogDetail = () => {
                         {(() => {
                           const days = Math.floor(
                             (new Date() - new Date(blog.createdAt)) /
-                              (1000 * 60 * 60 * 24),
+                            (1000 * 60 * 60 * 24),
                           );
                           return days > 0
                             ? `Posted ${days} day${days === 1 ? "" : "s"} ago`
@@ -456,11 +456,10 @@ const BlogDetail = () => {
                         type="submit"
                         disabled={contactLoading || contactStatus === "success"}
                         className={`w-full text-sm font-bold py-3 rounded-xl transition-all flex items-center justify-center gap-2 mt-2
-                                ${
-                                  contactStatus === "success"
-                                    ? "bg-green-600 text-white cursor-default"
-                                    : "bg-cyan-600 hover:bg-cyan-500 text-white hover:shadow-[0_0_20px_rgba(8,145,178,0.3)] disabled:opacity-70 disabled:cursor-not-allowed"
-                                }
+                                ${contactStatus === "success"
+                            ? "bg-green-600 text-white cursor-default"
+                            : "bg-cyan-600 hover:bg-cyan-500 text-white hover:shadow-[0_0_20px_rgba(8,145,178,0.3)] disabled:opacity-70 disabled:cursor-not-allowed"
+                          }
                             `}
                       >
                         {contactLoading ? (

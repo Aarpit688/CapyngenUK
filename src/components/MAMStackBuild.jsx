@@ -39,7 +39,7 @@ export default function MAMStackBuild() {
           </h2>
 
           <p className="text-gray-300 max-w-6xl mx-auto text-lg leading-relaxed">
-            Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is ready to provide
+            Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is ready to provide
             you with a full MAM setup journey that comprises:
           </p>
         </motion.div>

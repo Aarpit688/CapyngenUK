@@ -21,33 +21,33 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Facebook,
-      href: "https://www.facebook.com/profile.php?id=61571934154055",
+      href: "https://www.facebook.com/aynzenixofficial/",
       label: "Facebook",
     },
-    {
-      icon: Linkedin,
-      href: "https://www.linkedin.com/in/capyngen-private-limited-5ba173390",
-      label: "LinkedIn",
-    },
+    // {
+    //   icon: Linkedin,
+    //   href: "https://www.linkedin.com/company/aynzenix/",
+    //   label: "LinkedIn",
+    // },
     {
       icon: Instagram,
-      href: "https://www.instagram.com/capyngen_europe/",
+      href: "https://www.instagram.com/aynzenixofficial/?hl=en",
       label: "Instagram",
     },
-    { icon: Twitter, href: "https://x.com/CapyngenIndia", label: "Twitter" },
-    {
-      icon: Youtube,
-      href: "https://www.youtube.com/@Capyngen-pvt-ltd",
-      label: "YouTube",
-    },
+    // { icon: FaXTwitter, href: "https://x.com/Aynzenix", label: "Twitter" },
+    // {
+    //   icon: Youtube,
+    //   href: "https://www.youtube.com/@Aynzenix",
+    //   label: "YouTube",
+    // },
   ];
 
   const contactInfo = [
     {
       icon: Mail,
       label: "Email",
-      value: "query@capyngen.com",
-      href: "mailto:query@capyngen.com",
+      value: "query@Aynzenix.com",
+      href: "mailto:query@Aynzenix.com",
     },
     {
       icon: MapPin,
@@ -81,8 +81,8 @@ const Footer = () => {
           <div className="col-span-2 md:col-span-1 lg:col-span-1">
             <NavLink to="/" className="mb-6 block">
               <img
-                src={assets.capyngenUKLogo || assets.capyngenFavIcon}
-                alt="Capyngen Logo"
+                src={assets.aynzenixLogo || assets.AynzenixFavIcon}
+                alt="Aynzenix Logo"
                 className="w-full max-w-[200px]"
               />
             </NavLink>
@@ -176,11 +176,10 @@ const Footer = () => {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <button
               onClick={scrollToTop}
-              className={`w-12 h-12 rounded-full border border-emerald-500 bg-slate-800/50 backdrop-blur-md flex items-center justify-center transition-all ${
-                showScrollTop
-                  ? "opacity-100 translate-y-0"
-                  : "opacity-0 translate-y-4"
-              }`}
+              className={`w-12 h-12 rounded-full border border-emerald-500 bg-slate-800/50 backdrop-blur-md flex items-center justify-center transition-all ${showScrollTop
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-4"
+                }`}
             >
               <ArrowUp className="w-5 h-5 text-emerald-400" />
             </button>
@@ -189,7 +188,7 @@ const Footer = () => {
 
         {/* Bottom Links */}
         <div className="flex flex-col sm:flex-row justify-between items-center text-sm text-slate-400 gap-4">
-          <div>© {currentYear} Capyngen. All rights reserved.</div>
+          <div>© {currentYear} Aynzenix. All rights reserved.</div>
 
           <div className="flex gap-6">
             <NavLink
@@ -218,7 +217,7 @@ const Footer = () => {
       <div className="relative h-[50px] md:h-[100px]">
         <div className="absolute top-0 -translate-y-1/2 inset-0 flex items-center justify-center pointer-events-none">
           <div className="text-slate-800/50 text-7xl md:text-9xl lg:text-[12rem] font-bold">
-            capyngen
+            Aynzenix
           </div>
         </div>
       </div>

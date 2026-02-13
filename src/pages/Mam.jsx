@@ -28,7 +28,7 @@ const Mam = () => {
     {
       question: "Is there any facility for your MAM white-label deployment?",
       answer:
-        "Certainly, Capyngen is able to offer full white-label MAM solutions to brokers worldwide.",
+        "Certainly, Aynzenix is able to offer full white-label MAM solutions to brokers worldwide.",
     },
     {
       question: "Is MAM working with liquidity providers?",
@@ -139,7 +139,7 @@ const Mam = () => {
       <TopRatedCompany
         title="Transform Your Brokerage with Multi-Account Management Technology"
         description={[
-          "Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is a one-stop MAM platform provider of infrastructure to forex, CFD, and multi-asset brokers that are in need of quick allocation, a reliable architecture, and worldwide performance.",
+          "Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is a one-stop MAM platform provider of infrastructure to forex, CFD, and multi-asset brokers that are in need of quick allocation, a reliable architecture, and worldwide performance.",
           "We provide an MAM allocation technology solution that can be API-driven, by allocation engines, liquidity bridges, or backend systems thus giving a trading infrastructure that is safe, efficient, and exactly optimized to the broker's needs.",
         ]}
         image={assets.mam06}
@@ -148,7 +148,7 @@ const Mam = () => {
       <TopRatedCompany
         title="What Makes the MAM System Essential for Brokers"
         description={[
-          "A​‍​‌‍​‍‌​‍​‌‍​‍‌ MAM (Multi-Account Manager) platform basically means managing multiple client accounts which are under a single master account with instant trade replication. Capyngen is keeping a very stable, compliant, and scalable environment for multi-asset execution, which is supported by high-speed allocation and global infrastructure. The MAM engine is delivering very fast trade distribution, different methods of allocation, and effortless connection with liquidity providers, MT4/MT5, Capmarket, and other trading solutions. By utilizing its robust APIs, brokers have the freedom to link up CRMs, reporting systems, risk units, PSPs, and other fintech solutions without a ​‍​‌‍​‍‌​‍​‌‍​‍‌hitch.",
+          "A​‍​‌‍​‍‌​‍​‌‍​‍‌ MAM (Multi-Account Manager) platform basically means managing multiple client accounts which are under a single master account with instant trade replication. Aynzenix is keeping a very stable, compliant, and scalable environment for multi-asset execution, which is supported by high-speed allocation and global infrastructure. The MAM engine is delivering very fast trade distribution, different methods of allocation, and effortless connection with liquidity providers, MT4/MT5, Capmarket, and other trading solutions. By utilizing its robust APIs, brokers have the freedom to link up CRMs, reporting systems, risk units, PSPs, and other fintech solutions without a ​‍​‌‍​‍‌​‍​‌‍​‍‌hitch.",
         ]}
         image={assets.mam07}
         reverse

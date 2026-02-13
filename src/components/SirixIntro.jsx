@@ -130,7 +130,7 @@ const SirixIntro = () => {
                 analytics.
               </p>
               <p className="text-slate-300 leading-relaxed text-lg">
-                Capyngen helps brokers unlock the full potential of Sirix:
+                Aynzenix helps brokers unlock the full potential of Sirix:
                 social dashboards, backend hosting, Sirix Mobile, Sirix
                 WebTrader, and the Sirix Desktop Suite.
               </p>

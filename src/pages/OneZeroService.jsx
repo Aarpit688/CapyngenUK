@@ -20,7 +20,7 @@ const OneZeroService = () => {
         "OneZero is a trading technology that supports high-performance multi-asset infrastructure, APIs & bridges solutions, and broker connectivity offered by OneZero.",
     },
     {
-      question: "Can Capyngen integrate OneZero for both MT4 and MT5 brokers?",
+      question: "Can Aynzenix integrate OneZero for both MT4 and MT5 brokers?",
       answer:
         "Definitely we offer integration that is smooth for both MT4 and MT5 platforms.",
     },
@@ -32,7 +32,7 @@ const OneZeroService = () => {
     {
       question: "Are these solutions suitable for startups?",
       answer:
-        "Yes, Capyngen provides a OneZero setup turnkey solution that is designed for fast deployment and easy scalability.",
+        "Yes, Aynzenix provides a OneZero setup turnkey solution that is designed for fast deployment and easy scalability.",
     },
     {
       question: "How reliable is OneZero technology?",
@@ -47,10 +47,10 @@ const OneZeroService = () => {
     {
       question: "Do you provide post-deployment support?",
       answer:
-        "Indeed, Capyngen is always ready to provide support, maintenance, and optimization for any OneZero implementations.",
+        "Indeed, Aynzenix is always ready to provide support, maintenance, and optimization for any OneZero implementations.",
     },
     {
-      question: "Is Capyngen a trusted global OneZero technology provider?",
+      question: "Is Aynzenix a trusted global OneZero technology provider?",
       answer:
         "Certainly, we deliver OneZero turnkey solutions to the global customers while our headquarters is located in the UK.",
     },
@@ -59,7 +59,7 @@ const OneZeroService = () => {
     <div>
       <Banner9
         title="OneZero Liquidity Bridge Technology Services"
-        subheading="Connect your brokerage to multi-asset liquidity with Capyngen’s reliable OneZero integration and infrastructure support."
+        subheading="Connect your brokerage to multi-asset liquidity with Aynzenix’s reliable OneZero integration and infrastructure support."
         ctaText="Contact Now"
         ctaLink="/contact-us"
         images={[

@@ -10,13 +10,13 @@ const CTraderSolutions = () => {
           {/* Text Content Side */}
           <div className="space-y-8">
             <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-              How Capyngen Delivers End-to-End{" "}
+              How Aynzenix Delivers End-to-End{" "}
               <span className="text-teal-500">cTrader Solutions</span>
             </h2>
 
             <div className="prose prose-invert prose-lg">
               <p className="text-slate-300 leading-relaxed text-lg">
-                Capyngen offers full cTrader implementation services that
+                Aynzenix offers full cTrader implementation services that
                 include installation, integration, and modification. We take
                 care of the cTrader software modification and development by
                 changing the platform to the broker's different needs, e.g.

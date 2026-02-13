@@ -3,9 +3,9 @@ import { CheckCircle2, Workflow, Zap } from "lucide-react";
 import { assets } from "../assets/assets";
 
 export default function CapmarketServiceSolutions() {
-  const title = "How Capyngen Delivers Complete Capmarket Solutions";
+  const title = "How Aynzenix Delivers Complete Capmarket Solutions";
   const content =
-    "Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ is the one-stop-shop for all things Capmarket-related, covering tasks such as platform setup, infrastructure deployment, liquidity management, and ongoing support. Our specialists make sure that the Capmarket is seamlessly connected with trading platforms such as MT5, multi-asset support is enabled, and strong API connectivity is in place for liquidity bridges.";
+    "Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ is the one-stop-shop for all things Capmarket-related, covering tasks such as platform setup, infrastructure deployment, liquidity management, and ongoing support. Our specialists make sure that the Capmarket is seamlessly connected with trading platforms such as MT5, multi-asset support is enabled, and strong API connectivity is in place for liquidity bridges.";
 
   return (
     <section className="bg-black py-20 overflow-hidden text-white">

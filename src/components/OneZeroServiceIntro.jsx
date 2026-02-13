@@ -25,16 +25,15 @@ export default function OneZeroServiceIntro() {
       <main className="relative z-10 max-w-[90vw] mx-auto flex flex-col lg:flex-row items-center gap-16">
         {/* Text Column */}
         <div
-          className={`flex-1 space-y-8 transition-all duration-700 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
-          }`}
+          className={`flex-1 space-y-8 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+            }`}
         >
           <h1 className="font-heading text-5xl font-extrabold leading-[1.1] tracking-tight">
             Transform Your Brokerage with OneZero Technology
           </h1>
 
           <p className="text-lg text-slate-400 leading-relaxed max-w-2xl border-l-2 border-slate-700 pl-6">
-            Capyngen Technologies UK Limited is a global leader in the delivery
+            Aynzenix Technologies UK Limited is a global leader in the delivery
             of OneZero technology solutions to brokers and financial
             institutions. Our offerings include multi-asset trading
             infrastructure, API & bridge technology, and high-performance
@@ -57,11 +56,10 @@ export default function OneZeroServiceIntro() {
         {/* Right Column - image (local) */}
         <div className="flex-1 w-full max-w-lg lg:max-w-none relative flex items-center justify-center">
           <div
-            className={`relative rounded-xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-900/30 backdrop-blur-xl transition-all duration-700 max-w-[520px] w-full ${
-              isVisible
+            className={`relative rounded-xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-900/30 backdrop-blur-xl transition-all duration-700 max-w-[520px] w-full ${isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-6"
-            }`}
+              }`}
             role="img"
             aria-label="OneZero Technology preview"
           >

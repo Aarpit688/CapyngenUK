@@ -34,9 +34,8 @@ const useTilt = () => {
     const x = e.clientX - (rect.left + rect.width / 2);
     const y = e.clientY - (rect.top + rect.height / 2);
 
-    card.style.transform = `perspective(900px) rotateX(${y / 20}deg) rotateY(${
-      x / -20
-    }deg)`;
+    card.style.transform = `perspective(900px) rotateX(${y / 20}deg) rotateY(${x / -20
+      }deg)`;
   };
 
   const reset = () => {
@@ -97,7 +96,7 @@ const B2CoreDeployment = () => {
             </h2>
 
             <p className="mt-6 text-lg text-slate-300">
-              Capyngen manages the entire end-to-end process:
+              Aynzenix manages the entire end-to-end process:
             </p>
 
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-5">

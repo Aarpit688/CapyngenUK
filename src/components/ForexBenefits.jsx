@@ -46,7 +46,7 @@ export default function ForexBenefits() {
           className="text-center mb-20"
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-white pb-4">
-            Benefits of Capyngen’s IT Solutions for Forex Brokers
+            Benefits of Aynzenix’s IT Solutions for Forex Brokers
           </h2>
           <p className="max-w-3xl mx-auto text-gray-400 text-lg leading-relaxed">
             Simply​‍​‌‍​‍‌​‍​‌‍​‍‌ by working with us, you will get holding of
@@ -64,9 +64,8 @@ export default function ForexBenefits() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: i * 0.1 }}
               viewport={{ once: true, amount: 0.3 }}
-              className={`flex flex-col lg:flex-row ${
-                i % 2 === 1 ? "lg:flex-row-reverse" : ""
-              } items-center justify-center gap-10`}
+              className={`flex flex-col lg:flex-row ${i % 2 === 1 ? "lg:flex-row-reverse" : ""
+                } items-center justify-center gap-10`}
             >
               {/* Image */}
               <motion.div
@@ -117,9 +116,9 @@ export default function ForexBenefits() {
         >
           <p className="text-gray-300 text-xl max-w-5xl mx-auto leading-relaxed mb-8">
             Whether you need the most efficient IT solutions for forex brokers
-            or a complete forex CRM software solution for brokers, Capyngen is
+            or a complete forex CRM software solution for brokers, Aynzenix is
             the one to make your brokerage technologically
-            ​‍​‌‍​‍‌​‍​‌‍​‍‌future-ready.
+            ‍​‌‍​‍‌​‍​‌‍​‍‌future-ready.
           </p>
         </motion.div>
       </div>

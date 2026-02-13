@@ -52,7 +52,7 @@ const CapmarketHighPerformance = () => {
               </h2>
 
               <p className="text-slate-300 text-lg md:text-xl leading-relaxed">
-                Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited implements full
+                Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited implements full
                 Capmarket trading platform solutions, which feature the
                 following:
               </p>

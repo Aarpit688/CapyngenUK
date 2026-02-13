@@ -35,14 +35,14 @@ const PrimeXMServiceInfrastructure = () => {
     <div className="py-20 bg-black w-full">
       <section className="max-w-[90vw] mx-auto w-full animate-fade-in-up">
         <h2 className="text-4xl md:text-5xl text-center mb-10 font-bold text-white leading-tight">
-          How Capyngen Enhances PrimeXM X-Core Infrastructure
+          How Aynzenix Enhances PrimeXM X-Core Infrastructure
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left: Text Content */}
           <div className="space-y-8">
             <div className="prose prose-invert prose-lg">
               <p className="text-slate-300 leading-relaxed text-lg">
-                Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies offers a full range of
+                Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies offers a full range of
                 end-to-end PrimeXM X-Core services to brokers who are in need of
                 dependable and scalable trading solutions. We handle:
               </p>
@@ -160,7 +160,7 @@ const PrimeXMServiceInfrastructure = () => {
                     increased efficiency, lower latency, and improved trade
                     execution while at the same time having access to
                     institutional-grade PrimeXM XCore
-                    ​‍​‌‍​‍‌​‍​‌‍​‍‌solutions."
+                    ‍​‌‍​‍‌​‍​‌‍​‍‌solutions."
                   </p>
                 </div>
               </div>

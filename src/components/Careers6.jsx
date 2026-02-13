@@ -43,10 +43,10 @@ export const Careers6 = () => {
                     <>
                       Email your resume to{" "}
                       <a
-                        href="mailto:careers@capyngen.co.uk"
+                        href="mailto:careers@Aynzenix.co.uk"
                         className="text-blue-400 hover:underline"
                       >
-                        careers@capyngen.co.uk
+                        careers@Aynzenix.co.uk
                       </a>
                     </>
                   ),

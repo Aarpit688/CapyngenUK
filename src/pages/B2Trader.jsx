@@ -18,7 +18,7 @@ const B2Trader = () => {
     {
       question: "Are B2Trader white-label solutions available through you?",
       answer:
-        "Yes, Capyngen is a fully branded B2Trader white-label setup provider for brokers worldwide.",
+        "Yes, Aynzenix is a fully branded B2Trader white-label setup provider for brokers worldwide.",
     },
     {
       question: "Whether B2Trader can liaise with liquidity providers?",
@@ -48,7 +48,7 @@ const B2Trader = () => {
     {
       question: "Do you provide uninterrupted support and assistance?",
       answer:
-        "Yes, Capyngen is responsible for 24/7 monitoring, updates, maintenance, and technical support.",
+        "Yes, Aynzenix is responsible for 24/7 monitoring, updates, maintenance, and technical support.",
     },
   ];
   return (

@@ -21,7 +21,7 @@ const Capmarket = () => {
     {
       question: "Do you provide Capmarket white-label setup?",
       answer:
-        "Yeah, Capyngen produces brand-name Capmarket white-label solutions for brokers everywhere.",
+        "Yeah, Aynzenix produces brand-name Capmarket white-label solutions for brokers everywhere.",
     },
     {
       question: "Can Capmarket connect to liquidity providers?",
@@ -59,7 +59,7 @@ const Capmarket = () => {
       id: 1,
       title: "Tailored IT Solutions for Capmarket Trading Infrastructure",
       subtitle:
-        "Capyngen provides secure, high-speed technology to power Capmarket-based trading environments and brokerage operations.",
+        "Aynzenix provides secure, high-speed technology to power Capmarket-based trading environments and brokerage operations.",
       image: assets.capmarket1,
       ctaText: "Get Started",
       ctaLink: "/contact-us",
@@ -108,7 +108,7 @@ const Capmarket = () => {
       <TopRatedCompany
         title="Power Your Brokerage with Capmarket Technology"
         description={[
-          "Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited offers full Capmarket trading platform solutions to forex, CFD, and multi-asset brokers who want quick execution, up-to-date infrastructure, and safe trading technology. We provide the technology that allows brokers to integrate their API with Capmarket, set up a liquidity bridge, install the backend, and connect to the worldwide network—all of which are ways by which our solutions empower brokers to grow their business with efficient ​‍​‌‍​‍‌​‍​‌‍​‍‌infrastructure.",
+          "Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited offers full Capmarket trading platform solutions to forex, CFD, and multi-asset brokers who want quick execution, up-to-date infrastructure, and safe trading technology. We provide the technology that allows brokers to integrate their API with Capmarket, set up a liquidity bridge, install the backend, and connect to the worldwide network—all of which are ways by which our solutions empower brokers to grow their business with efficient ​‍​‌‍​‍‌​‍​‌‍​‍‌infrastructure.",
         ]}
         image={assets.capmarket4}
         isHidden={true}
@@ -116,7 +116,7 @@ const Capmarket = () => {
       <TopRatedCompany
         title="Understanding Capmarket and Why Brokers Prefer It"
         description={[
-          "The​‍​‌‍​‍‌​‍​‌‍​‍‌ Capmarket trading platform represents the ideal option for brokers requiring a stable, scalable, and globally integrated trading ecosystem. Capmarket, which is designed for multi-asset trading, offers users fast execution, sophisticated risk systems, a high level of liquidity connectivity, as well as a set of flexible integration tools. Capyngen, being a technology partner of Capmarket, is committed to providing brokers with a fully managed configuration for every technical layer, starting from platform deployment, through global hosting to maintenance.",
+          "The​‍​‌‍​‍‌​‍​‌‍​‍‌ Capmarket trading platform represents the ideal option for brokers requiring a stable, scalable, and globally integrated trading ecosystem. Capmarket, which is designed for multi-asset trading, offers users fast execution, sophisticated risk systems, a high level of liquidity connectivity, as well as a set of flexible integration tools. Aynzenix, being a technology partner of Capmarket, is committed to providing brokers with a fully managed configuration for every technical layer, starting from platform deployment, through global hosting to maintenance.",
         ]}
         reverse
         image={assets.capmarket5}

@@ -29,7 +29,7 @@ const SirixBenefits = () => {
                 or rise infrastructure costs.
               </p>
               <p className="text-slate-300 leading-relaxed text-lg">
-                Capyngen takes care of hosting, server management, integration,
+                Aynzenix takes care of hosting, server management, integration,
                 and onboarding, thus making setting up a location a breeze.
               </p>
             </div>

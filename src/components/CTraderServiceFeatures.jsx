@@ -14,9 +14,9 @@ import {
 export default function CTraderServiceFeatures() {
   const titleMain = "Understanding cTrader and How It Benefits Brokers";
   const bodyMain =
-    "cTrader is a trading platform suitable for multiple assets such as forex, CFDs, and cryptocurrencies. We at Capyngen Technologies are global cTrader broker integration specialists. We offer hosting and backend support, migration services, and platform customization. Our solutions are available to both new and existing brokerages, thus they can deliver high-quality trading anywhere in the world.";
+    "cTrader is a trading platform suitable for multiple assets such as forex, CFDs, and cryptocurrencies. We at Aynzenix Technologies are global cTrader broker integration specialists. We offer hosting and backend support, migration services, and platform customization. Our solutions are available to both new and existing brokerages, thus they can deliver high-quality trading anywhere in the world.";
 
-  const titleFeatures = "Key Features of Capyngen’s cTrader Services";
+  const titleFeatures = "Key Features of Aynzenix’s cTrader Services";
   const feature1 =
     "White-Label Solution – cTrader platforms with complete branding for a fast brokerage market entry.";
   const feature2 =

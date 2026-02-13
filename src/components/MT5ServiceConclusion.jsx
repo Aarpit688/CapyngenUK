@@ -5,11 +5,11 @@ import { assets } from "../assets/assets";
 
 export default function MT5ServiceConclusion({
   imageUrl = assets.mtService14,
-  onStart = () => {},
+  onStart = () => { },
 }) {
   const title = "Achieve Reliable Multi-Asset Trading with MT5";
   const intro =
-    "Capyngen Technologies equips brokers with end-to-end MT5 services — from platform integration to global rollout.";
+    "Aynzenix Technologies equips brokers with end-to-end MT5 services — from platform integration to global rollout.";
 
   const services = [
     "Platform integration & server setup",
@@ -54,7 +54,7 @@ export default function MT5ServiceConclusion({
 
             {/* QUOTE */}
             <blockquote className="border-l-4 border-emerald-500 pl-4 text-slate-300 italic mb-10">
-              Working with Capyngen gives brokers the connectivity, performance
+              Working with Aynzenix gives brokers the connectivity, performance
               and governance needed to scale globally.
             </blockquote>
 

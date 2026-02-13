@@ -34,7 +34,7 @@ const B2Connect = () => {
     },
     {
       question:
-        "Does Capyngen handle the installation and configuration of the bridge?",
+        "Does Aynzenix handle the installation and configuration of the bridge?",
       answer:
         "Absolutely, we oversee the entire bridge engagement, LP setup, and execution routing.",
     },

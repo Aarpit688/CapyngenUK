@@ -44,7 +44,7 @@ export const AboutUs6 = () => {
               </h2>
 
               <p className="text-gray-300 text-lg leading-relaxed mb-8">
-                Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ provides a complete, premium brokerage
+                Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ provides a complete, premium brokerage
                 build-out with everything included — an enterprise-grade setup
                 valued at:
               </p>
@@ -130,7 +130,7 @@ export const AboutUs6 = () => {
           {/* Footer */}
           <div className="py-8 text-center border-t border-white/10 flex items-center gap-6">
             <p className="text-gray-400 text-lg italic leading-relaxed flex-1">
-              This package makes Capyngen one of the most advanced yet
+              This package makes Aynzenix one of the most advanced yet
               affordable brokerage technology providers globally.
             </p>
           </div>

@@ -77,7 +77,7 @@ const CTraderAdditionalFeatures = () => {
                   <Globe className="w-6 h-6 text-teal-400 animate-pulse" />
                 </div>
                 <p className="text-slate-200 font-light leading-relaxed">
-                  Capyngen takes care of all the brokerage solutions being
+                  Aynzenix takes care of all the brokerage solutions being
                   scalable, secure, and globally connected thus making your
                   brokerage ‌ ‍ ​‍​‌‍​‍‌​‍​‌‍​‍‌future-ready.
                 </p>

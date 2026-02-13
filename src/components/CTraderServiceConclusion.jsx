@@ -8,7 +8,7 @@ export default function CTraderServiceConclusion() {
   const title =
     "Conclusion: Build a Scalable, High-Performance Brokerage with cTrader";
   const intro =
-    "Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited provides brokers with the entire range of cTrader functionalities, that are:";
+    "Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited provides brokers with the entire range of cTrader functionalities, that are:";
 
   const features = [
     "White-label platform solutions for rapid brokerage launches",
@@ -18,10 +18,10 @@ export default function CTraderServiceConclusion() {
   ];
 
   const summary =
-    "Working with Capyngen means that brokers will have the equipment, linkages, and efficiency required to offer excellent trading experiences while expanding their business ​‍​‌‍​‍‌​‍​‌‍​‍‌worldwide.";
+    "Working with Aynzenix means that brokers will have the equipment, linkages, and efficiency required to offer excellent trading experiences while expanding their business ​‍​‌‍​‍‌​‍​‌‍​‍‌worldwide.";
 
   const ctaText =
-    "Deploy Complete cTrader Services for Your Brokerage – Start your high-performance setup with Capyngen.";
+    "Deploy Complete cTrader Services for Your Brokerage – Start your high-performance setup with Aynzenix.";
 
   // Animation controls & refs
   const containerRef = useRef(null);

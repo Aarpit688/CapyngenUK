@@ -5,7 +5,7 @@ import { assets } from "../assets/assets";
 export default function CapmarketServiceIntro() {
   const headline = "Empower Your Brokerage with Capmarket Technology";
   const bodyContent =
-    "Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited offers Capmarket services which includes foreign exchange, crypto, and multi-asset brokers globally. We are a one-stop technology company for a Capmarket broker offering the latest technology and servers hosting, platform integration, liquidity bridges, and white-label solutions to keep the broker operation running sustainably and the trader experience superb.";
+    "Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited offers Capmarket services which includes foreign exchange, crypto, and multi-asset brokers globally. We are a one-stop technology company for a Capmarket broker offering the latest technology and servers hosting, platform integration, liquidity bridges, and white-label solutions to keep the broker operation running sustainably and the trader experience superb.";
 
   const ctaText =
     "Launch Your Capmarket Technology Platform Today – Speak with our experts to get started.";

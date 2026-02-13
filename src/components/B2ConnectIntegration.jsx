@@ -80,11 +80,11 @@ const B2ConnectIntegration = () => {
         >
           {/* Heading */}
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white text-center">
-            Complete End-to-End B2Connect Integration by Capyngen
+            Complete End-to-End B2Connect Integration by Aynzenix
           </h2>
 
           <p className="mt-3 sm:mt-4 text-gray-300 text-sm sm:text-base lg:text-lg text-center max-w-3xl mx-auto">
-            Capyngen handles your entire liquidity infrastructure setup —
+            Aynzenix handles your entire liquidity infrastructure setup —
             stress-free.
           </p>
 

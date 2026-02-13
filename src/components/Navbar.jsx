@@ -16,25 +16,25 @@ import ScrollProgress from "./ScrollProgress";
 const socialLinks = [
   {
     icon: Facebook,
-    href: "https://www.facebook.com/profile.php?id=61571934154055",
+    href: "https://www.facebook.com/aynzenixofficial/",
     label: "Facebook",
   },
-  {
-    icon: Linkedin,
-    href: "https://www.linkedin.com/in/capyngen-private-limited-5ba173390",
-    label: "LinkedIn",
-  },
+  // {
+  //   icon: Linkedin,
+  //   href: "https://www.linkedin.com/company/aynzenix/",
+  //   label: "LinkedIn",
+  // },
   {
     icon: Instagram,
-    href: "https://www.instagram.com/capyngen_europe/",
+    href: "https://www.instagram.com/aynzenixofficial/?hl=en",
     label: "Instagram",
   },
-  { icon: FaXTwitter, href: "https://x.com/CapyngenIndia", label: "Twitter" },
-  {
-    icon: Youtube,
-    href: "https://www.youtube.com/@Capyngen-pvt-ltd",
-    label: "YouTube",
-  },
+  // { icon: FaXTwitter, href: "https://x.com/Aynzenix", label: "Twitter" },
+  // {
+  //   icon: Youtube,
+  //   href: "https://www.youtube.com/@Aynzenix",
+  //   label: "YouTube",
+  // },
 ];
 
 const Navbar = () => {
@@ -87,22 +87,19 @@ const Navbar = () => {
     <>
       {/* Fixed progress bar - always rendered, visibility controlled by navbar state */}
       <div
-        className={`fixed top-0 left-0 right-0 z-50 transition-opacity duration-300 ${
-          showNavbar ? "opacity-0 pointer-events-none" : "opacity-100"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-opacity duration-300 ${showNavbar ? "opacity-0 pointer-events-none" : "opacity-100"
+          }`}
       >
         <ScrollProgress fixed={true} />
       </div>
 
       {/* Navbar */}
       <nav
-        className={`fixed top-0 left-0 w-full transition-all duration-300 z-50 ${
-          showNavbar ? "translate-y-0" : "-translate-y-full"
-        } ${
-          shouldBeDark
+        className={`fixed top-0 left-0 w-full transition-all duration-300 z-50 ${showNavbar ? "translate-y-0" : "-translate-y-full"
+          } ${shouldBeDark
             ? "bg-slate-900/95 backdrop-blur-lg shadow-xl"
             : "bg-transparent"
-        }`}
+          }`}
       >
         <div className="max-w-[90vw] mx-auto px-0 sm:px-6 lg:px-8 relative">
           <div className="flex justify-between items-center h-16 lg:h-20">
@@ -116,9 +113,9 @@ const Navbar = () => {
               className="shrink-0 z-50 transition-transform hover:scale-105"
             >
               <img
-                src={assets.capyngenUKLogo}
+                src={assets.aynzenixLogo}
                 className="w-26 md:w-36"
-                alt={assets.capyngenUKLogo}
+                alt={assets.aynzenixLogo}
               />
             </NavLink>
 
@@ -142,18 +139,16 @@ const Navbar = () => {
                         e.preventDefault();
                         handleSameLinkClick(item.href);
                       }}
-                      className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 flex items-center gap-1 ${
-                        shouldBeDark
-                          ? "text-slate-100 hover:text-white hover:bg-slate-800/60"
-                          : "text-white hover:text-slate-200 hover:bg-white/10"
-                      }`}
+                      className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 flex items-center gap-1 ${shouldBeDark
+                        ? "text-slate-100 hover:text-white hover:bg-slate-800/60"
+                        : "text-white hover:text-slate-200 hover:bg-white/10"
+                        }`}
                     >
                       {item.label}
                       <ChevronDown
                         size={14}
-                        className={`transition-transform ${
-                          activeDropdown === idx ? "rotate-180" : ""
-                        }`}
+                        className={`transition-transform ${activeDropdown === idx ? "rotate-180" : ""
+                          }`}
                       />
                     </NavLink>
                   ) : (
@@ -163,11 +158,10 @@ const Navbar = () => {
                         e.preventDefault();
                         handleSameLinkClick(item.href);
                       }}
-                      className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 ${
-                        shouldBeDark
-                          ? "text-slate-100 hover:text-white hover:bg-slate-800/60"
-                          : "text-white hover:text-slate-200 hover:bg-white/10"
-                      }`}
+                      className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 ${shouldBeDark
+                        ? "text-slate-100 hover:text-white hover:bg-slate-800/60"
+                        : "text-white hover:text-slate-200 hover:bg-white/10"
+                        }`}
                     >
                       {item.label}
                     </NavLink>
@@ -176,11 +170,10 @@ const Navbar = () => {
                   {/* Dropdown Menu */}
                   {item.dropdown && (
                     <div
-                      className={`absolute top-full left-0 right-0 transition-all duration-200 pt-2 ${
-                        activeDropdown === idx
-                          ? "opacity-100 visible"
-                          : "opacity-0 invisible"
-                      }`}
+                      className={`absolute top-full left-0 right-0 transition-all duration-200 pt-2 ${activeDropdown === idx
+                        ? "opacity-100 visible"
+                        : "opacity-0 invisible"
+                        }`}
                     >
                       <div className="fixed inset-x-0 top-16 lg:top-20 bg-slate-900/98 backdrop-blur-lg border-b border-slate-700/30 shadow-2xl px-2 md:px-8 py-6 max-w-full">
                         <div className="max-w-7xl mx-auto">
@@ -190,10 +183,10 @@ const Navbar = () => {
                               cards.length <= 2
                                 ? `grid-cols-${cards.length}`
                                 : cards.length === 3
-                                ? "grid-cols-3"
-                                : cards.length === 4
-                                ? "grid-cols-2 md:grid-cols-4"
-                                : "grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5";
+                                  ? "grid-cols-3"
+                                  : cards.length === 4
+                                    ? "grid-cols-2 md:grid-cols-4"
+                                    : "grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5";
                             return (
                               <div
                                 key={sectionIdx}
@@ -281,9 +274,8 @@ const Navbar = () => {
             {/* Mobile Menu Toggle */}
             <button
               onClick={toggleMobileMenu}
-              className={`lg:hidden p-2 rounded-lg transition-colors duration-200 ${
-                shouldBeDark ? "hover:bg-slate-800/60" : "hover:bg-white/10"
-              }`}
+              className={`lg:hidden p-2 rounded-lg transition-colors duration-200 ${shouldBeDark ? "hover:bg-slate-800/60" : "hover:bg-white/10"
+                }`}
               aria-label="Toggle mobile menu"
             >
               {mobileMenuOpen ? (
@@ -319,9 +311,8 @@ const Navbar = () => {
                       <span className="font-medium">{item.label}</span>
                       <ChevronDown
                         size={18}
-                        className={`transition-transform ${
-                          activeDropdown === idx ? "rotate-180" : ""
-                        }`}
+                        className={`transition-transform ${activeDropdown === idx ? "rotate-180" : ""
+                          }`}
                       />
                     </button>
                     {activeDropdown === idx && (

@@ -23,13 +23,13 @@ const OneZeroServiceSolutions = () => {
             {/* Left: Text Content */}
             <div className="space-y-8">
               <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-                How Capyngen Delivers Complete{" "}
+                How Aynzenix Delivers Complete{" "}
                 <span className="text-sky-500">OneZero Solutions</span>
               </h2>
 
               <div className="prose prose-invert prose-lg">
                 <p className="text-slate-300 leading-relaxed text-lg">
-                  Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ is taking care of the whole process
+                  Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ is taking care of the whole process
                   (from setting up the OneZero to integrating the system) for
                   brokers and banks.
                 </p>

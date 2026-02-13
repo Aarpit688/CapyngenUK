@@ -95,7 +95,7 @@ const VertexFxWhyChoose = () => {
                 <p className="text-slate-300 leading-relaxed">
                   With its modular design, VertexFX connects easily to CRMs,
                   liquidity providers, risk management systems, and fintech
-                  applications. Capyngen ensures brokers receive a fully
+                  applications. Aynzenix ensures brokers receive a fully
                   optimized setup with complete management and monitoring.
                 </p>
               </div>

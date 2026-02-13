@@ -36,12 +36,12 @@ const LiquiditySupport = () => {
           <div className="rounded-2xl overflow-hidden shadow-xl shadow-black/40 border border-white/10">
             <img
               src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1000&auto=format&fit=crop"
-              alt="Capyngen Liquidity Support"
+              alt="Aynzenix Liquidity Support"
               className="w-full h-full object-cover"
             />
             <img
               src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop"
-              alt="Capyngen Liquidity Support"
+              alt="Aynzenix Liquidity Support"
               className="w-full h-full object-cover"
             />
           </div>
@@ -59,13 +59,13 @@ const LiquiditySupport = () => {
         >
           {/* HEADING */}
           <h2 className="text-4xl md:text-5xl font-bold leading-tight text-white">
-            How Capyngen Supports Startups and Established Brokers
+            How Aynzenix Supports Startups and Established Brokers
           </h2>
 
           {/* Paragraph */}
           <p className="text-gray-300 text-lg leading-relaxed">
             In​‍​‌‍​‍‌​‍​‌‍​‍‌ each case where you are either creating a
-            brand-new brokerage or enhancing the existing system, Capyngen
+            brand-new brokerage or enhancing the existing system, Aynzenix
             delivers tailored solutions for liquidity providers that meet your
             requirements.
           </p>
@@ -105,7 +105,7 @@ const LiquiditySupport = () => {
             highest institutional-grade level, thereby ensuring that every
             single trade is carried out with accuracy and stability, thus
             providing your clients a top-notch trading
-            ​‍​‌‍​‍‌​‍​‌‍​‍‌experience.
+            ‍​‌‍​‍‌​‍​‌‍​‍‌experience.
           </p>
         </motion.div>
       </div>

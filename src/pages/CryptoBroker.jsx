@@ -59,7 +59,7 @@ const CryptoBroker = () => {
     },
     {
       question:
-        "Is Capyngen capable of creating a crypto broker platform that is tailored to my needs?",
+        "Is Aynzenix capable of creating a crypto broker platform that is tailored to my needs?",
       answer:
         "By all means, we are experts in the creation of custom cryptocurrency broker platforms both for startups and existing brokers.",
     },
@@ -76,7 +76,7 @@ const CryptoBroker = () => {
     },
     {
       question:
-        "What level of security do Capyngen’s crypto broker IT solutions provide?",
+        "What level of security do Aynzenix’s crypto broker IT solutions provide?",
       answer:
         "We implement state-of-the-art encoding, good server facilities, and follow worldwide legal provisions to ensure secure systems.",
     },
@@ -93,7 +93,7 @@ const CryptoBroker = () => {
     },
     {
       question:
-        "Is Capyngen a worldwide leader in providing technology solutions for crypto brokers?",
+        "Is Aynzenix a worldwide leader in providing technology solutions for crypto brokers?",
       answer:
         "We are located in London but operate worldwide offering full crypto broker IT solutions to our clients.",
     },
@@ -117,7 +117,7 @@ const CryptoBroker = () => {
         textColor="text-white"
         title="Grow Your Crypto Brokerage with Easy IT Solutions"
         description={[
-          "Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is a provider of easy-to-use, secure, and fully featured crypto broker IT solutions. As a one-stop-shop for custom trading platforms, CRM, and apps, we enable brokers to carry out operations efficiently, attract clients, and expand globally. If you are going to start a new brokerage or simply give a facelift to the old one, our solutions are designed to be with you ​‍​‌‍​‍‌​‍​‌‍​‍‌continually.",
+          "Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is a provider of easy-to-use, secure, and fully featured crypto broker IT solutions. As a one-stop-shop for custom trading platforms, CRM, and apps, we enable brokers to carry out operations efficiently, attract clients, and expand globally. If you are going to start a new brokerage or simply give a facelift to the old one, our solutions are designed to be with you ​‍​‌‍​‍‌​‍​‌‍​‍‌continually.",
         ]}
         buttonText="Contact Us"
         image="https://media.smallbiztrends.com/2022/04/cryptocurrency-broker.png"
@@ -126,14 +126,14 @@ const CryptoBroker = () => {
         heading="Understanding Crypto Brokers and How We Help"
         paragraphs={[
           "A​‍​‌‍​‍‌​‍​‌‍​‍‌ crypto  brokerage is a service that enables users to purchase, sell, and exchange digital currencies. Though it might be a direct activity, a crypto brokerage entails more than just executing the trades. Brokers need to oversee customer accounts, conform to the rules, keep their systems secure, and offer a convenient trading experience.",
-          "We at Capyngen Technologies deliver a full range of crypto broker technology solutions that simplify the challenges. Our talented staff creates tailored cryptocurrency broker platform solutions that match your business requirements, implements the client management system software to manage customers effectively, and installs the trading platform, which is the fastest, most reliable, and automated.",
+          "We at Aynzenix Technologies deliver a full range of crypto broker technology solutions that simplify the challenges. Our talented staff creates tailored cryptocurrency broker platform solutions that match your business requirements, implements the client management system software to manage customers effectively, and installs the trading platform, which is the fastest, most reliable, and automated.",
           "Moreover, we offer digital marketing services to support brokers in customer acquisition and retention worldwide. With the help of technology, security, and tactical assistance, we let brokers run their businesses smoothly and make them ​‍​‌‍​‍‌​‍​‌‍​‍‌scalable.",
         ]}
       />
       <ForexSolutions
         heading="Complete and Easy-to-Use Crypto Broker Solutions"
         subheading="We​‍​‌‍​‍‌​‍​‌‍​‍‌ have created our solutions to facilitate crypto brokerage management to be a simple task. We offer the following:"
-        outro="By having these instruments at your disposal, Capyngen turns into your reliable technology partner who is always there when you need to keep your brokerage competitive and ​‍​‌‍​‍‌​‍​‌‍​‍‌efficient."
+        outro="By having these instruments at your disposal, Aynzenix turns into your reliable technology partner who is always there when you need to keep your brokerage competitive and ​‍​‌‍​‍‌​‍​‌‍​‍‌efficient."
         sectionBg="bg-gradient-to-b from-black via-gray-900 to-black"
         solutions={[
           {
@@ -169,8 +169,8 @@ const CryptoBroker = () => {
         ]}
       />
       <IndustryServices
-        heading="Why Choose Capyngen  or Crypto Broker IT Solutions"
-        subheading="By​‍​‌‍​‍‌​‍​‌‍​‍‌ selecting Capyngen, your brokerage will be able to enjoy multiple benefits such as:"
+        heading="Why Choose Aynzenix  or Crypto Broker IT Solutions"
+        subheading="By​‍​‌‍​‍‌​‍​‌‍​‍‌ selecting Aynzenix, your brokerage will be able to enjoy multiple benefits such as:"
         cardBg="bg-gray-700"
         cardText="text-white"
         footer="Our innovations serve as a guarantee that your brokerage will be able to function in a stable, secure, and efficient manner, even in a fiercely competitive ​‍​‌‍​‍‌​‍​‌‍​‍‌market."

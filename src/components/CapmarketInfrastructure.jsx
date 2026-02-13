@@ -25,7 +25,7 @@ const CapmarketInfrastructure = () => {
         <section className="max-w-6xl w-full text-center mb-10 space-y-6 animate-fade-in-up">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
             <span className="block text-white">
-              How Capyngen Builds a Complete Capmarket Trading Infrastructure
+              How Aynzenix Builds a Complete Capmarket Trading Infrastructure
             </span>
           </h1>
         </section>
@@ -40,7 +40,7 @@ const CapmarketInfrastructure = () => {
                 <Network className="w-32 h-32 text-white" />
               </div>
               <p className="text-lg md:text-2xl text-slate-200 leading-relaxed font-light">
-                Capyngen Technologies UK Limited is the one-stop provider of the
+                Aynzenix Technologies UK Limited is the one-stop provider of the
                 entire range of end-to-end Capmarket trading platform solutions
                 which are specifically designed for brokers operating globally.
               </p>

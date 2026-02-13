@@ -16,12 +16,12 @@ export const Careers7 = () => {
           {/* Text Content */}
           <div className="lg:col-span-7 mb-12 lg:mb-0 order-2 lg:order-1">
             <h2 className="text-4xl font-extrabold text-white mb-6 leading-tight drop-shadow-lg">
-              Grow Your Future With Capyngen
+              Grow Your Future With Aynzenix
             </h2>
 
             <div className="text-gray-300 text-lg leading-relaxed mb-8">
               <p>
-                Capyngen Technologies UK Limited is not just a company — it is a
+                Aynzenix Technologies UK Limited is not just a company — it is a
                 worldwide community of innovators creating meaningful impact. If
                 you want to build, learn, and work on products shaping the
                 fintech industry — this is where you belong.
@@ -45,7 +45,7 @@ export const Careers7 = () => {
 
             <img
               src={assets.careers9}
-              alt="Professional growth at Capyngen"
+              alt="Professional growth at Aynzenix"
               className="relative rounded-md shadow-2xl w-full object-cover h-[500px] border border-white/10"
             />
 

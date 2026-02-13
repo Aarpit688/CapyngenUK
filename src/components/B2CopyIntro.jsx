@@ -92,7 +92,7 @@ const B2CopyIntro = () => {
             </h2>
 
             <p className="mt-6 text-lg text-slate-300 leading-relaxed">
-              Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is the one to
+              Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is the one to
               provide the most advanced B2Copy broker technology solutions to
               forex, crypto, and multi-asset brokers.
             </p>

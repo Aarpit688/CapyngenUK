@@ -13,17 +13,17 @@ const Homepage = () => {
   const faqItems = [
     {
       question:
-        "What Capyngen Technologies UK Limited do as a global technology provider?",
+        "What Aynzenix Technologies UK Limited do as a global technology provider?",
       answer:
-        "Capyngen is a global provider of forex & Fintech tech including with new trends related to white-label trading platforms, liquidity solutions, CRM systems, and turnkey brokerage setups for brokers worldwide.",
+        "Aynzenix is a global provider of forex & Fintech tech including with new trends related to white-label trading platforms, liquidity solutions, CRM systems, and turnkey brokerage setups for brokers worldwide.",
     },
     {
-      question: "Does Capyngen provide a full turnkey forex brokerage setup?",
+      question: "Does Aynzenix provide a full turnkey forex brokerage setup?",
       answer:
         "We are producing a full SiRiX+ advanced CRM IB/Affiliate systems setup along with the cloud infrastructure including market data, risk management, and liquidity & of course turnkey brokerage solution.",
     },
     {
-      question: "What trading platform does Capyngen offer?",
+      question: "What trading platform does Aynzenix offer?",
       answer:
         "We offer the trading platform of next generation technologies Open Source SiRiX with Social Trading, comprehensive TradingView Charting, Multi-Device Access, Smart Order Types, and Trend Hedge/Netting Support.",
     },
@@ -33,7 +33,7 @@ const Homepage = () => {
         "By means of our Liquidity Prime, the customer will get real-time pricing, extremely deep liquidity, prompt and the most accurate execution of orders, and multi-asset data feeds for forex, commodities, indices, and the crypto world.",
     },
     {
-      question: "Does Capyngen offer a white-label CRM for brokers?",
+      question: "Does Aynzenix offer a white-label CRM for brokers?",
       answer:
         "The answer is positive. Our WL Core CRM provides KYC/AML tools, IB management innovations, payment gateway integration, custom workflows, and a centralized data view targeting brokerage operations.",
     },
@@ -49,12 +49,12 @@ const Homepage = () => {
         "Definitely. Our Affiliate & IB Management System supports multi-tier structures, is entirely automated, and is created to extend your partner network worldwide.",
     },
     {
-      question: "Can Capyngen integrate external trading platforms or CRMs?",
+      question: "Can Aynzenix integrate external trading platforms or CRMs?",
       answer:
         "Indeed. Our integration services are open for various-level APIs of trading platforms, CRM systems, liquidity providers, payment gateways, and all forex distribution systems to unify the work of the company.",
     },
     {
-      question: "Does Capyngen provide cloud and infrastructure setup?",
+      question: "Does Aynzenix provide cloud and infrastructure setup?",
       answer:
         "Exactly. Our Cloud Infrastructure Implementation is centered on AWS/Azure going live, a secure infra build, and a scalable cloud environment for worldwide brokerages.",
     },
@@ -64,7 +64,7 @@ const Homepage = () => {
         "Yes. We are capable of SaaS integration, CRM workflow automation, software delivery automation, and tech stack optimization for fintech and forex companies.",
     },
     {
-      question: "Can Capyngen build mobile trading or fintech apps?",
+      question: "Can Aynzenix build mobile trading or fintech apps?",
       answer:
         "Definitely, the scope of our Mobile Platform Development covers fintech app architecture, building custom app ecosystems, and providing secure solutions for mobile trading.",
     },
@@ -74,20 +74,20 @@ const Homepage = () => {
         "Besides that, we are also in charge of E-commerce Platform Development services, featuring omnichannel retail systems and the construction of customized e-commerce architectures.",
     },
     {
-      question: "What security solutions does Capyngen offer?",
+      question: "What security solutions does Aynzenix offer?",
       answer:
         "Among the measures we use are complete security for digital assets, the protection of platforms, data encryption, and risk control of the highest level for enterprises operating in forex and the fintech field.",
     },
     {
       question:
-        "Can Capyngen customize technology according to the broker’s needs?",
+        "Can Aynzenix customize technology according to the broker’s needs?",
       answer:
         "Certainly. Our Custom Development Services lead to the delivery of tailor-made trading tools, CRM customizations, API integrations, and broker-specific fintech solutions.",
     },
     {
-      question: "Why should a broker choose Capyngen Technologies UK Limited?",
+      question: "Why should a broker choose Aynzenix Technologies UK Limited?",
       answer:
-        "In short, this is the reason why a broker would want to work with Capyngen Technologies UK Limited: smart brokerage technology, high-speed connectivity, reliable liquidity, white-label solutions, end-to-end brokerage setup, and global fintech expertise — all in one place.",
+        "In short, this is the reason why a broker would want to work with Aynzenix Technologies UK Limited: smart brokerage technology, high-speed connectivity, reliable liquidity, white-label solutions, end-to-end brokerage setup, and global fintech expertise — all in one place.",
     },
   ];
 

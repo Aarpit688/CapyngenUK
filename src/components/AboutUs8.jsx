@@ -47,7 +47,7 @@ const AboutUs8 = () => {
 
               <p className="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed mb-4">
                 We strongly encourage our clients to perform transactions
-                exclusively with accounts officially registered under Capyngen.
+                exclusively with accounts officially registered under Aynzenix.
               </p>
 
               <p className="text-gray-400 text-xs sm:text-sm lg:text-base leading-relaxed mb-8 sm:mb-10">
@@ -66,10 +66,10 @@ const AboutUs8 = () => {
                       Verify Invoices At
                     </p>
                     <a
-                      href="mailto:billing@capyngen.co.uk"
+                      href="mailto:billing@Aynzenix.co.uk"
                       className="text-white font-bold text-base sm:text-lg hover:underline break-all"
                     >
-                      billing@capyngen.co.uk
+                      billing@Aynzenix.co.uk
                     </a>
                   </div>
                 </div>

@@ -41,7 +41,7 @@ const CTraderWhyChoose = () => {
             {/* Left: Problem/Solution Narrative */}
             <div className="space-y-8">
               <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-                Why Brokers Choose Capyngen for{" "}
+                Why Brokers Choose Aynzenix for{" "}
                 <span className="text-teal-500">
                   cTrader Technology Solutions
                 </span>
@@ -68,10 +68,10 @@ const CTraderWhyChoose = () => {
                   <CheckCircle2 className="w-5 h-5 text-teal-400 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="text-slate-200 font-medium text-sm mb-1">
-                      The Capyngen Solution
+                      The Aynzenix Solution
                     </h4>
                     <p className="text-slate-300 text-sm leading-relaxed">
-                      These problems are resolved by Capyngen Technologies UK
+                      These problems are resolved by Aynzenix Technologies UK
                       Limited through tailor-made cTrader solutions that are
                       intended to deliver a trading infrastructure that is
                       stable, scalable, and interconnected worldwide.
@@ -106,7 +106,7 @@ const CTraderWhyChoose = () => {
           {/* Conclusion Text */}
           <div className="mt-12 pt-8 border-t border-slate-800 text-center">
             <p className="text-lg text-slate-300 font-light leading-relaxed max-w-4xl mx-auto">
-              "Through Capyngen, brokers are able to concentrate on client
+              "Through Aynzenix, brokers are able to concentrate on client
               acquisition and their business growth while the technical
               installation and support are entrusted to the professionals."
             </p>

@@ -36,7 +36,7 @@ export default function MT5ServiceAdvantages() {
           </h2>
           <p className="text-slate-400 text-center text-lg leading-relaxed">
             MT5 gives brokers performance, speed, and multi-asset capability —
-            all backed by Capyngen’s secure infrastructure and technology stack.
+            all backed by Aynzenix’s secure infrastructure and technology stack.
           </p>
         </div>
 

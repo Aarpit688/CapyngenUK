@@ -13,7 +13,7 @@ const B2TraderFeatures = () => {
     {
       icon: <FaChartLine className="text-cyan-300 text-3xl" />,
       title: "B2Trader Liquidity & Pricing Integration",
-      desc: "Capyngen implements B2Trader liquidity solutions that guarantee correct pricing, tight spreads, quick execution, and a stable market connection for forex, crypto, and CFD brokers.",
+      desc: "Aynzenix implements B2Trader liquidity solutions that guarantee correct pricing, tight spreads, quick execution, and a stable market connection for forex, crypto, and CFD brokers.",
     },
     {
       icon: <FaPlug className="text-cyan-300 text-3xl" />,

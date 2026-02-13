@@ -36,7 +36,7 @@ const B2CopyLaunch = () => {
             transition={{ duration: 0.6 }}
             className="text-4xl font-bold leading-tight"
           >
-            Launch a Complete B2Copy Platform with Capyngen
+            Launch a Complete B2Copy Platform with Aynzenix
           </motion.h2>
 
           <motion.p
@@ -45,7 +45,7 @@ const B2CopyLaunch = () => {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="text-gray-300 text-lg mt-6 max-w-2xl leading-relaxed"
           >
-            Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is the company that
+            Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is the company that
             offers the full B2Copy copy trading solution with the following
             services:
           </motion.p>

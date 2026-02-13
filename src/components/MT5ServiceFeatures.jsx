@@ -3,7 +3,7 @@ import { Workflow, Zap, Server, Globe2 } from "lucide-react";
 
 export default function MT5ServiceFeatures() {
   // Exact content strings
-  const title = "Key Features of Capyngen’s MT5 Services";
+  const title = "Key Features of Aynzenix’s MT5 Services";
 
   const features = [
     {

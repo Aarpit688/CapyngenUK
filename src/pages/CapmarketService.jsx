@@ -20,7 +20,7 @@ const CapmarketService = () => {
         "Capmarket services consist of a multi-asset trading platform, liquidity bridges, server hosting, white-label solutions, and integration services for brokers.",
     },
     {
-      question: "Can Capyngen integrate Capmarket with MT5 platforms?",
+      question: "Can Aynzenix integrate Capmarket with MT5 platforms?",
       answer:
         "Yes, we enable the integration of Capmarket with trading platforms such as MT5 and other multi-asset brokers.",
     },
@@ -48,10 +48,10 @@ const CapmarketService = () => {
     {
       question: "Do you provide ongoing maintenance and support?",
       answer:
-        "Yes, Capyngen is responsible for hosting, technical assistance, updates, and the optimization of all Capmarket services.",
+        "Yes, Aynzenix is responsible for hosting, technical assistance, updates, and the optimization of all Capmarket services.",
     },
     {
-      question: "Is Capyngen a trusted Capmarket technology provider UK-based?",
+      question: "Is Aynzenix a trusted Capmarket technology provider UK-based?",
       answer:
         "Yes, we are located in the UK and deliver Capmarket broker technology solution services to clients globally.",
     },
@@ -60,7 +60,7 @@ const CapmarketService = () => {
     <div>
       <Banner7
         title="Full-Scale Capmarket Platform Technology Services"
-        description="From server deployment to integration, Capyngen delivers complete Capmarket technology solutions for efficient brokerage operations."
+        description="From server deployment to integration, Aynzenix delivers complete Capmarket technology solutions for efficient brokerage operations."
         ctaText="Join Now"
         ctaLink="/contact-us"
         cards={[

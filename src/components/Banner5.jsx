@@ -17,7 +17,7 @@ const Banner5 = () => {
             </h1>
 
             <p className="mt-6 text-lg text-gray-300 sm:mt-8">
-              Capyngen delivers enterprise-grade technology to optimize,
+              Aynzenix delivers enterprise-grade technology to optimize,
               integrate, and enhance your B2Trader ecosystem for peak
               performance.
             </p>

@@ -21,7 +21,7 @@ const ArkTrading = () => {
     {
       question: "Do you offer Ark Trading white-label solutions?",
       answer:
-        "Sure, Capyngen offers globally fully branded Ark Trading white-label setups for brokers.",
+        "Sure, Aynzenix offers globally fully branded Ark Trading white-label setups for brokers.",
     },
     {
       question: "Can Ark Trading connect to liquidity providers?",
@@ -60,7 +60,7 @@ const ArkTrading = () => {
         image={assets.arkTrading1}
         badge=""
         name="Premium IT Solutions for Ark Trading Platforms"
-        description="Capyngen builds reliable, secure technology to optimize your Ark Trading system for speed, automation, and operational growth."
+        description="Aynzenix builds reliable, secure technology to optimize your Ark Trading system for speed, automation, and operational growth."
         buttonText="Get to Know More"
       />
       <ArkTradingIntro />

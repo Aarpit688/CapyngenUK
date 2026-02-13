@@ -21,7 +21,7 @@ const MT5Service = () => {
         "MT5 is a multi-asset trading platform for forex, CFDs, commodities, and cryptocurrencies, that features advanced charting and algorithmic trading functionalities.",
     },
     {
-      question: "Can Capyngen integrate MT5 for new and existing brokers?",
+      question: "Can Aynzenix integrate MT5 for new and existing brokers?",
       answer:
         "We do platform integration and server setup for new and existing brokers. So the answer is yes.",
     },
@@ -43,7 +43,7 @@ const MT5Service = () => {
     {
       question: "Can MT5 integrate with existing MT4/MT5 platforms?",
       answer:
-        "Capyngen offers a solution that allows global integration of MT5 with multi-asset brokers and Fintech firms.",
+        "Aynzenix offers a solution that allows global integration of MT5 with multi-asset brokers and Fintech firms.",
     },
     {
       question: "Do you provide ongoing support after the deployment?",
@@ -51,7 +51,7 @@ const MT5Service = () => {
         "Indeed, we continue to provide hosting, tech support, updating, and optimization for any MT5 service long after the initial deployment.",
     },
     {
-      question: "Is Capyngen a trusted MT5 technology partner worldwide?",
+      question: "Is Aynzenix a trusted MT5 technology partner worldwide?",
       answer:
         "Based in the UK, we are a global MetaTrader 5 platform provider for brokers and thus, 'yes', is the answer.",
     },

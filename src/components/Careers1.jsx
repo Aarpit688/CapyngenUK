@@ -19,7 +19,7 @@ export default function Careers1() {
               <img
                 className="absolute inset-0 w-full h-full object-cover opacity-90"
                 src={assets.careers1}
-                alt="Capyngen Team"
+                alt="Aynzenix Team"
               />
 
               {/* Dark Gradient */}
@@ -29,14 +29,14 @@ export default function Careers1() {
             {/* CONTENT */}
             <div className="lg:col-span-7 p-10 sm:p-14 lg:p-16 flex flex-col justify-center text-white">
               <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6 drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)]">
-                Careers at Capyngen Technologies UK Limited
+                Careers at Aynzenix Technologies UK Limited
               </h1>
 
               <div className="prose prose-lg prose-invert text-gray-300">
                 <p className="mb-6">
                   Be a part of the transformation in global trading by working
                   with one of the fastest-growing fintech technology companies
-                  globally. At Capyngen Technologies UK Limited, we create
+                  globally. At Aynzenix Technologies UK Limited, we create
                   cutting-edge solutions for Forex, Crypto, and Multi-Asset
                   brokerages globally. This journey is powered by a mix of
                   thinkers, innovators, developers, and leaders — who happen to
@@ -45,7 +45,7 @@ export default function Careers1() {
                 </p>
                 <p className="mb-8">
                   If you are an experienced fintech professional or a motivated
-                  beginner, Capyngen will still be able to offer you an
+                  beginner, Aynzenix will still be able to offer you an
                   environment where you can develop, innovate and have a genuine
                   impact on the worldwide financial technology sector.
                 </p>

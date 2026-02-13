@@ -6,7 +6,7 @@ export default function Careers2() {
     {
       title: "A Global Fintech Powerhouse",
       description:
-        "With such a global presence of Capyngen as the UK, USA, India, South Africa, Dubai, and Asia-Pacific and your teams settled in any of these regions, you are still able to work in a global ecosystem. Work with the best in the industry and learn from experienced developers, compliance specialists, and strategists, in the creation of next-gen trading technology.",
+        "With such a global presence of Aynzenix as the UK, USA, India, South Africa, Dubai, and Asia-Pacific and your teams settled in any of these regions, you are still able to work in a global ecosystem. Work with the best in the industry and learn from experienced developers, compliance specialists, and strategists, in the creation of next-gen trading technology.",
       icon: Globe2,
       image:
         "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
@@ -30,7 +30,7 @@ export default function Careers2() {
     {
       title: "A Culture That Empowers You",
       description:
-        "Capyngen is about innovation, responsibility, honesty, and community. Our employees have the liberty to think beyond, bring up their ideas and rattle the cage by challenging the status quo.",
+        "Aynzenix is about innovation, responsibility, honesty, and community. Our employees have the liberty to think beyond, bring up their ideas and rattle the cage by challenging the status quo.",
       icon: HeartHandshake,
       image:
         "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80",

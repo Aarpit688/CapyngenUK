@@ -57,7 +57,7 @@ const ArkTradingInfrastructure = () => {
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-rose-500 via-pink-600 to-rose-500"></div>
 
               <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-6">
-                How Capyngen Builds a Complete{" "}
+                How Aynzenix Builds a Complete{" "}
                 <span className="text-rose-500">
                   Ark Trading Infrastructure
                 </span>
@@ -65,7 +65,7 @@ const ArkTradingInfrastructure = () => {
 
               <div className="prose prose-invert prose-lg mb-8">
                 <p className="text-slate-300 leading-relaxed text-base md:text-lg">
-                  Capyngen Technologies UK Limited is an end-to-end technology
+                  Aynzenix Technologies UK Limited is an end-to-end technology
                   provider for Ark Trading that takes care of the entire setup
                   process.
                 </p>

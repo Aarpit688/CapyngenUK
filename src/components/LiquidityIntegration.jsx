@@ -46,13 +46,13 @@ const LiquidityIntegration = () => {
           className="space-y-6"
         >
           <h2 className="text-4xl md:text-5xl font-bold leading-tight text-white">
-            Why Choose Capyngen for Liquidity Provider Integration
+            Why Choose Aynzenix for Liquidity Provider Integration
           </h2>
 
           <p className="text-gray-300 text-lg leading-relaxed max-w-xl">
             Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ have to overcome several problems when they
             combine liquidity. These problems are latency, inconsistent pricing,
-            and high technical complexity. Capyngen Technologies UK Limited
+            and high technical complexity. Aynzenix Technologies UK Limited
             solves these problems by offering a complete set of solutions for
             liquidity provider integration with the following features:
           </p>
@@ -100,7 +100,7 @@ const LiquidityIntegration = () => {
         liquidity solutions that are secure, reliable, and fully integrated.
         These solutions lead to the improvement of the execution quality, risk
         minimization, and the increase of the client satisfaction
-        ​‍​‌‍​‍‌​‍​‌‍​‍‌level.
+        ‍​‌‍​‍‌​‍​‌‍​‍‌level.
       </motion.p>
     </section>
   );

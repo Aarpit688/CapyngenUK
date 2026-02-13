@@ -13,7 +13,7 @@ const MT5Section = () => {
         <div className="space-y-6">
           <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-emerald-200">
-              Key Features of Capyngen’s MT5 Services
+              Key Features of Aynzenix’s MT5 Services
             </span>
           </h2>
 

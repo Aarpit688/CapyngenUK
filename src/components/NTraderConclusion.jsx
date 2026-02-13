@@ -43,7 +43,7 @@ const NTraderConclusion = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-8 leading-tight">
               Build a Complete{" "}
               <span className="text-red-500">nTrader-Based Brokerage</span> with
-              Capyngen
+              Aynzenix
             </h2>
 
             <p className="text-slate-300 text-lg leading-relaxed mb-10">

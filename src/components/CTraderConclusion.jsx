@@ -48,7 +48,7 @@ const CTraderConclusion = () => {
               <span className="text-teal-500">cTrader</span>
             </h2>
             <p className="text-slate-300 text-lg leading-relaxed">
-              Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ working with Capyngen Technologies UK
+              Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ working with Aynzenix Technologies UK
               Limited have the ability to use the full range of cTrader services
               which include:
             </p>
@@ -78,10 +78,10 @@ const CTraderConclusion = () => {
             <div className="absolute inset-0 bg-teal-500/5 rounded-2xl pointer-events-none"></div>
             <div className="flex flex-col items-center gap-4">
               <p className="text-slate-300 text-lg leading-relaxed max-w-4xl">
-                "Working with Capyngen is the way forward for brokers to have
+                "Working with Aynzenix is the way forward for brokers to have
                 the tech, connectivity, and performance needed to deliver
                 top-notch trading experiences while expanding their business
-                ​‍​‌‍​‍‌​‍​‌‍​‍‌worldwide."
+                ‍​‌‍​‍‌​‍​‌‍​‍‌worldwide."
               </p>
             </div>
           </div>

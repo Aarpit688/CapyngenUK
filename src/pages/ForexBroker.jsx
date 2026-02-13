@@ -27,7 +27,7 @@ const ForexBroker = () => {
     },
     {
       question:
-        "Is it possible for Capyngen to create a trading platform that is unique for my brokerage?",
+        "Is it possible for Aynzenix to create a trading platform that is unique for my brokerage?",
       answer:
         "Indeed, we are experts in creating custom trading platforms for the forex market that are specifically designed based on your business needs.",
     },
@@ -39,13 +39,13 @@ const ForexBroker = () => {
     },
     {
       question:
-        "Does Capyngen offer digital marketing services to forex brokers?",
+        "Does Aynzenix offer digital marketing services to forex brokers?",
       answer:
         "Yes, we do. We use technology and digital marketing strategies to help brokers reach their potential clients anywhere in the world.",
     },
     {
       question:
-        "Are Capyngen's forex technology solutions reliable in terms of security?",
+        "Are Aynzenix's forex technology solutions reliable in terms of security?",
       answer:
         "We take care of security by incorporating the latest encryption techniques, using secure servers and designing the system architecture in a way that is easy to comply with security regulations.",
     },
@@ -62,7 +62,7 @@ const ForexBroker = () => {
         "We provide complete post-implementation support, maintenance, and regular updates to make sure your technology is always up to date and in good working condition.",
     },
     {
-      question: "Does Capyngen provide their services internationally?",
+      question: "Does Aynzenix provide their services internationally?",
       answer:
         "Yes, we are a UK-based company, but we offer our services and provide forex technology solutions to clients and brokers anywhere in the world.",
     },
@@ -71,7 +71,7 @@ const ForexBroker = () => {
     <div>
       <Banner1
         title="Empowering Modern Forex Brokers with Advanced Trading Technology"
-        subtitle="Capyngen Technologies UK Limited delivers secure, scalable, and customizable IT solutions built to launch and grow your forex brokerage with confidence."
+        subtitle="Aynzenix Technologies UK Limited delivers secure, scalable, and customizable IT solutions built to launch and grow your forex brokerage with confidence."
         ctaText="Contact Now"
         noiseImg={assets.forexBroker}
         illustrationImg={assets.forexBroker}
@@ -82,7 +82,7 @@ const ForexBroker = () => {
 
       <ForexLanding
         heroTitle="Transforming Forex Brokerage with Advanced IT Solutions"
-        heroDescription="In​‍​‌‍​‍‌​‍​‌‍​‍‌ the quickly changing world of forex trading, the proper technology is not merely an advantage—it is a must. Capyngen Technologies UK Limited, a company in the UK with clients all over the world, is focused on delivering Forex Broker IT Solutions that are meant to provide brokers with the power, improve trading experiences, and make operations more efficient. If you are a broker going for a new business or a mature company, our inventive forex broker technology solutions guarantee that your business will be leading in the market that is getting more and more ​‍​‌‍​‍‌​‍​‌‍​‍‌competitive."
+        heroDescription="In​‍​‌‍​‍‌​‍​‌‍​‍‌ the quickly changing world of forex trading, the proper technology is not merely an advantage—it is a must. Aynzenix Technologies UK Limited, a company in the UK with clients all over the world, is focused on delivering Forex Broker IT Solutions that are meant to provide brokers with the power, improve trading experiences, and make operations more efficient. If you are a broker going for a new business or a mature company, our inventive forex broker technology solutions guarantee that your business will be leading in the market that is getting more and more ​‍​‌‍​‍‌​‍​‌‍​‍‌competitive."
         primaryBtn={{ label: "Get Started", link: "#" }}
         secondaryBtn={{ label: "", link: "" }}
         heroImage={assets.forexBroker2}
@@ -107,8 +107,8 @@ const ForexBroker = () => {
       <ForexEmpowerment
         title="What is a Forex Broker and How We Empower Them"
         description={`A​‍​‌‍​‍‌​‍​‌‍​‍‌ forex broker is a financial services provider that allows traders and investors to purchase and sell currencies in the global forex market. Forex brokers are the middlemen who provide trading platforms, account management tools, and access to liquidity providers. However, in today’s competitive market, merely executing trades is not enough—brokers have to use advanced technology, robust CRM systems, and innovative platforms not only to attract clients but also to ensure compliance and operate efficiently.`}
-        sectionTitle="How Capyngen Empowers Brokers"
-        sectionDescription={`Capyngen Technologies UK Limited is the answer to this problem. We, as a leading Forex technology provider, offer end-to-end solutions for brokers of any size:`}
+        sectionTitle="How Aynzenix Empowers Brokers"
+        sectionDescription={`Aynzenix Technologies UK Limited is the answer to this problem. We, as a leading Forex technology provider, offer end-to-end solutions for brokers of any size:`}
         cards={[
           {
             icon: <FaChartLine className="text-indigo-400 text-2xl" />,
@@ -137,7 +137,7 @@ const ForexBroker = () => {
       <ForexSolutions
         heading="Comprehensive Forex Broker Software Solutions"
         subheading="Our​‍​‌‍​‍‌​‍​‌‍​‍‌ company provides numerous forex broker software solutions that are suitable for any type of business:"
-        outro="By offering these solutions, Capyngen is a forex technology provider that changes your brokerage to a globally competitive enterprise with high ​‍​‌‍​‍‌​‍​‌‍​‍‌performance."
+        outro="By offering these solutions, Aynzenix is a forex technology provider that changes your brokerage to a globally competitive enterprise with high ​‍​‌‍​‍‌​‍​‌‍​‍‌performance."
         sectionBg="bg-gradient-to-b from-black via-gray-900 to-black"
         solutions={[
           {
@@ -175,7 +175,7 @@ const ForexBroker = () => {
       <ForexBenefits />
       <ForexExpertise
         title="Our Expertise as a Forex Technology Provider"
-        subtitle="Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is a perfect blend of technical expertise, domain knowledge, and client-focused innovation. Our team saw no better way of understanding your workflow, challenges, and goals than working closely with your brokerage. We deliver solutions that include:"
+        subtitle="Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is a perfect blend of technical expertise, domain knowledge, and client-focused innovation. Our team saw no better way of understanding your workflow, challenges, and goals than working closely with your brokerage. We deliver solutions that include:"
         outroText="With us, you get not only a software vendor but also a business enabler who will help you to grow, attract clients, and keep up with the market leaders in a competitive ​‍​‌‍​‍‌​‍​‌‍​‍‌environment."
         expertise={[
           {
@@ -201,10 +201,10 @@ const ForexBroker = () => {
         ]}
       />
       <ForexConclusion
-        heading="Conclusion: Elevate Your Brokerage with Capyngen’s IT Solutions"
+        heading="Conclusion: Elevate Your Brokerage with Aynzenix’s IT Solutions"
         paragraphs={[
-          "Capyngen Technologies UK Limited is not only a software provider—it is your strategic technology partner in the forex brokerage area. We deliver end-to-end services from forex broker software solutions to CRM integration and digital marketing strategies that ensure your brokerage is running at peak efficiency.",
-          "Make the move to a brokerage that is ready for tomorrow’s challenges. Collaborate with Capyngen and feel how easy and effective tech solutions can be when they are innovative, dependable, and in line with global standards.",
+          "Aynzenix Technologies UK Limited is not only a software provider—it is your strategic technology partner in the forex brokerage area. We deliver end-to-end services from forex broker software solutions to CRM integration and digital marketing strategies that ensure your brokerage is running at peak efficiency.",
+          "Make the move to a brokerage that is ready for tomorrow’s challenges. Collaborate with Aynzenix and feel how easy and effective tech solutions can be when they are innovative, dependable, and in line with global standards.",
         ]}
       />
       <FaqSection items={faqItems} />

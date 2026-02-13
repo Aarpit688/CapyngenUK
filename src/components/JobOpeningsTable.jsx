@@ -8,7 +8,7 @@ const JobOpeningsTable = () => {
   const [error, setError] = useState(null);
   const [selectedJob, setSelectedJob] = useState(null);
 
-  const API_URL = "https://api.capyngen.com/api/careers";
+  const API_URL = "https://api.Aynzenix.com/api/careers";
 
   useEffect(() => {
     const fetchJobs = async () => {

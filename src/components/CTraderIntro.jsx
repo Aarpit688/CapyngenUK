@@ -57,7 +57,7 @@ const CTraderIntro = () => {
                 platform.
               </p>
               <p className="text-slate-300 leading-relaxed text-lg border-l-2 border-teal-500/30 pl-4">
-                We at Capyngen Technologies, assist brokers in integrating and
+                We at Aynzenix Technologies, assist brokers in integrating and
                 setting up the cTrader platform, customizing the software to
                 match the business requirements, and providing reliable
                 connectivity for smooth trading.

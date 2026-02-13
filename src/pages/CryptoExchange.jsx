@@ -87,7 +87,7 @@ const CryptoExchange = () => {
     },
     {
       question:
-        "Can Capyngen develop a custom cryptocurrency exchange platform?",
+        "Can Aynzenix develop a custom cryptocurrency exchange platform?",
       answer:
         "We are a leading custom cryptocurrency exchange platform development company, and we can handle both startup and enterprise projects.",
     },
@@ -99,12 +99,12 @@ const CryptoExchange = () => {
     },
     {
       question:
-        "Does Capyngen provide digital marketing services for crypto exchanges?",
+        "Does Aynzenix provide digital marketing services for crypto exchanges?",
       answer:
         "Certainly, we integrate marketing and technology to help exchanges get new clients and keep them globally.",
     },
     {
-      question: "How secure are Capyngen’s crypto exchange IT solutions?",
+      question: "How secure are Aynzenix’s crypto exchange IT solutions?",
       answer:
         "We offer state-of-the-art encryption, secure servers, and compliance-centric architectures as part of our security solutions.",
     },
@@ -119,7 +119,7 @@ const CryptoExchange = () => {
         "Indeed, we will be on hand after deployment to provide support, maintenance, and updates.",
     },
     {
-      question: "Is Capyngen a global crypto exchange technology provider?",
+      question: "Is Aynzenix a global crypto exchange technology provider?",
       answer:
         "Headquartered in the UK, we are a complete crypto exchange solution provider to clients across the globe.",
     },
@@ -129,7 +129,7 @@ const CryptoExchange = () => {
     <div>
       <Banner6
         titleGradient="Next-Gen Technology Infrastructure for Crypto Exchanges"
-        description="From matching engines to multi-layer security, Capyngen builds high-performance digital asset exchange systems for global market operations."
+        description="From matching engines to multi-layer security, Aynzenix builds high-performance digital asset exchange systems for global market operations."
         ctaText="Explore Now"
         ctaLink="/contact-us"
         buttonBg="bg-gradient-to-r from-blue-600 to-blue-600 rounded-lg shadow-lg border border-white/10 hover:from-blue-700 hover:to-blue-700 hover:shadow-emerald-500/20"
@@ -153,7 +153,7 @@ const CryptoExchange = () => {
             infrastructure, customer management tools, and compliance with
             regulations. <br />
             <br />
-            We at Capyngen Technologies, assist brokers to:
+            We at Aynzenix Technologies, assist brokers to:
           </>
         }
         services={cardsSectionData1}
@@ -168,7 +168,7 @@ const CryptoExchange = () => {
       <ForexSolutions
         heading="Comprehensive Solutions for Every Crypto Exchange Need"
         subheading="We​‍​‌‍​‍‌​‍​‌‍​‍‌ have a complete spectrum of crypto exchange technology solutions that are meticulously crafted to address every single aspect of your brokerage-operation:"
-        outro="By Capyngen offering all these services, it stands out as a top crypto brokerage technology provider both for startups and established ​‍​‌‍​‍‌​‍​‌‍​‍‌brokers."
+        outro="By Aynzenix offering all these services, it stands out as a top crypto brokerage technology provider both for startups and established ​‍​‌‍​‍‌​‍​‌‍​‍‌brokers."
         sectionBg="bg-gradient-to-br from-[#020617] via-[#0b0f29] to-[#111827]"
         cardBg="bg-gradient-to-b from-[#0a1a3c]/90 via-[#0f1f43]/80 to-[#0a1229]/90"
         cardBorder="border-[#1e3a8a]/40"
@@ -211,12 +211,12 @@ const CryptoExchange = () => {
         ]}
       />
       <TopRatedCompany
-        title="Why Capyngen Stands Out in Crypto Exchange IT Solutions"
+        title="Why Aynzenix Stands Out in Crypto Exchange IT Solutions"
         description={[
           <span>
             It's​‍​‌‍​‍‌​‍​‌‍​‍‌ very important to select the most suitable
             technology partner for the job. The benefits that your trading gets
-            from Capyngen are:
+            from Aynzenix are:
           </span>,
           <>
             <ul className="list-disc list-inside space-y-4 text-lg max-w-3xl mx-auto my-8 text-gray-300">
@@ -260,7 +260,7 @@ const CryptoExchange = () => {
             </ul>
             <p>
               Regardless of whether you require crypto exchange IT solutions or
-              a full crypto exchange broker setup solution, Capyngen is the one
+              a full crypto exchange broker setup solution, Aynzenix is the one
               that guarantees your platform to be dependable, compliant, and
               safeguarded against the ​‍​‌‍​‍‌​‍​‌‍​‍‌future.
             </p>
@@ -270,7 +270,7 @@ const CryptoExchange = () => {
       />
       <CryptoExpertise
         heading="Our Expertise: Building Crypto Exchanges That Win"
-        subheading="At​‍​‌‍​‍‌​‍​‌‍​‍‌ Capyngen Technologies UK Limited, we bring together technical brilliance and business understanding to create impactful solutions. Our skill set spans:"
+        subheading="At​‍​‌‍​‍‌​‍​‌‍​‍‌ Aynzenix Technologies UK Limited, we bring together technical brilliance and business understanding to create impactful solutions. Our skill set spans:"
         outro="Our service is beyond just technology delivery; we provide the power to exchanges to grow worldwide, make a stronghold in the market, and be a step ahead of their ​‍​‌‍​‍‌​‍​‌‍​‍‌competitors."
         cards={[
           {
@@ -299,23 +299,23 @@ const CryptoExchange = () => {
         ]}
       />
       <CardsSectionImage
-        heading="Unlocking the Benefits of Capyngen’s Crypto Exchange Solutions"
+        heading="Unlocking the Benefits of Aynzenix’s Crypto Exchange Solutions"
         subheading="Your​‍​‌‍​‍‌​‍​‌‍​‍‌ crypto brokerage will have real benefits if you partner with us:"
         services={cardsSectionImageData1}
         sectionBg="bg-gray-800"
         headColor="text-white"
         cardBg=""
         textSize="text-md"
-        footer="By using Capyngen, your exchange will be technologically superior, operationally efficient, and competitive in the ​‍​‌‍​‍‌​‍​‌‍​‍‌market."
+        footer="By using Aynzenix, your exchange will be technologically superior, operationally efficient, and competitive in the ​‍​‌‍​‍‌​‍​‌‍​‍‌market."
         hoverBg="hover:bg-gray-200"
       />
       <GetStarted
         reverse={false}
         backgroundColor="bg-black"
         textColor="text-white"
-        title="Conclusion: Build a Global-Ready Crypto Exchange with Capyngen"
+        title="Conclusion: Build a Global-Ready Crypto Exchange with Aynzenix"
         description={[
-          "Starting​‍​‌‍​‍‌​‍​‌‍​‍‌ a crypto exchange might be complicated, but it gets effortless with Capyngen Technologies UK Limited. Our services cover the entire range of the crypto exchange broker installation, from platforms, CRM, mobile apps, to back-office management and even marketing strategies.",
+          "Starting​‍​‌‍​‍‌​‍​‌‍​‍‌ a crypto exchange might be complicated, but it gets effortless with Aynzenix Technologies UK Limited. Our services cover the entire range of the crypto exchange broker installation, from platforms, CRM, mobile apps, to back-office management and even marketing strategies.",
           "Be our partner in achieving your crypto exchange dream to go live with a safe, expandable, and internationally competitive ​‍​‌‍​‍‌​‍​‌‍​‍‌platform.",
         ]}
         buttonText="Contact Us"

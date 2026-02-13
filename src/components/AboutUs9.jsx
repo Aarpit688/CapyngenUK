@@ -19,7 +19,7 @@ const AboutUs9 = () => {
 
           <div className="relative z-10 space-y-8">
             <p className="text-2xl md:text-3xl font-serif text-gray-200 leading-relaxed italic">
-              Capyngen Technologies UK Limited is a reliable worldwide
+              Aynzenix Technologies UK Limited is a reliable worldwide
               technology partner that supports Forex and Crypto brokers. By
               using our state-of-the-art infrastructure, worldwide proficiency,
               and fully integrated turnkey solutions, businesses become ready to
@@ -28,7 +28,7 @@ const AboutUs9 = () => {
 
             <p className="text-xl md:text-2xl font-light text-gray-400 leading-relaxed">
               In case you are a broker with a small business idea or a trading
-              company at the enterprise level, Capyngen delivers to you the full
+              company at the enterprise level, Aynzenix delivers to you the full
               set of requisites for accomplishing your goal in the rapidly
               changing financial market.
             </p>

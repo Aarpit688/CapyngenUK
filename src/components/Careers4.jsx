@@ -47,7 +47,7 @@ export default function Careers4() {
             <p className="text-gray-300 leading-relaxed mb-6">
               We hire people who are innovative, analytical, creative, and
               excellent problem-solvers. If you have the ambition and curiosity
-              to build world-leading fintech products, you belong at Capyngen.
+              to build world-leading fintech products, you belong at Aynzenix.
             </p>
 
             <p className="text-xl font-semibold text-blue-200">
@@ -89,34 +89,34 @@ export default function Careers4() {
                   {[
                     ...(idx === 0
                       ? [
-                          "Software Developers (Python, Node.js, PHP, JavaScript)",
-                          "Trading Platform Engineers (MT4/MT5/cTrader)",
-                          "QA & Testing Engineers",
-                          "UI/UX Designers",
-                          "API & Integration Specialists",
-                        ]
+                        "Software Developers (Python, Node.js, PHP, JavaScript)",
+                        "Trading Platform Engineers (MT4/MT5/cTrader)",
+                        "QA & Testing Engineers",
+                        "UI/UX Designers",
+                        "API & Integration Specialists",
+                      ]
                       : idx === 1
-                      ? [
+                        ? [
                           "Forex Market Analysts",
                           "Risk Management Officers",
                           "Liquidity & Bridge Specialists",
                           "Platform Operations Executives",
                         ]
-                      : idx === 2
-                      ? [
-                          "HR & Administration",
-                          "Business Development & Sales",
-                          "Account Managers",
-                          "Finance & Billing Team",
-                          "AML & Compliance Officers",
-                        ]
-                      : [
-                          "Digital Marketers",
-                          "Content Writers",
-                          "Brand Strategists",
-                          "Social Media Managers",
-                          "Video & Graphic Designers",
-                        ]),
+                        : idx === 2
+                          ? [
+                            "HR & Administration",
+                            "Business Development & Sales",
+                            "Account Managers",
+                            "Finance & Billing Team",
+                            "AML & Compliance Officers",
+                          ]
+                          : [
+                            "Digital Marketers",
+                            "Content Writers",
+                            "Brand Strategists",
+                            "Social Media Managers",
+                            "Video & Graphic Designers",
+                          ]),
                   ].map((role, rIndex) => (
                     <li key={rIndex} className="flex items-start text-md">
                       <span className="mr-3 mt-1.5 w-2 h-2 bg-blue-400 rounded-full"></span>

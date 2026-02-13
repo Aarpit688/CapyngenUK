@@ -19,7 +19,7 @@ const CTrader = () => {
         "cTrader is a trading platform that can handle various asset classes to individuals, as well as brokers, it provides brokers with intuitive interfaces, fast execution, and robust connectivity.",
     },
     {
-      question: "Can Capyngen customize cTrader platforms?",
+      question: "Can Aynzenix customize cTrader platforms?",
       answer:
         "Definitely, we are able to fully customize and develop your cTrader software in terms of branding, UI, and feature changes.",
     },
@@ -46,10 +46,10 @@ const CTrader = () => {
     {
       question: "Do you provide post-deployment support?",
       answer:
-        "Yes. Capyngen is always there for you with continuous support, maintenance, and upgrading after any cTrader installation.",
+        "Yes. Aynzenix is always there for you with continuous support, maintenance, and upgrading after any cTrader installation.",
     },
     {
-      question: "Is Capyngen a global cTrader technology solutions provider?",
+      question: "Is Aynzenix a global cTrader technology solutions provider?",
       answer:
         "Yes, although our main office is in the United Kingdom, we are happy to deliver complete cTrader turnkey solutions to clients all over the world.",
     },

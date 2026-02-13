@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function ForexSolutions({
   heading = "Comprehensive Forex Broker Software Solutions",
   subheading = "Our company provides numerous forex broker software solutions that are suitable for any type of business:",
-  outro = "By offering these solutions, Capyngen is a forex technology provider that changes your brokerage to a globally competitive enterprise with high performance.",
+  outro = "By offering these solutions, Aynzenix is a forex technology provider that changes your brokerage to a globally competitive enterprise with high performance.",
   solutions = [],
 
   // NEW: Dynamic Colors with defaults

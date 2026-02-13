@@ -22,7 +22,7 @@ const PrimeXMServiceTechnology = () => {
             {/* LEFT CONTENT */}
             <div className="space-y-10">
               <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-                Why Capyngen Is Your Trusted PrimeXM X-Core Technology Partner
+                Why Aynzenix Is Your Trusted PrimeXM X-Core Technology Partner
               </h2>
 
               {/* CHALLENGE BLOCK */}
@@ -54,10 +54,10 @@ const PrimeXMServiceTechnology = () => {
 
                   <div>
                     <h4 className="text-white font-bold text-sm mb-2">
-                      The Capyngen Solution
+                      The Aynzenix Solution
                     </h4>
                     <p className="text-slate-300 text-sm leading-relaxed">
-                      Capyngen solves these issues with tailored PrimeXM X-Core
+                      Aynzenix solves these issues with tailored PrimeXM X-Core
                       setups engineered for reliability, ultra-low latency and
                       global scale.
                     </p>
@@ -97,7 +97,7 @@ const PrimeXMServiceTechnology = () => {
                 <ShieldCheck className="w-6 h-6 text-yellow-400" />
               </div>
               <p className="text-slate-300 text-base leading-relaxed">
-                As a global PrimeXM X-Core technology partner, Capyngen provides
+                As a global PrimeXM X-Core technology partner, Aynzenix provides
                 continuous support, post-deployment assistance and optimization
                 — ensuring your infrastructure remains stable under the most
                 demanding market ​‍​‌‍​‍‌​‍​‌‍​‍‌conditions.

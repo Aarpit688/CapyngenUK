@@ -72,7 +72,7 @@ const B2TraderHighPerformance = () => {
           </h2>
 
           <p className="text-gray-300 text-lg mt-6 leading-relaxed">
-            Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ is a one-stop provider of B2Trader advanced
+            Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ is a one-stop provider of B2Trader advanced
             technology solutions. Their comprehensive technology services
             include:
           </p>
@@ -142,7 +142,7 @@ const B2TraderHighPerformance = () => {
           viewport={{ once: true }}
           className="text-center text-gray-300 text-lg leading-relaxed mt-20 max-w-4xl mx-auto"
         >
-          With Capyngen + B2Trader, brokers achieve fast execution, stable
+          With Aynzenix + B2Trader, brokers achieve fast execution, stable
           operations, and global-ready trading performance.
         </motion.p>
       </div>

@@ -19,7 +19,7 @@ const Sirix = () => {
     {
       question: "Are you providing a white-label Sirix setup?",
       answer:
-        "Yes, Capyngen delivers fully branded, hosted, and integrated white-label Sirix solutions.",
+        "Yes, Aynzenix delivers fully branded, hosted, and integrated white-label Sirix solutions.",
     },
     {
       question: "Is Sirix able to connect with liquidity providers?",

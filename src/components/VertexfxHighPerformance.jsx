@@ -51,7 +51,7 @@ const VertexFxHighPerformance = () => {
               <span className="text-violet-400">VertexFX</span>
             </h2>
             <p className="text-slate-300 text-lg leading-relaxed">
-              Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ offers a full VertexFX ecosystem to the
+              Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ offers a full VertexFX ecosystem to the
               market:
             </p>
           </div>

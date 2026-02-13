@@ -51,7 +51,7 @@ const NTrader = () => {
     {
       question: "Are you available to support clients 24/7?",
       answer:
-        "Yes, Capyngen support team is always available to provide support, updates and ensure performance.",
+        "Yes, Aynzenix support team is always available to provide support, updates and ensure performance.",
     },
   ];
   return (

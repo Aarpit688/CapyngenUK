@@ -51,7 +51,7 @@ const LiquiditySolutions = () => {
 
           {/* Intro Paragraph */}
           <p className="text-gray-300 mt-6 text-lg leading-relaxed max-w-xl">
-            Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ is providing liquidity solutions through
+            Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ is providing liquidity solutions through
             end-to-end means to brokers which are essentially designed to
             satisfy the requirements of the modern trading environment. Our
             knowledge embraces:
@@ -109,7 +109,7 @@ const LiquiditySolutions = () => {
         connectivity and operational efficiency. Our solutions are a good fit
         for both startups and mature brokers, thus, offering them the liquidity
         provider connectivity which is flexible, dependable, and
-        ​‍​‌‍​‍‌​‍​‌‍​‍‌scalable.
+        ‍​‌‍​‍‌​‍​‌‍​‍‌scalable.
       </motion.p>
     </section>
   );

@@ -15,7 +15,7 @@ export default function MT5ServiceIntro() {
             </h2>
 
             <p className="text-slate-300 leading-relaxed text-lg">
-              Capyngen Technologies UK Limited delivers complete MetaTrader 5
+              Aynzenix Technologies UK Limited delivers complete MetaTrader 5
               solutions — platform integration, server setup, liquidity bridges,
               API connectivity, plugin development, and long-term support.
               Designed for performance, scalability, and low-latency execution.

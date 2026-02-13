@@ -7,7 +7,7 @@ const CTraderFeatures = () => {
       <section className="max-w-[90vw] mx-auto w-full animate-fade-in-up">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-            Key Features of Capyngen’s{" "}
+            Key Features of Aynzenix’s{" "}
             <span className="text-teal-500">cTrader Technology Solutions</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-transparent via-teal-500 to-transparent mx-auto opacity-60"></div>

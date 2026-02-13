@@ -43,7 +43,7 @@ const VertexFx = () => {
     {
       question: "Do you provide VertexFX white-label solutions?",
       answer:
-        "Capyngen does provide a complete VertexFX white-label setup including branding and worldwide hosting.",
+        "Aynzenix does provide a complete VertexFX white-label setup including branding and worldwide hosting.",
     },
     {
       question: "Can VertexFX connect to liquidity providers?",
@@ -73,7 +73,7 @@ const VertexFx = () => {
     {
       question: "Do you provide 24/7 support?",
       answer:
-        "Yes, Capyngen is always available for monitoring, maintenance, updates, and optimization.",
+        "Yes, Aynzenix is always available for monitoring, maintenance, updates, and optimization.",
     },
   ];
 

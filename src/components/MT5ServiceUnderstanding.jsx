@@ -42,7 +42,7 @@ const MT5ServiceUnderstanding = () => {
                 client management.
               </p>
               <p className="text-slate-300 leading-relaxed text-lg">
-                Capyngen Technologies specializes in MT5 server setup,
+                Aynzenix Technologies specializes in MT5 server setup,
                 integration with liquidity providers, and deployment of custom
                 plugins. Our solutions ensure brokers maintain strong trading
                 performance, global reach, and high-volume stability.

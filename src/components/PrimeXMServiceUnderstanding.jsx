@@ -35,7 +35,7 @@ const PrimeXMXServiceUnderstanding = () => {
               </p>
               <div className="bg-yellow-500/10 border-l-4 border-yellow-500 p-6 rounded-r-lg my-6">
                 <p className="text-slate-200 italic">
-                  We at Capyngen Technologies are geared up to offer complete
+                  We at Aynzenix Technologies are geared up to offer complete
                   infrastructure setup of PrimeXM XCore for brokers, PrimeXM
                   XCore technology for liquidity aggregation, and total
                   connectivity solutions.
@@ -45,7 +45,7 @@ const PrimeXMXServiceUnderstanding = () => {
                 The integration of our services enables brokers to offer lower
                 spreads, quicker trade execution, and better client experiences
                 while at the same time, they decrease their operational
-                ​‍​‌‍​‍‌​‍​‌‍​‍‌risks.
+                ‍​‌‍​‍‌​‍​‌‍​‍‌risks.
               </p>
             </div>
 

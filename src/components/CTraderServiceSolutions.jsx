@@ -3,13 +3,13 @@ import { Check, Globe, ArrowRightLeft, Settings } from "lucide-react";
 import { assets } from "../assets/assets";
 
 export default function CTraderServiceSolutions() {
-  const title1 = "How Capyngen Delivers Complete cTrader Solutions";
+  const title1 = "How Aynzenix Delivers Complete cTrader Solutions";
   const content1 =
-    "Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ is the one-stop service provider for all cTrader related needs, which includes platform setup, integration as well as support. Our team is in charge of the cTrader platform migration, thus allowing brokers to be able to make a change from MT4/MT5 or any other platforms with a short period of inactivity.";
+    "Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ is the one-stop service provider for all cTrader related needs, which includes platform setup, integration as well as support. Our team is in charge of the cTrader platform migration, thus allowing brokers to be able to make a change from MT4/MT5 or any other platforms with a short period of inactivity.";
 
-  const title2 = "Why Brokers Choose Capyngen for cTrader Services";
+  const title2 = "Why Brokers Choose Aynzenix for cTrader Services";
   const intro2 =
-    "Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ were stuck with issues of latency, platform migration, and fragmented liquidity. To solve the problem Capyngen Technologies UK Limited is providing custom-made cTrader technology solutions that are not only scalable and reliable but also globally connected. Some of the benefits are:";
+    "Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ were stuck with issues of latency, platform migration, and fragmented liquidity. To solve the problem Aynzenix Technologies UK Limited is providing custom-made cTrader technology solutions that are not only scalable and reliable but also globally connected. Some of the benefits are:";
 
   const benefits = [
     "The fast implementation of turnkey cTrader white-label solutions",
@@ -19,7 +19,7 @@ export default function CTraderServiceSolutions() {
   ];
 
   const outro2 =
-    "When a broker decides to work with Capyngen he can concentrate solely on business growth and client acquisition while we take care of the technical setup and ongoing ​‍​‌‍​‍‌​‍​‌‍​‍‌operations.";
+    "When a broker decides to work with Aynzenix he can concentrate solely on business growth and client acquisition while we take care of the technical setup and ongoing ​‍​‌‍​‍‌​‍​‌‍​‍‌operations.";
 
   return (
     <div className="bg-black py-20 ">

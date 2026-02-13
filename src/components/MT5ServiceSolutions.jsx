@@ -3,10 +3,10 @@ import { ArrowRight, CheckCircle } from "lucide-react";
 import { assets } from "../assets/assets";
 
 export default function MT5ServiceSolutions() {
-  const title = "How Capyngen Provides Complete MT5 Solutions";
+  const title = "How Aynzenix Provides Complete MT5 Solutions";
 
   const content =
-    "Capyngen offers full end-to-end MT5 services including server setup, integration, and support. To quickly start a brokerage, we install a MetaTrader 5 white-label for you, provide plugin development services if you want to extend the platform functionality, and supply a powerful MT5 backend infrastructure for secure and scalable operations. Our team can also provide liquidity bridge solutions that enable brokers to connect to several liquidity providers to get better spreads and depth. Moreover, API integration allows your platform to communicate with other trading tools, analytics platforms, and CRM systems in a straightforward manner. By using Capyngen’s MT5 services, brokers can deliver institutional-grade performance, have optimized execution, and carry minimal technical risk.";
+    "Aynzenix offers full end-to-end MT5 services including server setup, integration, and support. To quickly start a brokerage, we install a MetaTrader 5 white-label for you, provide plugin development services if you want to extend the platform functionality, and supply a powerful MT5 backend infrastructure for secure and scalable operations. Our team can also provide liquidity bridge solutions that enable brokers to connect to several liquidity providers to get better spreads and depth. Moreover, API integration allows your platform to communicate with other trading tools, analytics platforms, and CRM systems in a straightforward manner. By using Aynzenix’s MT5 services, brokers can deliver institutional-grade performance, have optimized execution, and carry minimal technical risk.";
 
   const ctaText =
     "Integrate Liquidity and Multi-Asset Trading Seamlessly – Schedule a demo now.";

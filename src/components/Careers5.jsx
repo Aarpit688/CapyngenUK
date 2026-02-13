@@ -24,11 +24,11 @@ export const Careers5 = () => {
           {/* LEFT: Content */}
           <div className="mb-12 lg:mb-0">
             <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6">
-              Life at Capyngen
+              Life at Aynzenix
             </h2>
 
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              Working at Capyngen means being in a vibrant, rapid-paced, and
+              Working at Aynzenix means being in a vibrant, rapid-paced, and
               supportive environment where every voice is valued. Our culture is
               built on:
             </p>
@@ -71,7 +71,7 @@ export const Careers5 = () => {
               <div className="rounded-md overflow-hidden backdrop-blur-xl bg-white/10 border border-white/10 shadow-[0_8px_30px_rgba(255,255,255,0.1)]">
                 <img
                   src={assets.careers5}
-                  alt="Capyngen team collaboration"
+                  alt="Aynzenix team collaboration"
                   className="object-cover h-64 w-full"
                 />
               </div>

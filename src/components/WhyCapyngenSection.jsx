@@ -5,9 +5,9 @@ import { assets } from "../assets/assets";
 // Replace these URLs with your actual brand icons or PNG/SVG files
 const bulletLogo = "https://cdn-icons-png.flaticon.com/512/190/190411.png";
 
-const WhyCapyngenSection = ({
-  heading = "Why Capyngen Is Your Ideal Technology Partner",
-  introText = "At Capyngen Technologies UK Limited, we blend technology know-how and crypto market insight to provide impactful solutions. We collaborate with your team to:",
+const WhyAynzenixSection = ({
+  heading = "Why Aynzenix Is Your Ideal Technology Partner",
+  introText = "At Aynzenix Technologies UK Limited, we blend technology know-how and crypto market insight to provide impactful solutions. We collaborate with your team to:",
   points = [
     "Develop tailored trading platforms and broker software solutions",
     "Deliver websites, mobile apps, and CRM tools",
@@ -91,4 +91,4 @@ const WhyCapyngenSection = ({
   );
 };
 
-export default WhyCapyngenSection;
+export default WhyAynzenixSection;

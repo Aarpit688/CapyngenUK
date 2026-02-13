@@ -45,7 +45,7 @@ export default function MAMInfrastructure() {
           <div className="mx-auto mt-6 w-40 h-[3px] rounded-full bg-gradient-to-r from-cyan-300 to-blue-500"></div>
 
           <p className="text-gray-300 max-w-3xl mx-auto mt-8 text-lg leading-relaxed">
-            Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ offers a comprehensive MAM system to cover
+            Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ offers a comprehensive MAM system to cover
             all client needs, such as:
           </p>
         </motion.div>

@@ -9,12 +9,12 @@ const VertexFxInfrastructure = () => {
           {/* Text Content */}
           <div className="order-2 lg:order-1 space-y-8">
             <h2 className="text-center lg:text-left text-3xl md:text-4xl font-bold text-white leading-tight">
-              How Capyngen Builds Complete VertexFX Infrastructure
+              How Aynzenix Builds Complete VertexFX Infrastructure
             </h2>
 
             <div className="prose prose-invert prose-lg">
               <p className="text-slate-300 leading-relaxed text-lg">
-                Capyngen​‍​‌‍​‍‌​‍​‌‍​‍‌ is in charge of the technical part at
+                Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ is in charge of the technical part at
                 every level, beginning with the actual hosting, routing, and
                 security. On our part, we are setting up the servers, installing
                 backend modules, integrating data feeds, and tuning the

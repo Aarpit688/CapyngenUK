@@ -40,7 +40,7 @@ export default function OneZeroServiceConclusion() {
               Conclusion: Achieve High-Volume, Multi-Asset Trading with OneZero
             </h2>
             <p className="text-slate-300 text-lg leading-relaxed">
-              Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ through Capyngen Technologies UK Limited
+              Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ through Aynzenix Technologies UK Limited
               have access to the full range of OneZero services, which include:
             </p>
           </div>
@@ -89,10 +89,10 @@ export default function OneZeroServiceConclusion() {
 
             <div className="relative z-10">
               <p className="text-slate-300 text-lg leading-relaxed italic max-w-4xl mx-auto">
-                "Working with Capyngen is a guarantee that the brokers will be
+                "Working with Aynzenix is a guarantee that the brokers will be
                 endowed with the technology, connectivity, and performance
                 necessary to offer excellent trading experiences while expanding
-                ​‍​‌‍​‍‌​‍​‌‍​‍‌globally."
+                ‍​‌‍​‍‌​‍​‌‍​‍‌globally."
               </p>
             </div>
           </div>

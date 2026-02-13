@@ -24,13 +24,13 @@ const SirixEcosystem = () => {
             {/* Content Side */}
             <div className="space-y-8 order-2 lg:order-1">
               <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-                How Capyngen Helps Brokers Build a{" "}
+                How Aynzenix Helps Brokers Build a{" "}
                 <span className="text-amber-500">Complete Sirix Ecosystem</span>
               </h2>
 
               <div className="prose prose-invert prose-lg">
                 <p className="text-slate-300 leading-relaxed">
-                  Brokers​ with Capyngen have at their disposal a completely
+                  Brokers​ with Aynzenix have at their disposal a completely
                   managed Sirix trading ecosystem that includes platform
                   integration, server hosting, analytics setup, and mobile
                   trading access.

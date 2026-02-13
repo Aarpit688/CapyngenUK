@@ -43,7 +43,7 @@ const MT5ServiceBenefits = () => {
               </h3>
 
               <p className="text-slate-300 leading-relaxed mb-6 min-h-[80px]">
-                Startups​‍​‌‍​‍‌​‍​‌‍​‍‌ can use Capyngen to quickly set up
+                Startups​‍​‌‍​‍‌​‍​‌‍​‍‌ can use Aynzenix to quickly set up
                 their MT5 account with a fully branded platform and
                 pre-integrated liquidity which enables a fast market entry.
               </p>
@@ -79,7 +79,7 @@ const MT5ServiceBenefits = () => {
                 Custom plugin development, multi-asset integration, and backend
                 optimization are some of the ways performance and trading
                 capabilities can be enhanced by an existing broker with the help
-                of Capyngen.
+                of Aynzenix.
               </p>
 
               <div className="flex items-center gap-3 mt-auto pt-6 border-t border-slate-800">
@@ -110,7 +110,7 @@ const MT5ServiceBenefits = () => {
               <div className="prose prose-invert prose-lg">
                 <p className="text-slate-300 leading-relaxed text-lg">
                   MT5​‍​‌‍​‍‌​‍​‌‍​‍‌ offers sophisticated charting, algorithmic
-                  trading, risk management, and multi-asset support. Capyngen
+                  trading, risk management, and multi-asset support. Aynzenix
                   helps brokers to combine these functionalities while still
                   enabling safe hosting, fast execution, and convenient
                   liquidity access.
@@ -191,7 +191,7 @@ const MT5ServiceBenefits = () => {
                     </div>
                     <div className="pl-12">
                       <span className="text-purple-400">if</span>{" "}
-                      (Capyngen::IsConnected()) {`{`}
+                      (Aynzenix::IsConnected()) {`{`}
                     </div>
                     <div className="pl-16">
                       <span className="text-yellow-200">

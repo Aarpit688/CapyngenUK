@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   Mail,
   MapPin,
-  Phone,
   Send,
   Facebook,
   Linkedin,
@@ -11,14 +10,143 @@ import {
 } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 
+// --- Helper Component: Dropdown (Ported from Source) ---
+const Dropdown = ({ label, options, value, onChange }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [search, setSearch] = useState("");
+  const dropdownRef = useRef(null);
+
+  const filteredOptions = options.filter((opt) =>
+    opt.toLowerCase().includes(search.toLowerCase())
+  );
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  return (
+    <div className="flex flex-col gap-2 relative" ref={dropdownRef}>
+      <span className="text-sm text-slate-300">{label}</span>
+      <div className="relative">
+        <button
+          type="button"
+          onClick={() => setIsOpen((prev) => !prev)}
+          className="w-full text-left bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:border-cyan-500 outline-none transition-all flex justify-between items-center"
+        >
+          <span className={value ? "text-white" : "text-slate-500"}>
+            {value || "Select a topic"}
+          </span>
+          <svg
+            className={`w-4 h-4 transition-transform duration-300 ${
+              isOpen ? "rotate-180" : ""
+            }`}
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </button>
+
+        {isOpen && (
+          <div className="absolute left-0 w-full mt-1 max-h-52 overflow-y-auto bg-[#0f0f11] border border-blue-600 rounded-xl shadow-lg z-50 backdrop-blur-xl">
+            <input
+              type="text"
+              placeholder="Search topic..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="w-full px-3 py-2 bg-transparent text-sm text-white border-b border-blue-500 placeholder:text-neutral-500 focus:outline-none"
+            />
+            <ul className="max-h-44 overflow-y-auto custom-scroll">
+              {filteredOptions.length ? (
+                filteredOptions.map((opt) => (
+                  <li
+                    key={opt}
+                    onClick={() => {
+                      onChange(opt);
+                      setIsOpen(false);
+                    }}
+                    className="px-3 py-2 text-sm hover:bg-blue-600/40 cursor-pointer transition-colors duration-200 text-white"
+                  >
+                    {opt}
+                  </li>
+                ))
+              ) : (
+                <li className="px-3 py-2 text-neutral-400 text-sm">
+                  No matches found
+                </li>
+              )}
+            </ul>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+// --- Main Component ---
 const ContactUsSection = () => {
+  const topics = [
+    "Web Development",
+    "App Development",
+    "Custom AI Solution",
+    "E-Commerce Solutions",
+    "Blockchain Development",
+    "DevOps Solutions",
+    "Application Solutions",
+    "CRM & Management Software",
+    "UI/UX Design",
+    "Website Design",
+    "Branding & Identity Design",
+    "Ecommerce Design",
+    "CMS Design",
+    "Digital Marketing",
+    "Search Engine Optimization (SEO)",
+    "Social Media Marketing (SMM)",
+    "Pay-Per-Click Advertising (PPC)",
+    "Artificial Intelligence",
+    "Cybersecurity",
+    "Network Solutions & Services",
+    "Enterprise Solutions",
+    "Data & Analytics",
+    "Consulting",
+    "Others",
+  ];
+
+  // Updated state keys to match API requirements: lastName instead of secondName, phoneNumber instead of phone
   const [formData, setFormData] = useState({
     firstName: "",
-    secondName: "",
+    lastName: "",
     email: "",
-    phone: "",
+    phoneNumber: "",
+    topic: "",
     message: "",
   });
+
+  const [loading, setLoading] = useState(false);
+  const [responseMsg, setResponseMsg] = useState("");
+  const [showResponse, setShowResponse] = useState(false);
+
+  useEffect(() => {
+    if (showResponse) {
+      const timer = setTimeout(() => {
+        setShowResponse(false);
+        setResponseMsg("");
+      }, 5000);
+      return () => clearTimeout(timer);
+    }
+  }, [showResponse]);
 
   const handleChange = (e) => {
     setFormData({
@@ -27,15 +155,69 @@ const ContactUsSection = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert(
-      "Thank you for contacting Capyngen. We will get back to you shortly."
-    );
+
+    if (loading) return;
+    setLoading(true);
+    setResponseMsg("");
+    setShowResponse(false);
+
+    try {
+      const response = await fetch("https://api.capyngen.com/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      const data = await response.json();
+
+      if (window.fbq) {
+        window.fbq("track", "Lead");
+      }
+
+      if (response.ok) {
+        setResponseMsg("✅ Message sent successfully!");
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phoneNumber: "",
+          topic: "",
+          message: "",
+        });
+      } else {
+        setResponseMsg(
+          `❌ Error: ${data.message || "Failed to send message"}`
+        );
+      }
+    } catch {
+      setResponseMsg("❌ Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
+      setShowResponse(true);
+    }
   };
 
   return (
     <div className="bg-black py-24 w-full relative overflow-hidden">
+      {/* Styles for the Dropdown Animation & Scrollbar */}
+      <style>{`
+        @keyframes popIn {
+          0% {transform: scale(0.8); opacity: 0;}
+          100% {transform: scale(1); opacity: 1;}
+        }
+        .animate-popIn {
+          animation: popIn 0.35s ease forwards;
+        }
+        .custom-scroll::-webkit-scrollbar {
+          width: 6px;
+        }
+        .custom-scroll::-webkit-scrollbar-thumb {
+          background: #2563eb;
+          border-radius: 8px;
+        }
+      `}</style>
+
       {/* Soft minimal glow */}
       <div className="absolute inset-0 bg-gradient-to-b from-white/5 via-transparent to-transparent pointer-events-none"></div>
 
@@ -165,7 +347,8 @@ const ContactUsSection = () => {
             <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-xl">
               <div className="absolute inset-0 bg-white/5 z-10 mix-blend-overlay pointer-events-none"></div>
               <iframe
-                src="https://maps.google.com/maps?q=Tower+B3,+Spaze+i-Tech+Park,+Sector+49,+Gurugram,+Haryana&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                title="Google Maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.2159924974653!2d77.0415838754927!3d28.41273877578547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x489ffc51a97b2a05%3A0xce07c65b285ef184!2scapyngen!5e0!3m2!1sen!2sin!4v1761233238159!5m2!1sen!2sin"
                 width="100%"
                 height="300"
                 style={{
@@ -209,15 +392,15 @@ const ContactUsSection = () => {
                     />
                   </div>
 
-                  {/* Second Name */}
+                  {/* Last Name (Mapped to API 'lastName') */}
                   <div>
                     <label className="text-sm text-slate-300 mb-2 block">
-                      Second Name
+                      Last Name
                     </label>
                     <input
                       type="text"
-                      name="secondName"
-                      value={formData.secondName}
+                      name="lastName"
+                      value={formData.lastName}
                       onChange={handleChange}
                       className="w-full bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:border-cyan-500 outline-none transition-all"
                       placeholder="Doe"
@@ -226,35 +409,50 @@ const ContactUsSection = () => {
                   </div>
                 </div>
 
-                {/* Phone */}
-                <div>
-                  <label className="text-sm text-slate-300 mb-2 block">
-                    Phone Number
-                  </label>
-                  <input
-                    type="text"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className="w-full bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:border-cyan-500 outline-none transition-all"
-                    placeholder="+1 (555) 000-0000"
-                    required
-                  />
+                {/* Phone & Email */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {/* Phone (Mapped to API 'phoneNumber') */}
+                  <div>
+                    <label className="text-sm text-slate-300 mb-2 block">
+                      Phone Number
+                    </label>
+                    <input
+                      type="text"
+                      name="phoneNumber"
+                      value={formData.phoneNumber}
+                      onChange={handleChange}
+                      className="w-full bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:border-cyan-500 outline-none transition-all"
+                      placeholder="+1 (555) 000-0000"
+                      required
+                    />
+                  </div>
+
+                  {/* Email */}
+                  <div>
+                    <label className="text-sm text-slate-300 mb-2 block">
+                      Email Address
+                    </label>
+                    <input
+                      type="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      className="w-full bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:border-cyan-500 outline-none transition-all"
+                      placeholder="john@example.com"
+                      required
+                    />
+                  </div>
                 </div>
 
-                {/* Email */}
+                {/* New Topic Dropdown */}
                 <div>
-                  <label className="text-sm text-slate-300 mb-2 block">
-                    Email Address
-                  </label>
-                  <input
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="w-full bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:border-cyan-500 outline-none transition-all"
-                    placeholder="john@example.com"
-                    required
+                  <Dropdown
+                    label="Select Topic"
+                    options={topics}
+                    value={formData.topic}
+                    onChange={(value) =>
+                      setFormData((prev) => ({ ...prev, topic: value }))
+                    }
                   />
                 </div>
 
@@ -277,11 +475,25 @@ const ContactUsSection = () => {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold py-4 rounded-xl shadow-lg shadow-cyan-900/20 flex items-center justify-center gap-2 transition-transform duration-300"
+                  disabled={loading}
+                  className="w-full bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold py-4 rounded-xl shadow-lg shadow-cyan-900/20 flex items-center justify-center gap-2 transition-transform duration-300 disabled:opacity-60"
                 >
-                  <span>Send Message</span>
+                  <span>{loading ? "Sending..." : "Send Message"}</span>
                   <Send className="w-4 h-4" />
                 </button>
+
+                {/* Response Message */}
+                {showResponse && (
+                  <p
+                    className={`mt-6 rounded-xl py-2 px-6 text-center text-sm font-semibold max-w-sm mx-auto ${
+                      responseMsg.includes("✅")
+                        ? "bg-green-600/80 text-green-100"
+                        : "bg-red-600/80 text-red-100"
+                    } animate-popIn`}
+                  >
+                    {responseMsg.replace(/^✅|❌/g, "")}
+                  </p>
+                )}
               </form>
             </div>
           </div>

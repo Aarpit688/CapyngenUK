@@ -37,7 +37,7 @@ const Banner6 = ({
         </p>
 
         {/* CTA Button */}
-        <div className="mt-8 sm:mt-12">
+        {ctaText && <div className="mt-8 sm:mt-12">
           <a
             href={ctaLink}
             className={`inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-semibold text-white transition-transform duration-300 hover:-translate-y-0.5 focus:ring-2 focus:ring-emerald-400/50 focus:outline-none ${buttonBg}`}
@@ -58,7 +58,7 @@ const Banner6 = ({
               />
             </svg>
           </a>
-        </div>
+        </div>}
 
         {/* Features Grid */}
         {features.length > 0 && (

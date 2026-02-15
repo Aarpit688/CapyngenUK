@@ -83,11 +83,11 @@ const B2CopyWhy = () => {
           className="space-y-7"
         >
           <h2 className="text-4xl font-extrabold text-white leading-normal">
-            Why B2Copy Is a Preferred Copy Trading System
+            Why AynXcopy Is a Preferred Copy Trading System
           </h2>
 
           <p className="text-gray-300 text-lg leading-relaxed max-w-xl">
-            B2Copy​‍​‌‍​‍‌​‍​‌‍​‍‌ is a broker’s top choice because it offers:
+            AynXcopy​‍​‌‍​‍‌​‍​‌‍​‍‌ is a broker’s top choice because it offers:
           </p>
 
           {/* Feature List */}

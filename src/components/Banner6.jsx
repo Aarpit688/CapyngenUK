@@ -11,9 +11,9 @@ const Banner6 = ({
   buttonBg = "bg-gradient-to-r from-green-600 to-emerald-600 rounded-lg shadow-lg border border-white/10 hover:from-green-700 hover:to-emerald-700 hover:shadow-emerald-500/20",
 }) => {
   return (
-    <div className="relative w-full min-h-screen flex flex-col items-center justify-center sm:min-h-screen overflow-hidden bg-black/85">
+    <div className="relative w-full min-h-[85vh] flex flex-col items-center justify-center overflow-hidden bg-black/85">
       {/* Background Image */}
-      <div className="absolute inset-0 -z-10">
+      <div className="absolute inset-0 z-10 opacity-50">
         <picture>
           <source media="(min-width:1024px)" srcSet={bgImageDesktop} />
           <img
@@ -25,7 +25,7 @@ const Banner6 = ({
       </div>
 
       {/* Content */}
-      <section className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 text-center">
+      <section className="relative z-10 max-w-6xl mx-auto text-center">
         {/* Title */}
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-snug sm:leading-tight px-2">
           {titleGradient}

@@ -14,9 +14,8 @@ const useTilt = () => {
         const x = e.clientX - (rect.left + rect.width / 2);
         const y = e.clientY - (rect.top + rect.height / 2);
 
-        card.style.transform = `rotateX(${y / -18}deg) rotateY(${
-          x / 18
-        }deg) scale(1.05)`;
+        card.style.transform = `rotateX(${y / -18}deg) rotateY(${x / 18
+          }deg) scale(1.05)`;
       };
 
       const reset = () => {
@@ -104,7 +103,7 @@ const B2ConnectUseCases = () => {
         {/* Heading */}
         <div className="text-center mb-10 sm:mb-14">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white">
-            Use Cases of B2Connect for Brokers
+            Use Cases of AynXconnect for Brokers
           </h2>
         </div>
 

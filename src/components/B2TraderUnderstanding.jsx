@@ -41,11 +41,11 @@ const B2TraderUnderstanding = () => {
           className="space-y-8"
         >
           <h2 className="text-4xl font-extrabold leading-snug  text-white">
-            Understanding B2Trader and Why Brokers Choose It
+            Understanding AynXtrader and Why Brokers Choose It
           </h2>
 
           <p className="text-gray-300 text-lg leading-relaxed">
-            The​‍​‌‍​‍‌​‍​‌‍​‍‌ B2Trader trading platform is engineered for
+            The AynXtrader trading platform is engineered for
             rapid execution, multi-asset trading, and extensive liquidity
             connectivity. It provides a trading engine of industrial grade,
             intelligent order routing, automated risk control, and a variety of
@@ -75,7 +75,7 @@ const B2TraderUnderstanding = () => {
           </div>
 
           <p className="text-gray-300 text-lg leading-relaxed">
-            B2Trader is fully compatible with CRMs, liquidity providers, payment
+            AynXtrader is fully compatible with CRMs, liquidity providers, payment
             processors, KYC systems, and fintech tools, thus being the most
             attractive option for brokers who prioritize speed, transparency,
             and easy system ​‍​‌‍​‍‌​‍​‌‍​‍‌automation.
@@ -92,7 +92,7 @@ const B2TraderUnderstanding = () => {
         >
           <img
             src={assets.b2Trader2}
-            alt="B2Trader Trading Technology"
+            alt="AynXtrader Trading Technology"
             className="rounded-md w-full h-full object-cover shadow-2xl shadow-black/40 border border-white/10"
           />
         </motion.div>

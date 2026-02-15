@@ -169,7 +169,7 @@ const CryptoBroker = () => {
         ]}
       />
       <IndustryServices
-        heading="Why Choose Aynzenix  or Crypto Broker IT Solutions"
+        heading="Why Choose Aynzenix for Crypto Broker IT Solutions"
         subheading="By​‍​‌‍​‍‌​‍​‌‍​‍‌ selecting Aynzenix, your brokerage will be able to enjoy multiple benefits such as:"
         cardBg="bg-gray-700"
         cardText="text-white"

@@ -7,18 +7,18 @@ const B2TraderFeatures = () => {
   const features = [
     {
       icon: <FaServer className="text-cyan-300 text-3xl" />,
-      title: "B2Trader White-Label Platform Deployment",
-      desc: "We offer a complete brand B2Trader white-label solution for brokers who need a fast setup, personalized branding, and a safe multi-asset trading environment.",
+      title: "AynXtrader White-Label Platform Deployment",
+      desc: "We offer a complete brand AynXtrader white-label solution for brokers who need a fast setup, personalized branding, and a safe multi-asset trading environment.",
     },
     {
       icon: <FaChartLine className="text-cyan-300 text-3xl" />,
-      title: "B2Trader Liquidity & Pricing Integration",
-      desc: "Aynzenix implements B2Trader liquidity solutions that guarantee correct pricing, tight spreads, quick execution, and a stable market connection for forex, crypto, and CFD brokers.",
+      title: "AynXtrader Liquidity & Pricing Integration",
+      desc: "Aynzenix implements AynXtrader liquidity solutions that guarantee correct pricing, tight spreads, quick execution, and a stable market connection for forex, crypto, and CFD brokers.",
     },
     {
       icon: <FaPlug className="text-cyan-300 text-3xl" />,
-      title: "B2Trader API Trading Integration",
-      desc: "Through B2Trader API connection, we facilitate the interaction of CRMs, client portals, risk tools, analytics systems, PSPs, and liquidity providers, thus, allowing full automation and increased ​‍​‌‍​‍‌​‍​‌‍​‍‌capacity.",
+      title: "AynXtrader API Trading Integration",
+      desc: "Through AynXtrader API connection, we facilitate the interaction of CRMs, client portals, risk tools, analytics systems, PSPs, and liquidity providers, thus, allowing full automation and increased ​‍​‌‍​‍‌​‍​‌‍​‍‌capacity.",
     },
   ];
 
@@ -40,7 +40,7 @@ const B2TraderFeatures = () => {
           <div className="relative rounded-md overflow-hidden shadow-[0_0_40px_rgba(0,255,255,0.15)] border border-white/10">
             <img
               src={assets.b2Trader3}
-              alt="B2Trader Trading"
+              alt="AynXtrader Trading"
               className="w-full h-full object-cover"
             />
           </div>
@@ -55,9 +55,9 @@ const B2TraderFeatures = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="text-4xl md:text-5xl font-bold leading-tight"
+              className="text-4xl font-bold leading-tight"
             >
-              Core Features of Our B2Trader Trading Solutions
+              Core Features of Our AynXtrader Trading Solutions
             </motion.h2>
 
             {/* FEATURES LIST */}

@@ -90,9 +90,10 @@ const StickyImage = ({ imgUrl }) => {
 
       {/* Mobile Static */}
       <motion.div
-        className="block md:hidden relative rounded-2xl shadow-lg border border-white/10 overflow-hidden h-[220px] sm:h-[280px]"
+        className="block md:hidden relative rounded-2xl shadow-lg border border-white/10 overflow-hidden h-[260px] sm:h-[320px] w-full"
         initial={{ opacity: 0, scale: 1.05 }}
-        animate={{ opacity: 1, scale: 1 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true, margin: "-50px" }}
         transition={{ duration: 0.8, ease: "easeOut" }}
         style={{
           backgroundImage: `url(${imgUrl})`,
@@ -137,15 +138,16 @@ const OverlayCopy = ({ subheading, heading }) => {
 
       {/* Mobile overlay */}
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-        className="md:hidden relative flex flex-col items-center justify-center px-4 sm:px-6 py-6 bg-black/60 backdrop-blur-xl border border-white/10 rounded-2xl mx-3 -mt-[180px] sm:-mt-[230px] text-center"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-50px" }}
+        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+        className="md:hidden relative flex flex-col items-center justify-center px-5 sm:px-8 py-8 bg-black/70 backdrop-blur-xl border border-white/10 rounded-2xl mx-4 sm:mx-8 -mt-[140px] sm:-mt-[160px] text-center shadow-2xl z-10"
       >
-        <p className="mb-2 text-sm sm:text-base text-gray-300 font-medium max-w-sm">
+        <p className="mb-3 text-sm sm:text-base text-gray-300 font-medium max-w-sm">
           {subheading}
         </p>
-        <p className="text-lg sm:text-2xl font-bold text-white drop-shadow-lg leading-tight">
+        <p className="text-xl sm:text-3xl font-bold text-white drop-shadow-lg leading-tight">
           {heading}
         </p>
       </motion.div>
@@ -158,17 +160,23 @@ const OverlayCopy = ({ subheading, heading }) => {
 --------------------------------- */
 
 const baseContainer =
-  "mx-auto grid max-w-7xl grid-cols-1 md:grid-cols-2 gap-6 sm:gap-10 md:gap-16 lg:gap-20 px-4 sm:px-6 md:px-8 pb-16 pt-12 md:pt-20 text-white bg-black/60 backdrop-blur-xl border border-white/10 rounded-2xl pb-10";
+  "mx-auto grid max-w-7xl grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-16 lg:gap-20 px-5 sm:px-8 md:px-10 py-12 md:py-20 text-white bg-black/60 backdrop-blur-xl border border-white/10 rounded-2xl";
 
 const ContentBackOffice = () => (
-  <div className={baseContainer}>
-    <h2 className="text-2xl sm:text-3xl font-bold mb-5 leading-snug">
+  <motion.div
+    initial={{ opacity: 0, y: 40 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true, amount: 0.2 }}
+    transition={{ duration: 0.7, ease: "easeOut" }}
+    className={baseContainer}
+  >
+    <h2 className="text-xl sm:text-3xl lg:text-4xl font-bold mb-5 md:mb-0 leading-snug">
       Reveal a next-level toolkit of workflow automation, compliance management,
       and performance insights—designed to make running the business easy from
       the very first day.
     </h2>
-    <div>
-      <ul className="space-y-3 mb-6 sm:mb-8">
+    <div className="flex flex-col justify-center">
+      <ul className="space-y-4 mb-8">
         {[
           "Broker Control Panel",
           "Advanced CRM System",
@@ -177,30 +185,36 @@ const ContentBackOffice = () => (
         ].map((item, index) => (
           <li
             key={index}
-            className="flex items-center text-white text-sm sm:text-xl"
+            className="flex items-center text-white text-base sm:text-lg lg:text-xl"
           >
-            <span className="w-2 h-2 rounded-full mr-3 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400"></span>
+            <span className="w-2.5 h-2.5 rounded-full mr-4 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 shadow-[0_0_10px_rgba(168,85,247,0.8)]"></span>
             {item}
           </li>
         ))}
       </ul>
-      <button className="py-2 sm:py-3 px-6 sm:px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:opacity-90 transition-all duration-300 text-sm sm:text-base">
+      <button className="py-3 px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-indigo-500/50 hover:scale-105 transition-all duration-300 text-sm sm:text-base w-fit">
         Learn More
       </button>
     </div>
-  </div>
+  </motion.div>
 );
 
 const ContentLiquidity = () => (
-  <div className={baseContainer}>
-    <h2 className="text-2xl sm:text-3xl font-bold mb-5 leading-snug">
+  <motion.div
+    initial={{ opacity: 0, y: 40 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true, amount: 0.2 }}
+    transition={{ duration: 0.7, ease: "easeOut" }}
+    className={baseContainer}
+  >
+    <h2 className="text-xl sm:text-3xl lg:text-4xl font-bold mb-5 md:mb-0 leading-snug">
       Be powered by the best execution contributed by the deepest liquidity
       pools and by the most up-to-date market intelligence. Faster fills,
       tighter pricing, and effortless access to global trading venues are what
       Liquidity Prime is all ‌ ​‍​‌‍​‍‌​‍​‌‍​‍‌about.
     </h2>
-    <div>
-      <ul className="space-y-3 mb-6 sm:mb-8">
+    <div className="flex flex-col justify-center">
+      <ul className="space-y-4 mb-8">
         {[
           "Deep Multi-Asset Liquidity",
           "Ultra-Fast Execution",
@@ -209,29 +223,35 @@ const ContentLiquidity = () => (
         ].map((item, index) => (
           <li
             key={index}
-            className="flex items-center text-white text-sm sm:text-xl"
+            className="flex items-center text-white text-base sm:text-lg lg:text-xl"
           >
-            <span className="w-2 h-2 rounded-full mr-3 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400"></span>
+            <span className="w-2.5 h-2.5 rounded-full mr-4 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 shadow-[0_0_10px_rgba(168,85,247,0.8)]"></span>
             {item}
           </li>
         ))}
       </ul>
-      <button className="py-2 sm:py-3 px-6 sm:px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:opacity-90 transition-all duration-300 text-sm sm:text-base">
+      <button className="py-3 px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-indigo-500/50 hover:scale-105 transition-all duration-300 text-sm sm:text-base w-fit">
         Learn More
       </button>
     </div>
-  </div>
+  </motion.div>
 );
 
 const ContentSiRiX = () => (
-  <div className={baseContainer}>
-    <h2 className="text-2xl sm:text-3xl font-bold mb-5 leading-snug">
+  <motion.div
+    initial={{ opacity: 0, y: 40 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true, amount: 0.2 }}
+    transition={{ duration: 0.7, ease: "easeOut" }}
+    className={baseContainer}
+  >
+    <h2 className="text-xl sm:text-3xl lg:text-4xl font-bold mb-5 md:mb-0 leading-snug">
       Access global markets, leverage pro-grade charting, and enjoy seamless
       trading across every device. With social trading, flexible layouts, and
       smart order types, SiRiX empowers your brokerage with a decisive edge.
     </h2>
-    <div>
-      <ul className="space-y-3 mb-6 sm:mb-8">
+    <div className="flex flex-col justify-center">
+      <ul className="space-y-4 mb-8">
         {[
           "Multi-Device Trading Experience",
           "Professional Charting & Tools",
@@ -240,16 +260,16 @@ const ContentSiRiX = () => (
         ].map((item, index) => (
           <li
             key={index}
-            className="flex items-center text-white text-sm sm:text-xl"
+            className="flex items-center text-white text-base sm:text-lg lg:text-xl"
           >
-            <span className="w-2 h-2 rounded-full mr-3 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400"></span>
+            <span className="w-2.5 h-2.5 rounded-full mr-4 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 shadow-[0_0_10px_rgba(168,85,247,0.8)]"></span>
             {item}
           </li>
         ))}
       </ul>
-      <button className="py-2 sm:py-3 px-6 sm:px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:opacity-90 transition-all duration-300 text-sm sm:text-base">
+      <button className="py-3 px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-indigo-500/50 hover:scale-105 transition-all duration-300 text-sm sm:text-base w-fit">
         Learn More
       </button>
     </div>
-  </div>
+  </motion.div>
 );

@@ -25,12 +25,12 @@ const B2TraderInfrastructure = () => {
           className="mb-10 relative text-center"
         >
           <h2 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight">
-            How Aynzenix Builds Your Complete B2Trader Infrastructure
+            How Aynzenix Builds Your Complete AynXtrader Infrastructure
           </h2>
 
           <p className="pl-6 text-gray-300 text-lg mt-6 max-w-5xl mx-auto leading-relaxed">
             Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is the single point
-            of contact B2Trader trading platform, responsible for the entire
+            of contact AynXtrader trading platform, responsible for the entire
             setup from the installation stage to the going live.
           </p>
         </motion.div>
@@ -104,7 +104,7 @@ const B2TraderInfrastructure = () => {
           className="text-center text-gray-300 text-lg leading-relaxed max-w-4xl mx-auto mt-24"
         >
           Thanks to our managed hardware, brokers get a stable, secure, and
-          well-optimized B2Trader environment that is trading volume is high is
+          well-optimized AynXtrader environment that is trading volume is high is
           ‍​‌‍​‍‌​‍​‌‍​‍‌ready.
         </motion.p>
       </div>

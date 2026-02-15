@@ -19,7 +19,7 @@ const cardTabs = {
     },
     {
       color: "#060010",
-      title: "B2Core",
+      title: "AynXcore",
       description: "Centralized data view",
       label: "Overview",
     },
@@ -31,7 +31,7 @@ const cardTabs = {
     },
     {
       color: "#060010",
-      title: "B2Connect",
+      title: "AynXconnect",
       description: "Workflow automation",
       label: "Efficiency",
     },
@@ -500,8 +500,8 @@ const GlobalSpotlight = ({
         minDistance <= proximity
           ? 0.8
           : minDistance <= fadeDistance
-          ? ((fadeDistance - minDistance) / (fadeDistance - proximity)) * 0.8
-          : 0;
+            ? ((fadeDistance - minDistance) / (fadeDistance - proximity)) * 0.8
+            : 0;
 
       gsap.to(spotlightRef.current, {
         opacity: targetOpacity,
@@ -595,10 +595,9 @@ const MagicBentoWithTabs = ({
             key={tab}
             onClick={() => setActiveTab(tab)}
             className={`px-6 py-2 rounded-full font-medium cursor-pointer transition-all duration-300
-              ${
-                activeTab === tab
-                  ? "bg-purple-900 text-white"
-                  : "bg-gray-800 text-gray-300"
+              ${activeTab === tab
+                ? "bg-purple-900 text-white"
+                : "bg-gray-800 text-gray-300"
               }
             `}
           >
@@ -728,9 +727,8 @@ const MagicBentoWithTabs = ({
           {cardTabs[activeTab].map((card, index) => (
             <ParticleCard
               key={index}
-              className={`card flex flex-col justify-between relative aspect-4/3 min-h-[200px] w-full max-w-full p-5 rounded-[20px] border border-solid font-light overflow-hidden transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:shadow-[0_8px_25px_rgba(0,0,0,0.15)] ${
-                enableBorderGlow ? "card--border-glow" : ""
-              }`}
+              className={`card flex flex-col justify-between relative aspect-4/3 min-h-[200px] w-full max-w-full p-5 rounded-[20px] border border-solid font-light overflow-hidden transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:shadow-[0_8px_25px_rgba(0,0,0,0.15)] ${enableBorderGlow ? "card--border-glow" : ""
+                }`}
               style={{
                 backgroundColor: card.color || "var(--background-dark)",
                 borderColor: "var(--border-color)",
@@ -758,16 +756,14 @@ const MagicBentoWithTabs = ({
                 </div>
                 <div className="card__content flex flex-col relative text-white w-full px-5">
                   <h3
-                    className={`card__title font-semibold text-2xl m-0 mb-1 ${
-                      textAutoHide ? "text-clamp-1" : ""
-                    }`}
+                    className={`card__title font-semibold text-2xl m-0 mb-1 ${textAutoHide ? "text-clamp-1" : ""
+                      }`}
                   >
                     {card.title}
                   </h3>
                   <p
-                    className={`card__description text-lg leading-5 opacity-90 ${
-                      textAutoHide ? "text-clamp-2" : ""
-                    }`}
+                    className={`card__description text-lg leading-5 opacity-90 ${textAutoHide ? "text-clamp-2" : ""
+                      }`}
                   >
                     {card.description}
                   </p>

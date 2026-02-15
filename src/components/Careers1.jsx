@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 
 export default function Careers1() {
   return (
-    <section className="relative bg-black pt-24 min-h-screen overflow-hidden">
+    <section className="relative bg-black min-h-[85vh] overflow-hidden flex items-center justify-center">
       {/* 🌌 Aurora Background Animation */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="aurora-bg"></div>

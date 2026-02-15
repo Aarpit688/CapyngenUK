@@ -164,7 +164,7 @@ const B2CoreImplementation = () => {
         {/* TEXT SIDE */}
         <div className="animate-fadeUp space-y-8 bg-white/5 p-8 md:p-12 border border-blue-400/10 backdrop-blur-sm shadow-[0_10px_40px_rgba(0,140,255,0.06)]">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white leading-tight">
-            How Aynzenix Implements B2Core for Brokers
+            How Aynzenix Implements AynXcore for Brokers
           </h2>
 
           <p className="text-lg text-slate-300 max-w-2xl">

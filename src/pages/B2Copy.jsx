@@ -12,35 +12,35 @@ import FaqSection from "../components/FaqSection";
 const B2Copy = () => {
   const faqItems = [
     {
-      question: "What is B2Copy?",
+      question: "What is AynXcopy?",
       answer:
-        "B2Copy allows traders to connect with their experts and automatically copy the trading actions of those super-traders in a multi-asset copy trading system.",
+        "AynXcopy allows traders to connect with their experts and automatically copy the trading actions of those super-traders in a multi-asset copy trading system.",
     },
     {
-      question: "Do you provide B2Copy white-label solutions?",
+      question: "Do you provide AynXcopy white-label solutions?",
       answer:
-        "Yes — Aynzenix delivers B2Copy white-label copy trading platforms that can be entirely branded by the customer.",
+        "Yes — Aynzenix delivers AynXcopy white-label copy trading platforms that can be entirely branded by the customer.",
     },
     {
-      question: "Can B2Copy support forex and crypto trading?",
+      question: "Can AynXcopy support forex and crypto trading?",
       answer:
-        "Definitely. B2Copy is an open-ended multi-market platform which means the users can trade forex, crypto, commodities, indices and CFDs.",
+        "Definitely. AynXcopy is an open-ended multi-market platform which means the users can trade forex, crypto, commodities, indices and CFDs.",
     },
     {
-      question: "How does B2Copy replicate trades?",
+      question: "How does AynXcopy replicate trades?",
       answer:
-        "The B2Copy platform uses the latest technology to ensure trades from the master account are reflected in real-time on the follower accounts instantly.",
+        "The AynXcopy platform uses the latest technology to ensure trades from the master account are reflected in real-time on the follower accounts instantly.",
     },
     {
       question:
-        "Can B2Copy integrate with our existing CRM or trading platform?",
+        "Can AynXcopy integrate with our existing CRM or trading platform?",
       answer:
-        "Yes — we are fully equipped with the B2Copy API that can seamlessly connect B2Copy with CRMs, PSPs, KYC tools, and trading platforms to create a one-stop environment for your customers' needs.",
+        "Yes — we are fully equipped with the AynXcopy API that can seamlessly connect AynXcopy with CRMs, PSPs, KYC tools, and trading platforms to create a one-stop environment for your customers' needs.",
     },
     {
-      question: "Is B2Copy suitable for startup brokers?",
+      question: "Is AynXcopy suitable for startup brokers?",
       answer:
-        "Yes — B2Copy would be an ideal choice for a startup broker considering the rapid implementation time, minimal technical requirements, and ability to scale up swiftly.",
+        "Yes — AynXcopy would be an ideal choice for a startup broker considering the rapid implementation time, minimal technical requirements, and ability to scale up swiftly.",
     },
     {
       question: "Do you handle hosting and infrastructure setup?",
@@ -50,26 +50,26 @@ const B2Copy = () => {
     {
       question: "Do you offer ongoing support after the launch?",
       answer:
-        "Yes — We offer 24/7 technical support, monitoring, and maintenance services to all our B2Copy customers.",
+        "Yes — We offer 24/7 technical support, monitoring, and maintenance services to all our AynXcopy customers.",
     },
   ];
   return (
     <div>
       <Banner7
-        title="High-Performance Copy Trading Technology for B2Copy"
+        title="High-Performance Copy Trading Technology for AynXcopy"
         description="Enable seamless copy trading with scalable IT infrastructure built for professional traders and global brokerages."
         ctaText="Join Now"
         ctaLink="/contact-us"
         cards={[
           {
             thumbnail: assets.b2Copy1,
-            title: "Copy Trading with a Technological Edge for B2Copy",
+            title: "Copy Trading with a Technological Edge for AynXcopy",
             description:
               "Use a technological infrastructure of copy trading to make fast, reliable and efficient copies.",
           },
           {
             thumbnail: assets.b2Copy2,
-            title: "B2Copy High-Speed Copy Trading",
+            title: "AynXcopy High-Speed Copy Trading",
             description:
               "Provide automated trading with the help of technology for professional traders.",
           },

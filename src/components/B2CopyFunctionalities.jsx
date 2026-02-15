@@ -31,7 +31,7 @@ const B2CopyFunctionalities = () => {
         <div className="lg:flex lg:items-end lg:justify-between gap-10">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight text-center">
-              Key Functionalities of B2Copy Copy Trading Platform
+              Key Functionalities of AynXcopy Copy Trading Platform
             </h2>
           </div>
         </div>
@@ -84,7 +84,7 @@ const B2CopyFunctionalities = () => {
 
         {/* OUTRO */}
         <p className="text-gray-300 text-xl mt-10 text-center mx-auto max-w-7xl leading-relaxed">
-          B2Copy enables brokers to create an environment of social trading that
+          AynXcopy enables brokers to create an environment of social trading that
           is free from hassle and is stable for the ​‍​‌‍​‍‌​‍​‌‍​‍‌users.
         </p>
       </div>

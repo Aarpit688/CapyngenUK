@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const Banner1 = ({
   title = "Connecting Devs with Employers",
@@ -11,18 +11,28 @@ const Banner1 = ({
   rating = 4.1,
   totalReviews = "14k Reviews",
 }) => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-black py-20 xl:py-24 min-h-screen flex items-center">
-        <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+      <section className="relative flex items-center justify-center overflow-hidden bg-black min-h-[85vh]">
+        <div className="relative mx-auto max-w-[90vw] w-full">
           <div className="grid items-center grid-cols-1 gap-y-12 lg:grid-cols-2 gap-x-16">
+
             {/* RIGHT — Illustration */}
-            <div className="relative order-1 lg:order-2">
+            <div
+              className={`relative order-1 lg:order-2 transition-all duration-1000 ease-out transform ${isMounted ? "translate-x-0 opacity-100" : "translate-x-12 opacity-0"
+                }`}
+            >
               {/* Glow Shape */}
-              <div className="absolute inset-0">
+              <div className="absolute inset-0 flex justify-center items-center">
                 <svg
-                  className="opacity-70 blur-3xl"
+                  className="opacity-70 blur-3xl scale-75 md:scale-100"
                   width="444"
                   height="536"
                   viewBox="0 0 444 536"
@@ -51,34 +61,41 @@ const Banner1 = ({
 
               {/* Main Illustration */}
               <img
-                className="relative w-full mx-auto"
+                className={`relative w-full md:w-md max-w-lg lg:max-w-full mx-auto transition-transform duration-1000 delay-300 ease-out ${isMounted ? "scale-100" : "scale-95"
+                  }`}
                 src={illustrationImg}
                 alt="Hero Illustration"
               />
             </div>
 
             {/* LEFT — Text Content */}
-            <div className="order-2 lg:order-1">
-              <h1 className="text-3xl font-semibold text-white sm:text-5xl lg:text-6xl">
+            <div
+              className={`order-2 lg:order-1 transition-all duration-1000 delay-150 ease-out transform ${isMounted ? "translate-x-0 opacity-100" : "-translate-x-12 opacity-0"
+                }`}
+            >
+              <h1 className="text-4xl font-bold text-white sm:text-5xl lg:leading-tight tracking-tight">
                 {title}
               </h1>
 
-              <p className="mt-4 text-md md:text-lg font-normal text-gray-400 sm:mt-8">
+              <p className="mt-4 md:mt-6 text-base md:text-lg lg:text-xl font-normal text-gray-400 max-w-xl">
                 {subtitle}
               </p>
 
-              <div className="my-10">
+              <div className="my-8 md:my-10">
                 <button
-                  type="submit"
-                  className="inline-flex items-center justify-center w-full px-5 py-5 text-sm font-semibold tracking-widest text-black uppercase transition-all duration-200 bg-white rounded-full sm:w-auto sm:py-3 hover:opacity-90"
+                  type="button"
+                  className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-3.5 text-sm md:text-base font-semibold tracking-wider text-black uppercase transition-all duration-300 bg-white rounded-full hover:opacity-90 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]"
                 >
                   {ctaText}
                 </button>
               </div>
 
               {/* Ratings */}
-              <div className="mt-8 sm:mt-12">
-                <p className="text-lg font-normal text-white">
+              <div
+                className={`mt-8 sm:mt-12 transition-all duration-1000 delay-500 ease-out transform ${isMounted ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
+                  }`}
+              >
+                <p className="text-base md:text-lg font-normal text-white">
                   {trustedByText}
                 </p>
 
@@ -87,7 +104,7 @@ const Banner1 = ({
                     {[...Array(5)].map((_, i) => (
                       <svg
                         key={i}
-                        className="w-5 h-5"
+                        className="w-5 h-5 drop-shadow-[0_0_8px_rgba(168,85,247,0.5)]"
                         viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -112,16 +129,17 @@ const Banner1 = ({
                     ))}
                   </div>
 
-                  <span className="ml-2 text-base font-normal text-white">
+                  <span className="ml-3 text-base font-semibold text-white">
                     {rating}/5
                   </span>
-                  <span className="ml-1 text-base font-normal text-gray-500">
+                  <span className="ml-1.5 text-sm md:text-base font-medium text-gray-500">
                     ({totalReviews})
                   </span>
                 </div>
               </div>
             </div>
             {/* End Left */}
+
           </div>
         </div>
       </section>

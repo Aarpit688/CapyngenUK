@@ -101,8 +101,8 @@ const Navbar = () => {
             : "bg-transparent"
           }`}
       >
-        <div className="max-w-[90vw] mx-auto px-0 sm:px-6 lg:px-8 relative">
-          <div className="flex justify-between items-center h-16 lg:h-20">
+        <div className="max-w-[90vw] mx-auto px-0 relative">
+          <div className="flex justify-between items-center h-20 md:h-24 pt-3">
             {/* Logo */}
             <NavLink
               to="/"
@@ -110,11 +110,11 @@ const Navbar = () => {
                 e.preventDefault();
                 handleSameLinkClick("/");
               }}
-              className="shrink-0 z-50 transition-transform hover:scale-105"
+              className="shrink-0 z-50 transition-transform"
             >
               <img
                 src={assets.aynzenixLogo}
-                className="w-26 md:w-36"
+                className="w-18 md:w-22"
                 alt={assets.aynzenixLogo}
               />
             </NavLink>

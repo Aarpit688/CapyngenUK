@@ -92,7 +92,7 @@ const B2CoreDeployment = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl lg:text-5xl font-extrabold text-white">
-              Complete White-Label B2Core CRM Deployment
+              Complete White-Label AynXcore CRM Deployment
             </h2>
 
             <p className="mt-6 text-lg text-slate-300">

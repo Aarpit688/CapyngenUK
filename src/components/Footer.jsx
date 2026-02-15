@@ -83,7 +83,7 @@ const Footer = () => {
               <img
                 src={assets.aynzenixLogo || assets.AynzenixFavIcon}
                 alt="Aynzenix Logo"
-                className="w-full max-w-[200px]"
+                className="max-w-full w-24 md:w-24"
               />
             </NavLink>
 

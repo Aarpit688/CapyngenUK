@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
+import { useInView } from "react-intersection-observer";
 import "swiper/css";
 import "swiper/css/pagination";
 import { assets } from "../assets/assets";
@@ -33,12 +34,17 @@ const projects = [
 ];
 
 export default function ProjectsShowcase() {
+  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.15 });
+
   return (
     <section className="relative py-16 md:py-20 bg-black text-white w-full overflow-hidden">
-      <div className="container mx-auto px-4 md:px-8 lg:px-12">
+      <div className="container mx-auto px-4 md:px-8 lg:px-12" ref={ref}>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Left Content */}
-          <div className="flex flex-col justify-center text-center md:text-left">
+          <div
+            className={`flex flex-col justify-center text-center md:text-left transition-all duration-1000 ease-out transform ${inView ? "translate-x-0 opacity-100" : "-translate-x-12 opacity-0"
+              }`}
+          >
             <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-snug">
               Showcase of Our Recognized Work
             </h2>
@@ -56,9 +62,11 @@ export default function ProjectsShowcase() {
               ].map((item, i) => (
                 <li
                   key={i}
-                  className="flex items-center gap-3 justify-center md:justify-start"
+                  className={`flex items-center gap-3 justify-center md:justify-start transition-all duration-700 ease-out transform ${inView ? "translate-x-0 opacity-100" : "-translate-x-6 opacity-0"
+                    }`}
+                  style={{ transitionDelay: inView ? `${300 + i * 150}ms` : "0ms" }}
                 >
-                  <span className="w-2.5 h-2.5 rounded-full bg-gradient-to-r from-fuchsia-500 to-cyan-400"></span>
+                  <span className="w-2.5 h-2.5 rounded-full bg-gradient-to-r from-fuchsia-500 to-cyan-400 shrink-0"></span>
                   {item}
                 </li>
               ))}
@@ -66,7 +74,10 @@ export default function ProjectsShowcase() {
           </div>
 
           {/* Right Swiper */}
-          <div className="md:col-span-2 w-full">
+          <div
+            className={`md:col-span-2 w-full transition-all duration-1000 delay-300 ease-out transform ${inView ? "translate-x-0 opacity-100" : "translate-x-12 opacity-0"
+              }`}
+          >
             <Swiper
               modules={[Autoplay, Pagination]}
               spaceBetween={20}
@@ -85,9 +96,9 @@ export default function ProjectsShowcase() {
             >
               {projects.map((proj, idx) => (
                 <SwiperSlide key={idx}>
-                  <div className="rounded-lg overflow-hidden group bg-black/70 border border-white/10 backdrop-blur-md hover:scale-[1.03] transition duration-500">
+                  <div className="rounded-lg overflow-hidden group bg-black/70 border border-white/10 backdrop-blur-md hover:scale-[1.03] hover:shadow-2xl hover:shadow-fuchsia-500/20 transition-all duration-500">
                     {/* Image */}
-                    <div className="relative h-[280px] sm:h-[300px] ">
+                    <div className="relative h-[280px] sm:h-[300px] w-full">
                       <img
                         src={proj.image}
                         alt={proj.title}

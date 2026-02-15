@@ -88,17 +88,17 @@ const B2CopyIntro = () => {
               className="text-4xl lg:text-5xl font-extrabold 
                            text-white leading-normal"
             >
-              Build a Powerful Copy Trading Ecosystem with B2Copy
+              Build a Powerful Copy Trading Ecosystem with AynXcopy
             </h2>
 
             <p className="mt-6 text-lg text-slate-300 leading-relaxed">
               Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is the one to
-              provide the most advanced B2Copy broker technology solutions to
+              provide the most advanced AynXcopy broker technology solutions to
               forex, crypto, and multi-asset brokers.
             </p>
 
             <p className="mt-4 text-lg text-slate-300 leading-relaxed">
-              We make it easy for brokerages to implement B2Copy, integrate
+              We make it easy for brokerages to implement AynXcopy, integrate
               liquidity, set up trader groups, link APIs, and go live with a
               copy trading platform that is user-friendly and attractive to both
               beginners and ​‍​‌‍​‍‌​‍​‌‍​‍‌professionals.
@@ -106,7 +106,7 @@ const B2CopyIntro = () => {
 
             <div className="mt-10">
               <p className="text-xl font-semibold text-cyan-300 drop-shadow-[0_0_12px_#00eaff]">
-                Launch Your B2Copy Platform – Speak with Our Experts Today.
+                Launch Your AynXcopy Platform – Speak with Our Experts Today.
               </p>
             </div>
           </motion.div>

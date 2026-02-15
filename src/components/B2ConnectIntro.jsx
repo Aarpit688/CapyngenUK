@@ -23,7 +23,7 @@ const B2ConnectIntro = () => {
 
             <p className="mt-6 text-base lg:text-lg text-slate-300 leading-relaxed drop-shadow">
               Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited offers a strong
-              B2Connect Liquidity Bridge Solution to brokers that are in need of
+              AynXconnect Liquidity Bridge Solution to brokers that are in need of
               quick execution, efficient liquidity routing, and multi-asset
               trading support.
             </p>
@@ -46,7 +46,7 @@ const B2ConnectIntro = () => {
             transition-all duration-300 ease-in-out"
             >
               <h2 className="text-xl lg:text-2xl font-bold tracking-wide">
-                Connect Your Brokerage With High-Performance B2Connect Liquidity
+                Connect Your Brokerage With High-Performance AynXconnect Liquidity
                 Today.
               </h2>
             </div>

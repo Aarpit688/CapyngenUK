@@ -32,7 +32,7 @@ const Banner7 = ({
 
   return (
     <div
-      className={`relative bg-gradient-to-br from-gray-900 via-gray-950 to-black flex items-center min-h-screen overflow-hidden`}
+      className={`relative bg-gradient-to-br from-gray-900 via-gray-950 to-black flex items-center min-h-[85vh] overflow-hidden`}
     >
       {/* Decorative Glow Elements */}
       <div
@@ -42,7 +42,7 @@ const Banner7 = ({
         className={`absolute -bottom-32 -left-32 w-96 h-96 ${glow2} rounded-full blur-3xl`}
       ></div>
 
-      <section className="relative z-10 px-5 py-16 sm:px-6 md:px-8 lg:px-12 xl:px-16 max-w-[1440px] mx-auto lg:py-20 xl:py-28 grid grid-cols-1 lg:grid-cols-2 items-center gap-12 lg:gap-20">
+      <section className="relative z-10 px-5 py-16 sm:px-6 md:px-8 lg:px-12 xl:px-16 max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12 lg:gap-20">
         {/* Left Section */}
         <div className="order-2 lg:order-1 lg:pr-8">
           <div className="max-w-md mx-auto sm:max-w-5xl lg:mx-0">

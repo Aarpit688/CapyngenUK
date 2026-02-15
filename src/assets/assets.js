@@ -247,7 +247,8 @@ import mt14 from "./mt14.png";
 import mt15 from "./mt15.png";
 import mt16 from "./mt16.png";
 import home1 from "./home1.png";
-import aynzenixLogo from "./aynzenixLogo.png";
+import aynzenixLogo from "./aynzenixLogo2.png";
+import partnership1 from "./partnership1.webp";
 
 export const assets = {
   sampleImg,
@@ -498,8 +499,8 @@ export const assets = {
   cryptoExchange,
   aboutUs8,
   homepage5,
-  home1,
-  aynzenixLogo,
+  home1, aynzenixLogo,
+  partnership1,
 };
 
 export const navItems = [
@@ -542,26 +543,26 @@ export const navItems = [
       {
         links: [
           {
-            label: "B2Trader",
-            href: "/products/b2trader",
+            label: "AynXtrader",
+            href: "/products/aynxtrader",
             description: "Advanced multi-asset trading platform.",
             imageSrc: b2Trader,
           },
           {
-            label: "B2Core",
-            href: "/products/b2core",
+            label: "AynXcore",
+            href: "/products/aynxcore",
             description: "Comprehensive brokerage management system.",
             imageSrc: b2Core,
           },
           {
-            label: "B2Copy",
-            href: "/products/b2copy",
+            label: "AynXcopy",
+            href: "/products/aynxcopy",
             description: "Copy trading platform for social traders.",
             imageSrc: b2Copy1,
           },
           {
-            label: "B2Connect",
-            href: "/products/b2connect",
+            label: "AynXconnect",
+            href: "/products/aynxconnect",
             description: "Robust API integration solutions.",
             imageSrc: b2connect,
           },
@@ -587,8 +588,8 @@ export const navItems = [
       {
         links: [
           {
-            label: "Capmarket",
-            href: "/platforms/capmarket",
+            label: "AynXmarket",
+            href: "/platforms/aynxmarket",
             description: "Innovative trading and market analysis platform.",
             imageSrc: capmarket1,
           },
@@ -638,8 +639,8 @@ export const navItems = [
       {
         links: [
           {
-            label: "Capmarket Service",
-            href: "/services/capmarket-service",
+            label: "AynXmarket Service",
+            href: "/services/aynxmarket-service",
             description: "Support and solutions for Capmarket platform.",
             imageSrc: capMarketService1,
           },
@@ -672,10 +673,6 @@ export const navItems = [
     ],
   },
   {
-    label: "BLOGS",
-    href: "/blogs",
-  },
-  {
     label: "COMPANY",
     dropdown: [
       {
@@ -690,6 +687,18 @@ export const navItems = [
             label: "Careers",
             href: "/company/careers",
             description: "Join our growing team.",
+            imageSrc: careers2,
+          },
+          {
+            label: "Blogs",
+            href: "/blogs",
+            description: "Get valuable insights and information.",
+            imageSrc: careers2,
+          },
+          {
+            label: "Partnership",
+            href: "/company/partnership",
+            description: "Get valuable insights and information.",
             imageSrc: careers2,
           },
         ],

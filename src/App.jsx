@@ -31,6 +31,10 @@ import Careers from "./pages/Careers";
 import AboutUs from "./pages/AboutUs";
 import Blogs from "./pages/Blogs";
 import BlogDetail from "./components/BlogDetail";
+import Partnership from "./pages/Partnership";
+import TermsOfService from "./pages/TermsOfService";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import ProductsDocumentation from "./pages/ProductsDocumentation";
 
 const App = () => {
   return (
@@ -38,57 +42,67 @@ const App = () => {
       <Router>
         <ScrollToTop />
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Homepage />} />
+        <div className="pt-24 bg-black">
+          <Routes>
 
-          <Route path="/turnkey/forex-broker" element={<ForexBroker />} />
-          <Route path="/turnkey/crypto-exchange" element={<CryptoExchange />} />
-          <Route path="/turnkey/crypto-broker" element={<CryptoBroker />} />
-          <Route
-            path="/turnkey/liquidity-provider"
-            element={<LiquidityProvider />}
-          />
 
-          <Route path="/products/b2trader" element={<B2Trader />} />
-          <Route path="/products/b2core" element={<B2Core />} />
-          <Route path="/products/b2copy" element={<B2Copy />} />
-          <Route path="/products/b2connect" element={<B2Connect />} />
-          <Route path="/products/pamm" element={<Pamm />} />
-          <Route path="/products/mam" element={<Mam />} />
+            <Route path="/" element={<Homepage />} />
 
-          <Route path="/platforms/capmarket" element={<Capmarket />} />
-          <Route path="/platforms/vertexfx" element={<VertexFx />} />
-          <Route path="/platforms/sirix" element={<Sirix />} />
-          <Route path="/platforms/ark-trading" element={<ArkTrading />} />
-          <Route path="/platforms/mt5" element={<MT5 />} />
-          <Route path="/platforms/ctrader" element={<CTrader />} />
-          <Route path="/platforms/ntrader" element={<NTrader />} />
+            <Route path="/turnkey/forex-broker" element={<ForexBroker />} />
+            <Route path="/turnkey/crypto-exchange" element={<CryptoExchange />} />
+            <Route path="/turnkey/crypto-broker" element={<CryptoBroker />} />
+            <Route
+              path="/turnkey/liquidity-provider"
+              element={<LiquidityProvider />}
+            />
 
-          <Route
-            path="/services/ctrader-service"
-            element={<CTraderService />}
-          />
+            <Route path="/products/aynxtrader" element={<B2Trader />} />
+            <Route path="/products/aynxcore" element={<B2Core />} />
+            <Route path="/products/aynxcopy" element={<B2Copy />} />
+            <Route path="/products/aynxconnect" element={<B2Connect />} />
+            <Route path="/products/pamm" element={<Pamm />} />
+            <Route path="/products/mam" element={<Mam />} />
 
-          <Route
-            path="/services/capmarket-service"
-            element={<CapmarketService />}
-          />
-          <Route path="/services/mt5-service" element={<MT5Service />} />
-          <Route
-            path="/services/onezero-service"
-            element={<OneZeroService />}
-          />
-          <Route
-            path="/services/primexm-xcore-service"
-            element={<PrimeXMService />}
-          />
+            <Route path="/platforms/aynxmarket" element={<Capmarket />} />
+            <Route path="/platforms/vertexfx" element={<VertexFx />} />
+            <Route path="/platforms/sirix" element={<Sirix />} />
+            <Route path="/platforms/ark-trading" element={<ArkTrading />} />
+            <Route path="/platforms/mt5" element={<MT5 />} />
+            <Route path="/platforms/ctrader" element={<CTrader />} />
+            <Route path="/platforms/ntrader" element={<NTrader />} />
 
-          <Route path="/company/careers" element={<Careers />} />
-          <Route path="/company/about-us" element={<AboutUs />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="/blogs/:slug" element={<BlogDetail />} />
-          <Route path="/contact-us" element={<ContactUs />} />
-        </Routes>
+            <Route
+              path="/services/ctrader-service"
+              element={<CTraderService />}
+            />
+
+            <Route
+              path="/services/aynxmarket-service"
+              element={<CapmarketService />}
+            />
+            <Route path="/services/mt5-service" element={<MT5Service />} />
+            <Route
+              path="/services/onezero-service"
+              element={<OneZeroService />}
+            />
+            <Route
+              path="/services/primexm-xcore-service"
+              element={<PrimeXMService />}
+            />
+
+            <Route path="/company/careers" element={<Careers />} />
+            <Route path="/company/about-us" element={<AboutUs />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs/:slug" element={<BlogDetail />} />
+            <Route path="/company/partnership" element={<Partnership />} />
+
+            <Route path="/contact-us" element={<ContactUs />} />
+
+            <Route path="/terms-of-service" element={<TermsOfService />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/products/documentation" element={<ProductsDocumentation />} />
+          </Routes>
+        </div>
         <Footer />
       </Router>
     </div>

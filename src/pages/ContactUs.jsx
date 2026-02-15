@@ -198,7 +198,7 @@ const ContactUsSection = () => {
   };
 
   return (
-    <div className="bg-black py-24 w-full relative overflow-hidden">
+    <div className="bg-black py-10 w-full relative overflow-hidden">
       {/* Styles for the Dropdown Animation & Scrollbar */}
       <style>{`
         @keyframes popIn {
@@ -220,7 +220,7 @@ const ContactUsSection = () => {
       {/* Soft minimal glow */}
       <div className="absolute inset-0 bg-gradient-to-b from-white/5 via-transparent to-transparent pointer-events-none"></div>
 
-      <section className="max-w-[90vw] mx-auto w-full" id="contact">
+      <section className="max-w-[80vw] mx-auto w-full" id="contact">
         {/* Header */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">
@@ -485,8 +485,8 @@ const ContactUsSection = () => {
                 {showResponse && (
                   <p
                     className={`mt-6 rounded-xl py-2 px-6 text-center text-sm font-semibold max-w-sm mx-auto ${responseMsg.includes("✅")
-                        ? "bg-green-600/80 text-green-100"
-                        : "bg-red-600/80 text-red-100"
+                      ? "bg-green-600/80 text-green-100"
+                      : "bg-red-600/80 text-red-100"
                       } animate-popIn`}
                   >
                     {responseMsg.replace(/^✅|❌/g, "")}

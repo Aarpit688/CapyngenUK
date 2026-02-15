@@ -113,7 +113,7 @@ const B2CoreIntro = () => {
 
           <p className="text-md text-slate-300 mt-6">
             Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is a pioneer in
-            providing B2Core broker CRM solutions, by which the entire broker
+            providing AynXcore broker CRM solutions, by which the entire broker
             life-cycle is made efficient through easy onboarding, workflow
             automation, account management, and the facilitation of broker
             operations worldwide.

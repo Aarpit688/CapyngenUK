@@ -66,7 +66,7 @@ const B2ConnectImplementation = () => {
             {/* LEFT SIDE CONTENT */}
             <div className="p-6 sm:p-8 lg:p-12 tilt-card transition-transform duration-300">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold leading-snug text-white">
-                How Aynzenix Implements B2Connect for Brokers
+                How Aynzenix Implements AynXconnect for Brokers
               </h2>
 
               <p className="mt-4 text-gray-300 text-base sm:text-lg leading-relaxed">

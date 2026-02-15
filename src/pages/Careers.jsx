@@ -6,7 +6,6 @@ import Careers4 from "../components/Careers4";
 import Careers5 from "../components/Careers5";
 import Careers6 from "../components/Careers6";
 import Careers7 from "../components/Careers7";
-import JobOpeningsTable from "../components/JobOpeningsTable";
 
 const Careers = () => {
   return (
@@ -16,7 +15,6 @@ const Careers = () => {
       <Careers3 />
       <Careers4 />
       <Careers5 />
-      <JobOpeningsTable />
       <Careers6 />
       <Careers7 />
     </div>

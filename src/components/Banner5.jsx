@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 
 const Banner5 = () => {
   return (
-    <section className="bg-gradient-to-br min-h-screen overflow-hidden from-gray-900 to-black py-16 lg:py-24 flex items-center">
+    <section className="bg-gradient-to-br max-h-[85vh] overflow-hidden from-gray-900 to-black py-16 lg:py-24 flex items-center">
       <div className="px-5 xl:pl-24 xl:pr-0">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-20">
           {/* Left Section */}
@@ -12,13 +12,13 @@ const Banner5 = () => {
             <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl xl:text-6xl">
               Engineered Trading Solutions for <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
-                B2Trader Platforms
+                AynXtrader Platforms
               </span>
             </h1>
 
             <p className="mt-6 text-lg text-gray-300 sm:mt-8">
               Aynzenix delivers enterprise-grade technology to optimize,
-              integrate, and enhance your B2Trader ecosystem for peak
+              integrate, and enhance your AynXtrader ecosystem for peak
               performance.
             </p>
 

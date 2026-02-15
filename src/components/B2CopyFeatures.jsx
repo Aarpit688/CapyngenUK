@@ -43,23 +43,23 @@ const FeatureIcon = ({ path }) => (
 const B2CopyFeatures = () => {
   const features = [
     {
-      title: "B2Copy White-Label Copy Trading Platform",
+      title: "AynXcopy White-Label Copy Trading Platform",
       description:
-        "B2Copy offers a fully branded white-label solution that allows brokers to launch a full social and copy trading experience with custom branding and flexible configurations.",
+        "AynXcopy offers a fully branded white-label solution that allows brokers to launch a full social and copy trading experience with custom branding and flexible configurations.",
       iconPath:
         "M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17",
     },
     {
       title: "Multi-Account & Multi-Asset Copy Trading",
       description:
-        "B2Copy is a multi-asset copy trading platform that supports forex, crypto, commodities, indices, and CFDs. This enables brokers to offer multi-asset copy trading with exact trade mirroring across accounts.",
+        "AynXcopy is a multi-asset copy trading platform that supports forex, crypto, commodities, indices, and CFDs. This enables brokers to offer multi-asset copy trading with exact trade mirroring across accounts.",
       iconPath:
         "M4 7v10m16-10v10M6 7h2m10 0h2M6 17h2m10 0h2M12 7v10M10 7h4m-4 5h4m-4 5h4",
     },
     {
       title: "Real-Time Copy Execution Engine",
       description:
-        "Aynzenix is upgrading B2Copy's high-speed execution engine with the integration that allows for instant trade syncing, accurate lot allocation, and minimal ​‍​‌‍​‍‌​‍​‌‍​‍‌slippage.",
+        "Aynzenix is upgrading AynXcopy's high-speed execution engine with the integration that allows for instant trade syncing, accurate lot allocation, and minimal ​‍​‌‍​‍‌​‍​‌‍​‍‌slippage.",
       iconPath: "M13 10V3L4 14h7v7l9-11h-7z",
     },
   ];
@@ -82,18 +82,18 @@ const B2CopyFeatures = () => {
           className="text-center max-w-7xl mx-auto"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold text-white">
-            What Makes B2Copy Essential for Brokers?
+            What Makes AynXcopy Essential for Brokers?
           </h2>
 
           <p className="mt-6 text-xl text-gray-300 leading-relaxed">
-            B2Copy​‍​‌‍​‍‌​‍​‌‍​‍‌ platform is a trading system with copying
-            functionality. B2Copy can be integrated with a trading platform or
+            AynXcopy​‍​‌‍​‍‌​‍​‌‍​‍‌ platform is a trading system with copying
+            functionality. AynXcopy can be integrated with a trading platform or
             CRM product to provide your clients with automated and synchronized
             trading.
           </p>
 
           <p className="mt-4 text-gray-400 leading-relaxed text-xl">
-            B2copy is built on the fast, low latencies matching engine of
+            AynXcopy is built on the fast, low latencies matching engine of
             B2Broker to offer multiaccount control with advanced role management
             and seamless integration with broker CRM and trading platforms.
           </p>

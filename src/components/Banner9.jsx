@@ -13,7 +13,7 @@ const Banner9 = ({
   ],
 }) => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-gray-900 to-black py-20 lg:py-32">
+    <section className="relative overflow-hidden bg-gradient-to-br from-gray-900 to-black flex items-center justify-center h-screen  max-h-[95vh]">
       {/* Decorative Glow Elements */}
       <div className="absolute -top-32 -right-32 w-72 h-72 bg-indigo-500/10 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl"></div>

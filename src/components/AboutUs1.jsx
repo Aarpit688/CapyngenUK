@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 
 export const AboutUs1 = () => {
   return (
-    <section className="relative pt-24 min-h-screen bg-black text-white overflow-hidden">
+    <section className="relative min-h-[85vh] bg-black text-white overflow-hidden flex items-center justify-center">
       {/* 🎨 PREMIUM AURORA BACKGROUND */}
       <div className="absolute inset-0 -z-10 pointer-events-none">
         {/* Soft multi-layer aurora */}
@@ -46,14 +46,6 @@ export const AboutUs1 = () => {
               professionals, we enable new and existing brokerages to embark on
               a journey, expand and function in the financial market with a
               complete sense of security, albeit highly competitive.
-            </p>
-
-            <p className="text-gray-400 leading-relaxed text-lg mb-10">
-              We provide a brokerage with all the necessities wrapped in one
-              integrated ecosystem starting from company formation to trading
-              platforms, CRM systems, MAM/PAMM modules, liquidity integration,
-              and worldwide marketing. Our goal is to equip financial businesses
-              with safe, innovative, and scalable ​‍​‌‍​‍‌​‍​‌‍​‍‌technology.
             </p>
 
             <button className="inline-flex items-center px-8 py-4 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white text-base font-medium shadow-lg hover:shadow-blue-500/40 transition-all hover:scale-[1.02] active:scale-[0.99] border border-white/20 backdrop-blur-xl">

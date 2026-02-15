@@ -3,20 +3,20 @@ import { Link } from "react-router-dom";
 
 const Banner8 = ({ image, badge, name, description, buttonText }) => {
   return (
-    <section className="relative w-full min-h-screen bg-gradient-to-br from-gray-900 to-black flex items-center justify-center overflow-hidden">
+    <section className="relative w-full min-h-[85vh] bg-gradient-to-br from-gray-900 to-black flex items-center justify-center overflow-hidden">
       {/* Decorative Glow Elements */}
       <div className="absolute -top-32 -right-32 w-72 h-72 bg-green-500/10 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl"></div>
 
       {/* Container */}
-      <div className="relative z-10 flex flex-col lg:flex-row items-center justify-center max-w-[90vw] mx-auto py-16 sm:py-20 gap-6 lg:gap-16">
+      <div className="relative z-10 flex flex-col lg:flex-row items-center justify-center max-w-[90vw] mx-auto gap-6 lg:gap-16">
         {/* Left Image */}
         <div className="relative w-full flex justify-center">
           <div className="relative w-full">
             <img
               src={image}
               alt={name}
-              className="lg:min-h-[80vh] object-cover shadow-2xl"
+              className="object-cover shadow-2xl"
             />
           </div>
         </div>

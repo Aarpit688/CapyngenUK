@@ -13,7 +13,7 @@ const cardTabs = {
   Products: [
     {
       color: "#060010",
-      title: "B2Trader",
+      title: "AynXtrader",
       description: "User behavior tracking",
       label: "Insights",
     },
@@ -25,7 +25,7 @@ const cardTabs = {
     },
     {
       color: "#060010",
-      title: "B2Copy",
+      title: "AynXcopy",
       description: "Seamless collaboration",
       label: "Teamwork",
     },

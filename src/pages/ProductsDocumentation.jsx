@@ -1,144 +1,242 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export default function ProductsDocumentation() {
+    const containerVariants = {
+        hidden: { opacity: 0 },
+        visible: {
+            opacity: 1,
+            transition: {
+                staggerChildren: 0.15,
+            },
+        },
+    };
+
+    const itemVariants = {
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+    };
+
     return (
-        <main className="min-h-screen bg-black text-gray-300 py-20 px-4 sm:px-6 lg:px-8 antialiased">
-            <div className="max-w-4xl mx-auto bg-gray-900/40 border border-gray-800 rounded-2xl p-8 sm:p-12 shadow-2xl backdrop-blur-sm">
+        <main className="relative min-h-screen bg-[#050505] text-gray-300 py-16 md:py-24 px-4 sm:px-6 overflow-hidden antialiased">
+            {/* Background Ambient Glows (Technology Theme: Blue & Violet) */}
+            <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-blue-600/15 rounded-full blur-[120px] pointer-events-none mix-blend-screen" />
+            <div className="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-violet-600/10 rounded-full blur-[150px] pointer-events-none mix-blend-screen" />
 
-                <h1 className="text-3xl sm:text-4xl font-bold text-white mb-10 text-center sm:text-left leading-tight">
-                    The Aynzenix Ecosystem: Next-Gen Forex Technology Suite
-                </h1>
+            <div className="relative z-10 max-w-[90vw] mx-auto bg-gray-900/50 backdrop-blur-xl border border-white/5 rounded-3xl p-8 sm:p-12 md:p-16 lg:p-20 shadow-2xl">
 
-                <div className="space-y-10">
+                {/* Header */}
+                <motion.div
+                    initial={{ opacity: 0, y: -20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8 }}
+                    className="mb-16 border-b border-white/10 pb-10"
+                >
+                    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-violet-400 mb-6 tracking-tight">
+                        The Aynzenix Ecosystem: Next-Gen Forex Technology Suite
+                    </h1>
+                    <div className="space-y-2 text-xl sm:text-2xl font-medium text-gray-400 max-w-5xl">
+                        <p>At Aynzenix Technology Limited, we don’t just build tools — we build complete brokerage infrastructure.</p>
+                        <p>Our ecosystem is engineered for performance, scalability, and long-term growth.</p>
+                    </div>
+                </motion.div>
+
+                {/* Content Sections */}
+                <motion.div
+                    variants={containerVariants}
+                    initial="hidden"
+                    animate="visible"
+                    className="space-y-16"
+                >
                     {/* Section 1 */}
-                    <section>
-                        <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4">
-                            1. Custom Forex Trading Platforms
-                        </h2>
-                        <p className="leading-relaxed mb-6">
-                            Our premier trading solution is designed for speed, reliability, and usability.
-                        </p>
-                        <div className="space-y-4 ml-2">
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Execution Speed: </span>
-                                <span className="text-gray-400">Ultra-low latency bridging for immediate order execution.</span>
-                            </div>
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Multi-Terminal Access: </span>
-                                <span className="text-gray-400">Seamless switching between Desktop, Web, and Mobile interfaces.</span>
-                            </div>
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Advanced Charting: </span>
-                                <span className="text-gray-400">Integrated technical analysis tools, timeframes, and analysis functions for professional traders.</span>
-                            </div>
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Custom Branding: </span>
-                                <span className="text-gray-400">White-label solutions to maintain your brokerage’s identity and presence.</span>
-                            </div>
+                    <motion.section variants={itemVariants}>
+                        <div className="flex items-center gap-4 mb-6">
+                            <span className="flex items-center justify-center w-10 h-10 rounded-lg bg-blue-500/20 text-blue-400 font-bold text-xl border border-blue-500/30">1</span>
+                            <h2 className="text-2xl sm:text-3xl font-bold text-white">Custom Forex Trading Platforms</h2>
                         </div>
-                    </section>
+                        <div className="space-y-6 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-400 pl-0 sm:pl-14">
+                            <p>
+                                Our main trading solution is developed with speed, stability, and professional, grade usability in mind.
+                            </p>
+                            <ul className="space-y-5">
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-blue-400 shadow-[0_0_10px_rgba(96,165,250,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Ultra, Fast Execution</strong>
+                                        By means of a low, latency bridge architecture, the system can rapidly execute orders; thus, slippage is kept at the minimum, and traders' confidence is maximized.
+                                    </div>
+                                </li>
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-blue-400 shadow-[0_0_10px_rgba(96,165,250,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Multi, Terminal Access</strong>
+                                        Traders are allowed to effortlessly change over between Desktop, Web, and Mobile interfaces, thus ensuring the same experience on all devices.
+                                    </div>
+                                </li>
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-blue-400 shadow-[0_0_10px_rgba(96,165,250,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Advanced Charting & Analytics</strong>
+                                        Built in technical indicators, multiple timeframes, drawing tools, and analysis features that are suitable for both retail and professional traders.
+                                    </div>
+                                </li>
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-blue-400 shadow-[0_0_10px_rgba(96,165,250,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">White, Label Customization</strong>
+                                        You have complete control over your brokerage identity through total branding flexibility logos, themes, domains, and custom UI elements.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </motion.section>
 
                     {/* Section 2 */}
-                    <section>
-                        <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4">
-                            2. Intelligent Forex CRM Software
-                        </h2>
-                        <p className="leading-relaxed mb-6">
-                            The Aynzenix CRM is built with a Forex-specific high-volume environment in mind.
-                        </p>
-                        <div className="space-y-4 ml-2">
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Automated Onboarding: </span>
-                                <span className="text-gray-400">Electronic KYC processes to accelerate account verification.</span>
-                            </div>
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Multi-Tier IB Module: </span>
-                                <span className="text-gray-400">Organize affiliate networks with automated commission plans and tracking.</span>
-                            </div>
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Retention Tools: </span>
-                                <span className="text-gray-400">Monitor inactive accounts and send automated email/SMS campaigns to increase activity.</span>
-                            </div>
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Financial Dashboard: </span>
-                                <span className="text-gray-400">Real-time monitoring of Total Deposits, Withdrawals, and Net Equity.</span>
-                            </div>
+                    <motion.section variants={itemVariants}>
+                        <div className="flex items-center gap-4 mb-6">
+                            <span className="flex items-center justify-center w-10 h-10 rounded-lg bg-blue-500/20 text-blue-400 font-bold text-xl border border-blue-500/30">2</span>
+                            <h2 className="text-2xl sm:text-3xl font-bold text-white">Intelligent Forex CRM Software</h2>
                         </div>
-                    </section>
+                        <div className="space-y-6 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-400 pl-0 sm:pl-14">
+                            <p>
+                                The Aynzenix CRM is designed specifically for high-volume Forex trading.
+                            </p>
+                            <ul className="space-y-5">
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-indigo-400 shadow-[0_0_10px_rgba(129,140,248,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Automated Onboarding & eKYC</strong>
+                                        Streamline account verification using structured digital KYC processes and document management.
+                                    </div>
+                                </li>
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-indigo-400 shadow-[0_0_10px_rgba(129,140,248,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Multi-Tier IB & Affiliate Module</strong>
+                                        Organize Introducing Brokers and affiliate programs using automated commission schemes, tracking, and performance analysis.
+                                    </div>
+                                </li>
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-indigo-400 shadow-[0_0_10px_rgba(129,140,248,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Client Retention Engine</strong>
+                                        Analyze inactive accounts, segment client activity, and launch automated email or SMS campaigns to boost engagement and trading activity.
+                                    </div>
+                                </li>
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-indigo-400 shadow-[0_0_10px_rgba(129,140,248,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Real-Time Financial Dashboard</strong>
+                                        Track Total Deposits, Withdrawals, Trading Volume, and Net Equity using a centralized performance dashboard.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </motion.section>
 
                     {/* Section 3 */}
-                    <section>
-                        <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4">
-                            3. Payment Gateway & Crypto Integration
-                        </h2>
-                        <p className="leading-relaxed mb-6">
-                            We overcome the most significant barrier for new brokers—financing.
-                        </p>
-                        <div className="space-y-4 ml-2">
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Global Reach: </span>
-                                <span className="text-gray-400">Support for major credit cards, wire payments, and regional e-wallets.</span>
-                            </div>
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Crypto-First Strategy: </span>
-                                <span className="text-gray-400">Dedicated modules for Bitcoin, USDT (ERC20/TRC20), and Ethereum payments with instant conversion.</span>
-                            </div>
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Security: </span>
-                                <span className="text-gray-400">Fraud detection tools and 3D Secure.</span>
-                            </div>
+                    <motion.section variants={itemVariants}>
+                        <div className="flex items-center gap-4 mb-6">
+                            <span className="flex items-center justify-center w-10 h-10 rounded-lg bg-blue-500/20 text-blue-400 font-bold text-xl border border-blue-500/30">3</span>
+                            <h2 className="text-2xl sm:text-3xl font-bold text-white">Payment Gateway & Crypto Integration</h2>
                         </div>
-                    </section>
+                        <div className="space-y-6 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-400 pl-0 sm:pl-14">
+                            <p>Funding infrastructure is often the biggest barrier for new brokers — we solve that.</p>
+                            <ul className="space-y-5">
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-violet-400 shadow-[0_0_10px_rgba(167,139,250,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Global Payment Coverage</strong>
+                                        Support for major credit cards, bank wire transfers, and local e-wallets to cater to global clients.
+                                    </div>
+                                </li>
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-violet-400 shadow-[0_0_10px_rgba(167,139,250,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Crypto-First Infrastructure</strong>
+                                        Customized modules for Bitcoin, USDT (ERC20/TRC20), and Ethereum with optimized processing and instant conversion features.
+                                    </div>
+                                </li>
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-violet-400 shadow-[0_0_10px_rgba(167,139,250,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Advanced Transaction Security</strong>
+                                        Integrated fraud protection tools, 3D Secure support, and transaction monitoring to minimize financial risks.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </motion.section>
 
                     {/* Section 4 */}
-                    <section>
-                        <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4">
-                            4. Web & App Development for Brokers
-                        </h2>
-                        <p className="leading-relaxed mb-6">
-                            A brokerage is only as good as its first impression.
-                        </p>
-                        <div className="space-y-4 ml-2">
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Conversion-Optimized Landing Pages: </span>
-                                <span className="text-gray-400">Designed to turn visitors into registered traders.</span>
-                            </div>
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Client Portal: </span>
-                                <span className="text-gray-400">A secure "My Account" area where traders can manage wallets, download platforms, and upload documents.</span>
-                            </div>
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">SEO & Speed: </span>
-                                <span className="text-gray-400">Built for performance to ensure high rankings on search engines and fast loading on mobile networks.</span>
-                            </div>
+                    <motion.section variants={itemVariants}>
+                        <div className="flex items-center gap-4 mb-6">
+                            <span className="flex items-center justify-center w-10 h-10 rounded-lg bg-blue-500/20 text-blue-400 font-bold text-xl border border-blue-500/30">4</span>
+                            <h2 className="text-2xl sm:text-3xl font-bold text-white">Web & App Development for Brokers</h2>
                         </div>
-                    </section>
+                        <div className="space-y-6 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-400 pl-0 sm:pl-14">
+                            <p>Your brokerage’s success starts with first impressions.</p>
+                            <ul className="space-y-5">
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-blue-400 shadow-[0_0_10px_rgba(96,165,250,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Conversion, Optimized Landing Pages</strong>
+                                        Strategically Designed Funnels to Convert Random Visitors Into Verified Traders.
+                                    </div>
+                                </li>
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-blue-400 shadow-[0_0_10px_rgba(96,165,250,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Secure Client Portal</strong>
+                                        An Entirely Integrated "My Account" Panel in Which Traders Can Manage Wallets, Download Platforms, Submit Documents and Check Activity.
+                                    </div>
+                                </li>
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-blue-400 shadow-[0_0_10px_rgba(96,165,250,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">SEO & PERFORMANCE OPTIMIZATION</strong>
+                                        Created for fast loading speeds, excellent mobile responsiveness, and search engine visibility to support the organic growth.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </motion.section>
 
                     {/* Section 5 */}
-                    <section>
-                        <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4">
-                            5. Back-Office & Risk Management Tools
-                        </h2>
-                        <p className="leading-relaxed mb-6">
-                            Full control over your business activities.
-                        </p>
-                        <div className="space-y-4 ml-2">
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Risk Mitigation: </span>
-                                <span className="text-gray-400">Establish global leverage limits, margin call conditions, and A-Book/B-Book routing.</span>
-                            </div>
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Reporting Suite: </span>
-                                <span className="text-gray-400">Produce comprehensive P&L statements, trade histories, and regulatory reports with the simple click of a button.</span>
-                            </div>
-                            <div>
-                                <span className="font-semibold text-gray-100 block sm:inline">Staff Permissions: </span>
-                                <span className="text-gray-400">Role-based access control for your sales, support, and finance staff.</span>
-                            </div>
+                    <motion.section variants={itemVariants}>
+                        <div className="flex items-center gap-4 mb-6">
+                            <span className="flex items-center justify-center w-10 h-10 rounded-lg bg-blue-500/20 text-blue-400 font-bold text-xl border border-blue-500/30">5</span>
+                            <h2 className="text-2xl sm:text-3xl font-bold text-white">Back-Office & Risk Management Tools</h2>
                         </div>
-                    </section>
-                </div>
+                        <div className="space-y-6 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-400 pl-0 sm:pl-14">
+                            <p>Complete operational control — without complexity.</p>
+                            <ul className="space-y-5">
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-indigo-400 shadow-[0_0_10px_rgba(129,140,248,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Risk Configuration & Routing</strong>
+                                        Specify leverage levels, margin call thresholds, stop, out rules and set up A, Book / B, Book execution models.
+                                    </div>
+                                </li>
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-indigo-400 shadow-[0_0_10px_rgba(129,140,248,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Advanced Reporting Suite</strong>
+                                        Produce in- depth P&L statements, trade histories, exposure reports, and regulatory, compliant documentation within seconds.
+                                    </div>
+                                </li>
+                                <li className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
+                                    <span className="w-2.5 h-2.5 mt-2.5 rounded-full bg-indigo-400 shadow-[0_0_10px_rgba(129,140,248,0.6)] shrink-0"></span>
+                                    <div>
+                                        <strong className="text-gray-200 block mb-1">Role, Based Staff Permissions</strong>
+                                        Granular access control restricts the teams of sales, support, finance, and risk to only the necessary departments thus maintaining operational security and accountability.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </motion.section>
 
+                </motion.div>
             </div>
         </main>
     );

@@ -51,7 +51,7 @@ const cardTabs = {
   Platforms: [
     {
       color: "#060010",
-      title: "Capmarket",
+      title: "AynXmarket",
       description: "Multi-asset setup",
       label: "Liquidity integration",
     },
@@ -95,7 +95,7 @@ const cardTabs = {
   Services: [
     {
       color: "#060010",
-      title: "Capmarket Service",
+      title: "AynXmarket Service",
       description: "Multi-asset setup",
       label: "Brokerage automation",
     },

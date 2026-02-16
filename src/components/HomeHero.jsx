@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { assets } from "../assets/assets";
 
 const HomeHero = () => {
   const [expanded, setExpanded] = useState(false);
@@ -48,7 +49,7 @@ const HomeHero = () => {
           <div className="relative flex justify-center items-end max-w-full overflow-hidden sm:overflow-visible">
             {/* Left image (blurred, smaller, behind) */}
             <img
-              src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+              src={assets.home1}
               alt="Left visual"
               className={`hidden sm:block absolute sm:-bottom-8 md:-bottom-12 lg:-bottom-20 xl:-bottom-30 sm:-left-32 md:-left-48 lg:-left-60 blur-xs scale-80 opacity-50 z-0 pointer-events-none transition-all duration-1000 delay-500 ease-out transform ${isMounted ? "translate-x-0 opacity-50" : "-translate-x-12 opacity-0"
                 }`}
@@ -56,7 +57,7 @@ const HomeHero = () => {
 
             {/* Right image (blurred, smaller, behind) */}
             <img
-              src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+              src={assets.home1}
               alt="Right visual"
               className={`hidden sm:block absolute sm:-bottom-8 md:-bottom-12 lg:-bottom-20 xl:-bottom-30 sm:-right-32 md:-right-48 lg:-right-60 blur-xs scale-80 opacity-50 z-0 pointer-events-none transition-all duration-1000 delay-500 ease-out transform ${isMounted ? "translate-x-0 opacity-50" : "translate-x-12 opacity-0"
                 }`}
@@ -69,7 +70,7 @@ const HomeHero = () => {
             >
               <img
                 className="w-full h-auto object-contain mx-auto"
-                src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/2/illustration.png"
+                src={assets.home1}
                 alt="Main visual"
               />
             </div>

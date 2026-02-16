@@ -91,7 +91,7 @@ const LiquidityProvider = () => {
         }
         primaryBtn={{ label: "Get Started", link: "#" }}
         secondaryBtn={{ label: "", link: "" }}
-        heroImage="https://bitquant.capital/wp-content/uploads/2022/07/Liquidity_provider_pic_2-1024x538.jpg"
+        heroImage={assets.liquidityProvider1}
         featuresHeading
         features={[]}
       />

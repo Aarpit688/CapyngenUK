@@ -249,6 +249,7 @@ import mt16 from "./mt16.png";
 import home1 from "./home1.png";
 import aynzenixLogo from "./aynzenixLogo2.png";
 import partnership1 from "./partnership1.webp";
+import liquidityProvider1 from "./liquidityProvider1.jpg";
 
 export const assets = {
   sampleImg,
@@ -501,6 +502,7 @@ export const assets = {
   homepage5,
   home1, aynzenixLogo,
   partnership1,
+  liquidityProvider1,
 };
 
 export const navItems = [

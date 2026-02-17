@@ -250,6 +250,9 @@ import home1 from "./home1.png";
 import aynzenixLogo from "./aynzenixLogo2.png";
 import partnership1 from "./partnership1.webp";
 import liquidityProvider1 from "./liquidityProvider1.jpg";
+import build1 from "./build1.png";
+import build2 from "./build2.png";
+import build3 from "./build3.png";
 
 export const assets = {
   sampleImg,
@@ -502,7 +505,7 @@ export const assets = {
   homepage5,
   home1, aynzenixLogo,
   partnership1,
-  liquidityProvider1,
+  liquidityProvider1, build1, build2, build3
 };
 
 export const navItems = [

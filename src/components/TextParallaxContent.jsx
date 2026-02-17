@@ -10,7 +10,7 @@ export const TextParallaxContentExample = () => {
     <div className="bg-black">
       {/* 1️⃣ Back-office Tools */}
       <TextParallaxContent
-        imgUrl={assets.forexBroker11}
+        imgUrl={assets.build1}
         subheading="Use​‍​‌‍​‍‌​‍​‌‍​‍‌ automation and admin controls effectively to help your brokerage run a little better."
         heading="Build, Scale & Lead with Powerful Back-Office Tools"
       >
@@ -19,7 +19,7 @@ export const TextParallaxContentExample = () => {
 
       {/* 2️⃣ Liquidity Section */}
       <TextParallaxContent
-        imgUrl={assets.liquidityProvider}
+        imgUrl={assets.build2}
         subheading="Deliver superior trade execution through deep liquidity, real-time pricing, and institutional-grade market access."
         heading="Liquidity: Fast, Accurate Connection to the Market"
       >
@@ -28,7 +28,7 @@ export const TextParallaxContentExample = () => {
 
       {/* 3️⃣ SiRiX Trading Platform */}
       <TextParallaxContent
-        imgUrl={assets.homepage5}
+        imgUrl={assets.build3}
         subheading="Seamlessly connect to global markets and elevate your traders with an integrated multi-platform ecosystem."
         heading="Give Your Traders a Competitive Edge with Our Next-Gen Trading Platform"
       >

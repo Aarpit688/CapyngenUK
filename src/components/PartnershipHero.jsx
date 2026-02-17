@@ -9,7 +9,7 @@ export default function PartnershipHero({
     teamImage = assets.partnership1,
 }) {
     return (
-        <section className="relative w-full overflow-hidden text-white pt-10 bg-black">
+        <section className="relative w-full overflow-hidden text-white pt-4 bg-black">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
 
                 {/* Heading */}
@@ -39,7 +39,7 @@ export default function PartnershipHero({
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
-                className="mt-12 sm:mt-16 w-full flex justify-center items-end"
+                className="mt-12 w-full flex justify-center items-end"
             >
                 <img
                     src={teamImage}

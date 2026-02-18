@@ -1,6 +1,7 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import { assets } from "../assets/assets"; // your image asset imports here
+import { Link } from "react-router-dom";
 
 // -- Top & Bottom Decorative Curves (unchanged) --
 const TopCurve = () => (
@@ -26,7 +27,7 @@ export default function IntegrationShowcase() {
       {/* Main Content */}
       <div
         ref={ref}
-        className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto min-h-[520px] px-6 sm:px-8 py-16 md:py-20 gap-10 md:gap-12"
+        className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto min-h-[520px] px-6 sm:px-8 py-10 gap-10 md:gap-12"
       >
         <div
           className={`flex-1 transition-all duration-1000 ease-out transform ${inView ? "translate-x-0 opacity-100" : "-translate-x-12 opacity-0"
@@ -35,16 +36,16 @@ export default function IntegrationShowcase() {
           <h2 className="text-white font-bold text-3xl sm:text-4xl md:text-5xl leading-tight mb-4 sm:mb-6">
             Seamless, Limitless Integration for Your Brokerage
           </h2>
-          <p className="text-slate-100 text-base sm:text-lg md:text-xl max-w-[520px]">
+          <p className="text-slate-100 text-base sm:text-lg md:text-xl max-w-[520px] mb-10">
             Aynzenix’s ultra-advanced SiriX-based trading infrastructure
             delivers limitless integration with leading forex distribution
             systems, next-gen CRM solutions, payment gateways, liquidity
             providers, and essential fintech apps — ensuring brokers experience
             a fast, smooth, secure, and fully hassle-free setup from day one.
           </p>
-          <button className="mt-6 sm:mt-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:shadow-indigo-500/40 hover:scale-105 transition-all duration-300">
-            Learn More
-          </button>
+          <Link to={"/platforms/aynxmarket"} className="mt-12 sm:mt-18 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:shadow-indigo-500/40 hover:scale-105 transition-all duration-300">
+            Explore Aynzenix
+          </Link>
         </div>
 
         {/* Right Side Image with subtle reflection */}

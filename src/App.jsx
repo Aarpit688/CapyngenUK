@@ -86,7 +86,7 @@ const App = () => {
               element={<OneZeroService />}
             />
             <Route
-              path="/services/primexm-xcore-service"
+              path="/services/primexm-x-core-service"
               element={<PrimeXMService />}
             />
 

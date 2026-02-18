@@ -669,7 +669,7 @@ export const navItems = [
           },
           {
             label: "PrimeXM X-Core Service",
-            href: "/services/primexm-xcore-service",
+            href: "/services/primexm-x-core-service",
             description: "PrimeXM X-Core and tech services.",
             imageSrc: primeXMService1,
           },

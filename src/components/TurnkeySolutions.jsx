@@ -1,5 +1,6 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
+import { Link } from "react-router-dom";
 
 export default function TurnkeySolutions() {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
@@ -82,9 +83,11 @@ export default function TurnkeySolutions() {
                 )}
 
                 {/* CTA Button */}
-                <button className="mt-auto bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 text-white px-4 py-2 rounded-full font-medium hover:opacity-90 shadow-[0_6px_18px_rgba(99,102,241,0.35)] transition-all hover:scale-[1.05]">
+                <Link to={`/turnkey/${item.title
+                  .toLowerCase()
+                  .replace(/\s+/g, "-")}`} className="mt-auto bg-gradient-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 text-white px-4 py-2 rounded-full font-medium hover:opacity-90 shadow-[0_6px_18px_rgba(99,102,241,0.35)] transition-all hover:scale-[1.05] text-center">
                   Learn More
-                </button>
+                </Link>
               </div>
             </div>
           ))}

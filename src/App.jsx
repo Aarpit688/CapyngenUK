@@ -38,7 +38,7 @@ import ProductsDocumentation from "./pages/ProductsDocumentation";
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-x-clip">
       <Router>
         <ScrollToTop />
         <Navbar />

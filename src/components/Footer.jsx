@@ -49,11 +49,7 @@ const Footer = () => {
       value: "query@aynzenix.com",
       href: "mailto:query@aynzenix.com",
     },
-    {
-      icon: MapPin,
-      label: "Address",
-      value: "Tower B3, Spaze i-Tech Park, Sector 49, Gurugram, Haryana 122018",
-    },
+  
   ];
 
   useEffect(() => {

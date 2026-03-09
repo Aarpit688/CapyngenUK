@@ -25,7 +25,7 @@ const CapmarketInfrastructure = () => {
         <section className="max-w-6xl w-full text-center mb-10 space-y-6 animate-fade-in-up">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
             <span className="block text-white">
-              How Aynzenix Builds a Complete Capmarket Trading Infrastructure
+              How Aynzenix Builds a Complete AynXmarket Trading Infrastructure
             </span>
           </h1>
         </section>
@@ -41,7 +41,7 @@ const CapmarketInfrastructure = () => {
               </div>
               <p className="text-lg md:text-2xl text-slate-200 leading-relaxed font-light">
                 Aynzenix Technologies UK Limited is the one-stop provider of the
-                entire range of end-to-end Capmarket trading platform solutions
+                entire range of end-to-end AynXmarket trading platform solutions
                 which are specifically designed for brokers operating globally.
               </p>
             </div>
@@ -102,7 +102,7 @@ const CapmarketInfrastructure = () => {
               <div className="flex items-center">
                 <div className="prose prose-invert prose-lg max-w-none">
                   <p className="text-slate-300 leading-loose text-lg md:text-xl font-light border-l-4 border-cyan-500 pl-6">
-                    We, by means of Capmarket backend management, are the ones
+                    We, by means of AynXmarket backend management, are the ones
                     who keep the system in good working order, protect the
                     execution environments, and engage in the surveillance of
                     all the layers of the infrastructure. Our hosting offerings

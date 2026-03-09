@@ -21,7 +21,7 @@ const VertexFXIntro = () => {
               <div className="px-8 md:px-0 prose prose-invert prose-lg">
                 <p className="text-slate-300 leading-relaxed">
                   VertexFX​‍​‌‍​‍‌​‍​‌‍​‍‌ is a complete trading platform
-                  solution provided by Aynzenix Technologies UK Limited for
+                  solution provided by Aynzenix Technology Limited for
                   brokers who desire quick execution, strong multi-asset
                   features, and a safe worldwide infrastructure. Our services
                   enable forex, CFD, and multi-asset brokers to implement

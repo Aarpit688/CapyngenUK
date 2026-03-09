@@ -12,27 +12,27 @@ const B2Core = () => {
   const faqItems = [
     {
       question:
-        "What features are there in AynXcore customer relationship management?",
+        "What features are there in AynX Core customer relationship management?",
       answer:
-        "AynXcore features client management, wallet operations, KYC functionalities, integrations, and a trader’s cabinet.",
+        "AynX Core features client management, wallet operations, KYC functionalities, integrations, and a trader’s cabinet.",
     },
     {
-      question: "Are you allowed to deploy a white-label AynXcore CRM?",
+      question: "Are you allowed to deploy a white-label AynX Core CRM?",
       answer:
-        "Yes, we offer a complete branded white-label AynXcore CRM installation.",
+        "Yes, we offer a complete branded white-label AynX Core CRM installation.",
     },
     {
-      question: "Is AynXcore linked to MT4/MT5?",
+      question: "Is AynX Core linked to MT4/MT5?",
       answer:
-        "In fact, AynXcore is fully compatible with MT4, MT5, cTrader, DXtrade, and also with crypto platforms.",
+        "In fact, AynX Core is fully compatible with MT4, MT5, cTrader, DXtrade, and also with crypto platforms.",
     },
     {
-      question: "Is AynXcore beneficial for forex & crypto brokers?",
+      question: "Is AynX Core beneficial for forex & crypto brokers?",
       answer:
         "Certainly, the product is meant for forex, crypto, CFD, and multi-asset brokerages.",
     },
     {
-      question: "What are the back-office tools with AynXcore?",
+      question: "What are the back-office tools with AynX Core?",
       answer:
         "Mainly wallet control, transaction management, KYC approvals, and client activity insights.",
     },
@@ -55,8 +55,8 @@ const B2Core = () => {
   return (
     <div>
       <Banner6
-        titleGradient="Smart Client Cabinet Technology for AynXcore Brokers"
-        description="Boost operations with secure, automated back-office technology tailored for brokers using the AynXcore ecosystem."
+        titleGradient="Smart Client Cabinet Technology for AynX Core Brokers"
+        description="Boost operations with secure, automated back-office technology tailored for brokers using the AynX Core ecosystem."
         ctaText="Contact Now"
         ctaLink="/contact-us"
         bgImageDesktop={assets.b2Core}

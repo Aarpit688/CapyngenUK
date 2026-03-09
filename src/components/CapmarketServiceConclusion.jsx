@@ -38,7 +38,7 @@ const CapmarketServiceConclusion = () => {
           </h2>
 
           <p className="text-slate-400 text-lg leading-relaxed max-w-4xl mx-auto">
-            By​‍​‌‍​‍‌​‍​‌‍​‍‌ working with Aynzenix Technologies UK Limited,
+            By​‍​‌‍​‍‌​‍​‌‍​‍‌ working with Aynzenix Technology Limited,
             brokers are able to enjoy the full range of Capmarket services which
             include:
           </p>

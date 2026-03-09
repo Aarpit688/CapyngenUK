@@ -548,25 +548,25 @@ export const navItems = [
       {
         links: [
           {
-            label: "AynXtrader",
+            label: "AynX Trader",
             href: "/products/aynxtrader",
             description: "Advanced multi-asset trading platform.",
             imageSrc: b2Trader,
           },
           {
-            label: "AynXcore",
+            label: "AynX Core",
             href: "/products/aynxcore",
             description: "Comprehensive brokerage management system.",
             imageSrc: b2Core,
           },
           {
-            label: "AynXcopy",
+            label: "AynX Copy",
             href: "/products/aynxcopy",
             description: "Copy trading platform for social traders.",
             imageSrc: b2Copy1,
           },
           {
-            label: "AynXconnect",
+            label: "AynX Connect",
             href: "/products/aynxconnect",
             description: "Robust API integration solutions.",
             imageSrc: b2connect,
@@ -593,7 +593,7 @@ export const navItems = [
       {
         links: [
           {
-            label: "AynXmarket",
+            label: "AynX Market",
             href: "/platforms/aynxmarket",
             description: "Innovative trading and market analysis platform.",
             imageSrc: capmarket1,
@@ -644,7 +644,7 @@ export const navItems = [
       {
         links: [
           {
-            label: "AynXmarket Service",
+            label: "AynX Market Service",
             href: "/services/aynxmarket-service",
             description: "Support and solutions for Capmarket platform.",
             imageSrc: capMarketService1,

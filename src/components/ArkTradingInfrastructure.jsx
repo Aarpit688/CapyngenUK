@@ -65,7 +65,7 @@ const ArkTradingInfrastructure = () => {
 
               <div className="prose prose-invert prose-lg mb-8">
                 <p className="text-slate-300 leading-relaxed text-base md:text-lg">
-                  Aynzenix Technologies UK Limited is an end-to-end technology
+                  Aynzenix Technology Limited is an end-to-end technology
                   provider for Ark Trading that takes care of the entire setup
                   process.
                 </p>

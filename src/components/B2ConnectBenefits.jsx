@@ -68,7 +68,7 @@ const B2ConnectBenefits = () => {
                 viewport={{ once: true }}
                 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold leading-tight"
               >
-                Benefits of Using AynXconnect for Your Brokerage
+                Benefits of Using AynX Connect for Your Brokerage
               </motion.h2>
 
               {/* LIST */}
@@ -121,7 +121,7 @@ const B2ConnectBenefits = () => {
                            backdrop-blur-lg"
               >
                 <h3 className="text-base sm:text-lg lg:text-xl font-semibold text-amber-200">
-                  Upgrade Your Liquidity Infrastructure With AynXconnect Bridge.
+                  Upgrade Your Liquidity Infrastructure With AynX Connect Bridge.
                 </h3>
               </motion.div>
             </div>

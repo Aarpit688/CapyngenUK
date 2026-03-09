@@ -40,7 +40,7 @@ export default function OneZeroServiceConclusion() {
               Conclusion: Achieve High-Volume, Multi-Asset Trading with OneZero
             </h2>
             <p className="text-slate-300 text-lg leading-relaxed">
-              Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ through Aynzenix Technologies UK Limited
+              Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ through Aynzenix Technology Limited
               have access to the full range of OneZero services, which include:
             </p>
           </div>

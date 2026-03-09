@@ -119,18 +119,18 @@ const B2CoreInfo = () => {
         {/* ---------------- TEXT AREA ---------------- */}
         <div className="bg-white/5 p-10 lg:p-12 border border-cyan-400/20 backdrop-blur-xl shadow-[0_0_40px_rgba(0,255,255,0.2)] animate-fadeUp w-full">
           <h2 className="text-4xl font-extrabold leading-tight text-white">
-            Why AynXcore Is the Preferred CRM for Modern Brokerages
+            Why AynX Core Is the Preferred CRM for Modern Brokerages
           </h2>
 
           <p className="text-md text-slate-300 mt-6 ">
-            AynXcore​‍​‌‍​‍‌​‍​‌‍​‍‌ is an energetically, modular, and expansible
+            AynX Core​‍​‌‍​‍‌​‍​‌‍​‍‌ is an energetically, modular, and expansible
             multi-asset broker CRM system which is a first choice of forex,
             crypto, and CFD brokers globally.
           </p>
 
           <p className="text-md text-slate-300  mt-3">
             By means of tailored dashboards, safe client accounts, compliance
-            automation tools, and ample integrations, AynXcore provides a forex
+            automation tools, and ample integrations, AynX Core provides a forex
             broker a vibrant operational command ​‍​‌‍​‍‌​‍​‌‍​‍‌center.
           </p>
 
@@ -139,7 +139,7 @@ const B2CoreInfo = () => {
             {[
               {
                 title: "Customizable White-Label CRM Implementation",
-                desc: "We implemented a fully branded white-label AynXcore CRM with custom modules, UI design, and workflows.",
+                desc: "We implemented a fully branded white-label AynX Core CRM with custom modules, UI design, and workflows.",
               },
               {
                 title: "Multi-Asset CRM for Different Broker Types",

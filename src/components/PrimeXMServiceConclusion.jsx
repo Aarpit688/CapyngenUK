@@ -36,7 +36,7 @@ const PrimeXMServiceConclusion = () => {
               Conclusion: Achieve Ultra-Low Latency and High-Volume Trading
             </h2>
             <p className="text-slate-300 text-lg leading-relaxed">
-              Brokers, by using Aynzenix Technologies UK Limited, get full
+              Brokers, by using Aynzenix Technology Limited, get full
               access to PrimeXM X-Core services including:
             </p>
           </div>

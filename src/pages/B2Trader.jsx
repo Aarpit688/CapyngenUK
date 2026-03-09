@@ -11,24 +11,24 @@ import FaqSection from "../components/FaqSection";
 const B2Trader = () => {
   const faqItems = [
     {
-      question: "What is the function of AynXtrader trading platform?",
+      question: "What is the function of AynX Trader trading platform?",
       answer:
-        "AynXtrader is a multi-asset trading engine that is tailored to forex, crypto, and CFD brokers and is characterized by a need for fast execution and strong liquidity access.",
+        "AynX Trader is a multi-asset trading engine that is tailored to forex, crypto, and CFD brokers and is characterized by a need for fast execution and strong liquidity access.",
     },
     {
-      question: "Are AynXtrader white-label solutions available through you?",
+      question: "Are AynX Trader white-label solutions available through you?",
       answer:
-        "Yes, Aynzenix is a fully branded AynXtrader white-label setup provider for brokers worldwide.",
+        "Yes, Aynzenix is a fully branded AynX Trader white-label setup provider for brokers worldwide.",
     },
     {
-      question: "Whether AynXtrader can liaise with liquidity providers?",
+      question: "Whether AynX Trader can liaise with liquidity providers?",
       answer:
         "Sure. We link several liquidity sources to have deep liquidity and get accurate market pricing.",
     },
     {
-      question: "Is AynXtrader supporting multi-asset trading?",
+      question: "Is AynX Trader supporting multi-asset trading?",
       answer:
-        "Indeed, AynXtrader supports trading in forex, CFDs, cryptocurrencies, indices, commodities, and more.",
+        "Indeed, AynX Trader supports trading in forex, CFDs, cryptocurrencies, indices, commodities, and more.",
     },
     {
       question: "Do you take care of hosting and backend infrastructure?",
@@ -36,12 +36,12 @@ const B2Trader = () => {
         "Yes, we are responsible for cloud hosting, backend management, routing engines, and security configurations.",
     },
     {
-      question: "Whether AynXtrader get together with CRMs and payment systems?",
+      question: "Whether AynX Trader get together with CRMs and payment systems?",
       answer:
-        "Indeed. AynXtrader API supports quick integration with CRMs, PSPs, KYC tools, and analytics platforms.",
+        "Indeed. AynX Trader API supports quick integration with CRMs, PSPs, KYC tools, and analytics platforms.",
     },
     {
-      question: "Is AynXtrader a good choice for brokers that are new?",
+      question: "Is AynX Trader a good choice for brokers that are new?",
       answer:
         "Certainly, as its quick installation, automation, and low-cost features make it a perfect fit for startups.",
     },

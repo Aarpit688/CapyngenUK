@@ -75,12 +75,12 @@ const B2CopyTechnology = () => {
           className="space-y-7"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold text-white text-center">
-            Complete Broker Setup with AynXcopy Technology
+            Complete Broker Setup with AynX Copy Technology
           </h2>
 
           <p className="text-gray-300 text-xl text-center leading-relaxed">
             Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ delivers turnkey broker solutions powered
-            by AynXcopy, handling everything from installation to launch.
+            by AynX Copy, handling everything from installation to launch.
           </p>
 
           <p className="text-gray-300 text-xl text-center leading-relaxed">

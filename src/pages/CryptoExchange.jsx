@@ -270,7 +270,7 @@ const CryptoExchange = () => {
       />
       <CryptoExpertise
         heading="Our Expertise: Building Crypto Exchanges That Win"
-        subheading="At​‍​‌‍​‍‌​‍​‌‍​‍‌ Aynzenix Technologies UK Limited, we bring together technical brilliance and business understanding to create impactful solutions. Our skill set spans:"
+        subheading="At​‍​‌‍​‍‌​‍​‌‍​‍‌ Aynzenix Technology Limited, we bring together technical brilliance and business understanding to create impactful solutions. Our skill set spans:"
         outro="Our service is beyond just technology delivery; we provide the power to exchanges to grow worldwide, make a stronghold in the market, and be a step ahead of their ​‍​‌‍​‍‌​‍​‌‍​‍‌competitors."
         cards={[
           {
@@ -315,7 +315,7 @@ const CryptoExchange = () => {
         textColor="text-white"
         title="Conclusion: Build a Global-Ready Crypto Exchange with Aynzenix"
         description={[
-          "Starting​‍​‌‍​‍‌​‍​‌‍​‍‌ a crypto exchange might be complicated, but it gets effortless with Aynzenix Technologies UK Limited. Our services cover the entire range of the crypto exchange broker installation, from platforms, CRM, mobile apps, to back-office management and even marketing strategies.",
+          "Starting​‍​‌‍​‍‌​‍​‌‍​‍‌ a crypto exchange might be complicated, but it gets effortless with Aynzenix Technology Limited. Our services cover the entire range of the crypto exchange broker installation, from platforms, CRM, mobile apps, to back-office management and even marketing strategies.",
           "Be our partner in achieving your crypto exchange dream to go live with a safe, expandable, and internationally competitive ​‍​‌‍​‍‌​‍​‌‍​‍‌platform.",
         ]}
         buttonText="Contact Us"

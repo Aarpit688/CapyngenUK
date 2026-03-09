@@ -68,11 +68,11 @@ const B2TraderHighPerformance = () => {
           className="text-center max-w-5xl mx-auto mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-            Build a High-Performance Brokerage with AynXtrader
+            Build a High-Performance Brokerage with AynX Trader
           </h2>
 
           <p className="text-gray-300 text-lg mt-6 leading-relaxed">
-            Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ is a one-stop provider of AynXtrader advanced
+            Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ is a one-stop provider of AynX Trader advanced
             technology solutions. Their comprehensive technology services
             include:
           </p>
@@ -89,7 +89,7 @@ const B2TraderHighPerformance = () => {
           {/* Main big image */}
           <img
             src={assets.b2Trader6}
-            alt="AynXtrader Engine"
+            alt="AynX Trader Engine"
             className="rounded-2xl w-full object-cover border border-white/10 shadow-[0_0_45px_rgba(0,200,255,0.12)]"
           />
 
@@ -142,7 +142,7 @@ const B2TraderHighPerformance = () => {
           viewport={{ once: true }}
           className="text-center text-gray-300 text-lg leading-relaxed mt-20 max-w-4xl mx-auto"
         >
-          With Aynzenix + AynXtrader, brokers achieve fast execution, stable
+          With Aynzenix + AynX Trader, brokers achieve fast execution, stable
           operations, and global-ready trading performance.
         </motion.p>
       </div>

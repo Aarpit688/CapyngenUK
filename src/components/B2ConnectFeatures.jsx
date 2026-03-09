@@ -36,11 +36,11 @@ const B2ConnectFeatures = () => {
         {/* Heading */}
         <div className="text-center max-w-7xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-extrabold text-white leading-normal">
-            Why Brokers Choose AynXconnect for Liquidity & Execution
+            Why Brokers Choose AynX Connect for Liquidity & Execution
           </h2>
 
           <p className="mt-6 text-lg text-slate-300 leading-relaxed">
-            AynXconnect​‍​‌‍​‍‌​‍​‌‍​‍‌ is a multi-asset liquidity bridge of the
+            AynX Connect​‍​‌‍​‍‌​‍​‌‍​‍‌ is a multi-asset liquidity bridge of the
             future designed to merge crypto, forex, and CFD liquidity streams
             into one single execution system. Basically, it offers quick
             pricing, low-latency order routing, intelligent aggregation, as well
@@ -56,7 +56,7 @@ const B2ConnectFeatures = () => {
 
         {/* Feature Cards Grid */}
         <h3 className="text-2xl font-semibold text-white text-center mb-10 tracking-wide">
-          Core Features of AynXconnect Liquidity Solutions
+          Core Features of AynX Connect Liquidity Solutions
         </h3>
 
         <div className="grid md:grid-cols-3 gap-10">
@@ -74,7 +74,7 @@ const B2ConnectFeatures = () => {
             icon={<SiBlockchaindotcom className="h-7 w-7 text-indigo-300" />}
             title="Crypto-Native Execution Technology"
           >
-            AynXconnect provides extensive integration with digital-asset
+            AynX Connect provides extensive integration with digital-asset
             exchanges, crypto LPs, and OTC desks.
           </FeatureCard>
 

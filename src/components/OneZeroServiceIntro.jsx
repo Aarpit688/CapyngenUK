@@ -33,7 +33,7 @@ export default function OneZeroServiceIntro() {
           </h1>
 
           <p className="text-lg text-slate-400 leading-relaxed max-w-2xl border-l-2 border-slate-700 pl-6">
-            Aynzenix Technologies UK Limited is a global leader in the delivery
+            Aynzenix Technology Limited is a global leader in the delivery
             of OneZero technology solutions to brokers and financial
             institutions. Our offerings include multi-asset trading
             infrastructure, API & bridge technology, and high-performance

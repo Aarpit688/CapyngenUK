@@ -35,7 +35,7 @@ export default function PrimeXMServiceIntro() {
 
           <div className="text-slate-300 text-lg leading-relaxed space-y-5">
             <p>
-              Aynzenix Technologies UK Limited is a major provider of PrimeXM
+              Aynzenix Technology Limited is a major provider of PrimeXM
               X-Core technology to brokers worldwide. The offering includes
               ultra-low latency infrastructure, liquidity aggregation, and
               seamless data connectivity.

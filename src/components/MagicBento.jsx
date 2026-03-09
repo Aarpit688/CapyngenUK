@@ -13,25 +13,25 @@ const cardTabs = {
   Products: [
     {
       color: "#060010",
-      title: "AynXtrader",
+      title: "AynX Trader",
       description: "User behavior tracking",
       label: "Insights",
     },
     {
       color: "#060010",
-      title: "AynXcore",
+      title: "AynX Core",
       description: "Centralized data view",
       label: "Overview",
     },
     {
       color: "#060010",
-      title: "AynXcopy",
+      title: "AynX Copy",
       description: "Seamless collaboration",
       label: "Teamwork",
     },
     {
       color: "#060010",
-      title: "AynXconnect",
+      title: "AynX Connect",
       description: "Workflow automation",
       label: "Efficiency",
     },
@@ -51,7 +51,7 @@ const cardTabs = {
   Platforms: [
     {
       color: "#060010",
-      title: "AynXmarket",
+      title: "AynX Market",
       description: "Multi-asset setup",
       label: "Liquidity integration",
     },
@@ -95,7 +95,7 @@ const cardTabs = {
   Services: [
     {
       color: "#060010",
-      title: "AynXmarket Service",
+      title: "AynX Market Service",
       description: "Multi-asset setup",
       label: "Brokerage automation",
     },

@@ -103,7 +103,7 @@ const B2ConnectUseCases = () => {
         {/* Heading */}
         <div className="text-center mb-10 sm:mb-14">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white">
-            Use Cases of AynXconnect for Brokers
+            Use Cases of AynX Connect for Brokers
           </h2>
         </div>
 

@@ -21,7 +21,7 @@ export const Careers7 = () => {
 
             <div className="text-gray-300 text-lg leading-relaxed mb-8">
               <p>
-                Aynzenix Technologies UK Limited is not just a company — it is a
+                Aynzenix Technology Limited is not just a company — it is a
                 worldwide community of innovators creating meaningful impact. If
                 you want to build, learn, and work on products shaping the
                 fintech industry — this is where you belong.

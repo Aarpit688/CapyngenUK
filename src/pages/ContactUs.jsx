@@ -297,7 +297,7 @@ const ContactUsSection = () => {
     };
 
     try {
-      const response = await fetch("https://api.Aynzenix.com/api/contact", {
+      const response = await fetch("https://api.aynzenix.com/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),

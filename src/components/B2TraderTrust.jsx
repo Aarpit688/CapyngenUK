@@ -49,7 +49,7 @@ const B2TraderTrust = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-            Why Brokers Trust AynXtrader Technology
+            Why Brokers Trust AynX Trader Technology
           </h2>
 
           <div className="h-[2px] w-24 bg-gradient-to-r from-cyan-400 to-blue-500 mt-6 mb-10" />
@@ -96,7 +96,7 @@ const B2TraderTrust = () => {
 
           <img
             src={assets.b2Trader5}
-            alt="AynXtrader Technology"
+            alt="AynX Trader Technology"
             className="rounded-md w-full object-cover border border-white/10 shadow-[0_0_40px_rgba(0,255,255,0.12)]"
           />
         </motion.div>

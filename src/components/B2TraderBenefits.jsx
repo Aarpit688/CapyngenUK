@@ -54,7 +54,7 @@ const B2TraderBenefits = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-            Major Benefits of AynXtrader for Brokers
+            Major Benefits of AynX Trader for Brokers
           </h2>
 
           <div className="mx-auto mt-6 w-24 h-[3px] bg-gradient-to-r from-cyan-300 to-blue-500 rounded-full"></div>
@@ -101,7 +101,7 @@ const B2TraderBenefits = () => {
           viewport={{ once: true }}
           className="text-center text-gray-300 mt-20 max-w-4xl mx-auto text-lg leading-relaxed"
         >
-          With AynXtrader, brokers get a modern, scalable, multi-asset trading
+          With AynX Trader, brokers get a modern, scalable, multi-asset trading
           engine built for performance, reliability, and global market
           readiness.
         </motion.p>

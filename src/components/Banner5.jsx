@@ -12,13 +12,13 @@ const Banner5 = () => {
             <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl xl:text-6xl">
               Engineered Trading Solutions for <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
-                AynXtrader Platforms
+                AynX Trader Platforms
               </span>
             </h1>
 
             <p className="mt-6 text-lg text-gray-300 sm:mt-8">
               Aynzenix delivers enterprise-grade technology to optimize,
-              integrate, and enhance your AynXtrader ecosystem for peak
+              integrate, and enhance your AynX Trader ecosystem for peak
               performance.
             </p>
 

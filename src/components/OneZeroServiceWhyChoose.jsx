@@ -50,7 +50,7 @@ const OneZeroServiceWhyChoose = () => {
                   </h3>
                 </div>
                 <p className="text-slate-300 leading-relaxed text-base">
-                  Aynzenix Technologies UK Limited solves these problems by
+                  Aynzenix Technology Limited solves these problems by
                   offering tailored OneZero technology solutions that can be
                   scaled, are dependable, and have a global connection.
                 </p>

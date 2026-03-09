@@ -77,7 +77,7 @@ const B2CoreUses = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl lg:text-5xl font-extrabold text-white">
-            How Brokers Use AynXcore
+            How Brokers Use AynX Core
           </h2>
         </motion.div>
 
@@ -90,7 +90,7 @@ const B2CoreUses = () => {
 
           <Card index={1} title="For Crypto Brokers">
             With features such as crypto wallets, blockchain tracking, and
-            automated deposit/withdrawal flows, AynXcore is the perfect solution
+            automated deposit/withdrawal flows, AynX Core is the perfect solution
             for digital asset firms.
           </Card>
 

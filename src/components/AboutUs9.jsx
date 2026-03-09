@@ -19,7 +19,7 @@ const AboutUs9 = () => {
 
           <div className="relative z-10 space-y-8">
             <p className="text-2xl md:text-3xl font-serif text-gray-200 leading-relaxed italic">
-              Aynzenix Technologies UK Limited is a reliable worldwide
+              Aynzenix Technology Limited is a reliable worldwide
               technology partner that supports Forex and Crypto brokers. By
               using our state-of-the-art infrastructure, worldwide proficiency,
               and fully integrated turnkey solutions, businesses become ready to

@@ -55,7 +55,7 @@ const PammConclusion = () => {
           className="mb-20"
         >
           <h2 className="text-4xl md:text-5xl font-extrabold leading-tight text-center">
-            Why Aynzenix Technologies UK Limited Leads the Industry
+            Why Aynzenix Technology Limited Leads the Industry
           </h2>
           {/* Accent Bar */}
           <div className="w-20 h-1 mx-auto bg-gradient-to-r from-cyan-400 to-blue-500 mt-6 rounded-full"></div>

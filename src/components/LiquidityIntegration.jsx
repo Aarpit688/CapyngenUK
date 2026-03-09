@@ -52,7 +52,7 @@ const LiquidityIntegration = () => {
           <p className="text-gray-300 text-lg leading-relaxed max-w-xl">
             Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ have to overcome several problems when they
             combine liquidity. These problems are latency, inconsistent pricing,
-            and high technical complexity. Aynzenix Technologies UK Limited
+            and high technical complexity. Aynzenix Technology Limited
             solves these problems by offering a complete set of solutions for
             liquidity provider integration with the following features:
           </p>

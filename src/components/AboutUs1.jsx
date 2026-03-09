@@ -34,7 +34,7 @@ export const AboutUs1 = () => {
           {/* ---------------- LEFT SIDE ---------------- */}
           <div className="lg:col-span-6  shadow-2xl relative z-10 ">
             <h1 className="text-4xl lg:text-5xl leading-[1.1] font-bold mb-6 drop-shadow-sm">
-              About Us — Aynzenix Technologies UK Limited
+              About Us — Aynzenix Technology Limited
             </h1>
 
             <p className="text-gray-300 leading-relaxed text-lg mb-6">

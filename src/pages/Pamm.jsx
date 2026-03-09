@@ -43,7 +43,7 @@ const Pamm = () => {
     {
       title: "Totally White Label",
       description:
-        "Aynzenix Technologies UK Limited is fully customizable in terms of branding for websites, platforms, and‍ ‍ ‌‍​‍‌​‍​‌‍​‍‌dashboards.",
+        "Aynzenix Technology Limited is fully customizable in terms of branding for websites, platforms, and‍ ‍ ‌‍​‍‌​‍​‌‍​‍‌dashboards.",
       image: assets.cTrader8,
       cardBg: "bg-gray-200",
     },
@@ -57,7 +57,7 @@ const Pamm = () => {
     {
       question: "Does the PAMM platform support MT4 and MT5?",
       answer:
-        "Certainly. Aynzenix Technologies UK Limited provides depth, and low-latency integration with MT4/MT5 and other trading engines.",
+        "Certainly. Aynzenix Technology Limited provides depth, and low-latency integration with MT4/MT5 and other trading engines.",
     },
     {
       question: "How long does deployment take?",
@@ -104,7 +104,7 @@ const Pamm = () => {
       />
 
       <TopRatedCompany
-        title="PAMM Technology Engine Built by Aynzenix Technologies UK Limited"
+        title="PAMM Technology Engine Built by Aynzenix Technology Limited"
         description={[
           "Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited offers PAMM Trading Technology Solutions tailored to technologically advanced brokerages that require automation, reliability, and a structure for institutional investment.",
           "We cover the entire cycle of a PAMM fund system with the broker's interface as the hub -- investor allocations, master account executions, risk distribution, and real-time reporting, in fact, the whole set of tools that brokers need for a high-performance PAMM investment ​‍​‌‍​‍‌​‍​‌‍​‍‌environment.",
@@ -131,7 +131,7 @@ const Pamm = () => {
           {
             title: "Plug-and-Play Broker Integration",
             img: assets.pamm10,
-            desc: "Aynzenix Technologies UK Limited is the major reason for integration without any issues with trading platforms, CRMs, liquidity bridges, and back-office tools.",
+            desc: "Aynzenix Technology Limited is the major reason for integration without any issues with trading platforms, CRMs, liquidity bridges, and back-office tools.",
           },
           {
             title: "Modular & Customizable Architecture",

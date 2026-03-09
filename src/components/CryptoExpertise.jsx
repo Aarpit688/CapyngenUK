@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function CryptoExpertise({
   heading = "Our Expertise: Building Crypto Exchanges That Win",
-  subheading = "At​‍​‌‍​‍‌​‍​‌‍​‍‌ Aynzenix Technologies UK Limited, we bring together technical brilliance and business understanding to create impactful solutions. Our skill set spans:",
+  subheading = "At​‍​‌‍​‍‌​‍​‌‍​‍‌ Aynzenix Technology Limited, we bring together technical brilliance and business understanding to create impactful solutions. Our skill set spans:",
   outro = "Our service is beyond just technology delivery; we provide the power to exchanges to grow worldwide, make a stronghold in the market, and be a step ahead of their ​‍​‌‍​‍‌​‍​‌‍​‍‌competitors.",
   cards = [],
   sectionBg = "bg-gradient-to-b from-[#05070d] via-[#0b0f1f] to-[#05070d]",

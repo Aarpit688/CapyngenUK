@@ -5,7 +5,7 @@ import { assets } from "../assets/assets";
 export default function MT5ServiceWhyChoose() {
   const title = "Why Brokers Choose Aynzenix for MT5 Services";
   const intro =
-    "Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ are put in a position where they have to deal with latency, fragmented liquidity, and a complicated infrastructure that is difficult to manage. Aynzenix Technologies UK Limited solves these problems by offering MT5 platform solutions customized to the operational needs of the broker. By availing of our services, brokers are entitled to:";
+    "Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ are put in a position where they have to deal with latency, fragmented liquidity, and a complicated infrastructure that is difficult to manage. Aynzenix Technology Limited solves these problems by offering MT5 platform solutions customized to the operational needs of the broker. By availing of our services, brokers are entitled to:";
 
   const benefits = [
     "An entire MT5 white-label solution for a quick brokerage rollout",

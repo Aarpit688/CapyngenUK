@@ -55,7 +55,7 @@ const NTraderArchitecture = () => {
               </h2>
 
               <p className="text-slate-300 leading-relaxed text-lg">
-                Aynzenix Technologies UK Limited offers all the nTrader
+                Aynzenix Technology Limited offers all the nTrader
                 components required for a fully functional ecosystem such as:
               </p>
 

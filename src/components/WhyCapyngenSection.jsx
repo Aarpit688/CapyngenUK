@@ -7,7 +7,7 @@ const bulletLogo = "https://cdn-icons-png.flaticon.com/512/190/190411.png";
 
 const WhyAynzenixSection = ({
   heading = "Why Aynzenix Is Your Ideal Technology Partner",
-  introText = "At Aynzenix Technologies UK Limited, we blend technology know-how and crypto market insight to provide impactful solutions. We collaborate with your team to:",
+  introText = "At Aynzenix Technology Limited, we blend technology know-how and crypto market insight to provide impactful solutions. We collaborate with your team to:",
   points = [
     "Develop tailored trading platforms and broker software solutions",
     "Deliver websites, mobile apps, and CRM tools",

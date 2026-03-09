@@ -9,7 +9,7 @@ export default function CTraderServiceSolutions() {
 
   const title2 = "Why Brokers Choose Aynzenix for cTrader Services";
   const intro2 =
-    "Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ were stuck with issues of latency, platform migration, and fragmented liquidity. To solve the problem Aynzenix Technologies UK Limited is providing custom-made cTrader technology solutions that are not only scalable and reliable but also globally connected. Some of the benefits are:";
+    "Brokers​‍​‌‍​‍‌​‍​‌‍​‍‌ were stuck with issues of latency, platform migration, and fragmented liquidity. To solve the problem Aynzenix Technology Limited is providing custom-made cTrader technology solutions that are not only scalable and reliable but also globally connected. Some of the benefits are:";
 
   const benefits = [
     "The fast implementation of turnkey cTrader white-label solutions",

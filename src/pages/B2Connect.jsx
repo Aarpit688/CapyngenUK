@@ -12,23 +12,23 @@ import FaqSection from "../components/FaqSection";
 const B2Connect = () => {
   const faqItems = [
     {
-      question: "What is AynXconnect Liquidity Bridge?",
+      question: "What is AynX Connect Liquidity Bridge?",
       answer:
         "This tool is a multi-asset liquidity bridge that allows brokers to access liquidity providers in forex, crypto, and CFDs.",
     },
     {
-      question: "Can AynXconnect integrate with crypto exchanges?",
+      question: "Can AynX Connect integrate with crypto exchanges?",
       answer:
         "Yes, it facilitates the direct connection with the leading crypto exchanges and OTC liquidity networks.",
     },
     {
-      question: "Is AynXconnect compatible with MT4/MT5 and cTrader?",
+      question: "Is AynX Connect compatible with MT4/MT5 and cTrader?",
       answer:
         "Yes, it merges with MT4, MT5, cTrader, DXtrade, and even custom trading platforms.",
     },
     {
       question:
-        "Can AynXconnect Broker Technology Provider run multi-asset liquidity through AynXconnect?",
+        "Can AynX Connect Broker Technology Provider run multi-asset liquidity through AynX Connect?",
       answer:
         "Yes, completely it can. The instrument supports forex, indices, crypto, commodities, and CFDs.",
     },
@@ -39,7 +39,7 @@ const B2Connect = () => {
         "Absolutely, we oversee the entire bridge engagement, LP setup, and execution routing.",
     },
     {
-      question: "Is AynXconnect a good fit for small or startup brokers?",
+      question: "Is AynX Connect a good fit for small or startup brokers?",
       answer:
         "Definitely, it works perfectly for both startups and large-scale regulated brokerages.",
     },
@@ -54,8 +54,8 @@ const B2Connect = () => {
       <Banner8
         image={assets.b2connect}
         badge=""
-        name="Advanced Mobile Trading Technology for AynXconnect"
-        description="Deliver a smooth, secure mobile trading experience with our customized solutions for AynXconnect-powered platforms."
+        name="Advanced Mobile Trading Technology for AynX Connect"
+        description="Deliver a smooth, secure mobile trading experience with our customized solutions for AynX Connect-powered platforms."
         buttonText="Get to Know More"
       />
       <B2ConnectIntro />

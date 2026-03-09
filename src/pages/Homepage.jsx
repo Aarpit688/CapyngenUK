@@ -13,7 +13,7 @@ const Homepage = () => {
   const faqItems = [
     {
       question:
-        "What Aynzenix Technologies UK Limited do as a global technology provider?",
+        "What Aynzenix Technology Limited do as a global technology provider?",
       answer:
         "Aynzenix is a global provider of forex & Fintech tech including with new trends related to white-label trading platforms, liquidity solutions, CRM systems, and turnkey brokerage setups for brokers worldwide.",
     },
@@ -85,9 +85,9 @@ const Homepage = () => {
         "Certainly. Our Custom Development Services lead to the delivery of tailor-made trading tools, CRM customizations, API integrations, and broker-specific fintech solutions.",
     },
     {
-      question: "Why should a broker choose Aynzenix Technologies UK Limited?",
+      question: "Why should a broker choose Aynzenix Technology Limited?",
       answer:
-        "In short, this is the reason why a broker would want to work with Aynzenix Technologies UK Limited: smart brokerage technology, high-speed connectivity, reliable liquidity, white-label solutions, end-to-end brokerage setup, and global fintech expertise — all in one place.",
+        "In short, this is the reason why a broker would want to work with Aynzenix Technology Limited: smart brokerage technology, high-speed connectivity, reliable liquidity, white-label solutions, end-to-end brokerage setup, and global fintech expertise — all in one place.",
     },
   ];
 

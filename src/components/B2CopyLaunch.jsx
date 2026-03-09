@@ -36,7 +36,7 @@ const B2CopyLaunch = () => {
             transition={{ duration: 0.6 }}
             className="text-4xl font-bold leading-tight"
           >
-            Launch a Complete AynXcopy Platform with Aynzenix
+            Launch a Complete AynX Copy Platform with Aynzenix
           </motion.h2>
 
           <motion.p
@@ -46,7 +46,7 @@ const B2CopyLaunch = () => {
             className="text-gray-300 text-lg mt-6 max-w-2xl leading-relaxed"
           >
             Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited is the company that
-            offers the full AynXcopy copy trading solution with the following
+            offers the full AynX Copy copy trading solution with the following
             services:
           </motion.p>
 

@@ -46,7 +46,7 @@ const LiquidityConclusion = () => {
 
           <p className="text-gray-300 text-lg max-w-lg leading-relaxed">
             It​‍​‌‍​‍‌​‍​‌‍​‍‌ is very important for a broker to manage
-            liquidity in an effective way. Aynzenix Technologies UK Limited
+            liquidity in an effective way. Aynzenix Technology Limited
             presents to the market a full range of solutions for a liquidity
             provider, such as:
           </p>

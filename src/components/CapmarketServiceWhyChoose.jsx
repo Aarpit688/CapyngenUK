@@ -6,7 +6,7 @@ import { assets } from "../assets/assets";
 export default function CapmarketServiceWhyChoose() {
   const title = "Why Brokers Choose Aynzenix for Capmarket Services";
   const intro =
-    "Brokers​‍‌​‍‌​‍​‌‍​‍‌ have to deal with numerous problems such as fragmented liquidity, latency, and complex infrastructure management. Aynzenix Technologies UK Limited addresses these problems with custom Capmarket technology solutions that are scalable, reliable, and globally connected. Brokers obtain:";
+    "Brokers​‍‌​‍‌​‍​‌‍​‍‌ have to deal with numerous problems such as fragmented liquidity, latency, and complex infrastructure management. Aynzenix Technology Limited addresses these problems with custom Capmarket technology solutions that are scalable, reliable, and globally connected. Brokers obtain:";
 
   const benefits = [
     "Fast implementation of turnkey Capmarket solutions",

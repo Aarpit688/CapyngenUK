@@ -72,10 +72,10 @@ const Footer = () => {
       </div>
 
       <div className="relative z-10 max-w-[90vw] mx-auto py-16 lg:py-20">
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr_1fr] gap-10 lg:gap-8 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr_1fr] gap-10 lg:gap-6 mb-12">
           {/* Company Section */}
           <div className="col-span-2 md:col-span-1 lg:col-span-1">
-            <NavLink to="/" className="mb-6 block">
+            <NavLink to="/" className=" block">
               <img
                 src={assets.aynzenixLogo || assets.AynzenixFavIcon}
                 alt="Aynzenix Logo"
@@ -83,9 +83,8 @@ const Footer = () => {
               />
             </NavLink>
 
-            <p className="text-slate-300 text-sm">
-              Transforming businesses through innovative IT solutions with
-              enterprise-grade performance and scalability.
+            <p className="text-slate-300 text-sm mb-3">
+             Aynzenix Technology Limited is a global fintech infrastructure provider delivering institutional-grade trading technology, liquidity connectivity, and payment solutions for brokers, financial institutions, and fintech companies. The Aynzenix group focuses on scalable financial infrastructure and advanced trading technology to support the evolving digital financial ecosystem.
             </p>
 
             <div className="space-y-4 mt-5">
@@ -167,6 +166,51 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Group Companies */}
+        <div className="mt-6 text-slate-300 text-sm space-y-3">
+          <p>
+            <b>AynX Markets Limited</b> is registered and regulated in Seychelles under registration number 0958584 and operates under license number SD365. The registered office of the company is located at Office No. 305, Level 3, House of Francis, Ile Du Port, Mahe, Seychelles.
+          </p>
+          <p>
+            <b>Aynzenix Liquidity Solutions LTD.</b> is incorporated in The Bahamas under company license number SIA-A265. The company provides institutional liquidity connectivity, trading infrastructure, and market access solutions for brokers and financial institutions. Its registered address is 45, E Bay St, Nassau, Bahamas.
+          </p>
+          <p>
+            <b>AynX Payment Limited</b> is authorized in the Union of the Comoros under license number A2365787. The company operates payment processing and financial transaction services, with an additional office located at 98X5+G8W Mangani, Bd Karthala, Moroni, Grande Comore, Comoros.
+          </p>
+        </div>
+
+        <div className="mt-3 text-slate-300 text-sm">
+          <h4 className="font-bold">Legal & Compliance</h4>
+          <p>
+            This website and the information contained herein are intended exclusively for professional clients, institutional investors, financial intermediaries, and eligible counterparties. The services described on this website are not intended for retail clients or the general public, unless permitted under applicable laws and regulations. Access to this website does not constitute an offer or solicitation in any jurisdiction where such distribution would be contrary to local laws or regulatory requirements. The services offered by the Aynzenix group may not be available in certain jurisdictions and it is the responsibility of users to ensure compliance with the laws applicable in their country of residence.
+          </p>
+        </div>
+        <div className="mt-3 text-slate-300 text-sm">
+          <h4 className="font-bold">Jurisdictional Restrictions</h4>
+          <p>
+            This website is not directed to residents of the United States or to any US Person, as defined under applicable US laws and regulations. Users who fall within this definition should refrain from accessing this website or using any services provided by the Aynzenix group.
+          </p>
+        </div>
+        <div className="mt-3 text-slate-300 text-sm">
+          <h4 className="font-bold">AML & Sanctions Compliance</h4>
+          <p>
+           The Aynzenix group maintains strict compliance with international Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) regulations. The company reserves the right to decline services or terminate business relationships with individuals, entities, or jurisdictions subject to international sanctions or regulatory restrictions.
+          </p>
+        </div>
+        <div className="mt-3 text-slate-300 text-sm">
+          <h4 className="font-bold">Risk Disclosure</h4>
+          <p>
+           Trading in financial instruments including Forex, CFDs, derivatives, and leveraged financial products carries a high level of risk and may not be suitable for all investors. The value of investments may increase or decrease and investors may lose all or part of their invested capital. In leveraged trading, losses may exceed the initial invested amount.
+          </p>
+          <p>Clients should ensure they fully understand the risks involved before engaging in trading activities.</p>
+        </div>
+        <div className="mt-3 text-slate-300 text-sm">
+          <h4 className="font-bold">Intellectual Property</h4>
+          <p>
+           All trademarks, logos, and brand names appearing on this website are the property of their respective owners. Any reference to third-party trademarks is used strictly for identification purposes and does not imply endorsement or affiliation unless explicitly stated.
+          </p>
+        </div>
+
         {/* Scroll to Top */}
         <div className="relative border-t border-slate-700/50 my-8">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
@@ -184,26 +228,49 @@ const Footer = () => {
 
         {/* Bottom Links */}
         <div className="flex flex-col sm:flex-row justify-between items-center text-sm text-slate-400 gap-4">
-          <div>© {currentYear} Aynzenix. All rights reserved.</div>
+          <div>© {currentYear} Aynzenix Group. All rights reserved.</div>
 
-          <div className="flex gap-6">
+          <div className="space-x-3">
+            <NavLink
+              to="/terms-of-service"
+              className="hover:text-[#5CFCF9] transition"
+            >
+              Terms & Conditions
+            </NavLink>
+            <span>|</span>
             <NavLink
               to="/privacy-policy"
               className="hover:text-[#5CFCF9] transition"
             >
               Privacy Policy
             </NavLink>
-            <NavLink
-              to="/terms-of-service"
-              className="hover:text-[#5CFCF9] transition"
-            >
-              Terms of Service
-            </NavLink>
+            <span>|</span>
             <NavLink
               to="/sitemap"
               className="hover:text-[#5CFCF9] transition"
             >
-              Sitemap
+              AML & KYC Policy
+            </NavLink>
+            <hr className="my-2" />
+            <NavLink
+              to="/privacy-policy"
+              className="hover:text-[#5CFCF9] transition"
+            >
+              Risk Disclosure
+            </NavLink>
+            <span>|</span>
+            <NavLink
+              to="/terms-of-service"
+              className="hover:text-[#5CFCF9] transition"
+            >
+              Cookie Policy
+            </NavLink>
+            <span>|</span>
+            <NavLink
+              to="/sitemap"
+              className="hover:text-[#5CFCF9] transition"
+            >
+              Regulatory Information
             </NavLink>
           </div>
         </div>

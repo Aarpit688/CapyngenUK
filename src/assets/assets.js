@@ -649,7 +649,7 @@ export const navItems = [
           {
             label: "AynX Market Service",
             href: "/services/aynxmarket-service",
-            description: "Support and solutions for Capmarket platform.",
+            description: "Support and solutions for AynX Market platform.",
             imageSrc: capMarketService1,
           },
           {

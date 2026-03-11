@@ -7,16 +7,16 @@ const CapmarketTechnology = () => {
       <div className="max-w-[90vw] mx-auto">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-10">
-            Why Brokers Trust Capmarket Technology
+            Why Brokers Trust AynX Market Technology
           </h2>
           <div className="max-w-6xl mx-auto glass-panel p-8 rounded-2xl border border-slate-700/50 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 via-cyan-400 to-blue-500"></div>
             <p className="text-slate-300 text-lg leading-relaxed">
-              Capmarket has been created with the attributes of fastness,
-              dependability, and worldwide scalability in mind. Capmarket
+              AynX Market has been created with the attributes of fastness,
+              dependability, and worldwide scalability in mind. AynX Market
               customers have access to a potent trading engine, steady liquidity
               routing, and a sophisticated backend architecture. In contrast to
-              conventional systems, Capmarket pays more attention to execution
+              conventional systems, AynX Market pays more attention to execution
               quality, infrastructure reliability, and integration depth.
             </p>
           </div>
@@ -26,7 +26,7 @@ const CapmarketTechnology = () => {
           <div className="flex items-center justify-center mb-12">
             <div className="h-px w-16 bg-slate-700 mr-4"></div>
             <h3 className="text-2xl md:text-3xl font-semibold text-white text-center">
-              Major Benefits of Choosing Capmarket for Your Brokerage
+              Major Benefits of Choosing AynX Market for Your Brokerage
             </h3>
             <div className="h-px w-16 bg-slate-700 ml-4"></div>
           </div>

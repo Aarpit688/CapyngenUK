@@ -34,12 +34,12 @@ const CapmarketServiceConclusion = () => {
         <div className="max-w-7xl mx-auto text-center mb-14">
           <h2 className="text-4xl md:text-5xl font-bold leading-tight text-white mb-6">
             Conclusion: Build a High-Performance Brokerage with{" "}
-            <span className="text-cyan-400">Capmarket</span>
+            <span className="text-cyan-400">AynX Market</span>
           </h2>
 
           <p className="text-slate-400 text-lg leading-relaxed max-w-4xl mx-auto">
             By​‍​‌‍​‍‌​‍​‌‍​‍‌ working with Aynzenix Technology Limited,
-            brokers are able to enjoy the full range of Capmarket services which
+            brokers are able to enjoy the full range of AynX Market services which
             include:
           </p>
         </div>

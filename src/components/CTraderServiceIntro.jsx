@@ -1,5 +1,6 @@
 import React from "react";
 import { assets } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 const CTraderServiceIntro = () => {
   const headline = "Elevate Your Brokerage with cTrader Technology";
@@ -39,7 +40,7 @@ const CTraderServiceIntro = () => {
           {/* CTA */}
           <div className="bg-gray-400 border-l-4 border-blue-600 p-6 rounded-r-xl shadow-sm">
             <p className="text-lg font-semibold text-black mb-4">{ctaText}</p>
-            <button className="group inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-blue-600/30">
+            <Link to="/contact-us" className="group inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-blue-600/30">
               Consult an Expert
               <svg
                 className="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform"
@@ -50,7 +51,7 @@ const CTraderServiceIntro = () => {
               >
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
-            </button>
+            </Link>
           </div>
         </div>
 

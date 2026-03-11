@@ -66,10 +66,10 @@ const AboutUs8 = () => {
                       Verify Invoices At
                     </p>
                     <a
-                      href="mailto:billing@Aynzenix.co.uk"
+                      href="mailto:billing@aynzenix.com"
                       className="text-white font-bold text-base sm:text-lg hover:underline break-all"
                     >
-                      billing@Aynzenix.co.uk
+                      billing@aynzenix.com
                     </a>
                   </div>
                 </div>

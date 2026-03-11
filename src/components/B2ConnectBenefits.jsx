@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { assets } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 const itemVariants = {
   hidden: { opacity: 0, y: 30 },
@@ -120,9 +121,9 @@ const B2ConnectBenefits = () => {
                            text-center shadow-[0_0_22px_rgba(255,140,60,0.25)]
                            backdrop-blur-lg"
               >
-                <h3 className="text-base sm:text-lg lg:text-xl font-semibold text-amber-200">
+                <Link to="/contact-us" className="text-base sm:text-lg lg:text-xl font-semibold text-amber-200">
                   Upgrade Your Liquidity Infrastructure With AynX Connect Bridge.
-                </h3>
+                </Link>
               </motion.div>
             </div>
           </div>

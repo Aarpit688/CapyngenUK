@@ -1,6 +1,7 @@
 import React, { useRef, useState, useCallback, useEffect } from "react";
 import { gsap } from "gsap";
 import { Link } from "react-router-dom";
+import { assets } from "../assets/assets";
 
 // Default constants
 const DEFAULT_PARTICLE_COUNT = 12;
@@ -16,36 +17,42 @@ const cardTabs = {
       title: "AynX Trader",
       description: "User behavior tracking",
       label: "Insights",
+      image: assets.b2Trader
     },
     {
       color: "#060010",
       title: "AynX Core",
       description: "Centralized data view",
       label: "Overview",
+      image: assets.b2Core
     },
     {
       color: "#060010",
       title: "AynX Copy",
       description: "Seamless collaboration",
       label: "Teamwork",
+      image: assets.b2Copy1
     },
     {
       color: "#060010",
       title: "AynX Connect",
       description: "Workflow automation",
       label: "Efficiency",
+      image: assets.b2connect
     },
     {
       color: "#060010",
       title: "PAMM",
       description: "Investment tools link",
       label: "Connectivity",
+      image: assets.pamm1
     },
     {
       color: "#060010",
       title: "MAM",
       description: "Enterprise protection",
       label: "Protection",
+      image: assets.mam1
     },
   ],
   Platforms: [
@@ -54,42 +61,49 @@ const cardTabs = {
       title: "AynX Market",
       description: "Multi-asset setup",
       label: "Liquidity integration",
+      image: assets.capmarket1
     },
     {
       color: "#060010",
       title: "VertexFX",
       description: "Hybrid trading system",
       label: "Dealing desk control",
+      image: assets.vertexFX1
     },
     {
       color: "#060010",
       title: "Sirix",
       description: "Social trading tools",
       label: "Web & mobile terminals",
+      image: assets.sirix1
     },
     {
       color: "#060010",
       title: "Ark Trading",
       description: "Cloud trading suite",
       label: "Fast deployment stack",
+      image: assets.arkTrading1
     },
     {
       color: "#060010",
       title: "MT5",
       description: "Broker-ready setup",
       label: "Full IT integration",
+      image: assets.mt5
     },
     {
       color: "#060010",
       title: "cTrader",
       description: "Advanced trading UI",
       label: "Copy trading support",
+      image: assets.ctraderbanner
     },
     {
       color: "#060010",
       title: "nTrader",
       description: "Smart trading module",
       label: "Custom broker features",
+      image: assets.ntraderbanner
     },
   ],
   Services: [
@@ -98,30 +112,35 @@ const cardTabs = {
       title: "AynX Market Service",
       description: "Multi-asset setup",
       label: "Brokerage automation",
+      image: assets.capMarketService1
     },
     {
       color: "#060010",
       title: "MT5 Service",
       description: "MT5 server setup",
       label: "MT5 plugin tools",
+      image: assets.mtService3
     },
     {
       color: "#060010",
       title: "cTrader Service",
       description: "cTrader integration",
       label: "cTrader white label",
+      image: assets.cTraderService2
     },
     {
       color: "#060010",
       title: "OneZero Service",
       description: "OneZero bridge setup",
       label: "Risk-routing engine",
+      image: assets.onezeroService4
     },
     {
       color: "#060010",
       title: "PrimeXM X-Core Service",
       description: "X-Core liquidity hub",
       label: "Advanced order routing",
+      image: assets.primeXMService1
     },
   ],
 };
@@ -749,8 +768,15 @@ const MagicBentoWithTabs = ({
                 to={`/${activeTab.toLowerCase()}/${card.title
                   .toLowerCase()
                   .replace(/\s+/g, "-")}`}
-                className="flex flex-col justify-center items-center h-full w-full"
+                className="flex flex-col justify-center items-center group h-full w-full"
               >
+                {/* Background Image */}
+                <div
+                  className="absolute inset-0 bg-center opacity-10 group-hover:opacity-20 transition-all duration-200 bg-cover pointer-events-none"
+                  style={{
+                    backgroundImage: `url(${card.image})`
+                  }}
+                />
                 <div className="card__header flex justify-between gap-3 relative text-white w-full px-5">
                   <span className="card__label text-lg">{card.label}</span>
                 </div>

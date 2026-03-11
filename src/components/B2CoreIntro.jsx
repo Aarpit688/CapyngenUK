@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { assets } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 /* ---------------------------------------------------------
    MAGNETIC BUTTON HOOK
@@ -126,12 +127,12 @@ const B2CoreIntro = () => {
 
           {/* CTA BUTTON */}
           <div className="mt-6">
-            <button
+            <Link to={"/contact-us"}
               ref={magneticBtnRef}
               className="relative mt-4 inline-block bg-gradient-to-r from-cyan-600 to-blue-500 text-white px-10 py-4 rounded-xl font-bold shadow-[0_0_25px_rgba(0,200,255,0.5)] hover:scale-105 transition-all duration-300"
             >
               Get Started Today
-            </button>
+            </Link>
           </div>
         </div>
 

@@ -148,7 +148,7 @@ const Mam = () => {
       <TopRatedCompany
         title="What Makes the MAM System Essential for Brokers"
         description={[
-          "A​‍​‌‍​‍‌​‍​‌‍​‍‌ MAM (Multi-Account Manager) platform basically means managing multiple client accounts which are under a single master account with instant trade replication. Aynzenix is keeping a very stable, compliant, and scalable environment for multi-asset execution, which is supported by high-speed allocation and global infrastructure. The MAM engine is delivering very fast trade distribution, different methods of allocation, and effortless connection with liquidity providers, MT4/MT5, Capmarket, and other trading solutions. By utilizing its robust APIs, brokers have the freedom to link up CRMs, reporting systems, risk units, PSPs, and other fintech solutions without a ​‍​‌‍​‍‌​‍​‌‍​‍‌hitch.",
+          "A​‍​‌‍​‍‌​‍​‌‍​‍‌ MAM (Multi-Account Manager) platform basically means managing multiple client accounts which are under a single master account with instant trade replication. Aynzenix is keeping a very stable, compliant, and scalable environment for multi-asset execution, which is supported by high-speed allocation and global infrastructure. The MAM engine is delivering very fast trade distribution, different methods of allocation, and effortless connection with liquidity providers, MT4/MT5, AynX Market, and other trading solutions. By utilizing its robust APIs, brokers have the freedom to link up CRMs, reporting systems, risk units, PSPs, and other fintech solutions without a ​‍​‌‍​‍‌​‍​‌‍​‍‌hitch.",
         ]}
         image={assets.mam07}
         reverse

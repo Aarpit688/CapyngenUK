@@ -64,7 +64,7 @@ const MT5 = () => {
         titleGradient="Enterprise-Level MT5 Technology for Forex & CFD Brokers"
         description="Launch and scale your MT5 brokerage with our expert infrastructure setup, integration, and automation solutions."
         ctaText="Apply Now"
-        ctaLink="#"
+        ctaLink="/contact-us"
         bgImageDesktop={assets.mt5}
         bgImageMobile={assets.mt5}
         features={[

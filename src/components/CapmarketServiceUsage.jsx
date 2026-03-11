@@ -17,7 +17,7 @@ const CapmarketServiceUsage = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
             How Startups and Established Brokers Benefit from{" "}
-            <span className="text-blue-400">Capmarket</span>
+            <span className="text-blue-400">AynX Market</span>
           </h2>
           <div className="w-24 h-1 bg-blue-500/50 mx-auto rounded-full"></div>
         </div>
@@ -39,7 +39,7 @@ const CapmarketServiceUsage = () => {
 
               <p className="text-slate-300 leading-relaxed text-lg mb-8 min-h-[84px]">
                 New​‍​‌‍​‍‌​‍​‌‍​‍‌ businesses are able to rapidly implement
-                complete Capmarket offerings that encompass platform setup,
+                complete AynX Market offerings that encompass platform setup,
                 server hosting, and ready-to-use liquidity.
               </p>
 

@@ -10,7 +10,7 @@ export default function CapmarketServiceFeatures() {
           {/* LEFT CONTENT */}
           <div className="flex-1 order-2 lg:order-1">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
-              Key Features of Capmarket Services
+              Key Features of AynX Market Services
             </h2>
 
             <div className="space-y-8">
@@ -23,7 +23,7 @@ export default function CapmarketServiceFeatures() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-white">
-                    Capmarket Liquidity Bridge
+                    AynX Market Liquidity Bridge
                   </h3>
                   <p className="text-slate-400 mt-1">
                     Quickly connect your brokerage to multiple liquidity
@@ -83,7 +83,7 @@ export default function CapmarketServiceFeatures() {
             <div className="relative h-96 lg:h-[32rem] overflow-hidden border border-slate-800 rounded-md">
               <img
                 src={assets.capmarketService7}
-                alt="Capmarket Services"
+                alt="AynX Market Services"
                 className="w-full h-full object-cover"
               />
               <div className="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-black/60 to-transparent">

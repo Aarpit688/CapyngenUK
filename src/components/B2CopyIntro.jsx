@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { assets } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 /* --------------------------------------------------------
    CURSOR PARTICLE TRAIL
@@ -105,9 +106,9 @@ const B2CopyIntro = () => {
             </p>
 
             <div className="mt-10">
-              <p className="text-xl font-semibold text-cyan-300 drop-shadow-[0_0_12px_#00eaff]">
+              <Link to="/contact-us" className="text-xl font-semibold text-cyan-300 drop-shadow-[0_0_12px_#00eaff]">
                 Launch Your AynX Copy Platform – Speak with Our Experts Today.
-              </p>
+              </Link>
             </div>
           </motion.div>
         </div>

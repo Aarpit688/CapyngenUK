@@ -2,6 +2,7 @@ import React from "react";
 import { CheckCircle2, Globe, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { assets } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 export default function MT5ServiceConclusion({
   imageUrl = assets.mtService14,
@@ -60,21 +61,15 @@ export default function MT5ServiceConclusion({
 
             {/* CTA BUTTONS */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-              <button
+              <Link to="/contact-us"
                 onClick={onStart}
                 className="bg-emerald-400 hover:bg-emerald-300 text-black font-semibold py-3 px-6 rounded-full flex items-center gap-2 transition"
               >
                 <ArrowRight className="w-4 h-4" />
                 Launch MT5 Broker Setup
-              </button>
+              </Link>
 
-              <a
-                href="#contact"
-                className="flex items-center gap-2 text-slate-300 hover:text-white text-sm transition"
-              >
-                <Globe className="w-4 h-4" />
-                Explore Global Solutions
-              </a>
+            
             </div>
           </motion.div>
 

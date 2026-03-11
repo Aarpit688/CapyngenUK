@@ -1,6 +1,7 @@
 import React from "react";
 import { Server, Cpu, Globe, Users, Clock } from "lucide-react";
 import { assets } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 export default function MT5ServiceIntro() {
   return (
@@ -43,13 +44,13 @@ export default function MT5ServiceIntro() {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 pt-4">
-              <button className="px-6 py-3 rounded-full font-semibold bg-gradient-to-r from-cyan-400 to-indigo-500 text-black shadow-lg hover:scale-[1.02] transition">
+              <Link to="/contact-us" className="px-6 py-3 rounded-full font-semibold bg-gradient-to-r from-cyan-400 to-indigo-500 text-black shadow-lg hover:scale-[1.02] transition">
                 Deploy MT5 Platform
-              </button>
+              </Link>
 
-              <button className="px-5 py-3 rounded-full border border-slate-600 text-slate-200 hover:bg-slate-800 transition">
+              <Link to="/contact-us" className="px-5 py-3 rounded-full border border-slate-600 text-slate-200 hover:bg-slate-800 transition">
                 Request a Demo
-              </button>
+              </Link>
             </div>
           </div>
 

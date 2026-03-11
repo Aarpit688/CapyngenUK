@@ -1,14 +1,15 @@
 import React from "react";
 import { Globe, Cpu, Server, ArrowRight, Zap, Activity } from "lucide-react";
 import { assets } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 export default function CapmarketServiceIntro() {
-  const headline = "Empower Your Brokerage with Capmarket Technology";
+  const headline = "Empower Your Brokerage with AynX Market Technology";
   const bodyContent =
-    "Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited offers Capmarket services which includes foreign exchange, crypto, and multi-asset brokers globally. We are a one-stop technology company for a Capmarket broker offering the latest technology and servers hosting, platform integration, liquidity bridges, and white-label solutions to keep the broker operation running sustainably and the trader experience superb.";
+    "Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited offers AynX Market services which includes foreign exchange, crypto, and multi-asset brokers globally. We are a one-stop technology company for a AynX Market broker offering the latest technology and servers hosting, platform integration, liquidity bridges, and white-label solutions to keep the broker operation running sustainably and the trader experience superb.";
 
   const ctaText =
-    "Launch Your Capmarket Technology Platform Today – Speak with our experts to get started.";
+    "Launch Your AynX Market Technology Platform Today – Speak with our experts to get started.";
 
   return (
     <section className="relative overflow-hidden py-20 bg-black">
@@ -45,10 +46,10 @@ export default function CapmarketServiceIntro() {
           <div className="pt-4">
             <p className="text-lg font-semibold text-white mb-4">{ctaText}</p>
 
-            <button className="group bg-blue-600 hover:bg-blue-700 text-white px-7 py-3 rounded-xl font-semibold transition-all duration-200 shadow-sm flex items-center">
+            {/* <Link to="/contact-us" className="group bg-blue-600 hover:bg-blue-700 text-white px-7 py-3 rounded-xl font-semibold transition-all duration-200 shadow-sm flex items-center">
               Get Started Now
               <ArrowRight className="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </Link> */}
           </div>
         </div>
 
@@ -57,8 +58,8 @@ export default function CapmarketServiceIntro() {
           <div className="rounded-xl overflow-hidden border border-slate-200 bg-white h-full">
             <img
               src={assets.capmarketService5}
-              alt="Capmarket Technology"
-              className="w-full h-full object-cover"
+              alt="AynX Market Technology"
+              className="w-full md:aspect-5/4 object-cover"
             />
           </div>
         </div>

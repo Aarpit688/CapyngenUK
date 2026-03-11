@@ -13,7 +13,7 @@ const CapmarketHighPerformance = () => {
   const features = [
     {
       icon: <Monitor className="w-6 h-6 text-cyan-400" />,
-      text: "Capmarket white-label platform installation",
+      text: "AynX Market white-label platform installation",
     },
     {
       icon: <Globe className="w-6 h-6 text-blue-400" />,
@@ -48,12 +48,12 @@ const CapmarketHighPerformance = () => {
           <div className="relative z-10">
             <div className="text-center max-w-7xl mx-auto mb-16">
               <h2 className="text-3xl md:text-5xl font-bold text-white mb-8">
-                Build a High-Performance Brokerage with Capmarket
+                Build a High-Performance Brokerage with AynX Market
               </h2>
 
               <p className="text-slate-300 text-lg md:text-xl leading-relaxed">
                 Aynzenix​‍​‌‍​‍‌​‍​‌‍​‍‌ Technologies UK Limited implements full
-                Capmarket trading platform solutions, which feature the
+                AynX Market trading platform solutions, which feature the
                 following:
               </p>
             </div>
@@ -86,7 +86,7 @@ const CapmarketHighPerformance = () => {
               <div className="absolute inset-0 bg-grid-white/[0.02] bg-[length:20px_20px]"></div>
 
               <p className="relative text-slate-200 text-lg md:text-xl font-light leading-relaxed">
-                Brokers through Capmarket enjoy a robust, safe, and expandable
+                Brokers through AynX Market enjoy a robust, safe, and expandable
                 trading setting that is ideal for international development and
                 large-volume trades.
               </p>

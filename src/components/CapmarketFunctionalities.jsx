@@ -77,7 +77,7 @@ const CapmarketFunctionalities = () => {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-6">
                 Key Functionalities That Make{" "}
-                <span className="gradient-text">Capmarket</span> a Leading
+                <span className="gradient-text">AynX Market</span> a Leading
                 Platform
               </h2>
 
@@ -86,10 +86,10 @@ const CapmarketFunctionalities = () => {
                 <div className="absolute -right-10 -top-10 w-32 h-32 bg-indigo-500/10 rounded-full blur-2xl"></div>
 
                 <p className="text-slate-300 text-lg leading-relaxed font-light relative z-10">
-                  We, at Capmarket, offer data connectivity solutions that help
+                  We, at AynX Market, offer data connectivity solutions that help
                   traders get quick pricing, least slippage, and correct market
                   depth data. When these are combined with forced redundancy,
-                  layers of disaster recovery, and secure hosting, Capmarket
+                  layers of disaster recovery, and secure hosting, AynX Market
                   turns into a next-generation platform for brokers who are
                   looking to expand ​‍​‌‍​‍‌​‍​‌‍​‍‌globally.
                 </p>

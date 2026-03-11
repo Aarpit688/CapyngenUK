@@ -52,18 +52,18 @@ export default function Careers1() {
               </div>
 
               {/* CTA BUTTONS */}
-              <div className="flex flex-col sm:flex-row gap-4 mt-4">
-                {/* Primary */}
+              {/* <div className="flex flex-col sm:flex-row gap-4 mt-4">
+                
                 <button className="px-8 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 transition-all shadow-lg hover:shadow-blue-500/40 inline-flex items-center">
                   View Open Roles
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </button>
 
-                {/* Secondary */}
+                
                 <button className="px-8 py-3 rounded-lg bg-white/10 border border-white/20 text-white hover:bg-white/20 backdrop-blur-xl transition-all">
                   Our Culture
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

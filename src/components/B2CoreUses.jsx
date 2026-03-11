@@ -108,7 +108,7 @@ const B2CoreUses = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <motion.button
+          {/* <motion.button
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
             className="mag-btn relative px-10 py-4 bg-cyan-300 text-black font-bold 
@@ -117,7 +117,7 @@ const B2CoreUses = () => {
                        transition-all duration-300 cursor-pointer"
           >
             Learn More
-          </motion.button>
+          </motion.button> */}
         </motion.div>
       </div>
 

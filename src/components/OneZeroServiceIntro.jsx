@@ -8,6 +8,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { assets } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 export default function OneZeroServiceIntro() {
   const [isVisible, setIsVisible] = useState(false);
@@ -41,12 +42,12 @@ export default function OneZeroServiceIntro() {
           </p>
 
           <div className="pt-4">
-            <button className="group relative inline-flex items-center gap-3 px-8 py-4 bg-white text-black rounded-full font-bold text-lg transition-all hover:bg-cyan-400 hover:shadow-[0_0_40px_rgba(34,211,238,0.24)] hover:scale-105 active:scale-95 overflow-hidden">
+            <Link to="/contact-us" className="group relative inline-flex items-center gap-3 px-8 py-4 bg-white text-black rounded-full font-bold text-lg transition-all hover:bg-cyan-400 hover:shadow-[0_0_40px_rgba(34,211,238,0.24)] hover:scale-105 active:scale-95 overflow-hidden">
               <span className="relative z-10">
                 Start Your OneZero Technology Platform Today
               </span>
               <ArrowRight className="relative z-10 transition-transform group-hover:translate-x-1" />
-            </button>
+            </Link>
             <p className="mt-4 text-sm text-slate-500 font-medium ml-4">
               Talk with our experts for a consultation.
             </p>

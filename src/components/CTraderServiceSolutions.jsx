@@ -1,6 +1,7 @@
 import React from "react";
 import { Check, Globe, ArrowRightLeft, Settings } from "lucide-react";
 import { assets } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 export default function CTraderServiceSolutions() {
   const title1 = "How Aynzenix Delivers Complete cTrader Solutions";
@@ -51,13 +52,13 @@ export default function CTraderServiceSolutions() {
 
             {/* CTA buttons */}
             <div className="mt-8 flex flex-wrap gap-4">
-              <button className="px-5 py-3 rounded-lg bg-cyan-400 text-slate-900 font-bold shadow-[0_0_25px_rgba(34,211,238,0.6)] hover:shadow-[0_0_40px_rgba(34,211,238,0.9)] transition-all duration-300 hover:scale-[1.04]">
+              <Link to="/contact-us" className="px-5 py-3 rounded-lg bg-cyan-400 text-slate-900 font-bold shadow-[0_0_25px_rgba(34,211,238,0.6)] hover:shadow-[0_0_40px_rgba(34,211,238,0.9)] transition-all duration-300 hover:scale-[1.04]">
                 Get a Demo
-              </button>
+              </Link>
 
-              <button className="px-5 py-3 rounded-lg border border-cyan-300/40 text-cyan-200 hover:bg-cyan-300/10 transition-all duration-300">
+              <Link to="/contact-us" className="px-5 py-3 rounded-lg border border-cyan-300/40 text-cyan-200 hover:bg-cyan-300/10 transition-all duration-300">
                 Request Pricing
-              </button>
+              </Link>
             </div>
           </div>
 

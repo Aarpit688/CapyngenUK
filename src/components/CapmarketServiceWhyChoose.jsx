@@ -4,19 +4,19 @@ import { Check, TrendingUp } from "lucide-react";
 import { assets } from "../assets/assets";
 
 export default function CapmarketServiceWhyChoose() {
-  const title = "Why Brokers Choose Aynzenix for Capmarket Services";
+  const title = "Why Brokers Choose Aynzenix for AynX Market Services";
   const intro =
-    "Brokers​‍‌​‍‌​‍​‌‍​‍‌ have to deal with numerous problems such as fragmented liquidity, latency, and complex infrastructure management. Aynzenix Technology Limited addresses these problems with custom Capmarket technology solutions that are scalable, reliable, and globally connected. Brokers obtain:";
+    "Brokers​‍‌​‍‌​‍​‌‍​‍‌ have to deal with numerous problems such as fragmented liquidity, latency, and complex infrastructure management. Aynzenix Technology Limited addresses these problems with custom AynX Market technology solutions that are scalable, reliable, and globally connected. Brokers obtain:";
 
   const benefits = [
-    "Fast implementation of turnkey Capmarket solutions",
+    "Fast implementation of turnkey AynX Market solutions",
     "Integration of a multi-asset trading platform",
     "Secure and low-latency server hosting and liquidity bridges",
     "Continuous support, platform maintenance, and technical upgrades",
   ];
 
   const closing =
-    "By having Aynzenix as a Capmarket technology provider UK-based, brokers are able to concentrate on growth and client acquisition while we take care of the technical ​‍​‌‍​‍‌​‍​‌‍​‍‌side.";
+    "By having Aynzenix as a AynX Market technology provider UK-based, brokers are able to concentrate on growth and client acquisition while we take care of the technical ​‍​‌‍​‍‌​‍​‌‍​‍‌side.";
 
   const shouldReduceMotion = useReducedMotion();
 
@@ -98,7 +98,7 @@ export default function CapmarketServiceWhyChoose() {
           {/* Main Image */}
           <img
             src={assets.capmarketService9}
-            alt="Capmarket Global Network"
+            alt="AynX Market Global Network"
             className="absolute inset-0 w-full h-full object-cover"
           />
         </motion.div>

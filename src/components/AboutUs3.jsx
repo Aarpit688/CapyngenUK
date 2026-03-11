@@ -9,6 +9,7 @@ import {
   Megaphone,
   ArrowUpRight,
 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const AboutUs3 = () => {
   return (
@@ -170,7 +171,7 @@ export const AboutUs3 = () => {
           </div>
 
           {/* Marketing */}
-          <div className="group bg-slate-900/50 rounded-md p-6 sm:p-8 border border-slate-800 hover:border-pink-500/40 flex flex-col transition md:col-span-2 lg:col-span-1">
+          <Link to="/contact-us" className="group bg-slate-900/50 rounded-md p-6 sm:p-8 border border-slate-800 hover:border-pink-500/40 flex flex-col transition md:col-span-2 lg:col-span-1">
             <Megaphone className="w-6 h-6 text-pink-400 mb-4" />
             <h3 className="text-lg sm:text-xl font-bold text-white mb-3">
               Digital Marketing & Business Growth
@@ -183,7 +184,7 @@ export const AboutUs3 = () => {
               <span>Grow Your Brokerage</span>
               <ArrowUpRight className="w-4 h-4" />
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </section>

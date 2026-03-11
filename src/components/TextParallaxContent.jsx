@@ -192,9 +192,9 @@ const ContentBackOffice = () => (
           </li>
         ))}
       </ul>
-      <button className="py-3 px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-indigo-500/50 hover:scale-105 transition-all duration-300 text-sm sm:text-base w-fit">
+      {/* <button className="py-3 px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-indigo-500/50 hover:scale-105 transition-all duration-300 text-sm sm:text-base w-fit">
         Learn More
-      </button>
+      </button> */}
     </div>
   </motion.div>
 );
@@ -230,9 +230,9 @@ const ContentLiquidity = () => (
           </li>
         ))}
       </ul>
-      <button className="py-3 px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-indigo-500/50 hover:scale-105 transition-all duration-300 text-sm sm:text-base w-fit">
+      {/* <button className="py-3 px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-indigo-500/50 hover:scale-105 transition-all duration-300 text-sm sm:text-base w-fit">
         Learn More
-      </button>
+      </button> */}
     </div>
   </motion.div>
 );
@@ -267,9 +267,9 @@ const ContentSiRiX = () => (
           </li>
         ))}
       </ul>
-      <button className="py-3 px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-indigo-500/50 hover:scale-105 transition-all duration-300 text-sm sm:text-base w-fit">
+      {/* <button className="py-3 px-8 bg-linear-to-r from-fuchsia-500 via-indigo-500 to-cyan-400 rounded-full text-white font-semibold shadow-[0_8px_24px_rgba(99,102,241,0.35)] hover:shadow-indigo-500/50 hover:scale-105 transition-all duration-300 text-sm sm:text-base w-fit">
         Learn More
-      </button>
+      </button> */}
     </div>
   </motion.div>
 );

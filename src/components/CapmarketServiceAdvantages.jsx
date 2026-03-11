@@ -8,7 +8,7 @@ const CapmarketServiceAdvantages = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
             Key Advantages of{" "}
-            <span className="text-blue-400">Capmarket Services</span>
+            <span className="text-blue-400">AynX Market Services</span>
           </h2>
           <div className="w-24 h-1 bg-blue-500/50 mx-auto rounded-full"></div>
         </div>
@@ -75,7 +75,7 @@ const CapmarketServiceAdvantages = () => {
 
           <div className="relative z-10 flex flex-col items-center gap-6">
             <p className="text-lg md:text-xl text-slate-200 font-light leading-relaxed max-w-4xl italic">
-              "The facilities provided by Capmarket turn out to be a perfect
+              "The facilities provided by AynX Market turn out to be a perfect
               technological solution for brokers who are in need of reliable,
               scalable, and globally connected ​‍​‌‍​‍‌​‍​‌‍​‍‌technology."
             </p>

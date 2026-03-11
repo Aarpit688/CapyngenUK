@@ -15,69 +15,69 @@ import FaqSection from "../components/FaqSection";
 const CapmarketService = () => {
   const faqItems = [
     {
-      question: "What are Capmarket services?",
+      question: "What are AynX Market services?",
       answer:
-        "Capmarket services consist of a multi-asset trading platform, liquidity bridges, server hosting, white-label solutions, and integration services for brokers.",
+        "AynX Market services consist of a multi-asset trading platform, liquidity bridges, server hosting, white-label solutions, and integration services for brokers.",
     },
     {
-      question: "Can Aynzenix integrate Capmarket with MT5 platforms?",
+      question: "Can Aynzenix integrate AynX Market with MT5 platforms?",
       answer:
-        "Yes, we enable the integration of Capmarket with trading platforms such as MT5 and other multi-asset brokers.",
+        "Yes, we enable the integration of AynX Market with trading platforms such as MT5 and other multi-asset brokers.",
     },
     {
-      question: "What services are included in Capmarket solutions?",
+      question: "What services are included in AynX Market solutions?",
       answer:
         "The services cover platform setup, liquidity bridges, server hosting, white-label platform development, API integration, and support indefinitely.",
     },
     {
-      question: "Are Capmarket services suitable for startups?",
+      question: "Are AynX Market services suitable for startups?",
       answer:
         "Yes, the turnkey solutions make it possible for startups to enter the market very fast with fully operational, branded platforms.",
     },
     {
-      question: "How reliable is Capmarket technology for high-volume trading?",
+      question: "How reliable is AynX Market technology for high-volume trading?",
       answer:
-        "Capmarket delivers a low-latency, easily extendable infrastructure along with strong liquidity links for the support of trading at an institutional level.",
+        "AynX Market delivers a low-latency, easily extendable infrastructure along with strong liquidity links for the support of trading at an institutional level.",
     },
     {
       question:
-        "Can Capmarket integrate with existing MT4/MT5 or other platforms?",
+        "Can AynX Market integrate with existing MT4/MT5 or other platforms?",
       answer:
         "Certainly, we provide tailored platform integration solutions to accommodate brokers anywhere in the world.",
     },
     {
       question: "Do you provide ongoing maintenance and support?",
       answer:
-        "Yes, Aynzenix is responsible for hosting, technical assistance, updates, and the optimization of all Capmarket services.",
+        "Yes, Aynzenix is responsible for hosting, technical assistance, updates, and the optimization of all AynX Market services.",
     },
     {
-      question: "Is Aynzenix a trusted Capmarket technology provider UK-based?",
+      question: "Is Aynzenix a trusted AynX Market technology provider UK-based?",
       answer:
-        "Yes, we are located in the UK and deliver Capmarket broker technology solution services to clients globally.",
+        "Yes, we are located in the UK and deliver AynX Market broker technology solution services to clients globally.",
     },
   ];
   return (
     <div>
       <Banner7
-        title="Full-Scale Capmarket Platform Technology Services"
-        description="From server deployment to integration, Aynzenix delivers complete Capmarket technology solutions for efficient brokerage operations."
+        title="Full-Scale AynX Market Platform Technology Services"
+        description="From server deployment to integration, Aynzenix delivers complete AynX Market technology solutions for efficient brokerage operations."
         ctaText="Join Now"
         ctaLink="/contact-us"
         cards={[
           {
             thumbnail: assets.capMarketService1,
-            title: "Innovative Capmarket Technology",
+            title: "Innovative AynX Market Technology",
             description: "Broker operations got an end-to-end setup.",
           },
           {
             thumbnail: assets.capMarketService2,
-            title: "Capmarket System Implementation",
+            title: "AynX Market System Implementation",
             description:
               "The trading environment is created to be fast and safe.",
           },
           {
             thumbnail: assets.capMarketService3,
-            title: "Capmarket Integration Suite",
+            title: "AynX Market Integration Suite",
             description: "Brokerage workflow-efficient tools.",
           },
         ]}

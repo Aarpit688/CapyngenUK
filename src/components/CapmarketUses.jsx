@@ -9,12 +9,12 @@ const CapmarketUses = () => {
         {/* LEFT SIDE CONTENT */}
         <div className="space-y-8 order-2 lg:order-1">
           <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight">
-            How Startups and Global Brokers Use Capmarket
+            How Startups and Global Brokers Use AynX Market
           </h2>
 
           <div className="prose prose-invert prose-lg">
             <p className="text-slate-300 leading-relaxed text-lg">
-              Startups​‍​‌‍​‍‌​‍​‌‍​‍‌ prefer Capmarket as it provides a
+              Startups​‍​‌‍​‍‌​‍​‌‍​‍‌ prefer AynX Market as it provides a
               ready-to-go arrangement, thus they can initiate their operations
               in no time without committing heavily to the purchase of the
               necessary physical or technical structures. Thanks to the
@@ -55,7 +55,7 @@ const CapmarketUses = () => {
           <div className="relative rounded-md overflow-hidden border border-slate-800 shadow-2xl">
             <img
               src={assets.capmarket6}
-              alt="Capmarket Visual"
+              alt="AynX Market Visual"
               className="w-full h-auto object-cover rounded-md"
             />
           </div>

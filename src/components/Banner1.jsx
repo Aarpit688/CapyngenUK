@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Banner1 = ({
   title = "Connecting Devs with Employers",
@@ -10,6 +11,7 @@ const Banner1 = ({
   trustedByText = "Trusted by 50k+ users",
   rating = 4.1,
   totalReviews = "14k Reviews",
+  ctaLink = "/contact-us",
 }) => {
   const [isMounted, setIsMounted] = useState(false);
 
@@ -82,12 +84,12 @@ const Banner1 = ({
               </p>
 
               <div className="my-8 md:my-10">
-                <button
-                  type="button"
+                <Link
+                  to={ctaLink}
                   className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-3.5 text-sm md:text-base font-semibold tracking-wider text-black uppercase transition-all duration-300 bg-white rounded-full hover:opacity-90 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]"
                 >
                   {ctaText}
-                </button>
+                </Link>
               </div>
 
               {/* Ratings */}

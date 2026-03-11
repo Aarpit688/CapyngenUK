@@ -4,9 +4,9 @@ import { Layers, Activity, ShieldCheck, Globe2 } from "lucide-react";
 import { assets } from "../assets/assets";
 
 export default function CapmarketServiceUnderstanding() {
-  const title = "Understanding Capmarket Services and How Brokers Benefit";
+  const title = "Understanding AynX Market Services and How Brokers Benefit";
   const content =
-    "Capmarket is a technology platform that allows brokers to handle multi-asset trading, liquidity, and platform connectivity in an efficient manner. With the help of Capmarket trading infrastructure and integration services, brokers are able to reach out to liquidity providers, load up their servers for scalable operations, and carry on with their activities at a high level of performance. At Aynzenix Technologies, we are experts in the setup of the Capmarket platform, hosting of servers, and development of the white-label, thus enabling brokers to offer their clients secure, quick, and trading environments that are reliable. Our products are suitable for both brokerages that are startups as well as those that are already established, thus making institutional-grade performance possible anywhere in the world.";
+    "AynX Market is a technology platform that allows brokers to handle multi-asset trading, liquidity, and platform connectivity in an efficient manner. With the help of AynX Market trading infrastructure and integration services, brokers are able to reach out to liquidity providers, load up their servers for scalable operations, and carry on with their activities at a high level of performance. At Aynzenix Technologies, we are experts in the setup of the AynX Market platform, hosting of servers, and development of the white-label, thus enabling brokers to offer their clients secure, quick, and trading environments that are reliable. Our products are suitable for both brokerages that are startups as well as those that are already established, thus making institutional-grade performance possible anywhere in the world.";
 
   const container = {
     hidden: { opacity: 0, y: 8 },
@@ -50,7 +50,7 @@ export default function CapmarketServiceUnderstanding() {
         >
           <motion.img
             src={assets.capmarketService6}
-            alt="Capmarket Trading Infrastructure"
+            alt="AynX Market Trading Infrastructure"
             className="absolute inset-0 w-full h-full object-cover opacity-70"
             initial={{ scale: 1.03 }}
             whileInView={{ scale: 1 }}

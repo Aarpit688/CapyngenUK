@@ -35,7 +35,7 @@ const B2ConnectIntro = () => {
               ‍​‌‍​‍‌​‍​‌‍​‍‌interruption.
             </p>
 
-            <div
+            {/* <div
               className="mt-10 p-5 
             bg-gradient-to-r from-cyan-500/20 to-blue-600/20 
             border border-cyan-400/30 
@@ -49,7 +49,7 @@ const B2ConnectIntro = () => {
                 Connect Your Brokerage With High-Performance AynX Connect Liquidity
                 Today.
               </h2>
-            </div>
+            </div> */}
           </div>
 
           {/* RIGHT IMAGE */}

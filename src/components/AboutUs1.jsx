@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import { assets } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 export const AboutUs1 = () => {
   return (
@@ -48,10 +49,10 @@ export const AboutUs1 = () => {
               complete sense of security, albeit highly competitive.
             </p>
 
-            <button className="inline-flex items-center px-8 py-4 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white text-base font-medium shadow-lg hover:shadow-blue-500/40 transition-all hover:scale-[1.02] active:scale-[0.99] border border-white/20 backdrop-blur-xl">
+            <Link to="/contact-us" className="inline-flex items-center px-8 py-4 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white text-base font-medium shadow-lg hover:shadow-blue-500/40 transition-all hover:scale-[1.02] active:scale-[0.99] border border-white/20 backdrop-blur-xl">
               Explore Our Solutions
               <ArrowRight className="ml-2 w-5 h-5" />
-            </button>
+            </Link>
           </div>
 
           {/* ---------------- RIGHT SIDE — NEW PREMIUM COLLAGE ---------------- */}

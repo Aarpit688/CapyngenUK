@@ -89,7 +89,7 @@ const LiquidityProvider = () => {
             ‍​‌‍​‍‌​‍​‌‍​‍‌situation.
           </span>
         }
-        primaryBtn={{ label: "Get Started", link: "#" }}
+        primaryBtn={{ label: "Get Started", link: "/contact-us" }}
         secondaryBtn={{ label: "", link: "" }}
         heroImage={assets.liquidityProvider1}
         featuresHeading

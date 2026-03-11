@@ -209,7 +209,7 @@ export default function CTraderServiceAdvantages() {
         </motion.div>
 
         {/* CTA */}
-        <div className="mt-10 text-center">
+        {/* <div className="mt-10 text-center">
           <motion.button
             whileHover={{ scale: 1.03, y: -4 }}
             whileTap={{ scale: 0.97 }}
@@ -217,7 +217,7 @@ export default function CTraderServiceAdvantages() {
           >
             Get Started with cTrader
           </motion.button>
-        </div>
+        </div> */}
       </div>
 
       <style>{`

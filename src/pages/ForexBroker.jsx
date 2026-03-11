@@ -83,7 +83,7 @@ const ForexBroker = () => {
       <ForexLanding
         heroTitle="Transforming Forex Brokerage with Advanced IT Solutions"
         heroDescription="In​‍​‌‍​‍‌​‍​‌‍​‍‌ the quickly changing world of forex trading, the proper technology is not merely an advantage—it is a must. Aynzenix Technology Limited, a company in the UK with clients all over the world, is focused on delivering Forex Broker IT Solutions that are meant to provide brokers with the power, improve trading experiences, and make operations more efficient. If you are a broker going for a new business or a mature company, our inventive forex broker technology solutions guarantee that your business will be leading in the market that is getting more and more ​‍​‌‍​‍‌​‍​‌‍​‍‌competitive."
-        primaryBtn={{ label: "Get Started", link: "#" }}
+        primaryBtn={{ label: "Get Started", link: "/contact-us" }}
         secondaryBtn={{ label: "", link: "" }}
         heroImage={assets.forexBroker2}
         features={[

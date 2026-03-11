@@ -26,7 +26,7 @@ const socialLinks = [
   // },
   {
     icon: Instagram,
-    href: "https://www.instagram.com/aynzenixofficial/?hl=en",
+    href: "https://www.instagram.com/aynzenix/",
     label: "Instagram",
   },
   // { icon: FaXTwitter, href: "https://x.com/Aynzenix", label: "Twitter" },

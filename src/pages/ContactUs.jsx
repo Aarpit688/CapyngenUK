@@ -292,8 +292,17 @@ const ContactUsSection = () => {
     setShowResponse(false);
 
     const payload = {
-      ...formData,
-      fullPhoneNumber: `${formData.dialCode} ${formData.phoneNumber}`.trim(),
+      existingClient: formData.isExistingClient,
+      firstName: formData.firstName,
+      lastName: formData.lastName,
+      country: formData.country,
+      phoneCode: formData.dialCode,
+      phoneNumber: formData.phoneNumber,
+      email: formData.email,
+      service: formData.service,
+      additionalRequirements: formData.additionalRequirements,
+      agreeMarketing: formData.marketingConsent,
+      agreePrivacy: formData.privacyConsent
     };
     try {
       const response = await fetch("https://server.aynzenix.com/api/contact", {

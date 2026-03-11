@@ -1,61 +1,118 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Homepage from "./pages/Homepage";
+import React, { Suspense, lazy } from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
+
+// Static components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import ForexBroker from "./pages/ForexBroker";
-import CryptoExchange from "./pages/CryptoExchange";
-import CryptoBroker from "./pages/CryptoBroker";
-import LiquidityProvider from "./pages/LiquidityProvider";
-import B2Trader from "./pages/B2Trader";
-import B2Core from "./pages/B2Core";
-import B2Copy from "./pages/B2Copy";
-import B2Connect from "./pages/B2Connect";
-import Pamm from "./pages/Pamm";
-import Mam from "./pages/Mam";
-import Capmarket from "./pages/Capmarket";
-import VertexFx from "./pages/VertexFx";
-import MT5 from "./pages/MT5";
-import CTrader from "./pages/CTrader";
 import ScrollToTop from "./components/ScrollToTop";
-import Sirix from "./pages/Sirix";
-import ArkTrading from "./pages/ArkTrading";
-import NTrader from "./pages/NTrader";
-import CTraderService from "./pages/CTraderService";
-import CapmarketService from "./pages/CapmarketService";
-import MT5Service from "./pages/MT5Service";
-import OneZeroService from "./pages/OneZeroService";
-import ContactUs from "./pages/ContactUs";
-import PrimeXMService from "./pages/PrimeXMService";
-import Careers from "./pages/Careers";
-import AboutUs from "./pages/AboutUs";
-import Blogs from "./pages/Blogs";
-import BlogDetail from "./components/BlogDetail";
-import Partnership from "./pages/Partnership";
-import TermsOfService from "./pages/TermsOfService";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import ProductsDocumentation from "./pages/ProductsDocumentation";
 
-const App = () => {
+// Lazy pages
+const Homepage = lazy(() => import("./pages/Homepage"));
+
+const ForexBroker = lazy(() => import("./pages/ForexBroker"));
+const CryptoExchange = lazy(() => import("./pages/CryptoExchange"));
+const CryptoBroker = lazy(() => import("./pages/CryptoBroker"));
+const LiquidityProvider = lazy(() => import("./pages/LiquidityProvider"));
+
+const B2Trader = lazy(() => import("./pages/B2Trader"));
+const B2Core = lazy(() => import("./pages/B2Core"));
+const B2Copy = lazy(() => import("./pages/B2Copy"));
+const B2Connect = lazy(() => import("./pages/B2Connect"));
+const Pamm = lazy(() => import("./pages/Pamm"));
+const Mam = lazy(() => import("./pages/Mam"));
+
+const Capmarket = lazy(() => import("./pages/Capmarket"));
+const VertexFx = lazy(() => import("./pages/VertexFx"));
+const Sirix = lazy(() => import("./pages/Sirix"));
+const ArkTrading = lazy(() => import("./pages/ArkTrading"));
+const MT5 = lazy(() => import("./pages/MT5"));
+const CTrader = lazy(() => import("./pages/CTrader"));
+const NTrader = lazy(() => import("./pages/NTrader"));
+
+const CTraderService = lazy(() => import("./pages/CTraderService"));
+const CapmarketService = lazy(() => import("./pages/CapmarketService"));
+const MT5Service = lazy(() => import("./pages/MT5Service"));
+const OneZeroService = lazy(() => import("./pages/OneZeroService"));
+const PrimeXMService = lazy(() => import("./pages/PrimeXMService"));
+
+const ContactUs = lazy(() => import("./pages/ContactUs"));
+const Careers = lazy(() => import("./pages/Careers"));
+const AboutUs = lazy(() => import("./pages/AboutUs"));
+const Blogs = lazy(() => import("./pages/Blogs"));
+const BlogDetail = lazy(() => import("./components/BlogDetail"));
+const Partnership = lazy(() => import("./pages/Partnership"));
+
+const TermsOfService = lazy(() => import("./pages/TermsOfService"));
+const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
+const ProductsDocumentation = lazy(() =>
+  import("./pages/ProductsDocumentation")
+);
+
+
+import { isAdminLoggedIn } from "./pages/AdminPanel/services/authService";
+import { ToastProvider } from "./pages/AdminPanel/hooks/useToast";
+
+
+// Example Admin pages
+const AdminLogin = lazy(() => import("./pages/AdminPanel/components/AdminLogin"));
+const AdminLanding = lazy(() => import("./pages/AdminPanel/components/AdminLanding"));
+const AdminPanel = lazy(() => import("./pages/AdminPanel/components/AdminPanel"));
+const CareerAdminPanel = lazy(() => import("./pages/AdminPanel/components/CareerAdminPanel"));
+const ViewReports = lazy(() => import("./pages/AdminPanel/components/ViewReports"));
+const Settings = lazy(() => import("./pages/AdminPanel/components/Settings"));
+
+
+const ProtectedRoute = ({ children }) => {
+  const loggedIn = isAdminLoggedIn();
+  if (!loggedIn) return <Navigate to="/admin-login" replace />;
+  return children;
+};
+
+// Loader
+const PageLoader = () => (
+  <div style={{ height: "100vh", backgroundColor: "#000" }}></div>
+);
+
+const AppContent = () => {
+  const location = useLocation();
+
+  // Routes that should NOT show navbar/footer
+  const noLayoutRoutes = ["/admin-login",
+    "/admin-dashboard",
+    "/admin-blogs",
+    "/admin-careers",
+    "/admin-reports",
+    "/admin-settings",];
+
+  const hideLayout = noLayoutRoutes.includes(location.pathname);
+
   return (
-    <div className="overflow-x-clip">
-      <Router>
-        <ScrollToTop />
-        <Navbar />
-        <div className="pt-24 bg-black">
+    <>
+      {!hideLayout && <Navbar />}
+
+      <div className="pt-24 bg-black min-h-screen">
+        <Suspense fallback={<PageLoader />}>
           <Routes>
-
-
             <Route path="/" element={<Homepage />} />
 
+            {/* Turnkey */}
             <Route path="/turnkey/forex-broker" element={<ForexBroker />} />
-            <Route path="/turnkey/crypto-exchange" element={<CryptoExchange />} />
+            <Route
+              path="/turnkey/crypto-exchange"
+              element={<CryptoExchange />}
+            />
             <Route path="/turnkey/crypto-broker" element={<CryptoBroker />} />
             <Route
               path="/turnkey/liquidity-provider"
               element={<LiquidityProvider />}
             />
 
+            {/* Products */}
             <Route path="/products/aynxtrader" element={<B2Trader />} />
             <Route path="/products/aynxcore" element={<B2Core />} />
             <Route path="/products/aynxcopy" element={<B2Copy />} />
@@ -63,6 +120,7 @@ const App = () => {
             <Route path="/products/pamm" element={<Pamm />} />
             <Route path="/products/mam" element={<Mam />} />
 
+            {/* Platforms */}
             <Route path="/platforms/aynxmarket" element={<Capmarket />} />
             <Route path="/platforms/vertexfx" element={<VertexFx />} />
             <Route path="/platforms/sirix" element={<Sirix />} />
@@ -71,11 +129,11 @@ const App = () => {
             <Route path="/platforms/ctrader" element={<CTrader />} />
             <Route path="/platforms/ntrader" element={<NTrader />} />
 
+            {/* Services */}
             <Route
               path="/services/ctrader-service"
               element={<CTraderService />}
             />
-
             <Route
               path="/services/aynxmarket-service"
               element={<CapmarketService />}
@@ -90,22 +148,80 @@ const App = () => {
               element={<PrimeXMService />}
             />
 
+            {/* Company */}
             <Route path="/company/careers" element={<Careers />} />
             <Route path="/company/about-us" element={<AboutUs />} />
-            <Route path="/blogs" element={<Blogs />} />
-            <Route path="/blogs/:slug" element={<BlogDetail />} />
             <Route path="/company/partnership" element={<Partnership />} />
 
+            {/* Blogs */}
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs/:slug" element={<BlogDetail />} />
+
+            {/* Contact */}
             <Route path="/contact-us" element={<ContactUs />} />
 
+            {/* Legal */}
             <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-            <Route path="/products/documentation" element={<ProductsDocumentation />} />
+
+            {/* Docs */}
+            <Route
+              path="/products/documentation"
+              element={<ProductsDocumentation />}
+            />
+
+<Route path="/admin-login" element={<AdminLogin />} />
+            <Route
+              path="/admin-dashboard"
+              element={
+                <ProtectedRoute>
+                  <AdminLanding />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/admin-blogs"
+              element={
+                <ProtectedRoute>
+                  <ToastProvider>
+                    <AdminPanel />
+                  </ToastProvider>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/admin-careers"
+              element={
+                <ProtectedRoute>
+                  <ToastProvider>
+                    <CareerAdminPanel />
+                  </ToastProvider>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/admin-reports"
+              element={
+                <ProtectedRoute>
+                  <ViewReports />
+                </ProtectedRoute>
+              }
+            />
           </Routes>
-        </div>
-        <Footer />
-      </Router>
-    </div>
+        </Suspense>
+      </div>
+
+      {!hideLayout && <Footer />}
+    </>
+  );
+};
+
+const App = () => {
+  return (
+    <Router>
+      <ScrollToTop />
+      <AppContent />
+    </Router>
   );
 };
 

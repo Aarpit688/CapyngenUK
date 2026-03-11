@@ -20,8 +20,8 @@ import {
 // import { Helmet } from "react-helmet-async";
 import { createSlug } from "../utils/slug";
 
-const API_URL = "https://api.Aynzenix.com/api/blogs";
-const CONTACT_API_URL = "https://api.Aynzenix.com/api/contact";
+const API_URL = "https://server.aynzenix.com/api/blogs";
+const CONTACT_API_URL = "https://server.aynzenix.com/api/contact";
 
 const BlogDetail = () => {
   const { slug } = useParams();

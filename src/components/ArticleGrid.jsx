@@ -40,7 +40,7 @@ const ArticleGrid = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const res = await fetch("https://api.aynzenix.com/api/blogs");
+        const res = await fetch("https://server.aynzenix.com/api/blogs");
         const data = await res.json();
 
         const list = Array.isArray(data)

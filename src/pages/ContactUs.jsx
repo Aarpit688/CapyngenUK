@@ -295,14 +295,13 @@ const ContactUsSection = () => {
       ...formData,
       fullPhoneNumber: `${formData.dialCode} ${formData.phoneNumber}`.trim(),
     };
-
     try {
       const response = await fetch("https://server.aynzenix.com/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
-      
+
       const data = await response.json();
 
       if (window.fbq) {

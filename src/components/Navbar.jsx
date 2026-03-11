@@ -16,7 +16,7 @@ import ScrollProgress from "./ScrollProgress";
 const socialLinks = [
   {
     icon: Facebook,
-    href: "https://www.facebook.com/aynzenixofficial/",
+    href: "https://www.facebook.com/aynzenix",
     label: "Facebook",
   },
   // {

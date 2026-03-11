@@ -606,7 +606,7 @@ const ContactUsSection = () => {
               </h3>
 
               <div className="space-y-8">
-                <div className="flex items-start gap-4 group">
+                {/* <div className="flex items-start gap-4 group">
                   <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-500/10 to-blue-500/10 flex items-center justify-center border border-white/5 text-cyan-400 group-hover:scale-110 transition-transform shrink-0">
                     <MapPin className="w-5 h-5" />
                   </div>
@@ -618,7 +618,7 @@ const ContactUsSection = () => {
                       Haryana 122018
                     </p>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex items-start gap-4 group">
                   <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-500/10 to-blue-500/10 flex items-center justify-center border border-white/5 text-cyan-400 group-hover:scale-110 transition-transform shrink-0">
@@ -657,7 +657,7 @@ const ContactUsSection = () => {
           </div>
 
           {/* Map Card */}
-          <div className="relative rounded-3xl overflow-hidden border border-white/5 shadow-xl min-h-[350px] lg:min-h-full">
+          {/* <div className="relative rounded-3xl overflow-hidden border border-white/5 shadow-xl min-h-[350px] lg:min-h-full">
             <div className="absolute inset-0 bg-white/5 z-10 mix-blend-overlay pointer-events-none"></div>
             <iframe
               title="Office Location"
@@ -671,7 +671,7 @@ const ContactUsSection = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
-          </div>
+          </div> */}
 
         </div>
       </section>

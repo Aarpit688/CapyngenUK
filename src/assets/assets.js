@@ -253,6 +253,9 @@ import liquidityProvider1 from "./liquidityProvider1.jpg";
 import build1 from "./build1.png";
 import build2 from "./build2.png";
 import build3 from "./build3.png";
+import partnership from "./partnership.jpg";
+import blogs from "./blogs.jpg";
+import career from "./career.jpg";
 
 export const assets = {
   sampleImg,
@@ -505,7 +508,7 @@ export const assets = {
   homepage5,
   home1, aynzenixLogo,
   partnership1,
-  liquidityProvider1, build1, build2, build3
+  liquidityProvider1, build1, build2, build3, partnership, blogs, career
 };
 
 export const navItems = [
@@ -692,19 +695,19 @@ export const navItems = [
             label: "Careers",
             href: "/company/careers",
             description: "Join our growing team.",
-            imageSrc: careers2,
+            imageSrc: career,
           },
           {
             label: "Blogs",
             href: "/blogs",
             description: "Get valuable insights and information.",
-            imageSrc: careers2,
+            imageSrc: blogs,
           },
           {
             label: "Partnership",
             href: "/company/partnership",
             description: "Get valuable insights and information.",
-            imageSrc: careers2,
+            imageSrc: partnership,
           },
         ],
       },

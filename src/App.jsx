@@ -47,8 +47,12 @@ const Blogs = lazy(() => import("./pages/Blogs"));
 const BlogDetail = lazy(() => import("./components/BlogDetail"));
 const Partnership = lazy(() => import("./pages/Partnership"));
 
-const TermsOfService = lazy(() => import("./pages/TermsOfService"));
+const TermsAndConditions = lazy(() => import("./pages/TermsAndConditions"));
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
+const AMLAndKYCPolicy = lazy(() => import("./pages/AMLandKYCPolicy"));
+const RiskDisclosure = lazy(() => import("./pages/RiskDisclosure"));
+const CookiePolicy = lazy(() => import("./pages/CookiePolicy"));
+const RegulatoryInformation = lazy(() => import("./pages/RegulatoryInformation"));
 const ProductsDocumentation = lazy(() =>
   import("./pages/ProductsDocumentation")
 );
@@ -161,8 +165,12 @@ const AppContent = () => {
             <Route path="/contact-us" element={<ContactUs />} />
 
             {/* Legal */}
-            <Route path="/terms-of-service" element={<TermsOfService />} />
+            <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/aml-and-kyc-policy" element={<AMLAndKYCPolicy />} />
+            <Route path="/risk-disclosure" element={<RiskDisclosure />} />
+            <Route path="/cookie-policy" element={<CookiePolicy />} />
+            <Route path="/regulatory-information" element={<RegulatoryInformation />} />
 
             {/* Docs */}
             <Route

@@ -246,28 +246,28 @@ const Footer = () => {
             </NavLink>
             <span>|</span>
             <NavLink
-              to="/sitemap"
+              to="/aml-and-kyc-policy"
               className="hover:text-[#5CFCF9] transition"
             >
               AML & KYC Policy
             </NavLink>
             <hr className="my-2" />
             <NavLink
-              to="/privacy-policy"
+              to="/risk-disclosure"
               className="hover:text-[#5CFCF9] transition"
             >
               Risk Disclosure
             </NavLink>
             <span>|</span>
             <NavLink
-              to="/terms-of-service"
+              to="/cookie-policy"
               className="hover:text-[#5CFCF9] transition"
             >
               Cookie Policy
             </NavLink>
             <span>|</span>
             <NavLink
-              to="/sitemap"
+              to="/regulatory-information"
               className="hover:text-[#5CFCF9] transition"
             >
               Regulatory Information

@@ -17,42 +17,48 @@ const cardTabs = {
       title: "AynX Trader",
       description: "User behavior tracking",
       label: "Insights",
-      image: assets.b2Trader
+      image: assets.b2Trader,
+      link: "/products/aynxtrader"
     },
     {
       color: "#060010",
       title: "AynX Core",
       description: "Centralized data view",
       label: "Overview",
-      image: assets.b2Core
+      image: assets.b2Core,
+      link: "/products/aynxcore"
     },
     {
       color: "#060010",
       title: "AynX Copy",
       description: "Seamless collaboration",
       label: "Teamwork",
-      image: assets.b2Copy1
+      image: assets.b2Copy1,
+      link: "/products/aynxcopy"
     },
     {
       color: "#060010",
       title: "AynX Connect",
       description: "Workflow automation",
       label: "Efficiency",
-      image: assets.b2connect
+      image: assets.b2connect,
+      link: "/products/aynxconnect"
     },
     {
       color: "#060010",
       title: "PAMM",
       description: "Investment tools link",
       label: "Connectivity",
-      image: assets.pamm1
+      image: assets.pamm1,
+      link: "/products/pamm"
     },
     {
       color: "#060010",
       title: "MAM",
       description: "Enterprise protection",
       label: "Protection",
-      image: assets.mam1
+      image: assets.mam1,
+      link: "/products/mam"
     },
   ],
   Platforms: [
@@ -61,49 +67,56 @@ const cardTabs = {
       title: "AynX Market",
       description: "Multi-asset setup",
       label: "Liquidity integration",
-      image: assets.capmarket1
+      image: assets.capmarket1,
+      link: "/platforms/aynxmarket"
     },
     {
       color: "#060010",
       title: "VertexFX",
       description: "Hybrid trading system",
       label: "Dealing desk control",
-      image: assets.vertexFX1
+      image: assets.vertexFX1,
+      link: "/platforms/vertexfx"
     },
     {
       color: "#060010",
       title: "Sirix",
       description: "Social trading tools",
       label: "Web & mobile terminals",
-      image: assets.sirix1
+      image: assets.sirix1,
+      link: "/platforms/sirix"
     },
     {
       color: "#060010",
       title: "Ark Trading",
       description: "Cloud trading suite",
       label: "Fast deployment stack",
-      image: assets.arkTrading1
+      image: assets.arkTrading1,
+      link: "/platforms/ark-trading"
     },
     {
       color: "#060010",
       title: "MT5",
       description: "Broker-ready setup",
       label: "Full IT integration",
-      image: assets.mt5
+      image: assets.mt5,
+      link: "/platforms/mt5"
     },
     {
       color: "#060010",
       title: "cTrader",
       description: "Advanced trading UI",
       label: "Copy trading support",
-      image: assets.ctraderbanner
+      image: assets.ctraderbanner,
+      link: "/platforms/ctrader"
     },
     {
       color: "#060010",
       title: "nTrader",
       description: "Smart trading module",
       label: "Custom broker features",
-      image: assets.ntraderbanner
+      image: assets.ntraderbanner,
+      link: "/platforms/ntrader"
     },
   ],
   Services: [
@@ -112,35 +125,40 @@ const cardTabs = {
       title: "AynX Market Service",
       description: "Multi-asset setup",
       label: "Brokerage automation",
-      image: assets.capMarketService1
+      image: assets.capMarketService1,
+      link: "/services/aynxmarket-service"
     },
     {
       color: "#060010",
       title: "MT5 Service",
       description: "MT5 server setup",
       label: "MT5 plugin tools",
-      image: assets.mtService3
+      image: assets.mtService3,
+      link: "/services/mt5-service"
     },
     {
       color: "#060010",
       title: "cTrader Service",
       description: "cTrader integration",
       label: "cTrader white label",
-      image: assets.cTraderService2
+      image: assets.cTraderService2,
+      link: "/services/ctrader-service"
     },
     {
       color: "#060010",
       title: "OneZero Service",
       description: "OneZero bridge setup",
       label: "Risk-routing engine",
-      image: assets.onezeroService4
+      image: assets.onezeroService4,
+      link: "/services/onezero-service"
     },
     {
       color: "#060010",
       title: "PrimeXM X-Core Service",
       description: "X-Core liquidity hub",
       label: "Advanced order routing",
-      image: assets.primeXMService1
+      image: assets.primeXMService1,
+      link: "/services/primexm-x-core-service"
     },
   ],
 };
@@ -765,9 +783,7 @@ const MagicBentoWithTabs = ({
               enableMagnetism={enableMagnetism}
             >
               <Link
-                to={`/${activeTab.toLowerCase()}/${card.title
-                  .toLowerCase()
-                  .replace(/\s+/g, "-")}`}
+                to={card.link}
                 className="flex flex-col justify-center items-center group h-full w-full"
               >
                 {/* Background Image */}

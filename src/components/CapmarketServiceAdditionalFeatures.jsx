@@ -23,7 +23,7 @@ const CapmarketServiceAdditionalFeatures = () => {
             <div className="lg:col-span-7 space-y-8">
               <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">
                 Additional Features That Make{" "}
-                <span className="text-blue-400">Capmarket</span> Stand Out
+                <span className="text-blue-400">AynX Market</span> Stand Out
               </h2>
 
               <div className="prose prose-invert prose-lg">
@@ -64,7 +64,7 @@ const CapmarketServiceAdditionalFeatures = () => {
               <div className="bg-blue-500/10 border border-blue-500/20 p-6 rounded-2xl">
                 <p className="text-blue-100 text-lg font-light italic leading-relaxed">
                   "The flexibility, security, and complete customizability of
-                  our solutions make Capmarket the first-choice brand of brokers
+                  our solutions make AynX Market the first-choice brand of brokers
                   from different parts of the ​‍​‌‍​‍‌​‍​‌‍​‍‌world."
                 </p>
               </div>

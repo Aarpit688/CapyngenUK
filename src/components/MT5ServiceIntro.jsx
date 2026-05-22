@@ -57,7 +57,7 @@ export default function MT5ServiceIntro() {
           {/* RIGHT — IMAGE (UPDATED) */}
           <div className=" flex justify-center items-center">
             <div className="w-full max-w-m overflow-hidden rounded-md border border-slate-700 shadow-lg">
-              <img
+              <img loading="lazy"
                 src={assets.mtService6}
                 alt="MT5 Infrastructure"
                 className="w-full h-full object-cover"

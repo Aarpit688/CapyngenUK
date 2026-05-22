@@ -50,7 +50,7 @@ const VertexFxFunctionalities = () => {
         <div className="relative bg-slate-900/50 border border-slate-800 rounded-3xl p-8 md:p-16 overflow-hidden shadow-2xl">
           {/* Background Image & Effects */}
           <div className="absolute inset-0 z-0">
-            <img
+            <img loading="lazy"
               src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000&auto=format&fit=crop"
               alt="Global Tech Background"
               className="w-full h-full object-cover opacity-10 mix-blend-screen"

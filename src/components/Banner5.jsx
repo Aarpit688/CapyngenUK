@@ -36,7 +36,7 @@ const Banner5 = () => {
           {/* Right Section */}
           <div className="relative">
             <div className="lg:min-w-[60vw] relative backdrop-blur-xl bg-gray-800/30 rounded-3xl border border-gray-700/50 shadow-2xl">
-              <img
+              <img loading="lazy"
                 className="w-full mx-auto rounded-3xl shadow-xl lg:h-[80vh]"
                 src={assets.b2Trader}
                 alt="Dashboard Preview"

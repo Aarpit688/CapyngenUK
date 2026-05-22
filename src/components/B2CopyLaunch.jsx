@@ -87,7 +87,7 @@ const B2CopyLaunch = () => {
           className="flex-1 w-full"
         >
           <div className="w-full h-[420px] rounded-2xl overflow-hidden">
-            <img
+            <img loading="lazy"
               src={assets.b2copy06}
               alt="Global trading technology"
               className="w-full h-full object-cover opacity-90 rounded-2xl"

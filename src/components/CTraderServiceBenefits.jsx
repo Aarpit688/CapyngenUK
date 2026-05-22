@@ -32,7 +32,7 @@ export default function CTraderServiceBenefits() {
         <div className="grid lg:grid-cols-2">
           {/* Visual Side */}
           <div className="relative h-64 lg:h-auto bg-slate-900 group overflow-hidden">
-            <img
+            <img loading="lazy"
               src={assets.cTraderService9}
               alt="Business Growth"
               className="absolute inset-0 w-full h-full object-cover opacity-70 transition-transform duration-700 "
@@ -107,7 +107,7 @@ export default function CTraderServiceBenefits() {
 
           {/* Visual Side */}
           <div className="lg:col-span-5 relative min-h-[300px] lg:min-h-full bg-slate-800">
-            <img
+            <img loading="lazy"
               src={assets.cTraderService10}
               alt="Advanced Trading Features"
               className="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-overlay"

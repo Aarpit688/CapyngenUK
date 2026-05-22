@@ -76,7 +76,7 @@ const VideoGallery = () => {
                   className="absolute inset-0 group cursor-pointer"
                   onClick={handlePlayVideo}
                 >
-                  <img
+                  <img loading="lazy"
                     src={videos[activeVideo].thumbnail}
                     alt={videos[activeVideo].title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -136,7 +136,7 @@ const VideoGallery = () => {
               }`}
             >
               <div className="relative h-36 sm:h-40 md:h-48 overflow-hidden">
-                <img
+                <img loading="lazy"
                   src={video.thumbnail}
                   alt={video.title}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"

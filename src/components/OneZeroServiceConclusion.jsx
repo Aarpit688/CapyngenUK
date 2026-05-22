@@ -54,7 +54,7 @@ export default function OneZeroServiceConclusion() {
               >
                 {/* Image */}
                 <div className="h-40 w-full overflow-hidden">
-                  <img
+                  <img loading="lazy"
                     src={service.image}
                     alt={service.text}
                     className="w-full h-full object-cover"
@@ -80,7 +80,7 @@ export default function OneZeroServiceConclusion() {
 
             {/* Subtle Image Accent */}
             <div className="absolute -top-10 right-10 w-28 h-28 rounded-full overflow-hidden opacity-30 border border-sky-500/20 shadow-md">
-              <img
+              <img loading="lazy"
                 src="https://picsum.photos/seed/oz-final/300/300"
                 alt="Trading Globe"
                 className="w-full h-full object-cover"

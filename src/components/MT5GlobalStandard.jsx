@@ -57,7 +57,7 @@ const MT5GlobalStandard = () => {
         <div className="relative flex justify-center items-center">
           <div className="absolute inset-0 bg-gradient-to-r from-green-400/10 to-emerald-400/5 blur-3xl rounded-full"></div>
           <div className="relative bg-white/5 border border-emerald-500/10 backdrop-blur-xl rounded-3xl p-8 max-w-md w-full shadow-xl shadow-emerald-400/10">
-            <img
+            <img loading="lazy"
               src={assets.mt16}
               alt="Global MT5 Trading Illustration"
               className="w-full rounded-2xl object-cover"

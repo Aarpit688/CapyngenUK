@@ -36,7 +36,7 @@ const NTraderArchitecture = () => {
         <div className="relative bg-slate-900 border border-slate-800 overflow-hidden shadow-2xl">
           {/* Background Image with Overlay */}
           <div className="absolute inset-0">
-            <img
+            <img loading="lazy"
               src="https://images.unsplash.com/photo-1558494949-efc52728101c?q=80&w=2000&auto=format&fit=crop"
               alt="Server Infrastructure"
               className="w-full h-full object-cover opacity-10 mix-blend-screen"
@@ -87,7 +87,7 @@ const NTraderArchitecture = () => {
             {/* RIGHT SIDE — REPLACED ILLUSTRATION WITH IMAGE */}
             <div className="relative flex justify-center lg:justify-end">
               <div className="relative w-full max-w-xl rounded-md overflow-hidden shadow-2xl border border-slate-800">
-                <img
+                <img loading="lazy"
                   src={assets.nt06}
                   alt="Trading Servers"
                   className="w-full h-full object-cover"

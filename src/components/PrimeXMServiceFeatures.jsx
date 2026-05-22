@@ -41,7 +41,7 @@ const PrimeXMServiceFeatures = () => {
             >
               {/* Image */}
               <div className="h-48 w-full overflow-hidden">
-                <img
+                <img loading="lazy"
                   src={item.image}
                   alt={item.title}
                   className="w-full h-full object-cover"

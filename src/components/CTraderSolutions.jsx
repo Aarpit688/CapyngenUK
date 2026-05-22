@@ -94,7 +94,7 @@ const CTraderSolutions = () => {
             <div className="absolute inset-0 bg-gradient-to-bl from-teal-600/20 to-emerald-600/10 rounded-full blur-3xl opacity-40"></div>
 
             <div className="relative w-full max-w-lg rounded-md overflow-hidden shadow-2xl border border-slate-800 group">
-              <img
+              <img loading="lazy"
                 src={assets.cTrader6}
                 alt="cTrader Setup"
                 className="w-full h-full object-cover"

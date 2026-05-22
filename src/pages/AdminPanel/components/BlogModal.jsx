@@ -296,7 +296,7 @@ export default function BlogModal({ open, onClose, onSave, initial }) {
             className="w-full rounded-xl border border-neutral-300 px-3 py-2"
           />
           {preview && (
-            <img
+            <img loading="lazy"
               src={preview}
               alt="Preview"
               className="mt-2 w-full h-40 object-cover rounded-lg border"

@@ -41,7 +41,7 @@ export default function MT5ServiceSolutions() {
           <div className="relative w-full h-[500px] flex justify-center items-center">
             {/* Back image */}
             <div className="absolute top-0 right-0 w-[75%] h-[75%] rounded-2xl overflow-hidden shadow-xl border border-slate-700">
-              <img
+              <img loading="lazy"
                 src={assets.mtService8}
                 alt="MT5 Infrastructure"
                 className="w-full h-full object-cover"
@@ -56,7 +56,7 @@ export default function MT5ServiceSolutions() {
 
             {/* Front image */}
             <div className="absolute bottom-0 left-0 w-[40%] h-[40%] rounded-2xl overflow-hidden shadow-xl border border-slate-700 group">
-              <img
+              <img loading="lazy"
                 src={assets.mtService9}
                 alt="Trading Integration"
                 className="w-full h-full object-cover"

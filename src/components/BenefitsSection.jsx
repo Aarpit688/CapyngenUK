@@ -145,7 +145,7 @@ const BenefitsSection = () => {
         {/* Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-5">
-            <img
+            <img loading="lazy"
               src={assets.vertexFX4}
               alt="Crypto Technology Abstract"
               className="rounded-md shadow-2xl shadow-black/30 w-full object-cover"

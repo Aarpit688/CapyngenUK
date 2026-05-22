@@ -20,7 +20,7 @@ const CTraderFeatures = () => {
 
             {/* IMAGE REPLACING ICON */}
             <div className="w-full rounded-xl overflow-hidden bg-slate-800 mb-6 shadow-lg relative z-10 group-hover:bg-teal-500/20 transition-colors">
-              <img
+              <img loading="lazy"
                 src={assets.cTrader3}
                 alt="White Label Technology"
                 className="w-full h-full object-cover"
@@ -43,7 +43,7 @@ const CTraderFeatures = () => {
 
             {/* IMAGE REPLACING ICON */}
             <div className="w-full rounded-xl overflow-hidden bg-slate-800 mb-6 shadow-lg relative z-10 group-hover:bg-teal-500/20 transition-colors">
-              <img
+              <img loading="lazy"
                 src={assets.cTrader4}
                 alt="Multi Asset Trading"
                 className="w-full h-full object-cover"
@@ -66,7 +66,7 @@ const CTraderFeatures = () => {
 
             {/* IMAGE REPLACING ICON */}
             <div className="w-full rounded-xl overflow-hidden bg-slate-800 mb-6 shadow-lg relative z-10 group-hover:bg-teal-500/20 transition-colors">
-              <img
+              <img loading="lazy"
                 src={assets.cTrader5}
                 alt="Hosting & Connectivity"
                 className="w-full h-full object-cover"

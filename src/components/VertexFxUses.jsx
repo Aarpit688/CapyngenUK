@@ -25,7 +25,7 @@ const VertexFxUses = () => {
           {/* Startups / New Brokers Card */}
           <div className="group relative rounded-xl overflow-hidden border border-slate-800 hover:border-violet-500/40 transition-all duration-500 min-h-[500px] flex flex-col">
             <div className="absolute inset-0">
-              <img
+              <img loading="lazy"
                 src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1000&auto=format&fit=crop"
                 alt="Startup Team Working"
                 className="w-full h-full object-cover opacity-20 group-hover:scale-105 transition-transform duration-700"
@@ -78,7 +78,7 @@ const VertexFxUses = () => {
           {/* Big Brokers Card */}
           <div className="group relative rounded-xl overflow-hidden border border-slate-800 hover:border-indigo-500/40 transition-all duration-500 min-h-[500px] flex flex-col">
             <div className="absolute inset-0">
-              <img
+              <img loading="lazy"
                 src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop"
                 alt="Modern Corporate Skyscraper"
                 className="w-full h-full object-cover opacity-20 group-hover:scale-105 transition-transform duration-700"

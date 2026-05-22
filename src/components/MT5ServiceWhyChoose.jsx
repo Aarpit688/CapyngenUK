@@ -25,7 +25,7 @@ export default function MT5ServiceWhyChoose() {
           <div className="relative w-full max-w-md aspect-[3/4]">
             {/* Photo 1 */}
             <div className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl border border-slate-800">
-              <img
+              <img loading="lazy"
                 src={assets.mtService10}
                 alt="Brokerage Operations"
                 className="w-full h-full object-cover opacity-80"

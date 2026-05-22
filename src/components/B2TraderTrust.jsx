@@ -94,7 +94,7 @@ const B2TraderTrust = () => {
           <div className="absolute -top-10 -left-10 w-72 h-72 bg-cyan-500/10 blur-3xl"></div>
           <div className="absolute bottom-0 -right-10 w-64 h-64 bg-blue-500/10 blur-3xl"></div>
 
-          <img
+          <img loading="lazy"
             src={assets.b2Trader5}
             alt="AynX Trader Technology"
             className="rounded-md w-full object-cover border border-white/10 shadow-[0_0_40px_rgba(0,255,255,0.12)]"

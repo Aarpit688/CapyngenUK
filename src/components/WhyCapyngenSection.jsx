@@ -53,7 +53,7 @@ const WhyAynzenixSection = ({
             <ul className="space-y-5 mb-10">
               {points.map((point, index) => (
                 <li key={index} className="flex items-start gap-4">
-                  <img
+                  <img loading="lazy"
                     src={bulletIcon}
                     alt="bullet-icon"
                     className="w-6 h-6 mt-1 filter brightness-150"

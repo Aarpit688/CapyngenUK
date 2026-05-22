@@ -41,7 +41,7 @@ export default function PartnershipHero({
                 transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
                 className="mt-12 w-full flex justify-center items-end"
             >
-                <img
+                <img loading="lazy"
                     src={teamImage}
                     alt="Partnership Team"
                     className="w-full object-contain object-bottom pointer-events-none drop-shadow-2xl"

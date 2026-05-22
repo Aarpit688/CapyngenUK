@@ -16,7 +16,7 @@ export default function Careers1() {
           <div className="lg:grid lg:grid-cols-12">
             {/* IMAGE */}
             <div className="lg:col-span-5 relative h-64 sm:h-80 lg:h-full order-first lg:order-last">
-              <img
+              <img loading="lazy"
                 className="absolute inset-0 w-full h-full object-cover opacity-90"
                 src={assets.careers1}
                 alt="Aynzenix Team"

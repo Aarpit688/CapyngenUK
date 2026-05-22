@@ -28,7 +28,7 @@ export const AboutUs2 = () => {
 
             {/* Main Image Card */}
             <div className="relative overflow-hidden rounded-lg border border-white/10 shadow-2xl backdrop-blur-xl bg-white/5">
-              <img
+              <img loading="lazy"
                 src={assets.aboutUs4}
                 alt="Fintech"
                 className="w-full h-full object-cover opacity-90"

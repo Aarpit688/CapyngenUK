@@ -48,7 +48,7 @@ export default function MAMUseCases() {
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
           >
-            <img
+            <img loading="lazy"
               src={assets.mam13}
               alt="Startup Brokers"
               className="rounded-2xl shadow-lg shadow-black/30 border border-white/10 w-full object-cover"
@@ -129,7 +129,7 @@ export default function MAMUseCases() {
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
           >
-            <img
+            <img loading="lazy"
               src={assets.mam14}
               alt="Institutional Brokers"
               className="rounded-2xl shadow-lg shadow-black/30 border border-white/10 w-full object-cover"

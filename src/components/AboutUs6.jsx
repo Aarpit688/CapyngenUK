@@ -58,7 +58,7 @@ export const AboutUs6 = () => {
 
               {/* Image */}
               <div className="relative rounded-xl overflow-hidden mt-auto shadow-lg border border-white/10 group">
-                <img
+                <img loading="lazy"
                   src={assets.aboutUs12}
                   className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-all duration-500"
                 />

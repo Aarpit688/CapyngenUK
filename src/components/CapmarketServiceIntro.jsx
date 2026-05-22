@@ -56,7 +56,7 @@ export default function CapmarketServiceIntro() {
         {/* Right Image Section (replacing grid) */}
         <div className="lg:w-1/2 w-full">
           <div className="rounded-xl overflow-hidden border border-slate-200 bg-white h-full">
-            <img
+            <img loading="lazy"
               src={assets.capmarketService5}
               alt="AynX Market Technology"
               className="w-full md:aspect-5/4 object-cover"

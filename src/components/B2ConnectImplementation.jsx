@@ -104,7 +104,7 @@ const B2ConnectImplementation = () => {
 
             {/* RIGHT IMAGE */}
             <div className="relative w-full h-[260px] sm:h-[340px] md:h-full tilt-card transition-transform duration-300">
-              <img
+              <img loading="lazy"
                 src={assets.b2Connect03}
                 alt="Technical Implementation"
                 className="w-full h-full object-cover"

@@ -99,7 +99,7 @@ export default function ProjectsShowcase() {
                   <div className="rounded-lg overflow-hidden group bg-black/70 border border-white/10 backdrop-blur-md hover:scale-[1.03] hover:shadow-2xl hover:shadow-fuchsia-500/20 transition-all duration-500">
                     {/* Image */}
                     <div className="relative h-[280px] sm:h-[300px] w-full">
-                      <img
+                      <img loading="lazy"
                         src={proj.image}
                         alt={proj.title}
                         className="w-full h-full object-cover"

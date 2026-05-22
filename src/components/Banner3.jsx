@@ -30,7 +30,7 @@ const Banner3 = ({
 
           <div className="relative border border-gray-700/30 rounded-3xl m-4 overflow-hidden h-[calc(100%-2rem)]">
             {/* Background Image */}
-            <img
+            <img loading="lazy"
               className="object-cover object-right-bottom w-full h-full opacity-90"
               src={desktopBgImage}
               alt="Background"
@@ -81,7 +81,7 @@ const Banner3 = ({
             }`}
         >
           <div className="relative bg-gray-800/20 backdrop-blur-sm border border-gray-700/30 rounded-3xl mx-4 overflow-hidden h-[300px] sm:h-[400px]">
-            <img
+            <img loading="lazy"
               className="object-cover w-full h-full opacity-90"
               src={mobileBgImage}
               alt="Background mobile"

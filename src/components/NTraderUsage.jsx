@@ -28,7 +28,7 @@ const NTraderUsage = () => {
             <div className="h-64 relative overflow-hidden">
               <div className="absolute inset-0 bg-slate-900/40 mix-blend-multiply z-10"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent z-20"></div>
-              <img
+              <img loading="lazy"
                 src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop"
                 alt="Startup Team"
                 className="w-full h-full object-cover transform transition-transform duration-700"
@@ -72,7 +72,7 @@ const NTraderUsage = () => {
             <div className="h-64 relative overflow-hidden">
               <div className="absolute inset-0 bg-red-900/20 mix-blend-multiply z-10"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent z-20"></div>
-              <img
+              <img loading="lazy"
                 src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop"
                 alt="Fintech Skyscraper"
                 className="w-full h-full object-cover transform transition-transform duration-700"

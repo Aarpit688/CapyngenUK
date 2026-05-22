@@ -38,7 +38,7 @@ const Banner2 = ({
         <div className="mt-16 md:mt-20 relative">
           <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rounded-3xl blur-2xl"></div>
           <div className="relative backdrop-blur-xl p-1 ">
-            <img
+            <img loading="lazy"
               className="object-cover object-top w-full h-auto mx-auto rounded-2xl"
               src={image}
               alt="Hero Illustration"

@@ -126,7 +126,7 @@ const HowItWorks = () => {
                 <div
                   className={`md:w-1/2 max-h-100 ${imageOrderClass} bg-gray-800/30 backdrop-blur-xl border border-gray-700/50 rounded-md overflow-hidden shadow-lg hover:shadow-emerald-500/20 transition duration-500`}
                 >
-                  <img
+                  <img loading="lazy"
                     src={step.imageUrl}
                     alt={step.imageAlt}
                     className="w-full h-full object-cover"

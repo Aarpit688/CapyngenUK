@@ -82,7 +82,7 @@ export default function MT5ServiceConclusion({
             className="lg:col-span-5"
           >
             <div className="rounded-md ">
-              <img
+              <img loading="lazy"
                 src={imageUrl}
                 alt="MT5 Global Trading Visualization"
                 className="w-full h-72 sm:h-80 lg:h-100 object-cover"

@@ -165,7 +165,7 @@ export default function CTraderServiceConclusion() {
           animate={containerControls}
           className="lg:w-2/5 relative bg-gradient-to-b from-slate-900 to-slate-800 min-h-[400px] lg:min-h-full overflow-hidden"
         >
-          <img
+          <img loading="lazy"
             src={assets.cTraderService11}
             alt="Scalable Brokerage Infrastructure"
             className="absolute inset-0 w-full h-full object-cover"

@@ -73,7 +73,7 @@ export default function ForexBenefits() {
                 transition={{ type: "spring", stiffness: 150 }}
                 className="relative w-full lg:w-1/3 rounded-md overflow-hidden shadow-2xl group"
               >
-                <img
+                <img loading="lazy"
                   src={item.img}
                   alt={item.title}
                   className="w-full h-[280px] object-cover transform transition-transform duration-700"

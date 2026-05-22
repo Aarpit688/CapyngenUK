@@ -76,7 +76,7 @@ const CapmarketServiceAdditionalFeatures = () => {
               <div className="relative w-full max-w-sm bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl group">
                 {/* Map Background */}
                 <div className="absolute inset-0">
-                  <img
+                  <img loading="lazy"
                     src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop"
                     alt="Global Connectivity"
                     className="w-full h-full object-cover opacity-30 group-hover:scale-110 transition-transform duration-[20s]"

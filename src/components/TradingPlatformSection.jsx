@@ -35,7 +35,7 @@ const TradingPlatformSection = ({
 
         {/* Right Image */}
         <div className="relative w-full md:w-1/2 flex justify-center mt-12 md:mt-0">
-          <img
+          <img loading="lazy"
             src={image}
             alt={highlight || "Trading Platform Preview"}
             className="w-[320px] md:w-[400px] lg:w-[460px] rounded-3xl"

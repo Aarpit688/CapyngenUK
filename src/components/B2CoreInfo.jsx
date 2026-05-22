@@ -91,7 +91,7 @@ const B2CoreInfo = () => {
         <div className="grid grid-cols-2 grid-rows-2 gap-5 h-full w-full">
           {/* Large Top Image */}
           <div className="col-span-2  overflow-hidden border border-cyan-400/30 shadow-[0_0_35px_rgba(0,255,255,0.15)] energyPulse tilt-img">
-            <img
+            <img loading="lazy"
               src={assets.b2c05}
               className="w-full h-full object-cover transition-transform duration-700"
               alt="Broker Dashboard"
@@ -100,7 +100,7 @@ const B2CoreInfo = () => {
 
           {/* Bottom Images */}
           <div className=" overflow-hidden border border-cyan-400/30 shadow-lg energyPulse tilt-img">
-            <img
+            <img loading="lazy"
               src={assets.b2c06}
               className="w-full h-full object-cover transition-transform duration-700"
               alt="Team"
@@ -108,7 +108,7 @@ const B2CoreInfo = () => {
           </div>
 
           <div className=" overflow-hidden border border-cyan-400/30 shadow-lg energyPulse tilt-img">
-            <img
+            <img loading="lazy"
               src={assets.b2c07}
               className="w-full h-full object-cover transition-transform duration-700"
               alt="Assets"

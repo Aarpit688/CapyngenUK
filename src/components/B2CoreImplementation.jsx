@@ -195,7 +195,7 @@ const B2CoreImplementation = () => {
         {/* IMAGE SIDE */}
         <div className="w-full">
           <div className="h-full overflow-hidden border border-blue-400/10 shadow-[0_30px_80px_rgba(0,120,255,0.06)] holo-wrapper">
-            <img
+            <img loading="lazy"
               ref={imgRef}
               src={assets.b2c08}
               alt="Infrastructure deployment"

@@ -30,7 +30,7 @@ const MT5IntroSection = () => {
         {/* --- Right: Image / Visual --- */}
         <div className="relative flex justify-center lg:justify-end">
           <div className="relative bg-black backdrop-blur-xl  rounded-md shadow-2xl shadow-emerald-500/10 overflow-hidden max-w-md">
-            <img
+            <img loading="lazy"
               src={assets.mt2}
               alt="MT5 Global Trading Platform"
               className="object-cover w-full h-full"

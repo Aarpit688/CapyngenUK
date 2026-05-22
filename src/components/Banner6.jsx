@@ -16,7 +16,7 @@ const Banner6 = ({
       <div className="absolute inset-0 z-10 opacity-50">
         <picture>
           <source media="(min-width:1024px)" srcSet={bgImageDesktop} />
-          <img
+          <img loading="lazy"
             src={bgImageMobile}
             alt="background"
             className="w-full h-full object-cover opacity-75 sm:opacity-90 object-center"

@@ -90,7 +90,7 @@ const B2TraderUnderstanding = () => {
           viewport={{ once: true }}
           className="relative"
         >
-          <img
+          <img loading="lazy"
             src={assets.b2Trader2}
             alt="AynX Trader Trading Technology"
             className="rounded-md w-full h-full object-cover shadow-2xl shadow-black/40 border border-white/10"

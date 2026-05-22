@@ -23,7 +23,7 @@ const CTraderIntro = () => {
 
             {/* Large Image Container */}
             <div className="relative w-full max-w-lg overflow-hidden rounded-md shadow-2xl border border-slate-800 group">
-              <img
+              <img loading="lazy"
                 src={assets.cTrader2}
                 alt="Trading Dashboard"
                 className="w-full h-full object-cover rounded-md opacity-90 group-hover:opacity-100 transition duration-500"

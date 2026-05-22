@@ -18,7 +18,7 @@ const MT5ForBeginners = () => {
         {/* Left Image Showcase */}
         <div className="relative lg:w-1/2 flex justify-center">
           <div className="relative w-[90%]">
-            <img
+            <img loading="lazy"
               src={assets.mt15}
               alt="MT5 Platform Interface for Beginners"
               className="w-full rounded-3xl shadow-2xl border border-emerald-500/20 backdrop-blur-xl"

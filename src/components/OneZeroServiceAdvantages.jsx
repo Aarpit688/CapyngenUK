@@ -43,7 +43,7 @@ export default function OneZeroServiceAdvantages() {
             >
               {/* Image */}
               <div className="h-48 w-full overflow-hidden">
-                <img
+                <img loading="lazy"
                   src={adv.image}
                   alt={adv.title}
                   className="w-full h-full object-cover"

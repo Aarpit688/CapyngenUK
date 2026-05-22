@@ -13,7 +13,7 @@ const Banner8 = ({ image, badge, name, description, buttonText }) => {
         {/* Left Image */}
         <div className="relative w-full flex justify-center">
           <div className="relative w-full">
-            <img
+            <img loading="lazy"
               src={image}
               alt={name}
               className="object-cover shadow-2xl"

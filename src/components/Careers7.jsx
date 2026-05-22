@@ -43,7 +43,7 @@ export const Careers7 = () => {
           <div className="lg:col-span-5 order-1 lg:order-2 relative">
             <div className="absolute inset-0 bg-gradient-to-tr from-cyan-400 to-purple-600 opacity-20 rounded-md transform rotate-6 blur-sm"></div>
 
-            <img
+            <img loading="lazy"
               src={assets.careers9}
               alt="Professional growth at Aynzenix"
               className="relative rounded-md shadow-2xl w-full object-cover h-[500px] border border-white/10"

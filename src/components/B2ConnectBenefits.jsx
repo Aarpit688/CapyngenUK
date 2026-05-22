@@ -49,7 +49,7 @@ const B2ConnectBenefits = () => {
               viewport={{ once: true }}
               className="relative h-[240px] sm:h-[320px] md:h-full overflow-hidden"
             >
-              <img
+              <img loading="lazy"
                 src={assets.b2Connect04}
                 alt="Brokerage Benefits"
                 className="w-full h-full object-cover"

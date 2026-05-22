@@ -75,7 +75,7 @@ const ForexTechSolutions = () => {
             >
               {/* IMAGE */}
               <div className="h-56 w-full overflow-hidden">
-                <img
+                <img loading="lazy"
                   src={card.img}
                   alt={card.title}
                   className="w-full h-full object-cover transition-transform duration-500"

@@ -47,12 +47,12 @@ const Banner9 = ({
           <div className="grid grid-cols-3 gap-4 sm:gap-6 md:gap-8 lg:gap-10 relative">
             {/* Column 1 */}
             <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 mt-10">
-              <img
+              <img loading="lazy"
                 src={images[0][0]}
                 alt="team meeting"
                 className="rounded-2xl object-cover shadow-xl w-full h-64"
               />
-              <img
+              <img loading="lazy"
                 src={images[0][1]}
                 alt="person working"
                 className="rounded-2xl object-cover shadow-xl w-full h-64"
@@ -61,12 +61,12 @@ const Banner9 = ({
 
             {/* Column 2 */}
             <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 -mt-10">
-              <img
+              <img loading="lazy"
                 src={images[1][0]}
                 alt="team collaboration"
                 className="rounded-2xl object-cover shadow-xl w-full h-64"
               />
-              <img
+              <img loading="lazy"
                 src={images[1][1]}
                 alt="coworking"
                 className="rounded-2xl object-cover shadow-xl w-full h-64"
@@ -74,12 +74,12 @@ const Banner9 = ({
             </div>
             {/* Column 3 */}
             <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 mt-10">
-              <img
+              <img loading="lazy"
                 src={images[2][0]}
                 alt="team meeting"
                 className="rounded-2xl object-cover shadow-xl w-full h-64"
               />
-              <img
+              <img loading="lazy"
                 src={images[2][1]}
                 alt="person working"
                 className="rounded-2xl object-cover shadow-xl w-full h-64"

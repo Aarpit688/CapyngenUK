@@ -30,7 +30,7 @@ const MT5ServiceBenefits = () => {
           <div className="bg-slate-900/60 border border-slate-800 rounded-sm overflow-hidden hover:border-green-500/40 transition-all duration-300 group relative">
             {/* Image */}
             <div className="h-48 w-full overflow-hidden">
-              <img
+              <img loading="lazy"
                 src={assets.mtService12}
                 alt="Startup MT5 Setup"
                 className="w-full h-full object-cover"
@@ -63,7 +63,7 @@ const MT5ServiceBenefits = () => {
           <div className="bg-slate-900/60 border border-slate-800 rounded-sm overflow-hidden hover:border-emerald-500/40 transition-all duration-300 group relative">
             {/* Image */}
             <div className="h-48 w-full overflow-hidden">
-              <img
+              <img loading="lazy"
                 src={assets.mtService13}
                 alt="Established Broker Setup"
                 className="w-full h-full object-cover"

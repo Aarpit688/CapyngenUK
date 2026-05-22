@@ -65,7 +65,7 @@ export default function MT5ServiceAdvantages() {
           {/* Left Image */}
           <div className="lg:w-1/2 w-full">
             <div className="rounded-sm h-40 overflow-hidden border border-slate-800 shadow-xl">
-              <img
+              <img loading="lazy"
                 src={assets.mtService11}
                 alt="Multi-Asset Dashboard"
                 className="w-full h-full object-cover object-center"

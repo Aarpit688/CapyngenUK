@@ -7,7 +7,7 @@ const AboutUs9 = () => {
       <div className="max-w-[90vw] mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Logo / Symbol */}
         <div className="mb-12 flex flex-col items-center justify-center">
-          <img src="" alt="" className="" />
+          <img loading="lazy" src="" alt="" className="" />
         </div>
 
         {/* Quote Section */}

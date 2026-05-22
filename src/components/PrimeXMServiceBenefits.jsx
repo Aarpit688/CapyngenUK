@@ -24,7 +24,7 @@ const PrimeXMServiceBenefits = () => {
           <div className="group relative bg-slate-900 border border-slate-800 rounded-md overflow-hidden hover:border-yellow-500/40 transition-all duration-500 flex flex-col shadow-xl">
             {/* Header Image */}
             <div className="h-64 relative">
-              <img
+              <img loading="lazy"
                 src={assets.p12}
                 alt="Startups"
                 className="absolute inset-0 w-full h-full object-cover"
@@ -72,7 +72,7 @@ const PrimeXMServiceBenefits = () => {
           <div className="group relative bg-slate-900 border border-slate-800 rounded-md overflow-hidden hover:border-yellow-500/40 transition-all duration-500 flex flex-col shadow-xl">
             {/* Header Image */}
             <div className="h-64 relative">
-              <img
+              <img loading="lazy"
                 src={assets.p13}
                 alt="Mature Brokers"
                 className="absolute inset-0 w-full h-full object-cover"

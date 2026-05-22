@@ -59,7 +59,7 @@ export default function Careers4() {
             {/* glowing background */}
             <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/30 to-purple-500/30 blur-3xl rounded-md"></div>
 
-            <img
+            <img loading="lazy"
               src={assets.careers3}
               alt="Team Meeting"
               className="relative rounded-md shadow-2xl w-full object-cover h-64 lg:h-80 border border-white/10"
@@ -132,7 +132,7 @@ export default function Careers4() {
           <div className="lg:col-span-4">
             <div className="relative h-full min-h-[320px] rounded-md overflow-hidden shadow-2xl group border border-white/10">
               {/* Image */}
-              <img
+              <img loading="lazy"
                 src={assets.careers4}
                 alt="Office Workspace"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"

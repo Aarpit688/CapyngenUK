@@ -33,7 +33,7 @@ export default function OneZeroServiceUnderstanding() {
               {/* RIGHT IMAGE */}
               <div className="w-full md:w-1/3 hidden md:block">
                 <div className="rounded-md overflow-hidden border border-slate-800 shadow-xl h-40">
-                  <img
+                  <img loading="lazy"
                     src={assets.oz8}
                     alt="OneZero Connectivity"
                     className="w-full h-full object-cover"
@@ -47,7 +47,7 @@ export default function OneZeroServiceUnderstanding() {
           <div className="lg:col-span-7 rounded-sm bg-slate-900/60 border border-slate-800 p-8 lg:p-10 backdrop-blur">
             {/* IMAGE */}
             <div className="w-full h-48 rounded-md overflow-hidden mb-6">
-              <img
+              <img loading="lazy"
                 src={assets.oz9}
                 alt="Multi-Asset Infrastructure"
                 className="w-full h-full object-cover"
@@ -78,7 +78,7 @@ export default function OneZeroServiceUnderstanding() {
           <div className="lg:col-span-5 rounded-sm bg-slate-900/60 border border-slate-800 p-8 lg:p-10 backdrop-blur">
             {/* IMAGE */}
             <div className="w-full h-48 rounded-md overflow-hidden mb-6">
-              <img
+              <img loading="lazy"
                 src={assets.oz10}
                 alt="Turnkey Implementation"
                 className="w-full h-full object-cover"

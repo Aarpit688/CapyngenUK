@@ -14,7 +14,7 @@ const NTraderIntro = () => {
 
             {/* Image Card */}
             <div className="relative w-full max-w-2xl rounded-md overflow-hidden shadow-2xl border border-slate-800 group">
-              <img
+              <img loading="lazy"
                 src={assets.nt02}
                 alt="nTrader Platform"
                 className="w-full h-full object-cover"

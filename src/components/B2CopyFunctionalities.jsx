@@ -75,7 +75,7 @@ const B2CopyFunctionalities = () => {
           viewport={{ once: true }}
           className="mt-20 lg:h-150 rounded-2xl overflow-hidden"
         >
-          <img
+          <img loading="lazy"
             src={assets.b2copy05}
             alt="Trading analytics"
             className="w-full h-full object-contain object-center"

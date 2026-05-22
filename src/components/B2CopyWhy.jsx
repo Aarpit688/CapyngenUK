@@ -66,7 +66,7 @@ const B2CopyWhy = () => {
           className="w-full"
         >
           <div className="rounded-md overflow-hidden shadow-[0_0_40px_rgba(0,255,255,0.2)] border border-cyan-400/30">
-            <img
+            <img loading="lazy"
               src={assets.b2copy04}
               alt="Copy Trading Technology"
               className="w-full h-full object-cover"

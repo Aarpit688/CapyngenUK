@@ -96,7 +96,7 @@ export default function CapmarketServiceWhyChoose() {
           variants={fadeUp}
         >
           {/* Main Image */}
-          <img
+          <img loading="lazy"
             src={assets.capmarketService9}
             alt="AynX Market Global Network"
             className="absolute inset-0 w-full h-full object-cover"

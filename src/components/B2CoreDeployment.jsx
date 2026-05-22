@@ -123,7 +123,7 @@ const B2CoreDeployment = () => {
             onMouseLeave={tiltImg.reset}
             className="overflow-hidden max-h-90 rounded-md border border-cyan-400/30 shadow-[0_0_50px_#00ffff50] cursor-pointer"
           >
-            <img
+            <img loading="lazy"
               src={assets.b2c09}
               className="w-full h-full object-cover transition-transform duration-700"
             />

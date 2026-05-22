@@ -36,7 +36,7 @@ const Banner12 = ({
                 <div className="w-full h-full p-4 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300">
                   <figure className="flex flex-col gap-4">
                     <div className="rounded-xl overflow-hidden h-48 bg-gradient-to-br from-indigo-500/20 to-indigo-100/10">
-                      <img
+                      <img loading="lazy"
                         src={card.img}
                         alt={card.alt || card.text}
                         className="w-full h-full object-cover"

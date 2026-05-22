@@ -34,12 +34,12 @@ const LiquiditySupport = () => {
           className="relative flex flex-col items-center justify-center"
         >
           <div className="rounded-2xl overflow-hidden shadow-xl shadow-black/40 border border-white/10">
-            <img
+            <img loading="lazy"
               src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1000&auto=format&fit=crop"
               alt="Aynzenix Liquidity Support"
               className="w-full h-full object-cover"
             />
-            <img
+            <img loading="lazy"
               src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop"
               alt="Aynzenix Liquidity Support"
               className="w-full h-full object-cover"

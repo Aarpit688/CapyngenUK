@@ -57,7 +57,7 @@ const CTraderServiceIntro = () => {
 
         {/* Right Image Side - Full Visual */}
         <div className="lg:w-1/2 relative min-h-[350px] lg:min-h-full">
-          <img
+          <img loading="lazy"
             src={assets.cTraderService6}
             alt="cTrader Technology"
             className="absolute inset-0 w-full h-full object-cover"

@@ -11,7 +11,7 @@ export default function PrimeXMServiceIntro() {
           <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/10 to-amber-500/10 blur-3xl rounded-full"></div>
 
           <div className="relative overflow-hidden border border-slate-800 shadow-2xl">
-            <img
+            <img loading="lazy"
               src={assets.p2}
               alt="PrimeXM X-Core Infrastructure"
               className="w-full h-[480px] object-cover"

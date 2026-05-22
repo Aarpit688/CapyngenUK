@@ -49,7 +49,7 @@ export default function ForexExpertise({
             >
               {/* Image */}
               <div className="relative h-[260px] sm:h-[300px] lg:h-[340px] overflow-hidden">
-                <img
+                <img loading="lazy"
                   src={item.img}
                   alt={item.title}
                   className="w-full h-full object-cover will-change-transform group-hover:scale-105 transition-transform duration-700"

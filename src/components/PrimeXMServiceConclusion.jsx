@@ -50,7 +50,7 @@ const PrimeXMServiceConclusion = () => {
               >
                 {/* Image */}
                 <div className="h-50 w-full overflow-hidden">
-                  <img
+                  <img loading="lazy"
                     src={service.image}
                     alt="service visual"
                     className="w-full h-full object-cover"

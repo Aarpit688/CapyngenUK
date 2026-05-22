@@ -51,7 +51,7 @@ function StepCard({
         <div className="w-24 h-24 md:w-28 md:h-28 rounded-2xl bg-white shadow-lg flex items-center justify-center">
           {/* Use image for step 1 */}
           {number === "01" ? (
-            <img
+            <img loading="lazy"
               src={ProfileImg}
               className="w-14 h-14 md:w-16 md:h-16 rounded-full object-cover"
               alt="profile"

@@ -70,7 +70,7 @@ const FeatureCard = ({ item, idx }) => (
   <div className="relative group bg-gray-800/40 backdrop-blur-xl border border-gray-700/40 rounded-md shadow-lg overflow-hidden transition hover:-translate-y-1 duration-300 max-w-[420px] mx-auto">
     {/* Image */}
     <div className="h-44 overflow-hidden">
-      <img
+      <img loading="lazy"
         src={item.img}
         alt={item.title}
         className="object-cover w-full h-full transition-transform duration-700 ease-in-out"

@@ -84,7 +84,7 @@ const NTraderWhyChoose = () => {
 
                 {/* Image Card */}
                 <div className="relative bg-slate-950 border border-slate-800 rounded-md overflow-hidden shadow-2xl group hover:border-red-500/30 transition-all duration-500">
-                  <img
+                  <img loading="lazy"
                     src={assets.nt07}
                     alt="nTrader Infrastructure"
                     className="w-full h-80 object-cover opacity-90 group-hover:opacity-100 transition-all duration-500"

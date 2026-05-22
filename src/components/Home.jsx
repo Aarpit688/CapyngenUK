@@ -81,7 +81,7 @@ export default function Home() {
               <div className="relative w-fit mr-0">
                 <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-2xl w-fit">
                   {/* Card Image */}
-                  <img
+                  <img loading="lazy"
                     src={PersonImage}
                     alt="Wind turbine project"
                     className="w-32 h-32 md:w-40 md:h-40 rounded-lg object-cover mb-4"

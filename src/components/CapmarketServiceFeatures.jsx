@@ -81,7 +81,7 @@ export default function CapmarketServiceFeatures() {
           {/* RIGHT SIDE — SINGLE LARGE IMAGE */}
           <div className="w-full lg:w-5/12 order-1 lg:order-2">
             <div className="relative h-96 lg:h-[32rem] overflow-hidden border border-slate-800 rounded-md">
-              <img
+              <img loading="lazy"
                 src={assets.capmarketService7}
                 alt="AynX Market Services"
                 className="w-full h-full object-cover"

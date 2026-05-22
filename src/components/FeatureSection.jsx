@@ -16,7 +16,7 @@ const FeatureSection = ({
 
                 {/* Image Column */}
                 <div className={`w-full ${reverseLayout ? 'lg:order-last' : ''}`}>
-                    <img
+                    <img loading="lazy"
                         src={imageSrc}
                         alt={imageAlt}
                         // Added rounded corners and a dark shadow to blend perfectly into dark mode

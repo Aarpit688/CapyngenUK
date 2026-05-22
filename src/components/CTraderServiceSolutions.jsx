@@ -27,7 +27,7 @@ export default function CTraderServiceSolutions() {
       <section className="relative overflow-hidden max-w-[90vw] mx-auto ">
         {/* HERO BANNER (ultra-premium depth) */}
         <div className="relative w-full mb-12 rounded-3xl overflow-hidden shadow-2xl ring-1 ring-cyan-400/20">
-          <img
+          <img loading="lazy"
             src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&w=1400&q=80"
             className="w-full h-72 md:h-96 object-cover opacity-[0.85] hover:opacity-100 transition-all duration-700"
           />
@@ -64,7 +64,7 @@ export default function CTraderServiceSolutions() {
 
           {/* Quick Stats Card — Now Luxury Neon */}
           <aside className="rounded-2xl p-6 ">
-            <img src={assets.cTraderService8} alt="Left visual" className="" />
+            <img loading="lazy" src={assets.cTraderService8} alt="Left visual" className="" />
           </aside>
         </header>
 

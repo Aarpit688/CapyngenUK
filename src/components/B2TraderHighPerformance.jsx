@@ -87,7 +87,7 @@ const B2TraderHighPerformance = () => {
           className="relative mb-24"
         >
           {/* Main big image */}
-          <img
+          <img loading="lazy"
             src={assets.b2Trader6}
             alt="AynX Trader Engine"
             className="rounded-2xl w-full object-cover border border-white/10 shadow-[0_0_45px_rgba(0,200,255,0.12)]"

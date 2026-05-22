@@ -48,7 +48,7 @@ const B2TraderInfrastructure = () => {
           <div className="absolute bottom-0 -right-10 w-80 h-80 bg-blue-500/10 blur-[160px]"></div>
 
           <div className="rounded-md overflow-hidden border border-white/10 shadow-[0_0_60px_rgba(0,255,255,0.14)]">
-            <img
+            <img loading="lazy"
               src={assets.b2Trader4}
               alt="Trading Infrastructure"
               className="w-full object-cover"

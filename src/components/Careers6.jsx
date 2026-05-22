@@ -84,7 +84,7 @@ export const Careers6 = () => {
           <div className="relative h-[600px] w-full hidden lg:block">
             {/* Image Top Right */}
             <div className="absolute top-0 right-0 w-3/4 h-3/5 rounded-md overflow-hidden border border-white/20 shadow-[0_0_30px_rgba(0,0,0,0.6)] backdrop-blur-xl bg-white/5 hover:scale-105 transition-all duration-500">
-              <img
+              <img loading="lazy"
                 src={assets.careers7}
                 alt="Applying visual"
                 className="w-full h-full object-cover opacity-90"
@@ -93,7 +93,7 @@ export const Careers6 = () => {
 
             {/* Image Bottom Left */}
             <div className="absolute bottom-0 left-0 w-3/4 h-3/5 rounded-md overflow-hidden border border-white/20 shadow-[0_0_30px_rgba(0,0,0,0.6)] backdrop-blur-xl bg-white/5 hover:scale-105 transition-all duration-500">
-              <img
+              <img loading="lazy"
                 src={assets.careers8}
                 alt="HR Interview"
                 className="w-full h-full object-cover opacity-90"
@@ -106,7 +106,7 @@ export const Careers6 = () => {
 
           {/* MOBILE IMAGE */}
           <div className="mt-12 lg:hidden">
-            <img
+            <img loading="lazy"
               src={assets.careers8}
               alt="Applying mobile"
               className="w-full rounded-md shadow-xl border border-white/10 bg-white/5 backdrop-blur-md"

@@ -62,7 +62,7 @@ const Banner1 = ({
               </div>
 
               {/* Main Illustration */}
-              <img
+              <img loading="lazy"
                 className={`relative w-full md:w-md max-w-lg lg:max-w-full mx-auto transition-transform duration-1000 delay-300 ease-out ${isMounted ? "scale-100" : "scale-95"
                   }`}
                 src={illustrationImg}

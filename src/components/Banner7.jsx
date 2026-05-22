@@ -75,7 +75,7 @@ const Banner7 = ({
                   <div className="relative md:h-110 flex flex-col bg-gray-800/40 backdrop-blur-xl border border-gray-700/50 shadow-xl rounded-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group">
                     {/* Image */}
                     <div className="w-full h-[50%] overflow-hidden">
-                      <img
+                      <img loading="lazy"
                         src={card.thumbnail}
                         alt={card.title}
                         className="object-cover w-full h-full"

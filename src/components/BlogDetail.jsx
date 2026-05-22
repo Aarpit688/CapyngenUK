@@ -322,7 +322,7 @@ const BlogDetail = () => {
               <div className="w-full lg:w-2/3">
                 <div className="relative group mb-16">
                   <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500/20 via-blue-500/20 to-purple-500/20 rounded-2xl blur-xl opacity-20 group-hover:opacity-40 transition duration-1000"></div>
-                  <img
+                  <img loading="lazy"
                     src={blog.image}
                     className="relative w-full aspect-[4/3] sm:aspect-[16/9] object-cover rounded-xl border border-white/10 shadow-2xl"
                     alt={blog.title}
@@ -500,7 +500,7 @@ const BlogDetail = () => {
                             className="group cursor-pointer flex gap-4 items-start p-3 sm:p-4 -mx-2 sm:-mx-3 rounded-xl hover:bg-white/5 transition-colors"
                           >
                             <div className="w-20 h-20 flex-shrink-0 rounded-lg overflow-hidden border border-white/10 relative">
-                              <img
+                              <img loading="lazy"
                                 src={post.image}
                                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80 group-hover:opacity-100"
                                 alt=""
@@ -581,7 +581,7 @@ const BlogDetail = () => {
                       className="group cursor-pointer flex flex-col h-full"
                     >
                       <div className="aspect-[16/9] overflow-hidden rounded-md border border-white/10 relative mb-5">
-                        <img
+                        <img loading="lazy"
                           src={post.image}
                           alt={post.title}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"

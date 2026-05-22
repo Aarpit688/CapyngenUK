@@ -38,7 +38,7 @@ const B2TraderFeatures = () => {
           <div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-500/10 blur-2xl rounded-full"></div>
 
           <div className="relative rounded-md overflow-hidden shadow-[0_0_40px_rgba(0,255,255,0.15)] border border-white/10">
-            <img
+            <img loading="lazy"
               src={assets.b2Trader3}
               alt="AynX Trader Trading"
               className="w-full h-full object-cover"

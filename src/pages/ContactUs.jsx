@@ -67,7 +67,7 @@ const Dropdown = ({ label, options, value, onChange, placeholder, isObject = fal
         >
           <span className={value ? "text-white flex items-center gap-2" : "text-slate-500 truncate pr-4 block"}>
             {isObject && selectedOption?.flagUrl && (
-              <img src={selectedOption.flagUrl} alt="flag" className="w-5 h-3.5 object-cover rounded-[2px] shadow-sm shrink-0" />
+              <img loading="lazy" src={selectedOption.flagUrl} alt="flag" className="w-5 h-3.5 object-cover rounded-[2px] shadow-sm shrink-0" />
             )}
             <span className="truncate">{displayValue}</span>
           </span>
@@ -108,7 +108,7 @@ const Dropdown = ({ label, options, value, onChange, placeholder, isObject = fal
                     >
                       <div className="flex items-center gap-3 truncate">
                         {isObject && opt.flagUrl && (
-                          <img src={opt.flagUrl} alt="flag" className="w-5 h-3.5 object-cover rounded-[2px] shadow-sm shrink-0" />
+                          <img loading="lazy" src={opt.flagUrl} alt="flag" className="w-5 h-3.5 object-cover rounded-[2px] shadow-sm shrink-0" />
                         )}
                         <span className="truncate">{optName}</span>
                       </div>

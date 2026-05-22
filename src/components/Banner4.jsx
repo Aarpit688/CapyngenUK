@@ -39,10 +39,7 @@ const Banner4 = ({
                   role="button"
                 >
                   {buttonText}
-                  <Link
-                    to={"/contact-us"}
-                    className="inline-flex items-center pl-4"
-                  >
+                  <span className="inline-flex items-center pl-4">
                     <svg
                       className="w-6 h-6"
                       viewBox="0 0 24 24"
@@ -70,7 +67,7 @@ const Banner4 = ({
                         </linearGradient>
                       </defs>
                     </svg>
-                  </Link>
+                  </span>
                 </Link>
               </div>
 
@@ -79,7 +76,7 @@ const Banner4 = ({
 
             {/* Right Section */}
             <div className="mt-8 md:top-32 lg:top-0 md:right-0">
-              <img
+              <img loading="lazy"
                 className="w-full max-w-xs mx-auto lg:max-w-lg"
                 src={image}
                 alt="3D Illustration"

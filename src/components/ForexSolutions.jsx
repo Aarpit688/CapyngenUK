@@ -56,7 +56,7 @@ export default function ForexSolutions({
               >
                 {/* IMAGE */}
                 <div className={`w-full h-48 ${imageBg} overflow-hidden`}>
-                  <img
+                  <img loading="lazy"
                     src={solution.imgSrc}
                     alt={solution.alt || solution.title}
                     className="w-full h-full object-cover"

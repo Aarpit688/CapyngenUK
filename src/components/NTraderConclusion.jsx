@@ -60,7 +60,7 @@ const NTraderConclusion = () => {
                 >
                   {/* IMAGE BLOCK */}
                   <div className="w-full h-40 overflow-hidden">
-                    <img
+                    <img loading="lazy"
                       src={comp.img}
                       alt={comp.text}
                       className="w-full h-full object-cover"

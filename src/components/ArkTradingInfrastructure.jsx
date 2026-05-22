@@ -104,7 +104,7 @@ const ArkTradingInfrastructure = () => {
             <div className="lg:col-span-7 relative min-h-[700px] bg-slate-950 overflow-hidden group-hover-container">
               {/* Background Image */}
               <div className="absolute inset-0">
-                <img
+                <img loading="lazy"
                   src="https://images.unsplash.com/photo-1558494949-efc52728101c?q=80&w=2000&auto=format&fit=crop"
                   alt="Data Center Infrastructure"
                   className="w-full h-full object-cover opacity-20 scale-105 hover:scale-110 transition-transform duration-[20s]"

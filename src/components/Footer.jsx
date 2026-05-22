@@ -49,7 +49,7 @@ const Footer = () => {
       value: "query@aynzenix.com",
       href: "mailto:query@aynzenix.com",
     },
-  
+
   ];
 
   useEffect(() => {
@@ -76,7 +76,7 @@ const Footer = () => {
           {/* Company Section */}
           <div className="col-span-2 md:col-span-1 lg:col-span-1">
             <NavLink to="/" className=" block">
-              <img
+              <img loading="lazy"
                 src={assets.aynzenixLogo || assets.AynzenixFavIcon}
                 alt="Aynzenix Logo"
                 className="max-w-full w-24 md:w-24"
@@ -84,7 +84,7 @@ const Footer = () => {
             </NavLink>
 
             <p className="text-slate-300 text-sm mb-3">
-             Aynzenix Technology Limited is a global fintech infrastructure provider delivering institutional-grade trading technology, liquidity connectivity, and payment solutions for brokers, financial institutions, and fintech companies. The Aynzenix group focuses on scalable financial infrastructure and advanced trading technology to support the evolving digital financial ecosystem.
+              Aynzenix Technology Limited is a global fintech infrastructure provider delivering institutional-grade trading technology, liquidity connectivity, and payment solutions for brokers, financial institutions, and fintech companies. The Aynzenix group focuses on scalable financial infrastructure and advanced trading technology to support the evolving digital financial ecosystem.
             </p>
 
             <div className="space-y-4 mt-5">
@@ -194,20 +194,20 @@ const Footer = () => {
         <div className="mt-3 text-slate-300 text-sm">
           <h4 className="font-bold">AML & Sanctions Compliance</h4>
           <p>
-           The Aynzenix group maintains strict compliance with international Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) regulations. The company reserves the right to decline services or terminate business relationships with individuals, entities, or jurisdictions subject to international sanctions or regulatory restrictions.
+            The Aynzenix group maintains strict compliance with international Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) regulations. The company reserves the right to decline services or terminate business relationships with individuals, entities, or jurisdictions subject to international sanctions or regulatory restrictions.
           </p>
         </div>
         <div className="mt-3 text-slate-300 text-sm">
           <h4 className="font-bold">Risk Disclosure</h4>
           <p>
-           Trading in financial instruments including Forex, CFDs, derivatives, and leveraged financial products carries a high level of risk and may not be suitable for all investors. The value of investments may increase or decrease and investors may lose all or part of their invested capital. In leveraged trading, losses may exceed the initial invested amount.
+            Trading in financial instruments including Forex, CFDs, derivatives, and leveraged financial products carries a high level of risk and may not be suitable for all investors. The value of investments may increase or decrease and investors may lose all or part of their invested capital. In leveraged trading, losses may exceed the initial invested amount.
           </p>
           <p>Clients should ensure they fully understand the risks involved before engaging in trading activities.</p>
         </div>
         <div className="mt-3 text-slate-300 text-sm">
           <h4 className="font-bold">Intellectual Property</h4>
           <p>
-           All trademarks, logos, and brand names appearing on this website are the property of their respective owners. Any reference to third-party trademarks is used strictly for identification purposes and does not imply endorsement or affiliation unless explicitly stated.
+            All trademarks, logos, and brand names appearing on this website are the property of their respective owners. Any reference to third-party trademarks is used strictly for identification purposes and does not imply endorsement or affiliation unless explicitly stated.
           </p>
         </div>
 
@@ -232,7 +232,7 @@ const Footer = () => {
 
           <div className="space-x-3">
             <NavLink
-              to="/terms-of-service"
+              to="/terms-and-conditions"
               className="hover:text-[#5CFCF9] transition"
             >
               Terms & Conditions

@@ -12,7 +12,7 @@ export default function CapmarketServiceSolutions() {
       <div className="flex flex-col md:flex-row">
         {/* IMAGE SECTION */}
         <div className="md:w-1/2 relative min-h-[360px] md:min-h-[480px]">
-          <img
+          <img loading="lazy"
             src={assets.capmarketService8}
             alt="AynX Market Solutions Architecture"
             className="absolute inset-0 w-full h-full object-cover"

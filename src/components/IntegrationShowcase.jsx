@@ -53,7 +53,7 @@ export default function IntegrationShowcase() {
           className={`flex-1 flex justify-center items-center w-full transition-all duration-1000 delay-300 ease-out transform ${inView ? "translate-x-0 opacity-100" : "translate-x-12 opacity-0"
             }`}
         >
-          <img
+          <img loading="lazy"
             src={assets.sirixTradingPlatform}
             alt="Integration Preview"
             className="w-full max-w-[340px] sm:max-w-[400px] md:max-w-[480px] lg:max-w-[520px] object-cover"

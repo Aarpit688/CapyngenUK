@@ -44,7 +44,7 @@ export const AboutUs3 = () => {
 
           {/* Photo 1 */}
           <div className="relative bg-slate-900 rounded-md overflow-hidden h-48 sm:h-60 lg:h-full group border border-slate-800">
-            <img
+            <img loading="lazy"
               src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=800&auto=format&fit=crop"
               alt="Corporate strategy meeting"
               className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700"
@@ -101,7 +101,7 @@ export const AboutUs3 = () => {
               </div>
 
               <div className="relative rounded-xl overflow-hidden h-44 sm:h-56 md:h-auto border border-slate-700">
-                <img
+                <img loading="lazy"
                   src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop"
                   alt="CRM Dashboard Interface"
                   className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
@@ -126,7 +126,7 @@ export const AboutUs3 = () => {
 
           {/* Photo */}
           <div className="relative bg-slate-900 rounded-md overflow-hidden h-48 sm:h-60 group border border-slate-800">
-            <img
+            <img loading="lazy"
               src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=800&auto=format&fit=crop"
               alt=""
               className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700"
@@ -163,7 +163,7 @@ export const AboutUs3 = () => {
 
           {/* Photo */}
           <div className="relative bg-slate-900 rounded-md overflow-hidden h-48 sm:h-60 group border border-slate-800">
-            <img
+            <img loading="lazy"
               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop"
               alt=""
               className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform"

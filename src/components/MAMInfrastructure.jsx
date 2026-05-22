@@ -59,7 +59,7 @@ export default function MAMInfrastructure() {
             viewport={{ once: true }}
             className="relative"
           >
-            <img
+            <img loading="lazy"
               src={assets.mam15}
               className="rounded-2xl border border-white/10 shadow-2xl shadow-black/40"
             />
@@ -111,7 +111,7 @@ export default function MAMInfrastructure() {
             transition={{ duration: 0.7 }}
             className="relative order-1 md:order-2"
           >
-            <img
+            <img loading="lazy"
               src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1100&q=80"
               className="rounded-2xl border border-white/10 shadow-2xl shadow-black/40"
             />

@@ -66,7 +66,7 @@ export const AboutUs1 = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-600/20 blur-2xl rounded-md"></div>
 
                 <div className="relative overflow-hidden rounded-md border border-white/10 shadow-2xl h-[360px] sm:h-full group">
-                  <img
+                  <img loading="lazy"
                     src={assets.aboutUs1}
                     alt="Fintech HQ"
                     className="absolute inset-0 w-full h-full object-cover"
@@ -80,7 +80,7 @@ export const AboutUs1 = () => {
               {/* LANDSCAPE IMAGE */}
               <div className="hidden sm:block relative group">
                 <div className="overflow-hidden rounded-md border border-white/10 shadow-xl h-48">
-                  <img
+                  <img loading="lazy"
                     src={assets.aboutUs2}
                     alt="Trading Technology"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.05]"
@@ -91,7 +91,7 @@ export const AboutUs1 = () => {
               {/* GLASS INFO IMAGE CARD */}
               <div className="hidden sm:block relative group">
                 <div className="backdrop-blur-2xl bg-white/5 border border-white/10 rounded-md overflow-hidden shadow-xl h-48">
-                  <img
+                  <img loading="lazy"
                     src={assets.aboutUs3}
                     alt="Statistics / Illustration"
                     className="w-full h-full object-cover rounded-md transition-transform duration-700 group-hover:scale-[1.06]"

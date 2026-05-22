@@ -15,7 +15,7 @@ export default function AdminNavbar() {
       <div className="max-w-7xl mx-auto px-6 py-1 flex items-center justify-between">
         {/* ✅ LOGO → HOME */}
         <Link to="/admin-dashboard" className="flex items-center gap-3">
-          <img
+          <img loading="lazy"
             src={assets.aynzenixLogo}
             alt="Aynzenix Logo"
             className="h-12 md:h-20 object-contain"

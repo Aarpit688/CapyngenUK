@@ -71,7 +71,7 @@ export const AboutUs7 = () => {
               {/* Column 1 */}
               <div className="space-y-6 mt-10">
                 <div className="relative group overflow-hidden rounded-2xl shadow-xl border border-white/10">
-                  <img
+                  <img loading="lazy"
                     src={assets.aboutUs13}
                     alt="Leader 1"
                     className="w-full h-64 object-cover"
@@ -79,7 +79,7 @@ export const AboutUs7 = () => {
                 </div>
 
                 <div className="relative group overflow-hidden rounded-2xl shadow-xl border border-white/10">
-                  <img
+                  <img loading="lazy"
                     src={assets.aboutUs14}
                     alt="Leader 2"
                     className="w-full h-56 object-cover"
@@ -90,7 +90,7 @@ export const AboutUs7 = () => {
               {/* Column 2 */}
               <div className="space-y-6">
                 <div className="relative group overflow-hidden rounded-2xl shadow-xl border border-white/10">
-                  <img
+                  <img loading="lazy"
                     src={assets.aboutUs15}
                     alt="Leader 3"
                     className="w-full h-56 object-cover"
@@ -98,7 +98,7 @@ export const AboutUs7 = () => {
                 </div>
 
                 <div className="relative group overflow-hidden rounded-2xl shadow-xl border border-white/10">
-                  <img
+                  <img loading="lazy"
                     src={assets.aboutUs16}
                     alt="Leader 4"
                     className="w-full h-64 object-cover"

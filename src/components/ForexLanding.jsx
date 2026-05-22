@@ -57,7 +57,7 @@ export default function ForexLanding({
             viewport={{ once: true, amount: 0.3 }}
             className="relative "
           >
-            <img
+            <img loading="lazy"
               src={heroImage}
               alt="Forex Platform"
               className="w-full aspect-[16/11] rounded-md"

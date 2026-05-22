@@ -69,7 +69,7 @@ export const Careers5 = () => {
             <div className="space-y-4 mt-8">
               {/* Image */}
               <div className="rounded-md overflow-hidden backdrop-blur-xl bg-white/10 border border-white/10 shadow-[0_8px_30px_rgba(255,255,255,0.1)]">
-                <img
+                <img loading="lazy"
                   src={assets.careers5}
                   alt="Aynzenix team collaboration"
                   className="object-cover h-64 w-full"
@@ -97,7 +97,7 @@ export const Careers5 = () => {
 
               {/* Image */}
               <div className="rounded-md overflow-hidden backdrop-blur-xl bg-white/10 border border-white/10 shadow-[0_8px_30px_rgba(255,255,255,0.1)]">
-                <img
+                <img loading="lazy"
                   src={assets.careers6}
                   alt="Office culture and events"
                   className="object-cover h-80 w-full"

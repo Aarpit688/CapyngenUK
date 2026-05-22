@@ -33,7 +33,7 @@ const ArkTradingBenefits = () => {
             <div className="relative grid grid-cols-2 gap-4">
               <div className="col-span-2 bg-slate-900 border border-slate-800 rounded-md overflow-hidden shadow-2xl group">
                 <div className="relative h-80 w-full overflow-hidden">
-                  <img
+                  <img loading="lazy"
                     src={assets.arkTrading2}
                     alt="Trading Analytics Dashboard"
                     className="w-full h-full object-cover transform"

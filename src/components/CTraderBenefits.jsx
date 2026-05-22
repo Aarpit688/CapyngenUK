@@ -27,7 +27,7 @@ const CTraderBenefits = () => {
             <div className="h-48 relative overflow-hidden bg-slate-800">
               <div className="absolute inset-0 bg-teal-900/20 mix-blend-multiply z-10"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent z-20"></div>
-              <img
+              <img loading="lazy"
                 src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1000&auto=format&fit=crop"
                 alt="Startup Team"
                 className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 opacity-60"
@@ -84,7 +84,7 @@ const CTraderBenefits = () => {
             <div className="h-48 relative overflow-hidden bg-slate-800">
               <div className="absolute inset-0 bg-emerald-900/20 mix-blend-multiply z-10"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent z-20"></div>
-              <img
+              <img loading="lazy"
                 src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop"
                 alt="Corporate Brokerage"
                 className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 opacity-60"

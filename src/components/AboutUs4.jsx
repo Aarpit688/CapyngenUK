@@ -81,7 +81,7 @@ export const AboutUs4 = () => {
           <div className="relative h-[650px] w-full grid grid-cols-3 grid-rows-3 gap-4">
             {/* Large Left Image (takes 2 rows) */}
             <div className="col-span-2 row-span-2 relative rounded-lg overflow-hidden border border-slate-700 shadow-2xl group">
-              <img
+              <img loading="lazy"
                 src={assets.aboutUs8}
                 alt="Core infrastructure"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-[8s] group-hover:scale-110"
@@ -94,7 +94,7 @@ export const AboutUs4 = () => {
 
             {/* Small Tile 1 */}
             <div className="col-span-1 row-span-1 relative rounded-lg overflow-hidden border border-slate-700 shadow-xl group">
-              <img
+              <img loading="lazy"
                 src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop"
                 alt="Analytics"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -104,7 +104,7 @@ export const AboutUs4 = () => {
 
             {/* Small Tile 2 */}
             <div className="col-span-1 row-span-1 relative rounded-lg overflow-hidden border border-slate-700 shadow-xl group">
-              <img
+              <img loading="lazy"
                 src="https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=600&auto=format&fit=crop"
                 alt="Security"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -119,7 +119,7 @@ export const AboutUs4 = () => {
 
             {/* Wide Bottom Tile */}
             <div className="col-span-3 row-span-1 relative rounded-lg overflow-hidden border border-slate-700 shadow-xl group">
-              <img
+              <img loading="lazy"
                 src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=1600&auto=format&fit=crop"
                 alt="Global Network"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-[6s] group-hover:scale-105"

@@ -48,7 +48,7 @@ const CTraderAdvantages = () => {
               {/* Image Area */}
               <div className="h-48 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent z-20"></div>
-                <img
+                <img loading="lazy"
                   src={adv.image}
                   alt={adv.title}
                   className="w-full h-full object-cover transform"

@@ -69,7 +69,7 @@ const VertexFxTechnology = () => {
             <div className="relative rounded-2xl overflow-hidden border border-slate-700 shadow-2xl group min-h-80 h-full">
               {/* Background Image */}
               <div className="absolute inset-0 bg-slate-900">
-                <img
+                <img loading="lazy"
                   src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000&auto=format&fit=crop"
                   alt="Global Network Infrastructure"
                   className="w-full h-full object-cover opacity-40 group-hover:scale-110 transition-transform duration-[20s] ease-linear"
@@ -164,7 +164,7 @@ const VertexFxTechnology = () => {
 
             {/* Closing Statement Card */}
             <div className="lg:col-span-1 relative rounded-xl overflow-hidden flex items-center justify-center text-center p-8 border border-violet-500/30 shadow-lg shadow-violet-900/10 group">
-              <img
+              <img loading="lazy"
                 src="https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=1000&auto=format&fit=crop"
                 alt="Abstract Tech Background"
                 className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:scale-110 transition-transform duration-700"

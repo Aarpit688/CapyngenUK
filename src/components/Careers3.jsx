@@ -28,7 +28,7 @@ export default function Careers3() {
             {/* Soft Glow Background */}
             <div className="absolute top-4 -left-4 w-full h-full bg-blue-500/20 blur-xl rounded-3xl -z-10"></div>
 
-            <img
+            <img loading="lazy"
               src={assets.careers2}
               alt="Employee wellbeing and growth"
               className="shadow-2xl w-full object-cover h-80 lg:h-full border border-white/10"

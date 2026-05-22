@@ -71,7 +71,7 @@ const B2CopyIntro = () => {
                        shadow-[0_0_40px_rgba(0,255,255,0.25)]
                        transform transition-all duration-700"
           >
-            <img
+            <img loading="lazy"
               src={assets.b2copy03}
               className="w-full h-full object-cover transition-transform duration-700"
               alt="Copy trading platform interface"

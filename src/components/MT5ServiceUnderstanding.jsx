@@ -13,7 +13,7 @@ const MT5ServiceUnderstanding = () => {
             <div className="absolute inset-0 bg-gradient-to-tr from-green-600/20 to-emerald-600/20 rounded-full blur-3xl opacity-40"></div>
 
             <div className="relative w-full max-w-md overflow-hidden rounded-md border border-slate-800 shadow-2xl">
-              <img
+              <img loading="lazy"
                 src={assets.mtService7}
                 alt="MT5 Trading Infrastructure"
                 className="w-full h-full object-cover"

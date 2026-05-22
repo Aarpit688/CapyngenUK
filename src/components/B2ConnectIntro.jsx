@@ -54,7 +54,7 @@ const B2ConnectIntro = () => {
 
           {/* RIGHT IMAGE */}
           <div className="relative h-64 md:h-full order-1 md:order-2 overflow-hidden">
-            <img
+            <img loading="lazy"
               src={assets.b2Connect02}
               alt="Global Financial Network"
               className="w-full h-full object-cover md:absolute md:inset-0 scale-105 

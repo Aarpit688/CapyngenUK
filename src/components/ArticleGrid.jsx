@@ -168,7 +168,7 @@ const ArticleGrid = () => {
                 <span className="text-slate-300">{selectedBlog.author}</span>
               </div>
 
-              <img
+              <img loading="lazy"
                 src={selectedBlog.image}
                 className="w-full h-[350px] object-cover rounded-md mb-10"
                 alt={selectedBlog.title}
@@ -213,7 +213,7 @@ const ArticleGrid = () => {
                         onClick={() => openBlog(post)}
                         className="cursor-pointer bg-slate-900 border border-slate-800 rounded-lg overflow-hidden"
                       >
-                        <img
+                        <img loading="lazy"
                           src={post.image}
                           className="h-32 w-full object-cover"
                         />
@@ -254,7 +254,7 @@ const ArticleGrid = () => {
                   onClick={() => openBlog(post)}
                   className="cursor-pointer bg-slate-900 border border-slate-800 rounded-md overflow-hidden"
                 >
-                  <img
+                  <img loading="lazy"
                     src={post.image}
                     className="xl:h-64 w-full object-contain xl:object-cover"
                     alt={post.title}
